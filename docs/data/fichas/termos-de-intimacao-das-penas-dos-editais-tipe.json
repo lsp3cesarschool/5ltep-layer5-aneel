@@ -1,0 +1,283 @@
+{
+ "dataset": {
+  "name": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "title": "Termos de Intimação das Penas dos Editais (TIPE)",
+  "id": "34ea9837-61d5-4585-9968-0a3862eff8f8",
+  "resources": 10,
+  "last_change": "2026-10-05T14:25:06+00:00",
+  "last_type": "CONTENT_MOD",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8#4ee4c8a8c987",
+  "portal_page": "https://dadosabertos.aneel.gov.br/dataset/termos-de-intimacao-das-penas-dos-editais-tipe"
+ },
+ "qs": {
+  "kind": "partial",
+  "factor": 1.0,
+  "coverage": 0.5,
+  "valid_layers": [
+   "L1",
+   "L4"
+  ],
+  "integrity": [],
+  "low": 0.2,
+  "high": 0.7,
+  "band": "alert",
+  "eligible": false,
+  "missing_layers": [
+   "L2",
+   "L3"
+  ]
+ },
+ "layers": {
+  "L1": {
+   "status": "valid",
+   "reason": null,
+   "rate": 0.0,
+   "evaluated_at": "2026-10-05T12:28:28+00:00",
+   "current": false,
+   "facts": {
+    "level": 1,
+    "tables": 5,
+    "verifiable": 5,
+    "conformant": 0
+   },
+   "signals": [
+    {
+     "key": "L1:termos-de-intimacao-das-penas-dos-editais-tipe",
+     "count": 5,
+     "en": "5 of 5 verifiable file(s) do not conform to the declared schema",
+     "pt": "5 de 5 arquivo(s) verificável(is) fora do esquema declarado"
+    }
+   ]
+  },
+  "L2": {
+   "status": "missing",
+   "reason": "not_reached",
+   "rate": null,
+   "evaluated_at": null,
+   "current": null,
+   "facts": {},
+   "signals": []
+  },
+  "L3": {
+   "status": "missing",
+   "reason": "not_reached",
+   "rate": null,
+   "evaluated_at": null,
+   "current": null,
+   "facts": {},
+   "signals": []
+  },
+  "L4": {
+   "status": "valid",
+   "reason": null,
+   "rate": 1.0,
+   "evaluated_at": "2026-10-13T14:03:28+00:00",
+   "current": true,
+   "facts": {
+    "observations": 34,
+    "critical_in_window": 0,
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8#4ee4c8a8c987"
+   },
+   "signals": []
+  }
+ },
+ "findings": [
+  {
+   "layer": "L1",
+   "kind": "signal",
+   "key": "L1:termos-de-intimacao-das-penas-dos-editais-tipe",
+   "count": 5,
+   "when": null,
+   "en": "5 of 5 verifiable file(s) do not conform to the declared schema",
+   "pt": "5 de 5 arquivo(s) verificável(is) fora do esquema declarado"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-10-05T14:25:06+00:00",
+   "count": 12,
+   "en": "CONTENT_MOD in 12 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 12 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
+  }
+ ],
+ "outcomes": {
+  "open": [
+   {
+    "key": "L1:termos-de-intimacao-das-penas-dos-editais-tipe",
+    "layer": "L1",
+    "first_reported": "2026-10-13T19:19:22+00:00",
+    "count": 5,
+    "evaluated_at": "2026-10-05T12:28:28+00:00",
+    "status": "reported",
+    "en": "5 of 5 verifiable file(s) do not conform to the declared schema",
+    "pt": "5 de 5 arquivo(s) verificável(is) fora do esquema declarado",
+    "digests": {
+     "84ba04eb-0a82-423c-9aac-aab4ce8102a3": "4ac6392792431e21b72b6aa5e763c554bca83aafe345e9b29c2aa07bb7981e64",
+     "9914bb13-27a9-45c0-8d31-ae2473fbecc4": "a6e255236440eee9122564844de9db979375be850cfac71d0b55b73f6813c6f3",
+     "0e3cb385-65d2-4b9e-ae50-f1e217e4e3bf": "15d4a35dac3c5987ad7fb3a027eedd24228d68013e6ff037987461016c04c60b",
+     "d4549533-b969-43fa-a1d4-7b75d7868a03": "7195759fd2f11d1d605b7d4650cb7b929b7e47926819eee5ad1113df430dcde2",
+     "18c5fcae-1b7f-40a4-b092-d47344d4d195": "4d407da827c9a785ba42fa4430a46fd8bc470175ea93f783fa11a68137a2327b"
+    }
+   }
+  ],
+  "closed": []
+ },
+ "sources": {
+  "L1": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-12T12:11:18+00:00",
+   "files": [
+    {
+     "path": "results/layer1_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1-aneel/main/results/layer1_summary.json",
+     "commit": {
+      "sha": "bfcc467186fa7317159052b7ecb4a70cd5f6f4a3",
+      "date": "2026-10-12T12:11:18Z"
+     }
+    },
+    {
+     "path": "results/validation.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1-aneel/main/results/validation.json",
+     "commit": {
+      "sha": "bfcc467186fa7317159052b7ecb4a70cd5f6f4a3",
+      "date": "2026-10-12T12:11:18Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer1-aneel/"
+  },
+  "L2": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-09T13:38:09+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer2.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
+     "commit": {
+      "sha": "b4d9c3ddeaaf6153dd88eec18724705fb505bf23",
+      "date": "2026-10-09T13:38:31Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer2-aneel/"
+  },
+  "L3": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-05T13:48:52+00:00",
+   "files": [
+    {
+     "path": "docs/data/index.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3-aneel/main/docs/data/index.json",
+     "commit": {
+      "sha": "ce996edce7ddbc28816b73f06896bf4e49af3c1a",
+      "date": "2026-09-29T19:25:30Z"
+     }
+    },
+    {
+     "path": "results/aneel-autos-infracao/layer3_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3-aneel/main/results/aneel-autos-infracao/layer3_summary.json",
+     "commit": {
+      "sha": "79a7baae961848243782fc3e0726b88232f5597b",
+      "date": "2026-10-05T13:48:52Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer3-aneel/"
+  },
+  "L4": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-13T14:04:02.384856+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer4.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
+     "commit": {
+      "sha": "55ca64320ab36d02e59e5463d1d4b508cf9ff141",
+      "date": "2026-10-13T14:04:02Z"
+     }
+    },
+    {
+     "path": "docs/data/cross_check.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
+     "commit": {
+      "sha": "f6a951bf6afebf2b5fd136984f1e83dcba427d18",
+      "date": "2026-10-13T10:52:49Z"
+     }
+    },
+    {
+     "path": "data/hash_store.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
+     "commit": {
+      "sha": "55ca64320ab36d02e59e5463d1d4b508cf9ff141",
+      "date": "2026-10-13T14:04:02Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer4-aneel/"
+  }
+ },
+ "policy": {
+  "policy_version": "1.1.0",
+  "aggregation": "arithmetic",
+  "weights": {
+   "L1": 0.3,
+   "L2": 0.3,
+   "L3": 0.2,
+   "L4": 0.2
+  },
+  "cutoff": 0.85,
+  "critical_floor": 0.7,
+  "integrity_factor": 0.5,
+  "integrity_types": [
+   "RETRO_ALTER"
+  ],
+  "scope_types": [
+   "SCHEMA_DRIFT"
+  ],
+  "unrecorded_change": "finding",
+  "cadence_days": {
+   "L1": 7,
+   "L2": 7,
+   "L3": 31,
+   "L4": 0.25
+  },
+  "validity_days": {
+   "L1": 14.0,
+   "L2": 14.0,
+   "L3": 62.0,
+   "L4": 0.5
+  },
+  "l4_window_days": 30,
+  "findings_window_days": 90,
+  "simultaneous_event_min_datasets": 3
+ },
+ "portal": {
+  "portal_url": "https://dadosabertos.aneel.gov.br",
+  "name": "ANEEL",
+  "title": "ANEEL open data portal (Dados Abertos ANEEL)",
+  "repository": "lsp3cesarschool/5ltep-layer5-aneel"
+ },
+ "notice": {
+  "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
+  "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
+ },
+ "generated_at": "2026-10-13T19:19:22+00:00",
+ "engine": {
+  "repository": "lsp3cesarschool/5ltep-layer5-aneel",
+  "commit": "898d710770a5aac3aa2404bda5372f9d4c343807",
+  "run_id": "38453894219"
+ },
+ "ficha": {
+  "id": "sha256:0db89aec07677926300b7c506a5a66999b7c582eda013148a18fe616c59bd658",
+  "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe",
+  "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/termos-de-intimacao-das-penas-dos-editais-tipe.json",
+  "how_to_cite": {
+   "en": "5L-TEP Layer 5 record of 'termos-de-intimacao-das-penas-dos-editais-tipe' (ANEEL), 2026-10-13, sha256:0db89aec07677926…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'termos-de-intimacao-das-penas-dos-editais-tipe' (ANEEL), 2026-10-13, sha256:0db89aec07677926…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe"
+  }
+ }
+}

@@ -1,0 +1,232 @@
+{
+ "dataset": {
+  "name": "projetos-de-eficiencia-energetica",
+  "title": "Projetos de Eficiência Energética",
+  "id": "f9336ee6-7562-4c92-880a-d7217df6cc94",
+  "resources": 6,
+  "last_change": null,
+  "last_type": null,
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/f9336ee6-7562-4c92-880a-d7217df6cc94#19ce74f93d44",
+  "portal_page": "https://dadosabertos.aneel.gov.br/dataset/projetos-de-eficiencia-energetica"
+ },
+ "qs": {
+  "kind": "none",
+  "factor": 1.0,
+  "coverage": 0.2,
+  "valid_layers": [
+   "L4"
+  ],
+  "integrity": [],
+  "band": null
+ },
+ "layers": {
+  "L1": {
+   "status": "missing",
+   "reason": "l1_level0",
+   "rate": null,
+   "evaluated_at": "2026-10-03T13:36:56+00:00",
+   "current": null,
+   "facts": {
+    "level": 0,
+    "tables": 3,
+    "verifiable": 0,
+    "conformant": 0
+   },
+   "signals": []
+  },
+  "L2": {
+   "status": "missing",
+   "reason": "not_reached",
+   "rate": null,
+   "evaluated_at": null,
+   "current": null,
+   "facts": {},
+   "signals": []
+  },
+  "L3": {
+   "status": "missing",
+   "reason": "not_reached",
+   "rate": null,
+   "evaluated_at": null,
+   "current": null,
+   "facts": {},
+   "signals": []
+  },
+  "L4": {
+   "status": "valid",
+   "reason": null,
+   "rate": 1.0,
+   "evaluated_at": "2026-10-13T14:03:28+00:00",
+   "current": true,
+   "facts": {
+    "observations": 34,
+    "critical_in_window": 0,
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/f9336ee6-7562-4c92-880a-d7217df6cc94#19ce74f93d44"
+   },
+   "signals": []
+  }
+ },
+ "findings": [],
+ "outcomes": {
+  "open": [],
+  "closed": []
+ },
+ "sources": {
+  "L1": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-12T12:11:18+00:00",
+   "files": [
+    {
+     "path": "results/layer1_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1-aneel/main/results/layer1_summary.json",
+     "commit": {
+      "sha": "bfcc467186fa7317159052b7ecb4a70cd5f6f4a3",
+      "date": "2026-10-12T12:11:18Z"
+     }
+    },
+    {
+     "path": "results/validation.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1-aneel/main/results/validation.json",
+     "commit": {
+      "sha": "bfcc467186fa7317159052b7ecb4a70cd5f6f4a3",
+      "date": "2026-10-12T12:11:18Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer1-aneel/"
+  },
+  "L2": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-09T13:38:09+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer2.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
+     "commit": {
+      "sha": "b4d9c3ddeaaf6153dd88eec18724705fb505bf23",
+      "date": "2026-10-09T13:38:31Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer2-aneel/"
+  },
+  "L3": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-05T13:48:52+00:00",
+   "files": [
+    {
+     "path": "docs/data/index.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3-aneel/main/docs/data/index.json",
+     "commit": {
+      "sha": "ce996edce7ddbc28816b73f06896bf4e49af3c1a",
+      "date": "2026-09-29T19:25:30Z"
+     }
+    },
+    {
+     "path": "results/aneel-autos-infracao/layer3_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3-aneel/main/results/aneel-autos-infracao/layer3_summary.json",
+     "commit": {
+      "sha": "79a7baae961848243782fc3e0726b88232f5597b",
+      "date": "2026-10-05T13:48:52Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer3-aneel/"
+  },
+  "L4": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-13T14:04:02.384856+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer4.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
+     "commit": {
+      "sha": "55ca64320ab36d02e59e5463d1d4b508cf9ff141",
+      "date": "2026-10-13T14:04:02Z"
+     }
+    },
+    {
+     "path": "docs/data/cross_check.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
+     "commit": {
+      "sha": "f6a951bf6afebf2b5fd136984f1e83dcba427d18",
+      "date": "2026-10-13T10:52:49Z"
+     }
+    },
+    {
+     "path": "data/hash_store.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
+     "commit": {
+      "sha": "55ca64320ab36d02e59e5463d1d4b508cf9ff141",
+      "date": "2026-10-13T14:04:02Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer4-aneel/"
+  }
+ },
+ "policy": {
+  "policy_version": "1.1.0",
+  "aggregation": "arithmetic",
+  "weights": {
+   "L1": 0.3,
+   "L2": 0.3,
+   "L3": 0.2,
+   "L4": 0.2
+  },
+  "cutoff": 0.85,
+  "critical_floor": 0.7,
+  "integrity_factor": 0.5,
+  "integrity_types": [
+   "RETRO_ALTER"
+  ],
+  "scope_types": [
+   "SCHEMA_DRIFT"
+  ],
+  "unrecorded_change": "finding",
+  "cadence_days": {
+   "L1": 7,
+   "L2": 7,
+   "L3": 31,
+   "L4": 0.25
+  },
+  "validity_days": {
+   "L1": 14.0,
+   "L2": 14.0,
+   "L3": 62.0,
+   "L4": 0.5
+  },
+  "l4_window_days": 30,
+  "findings_window_days": 90,
+  "simultaneous_event_min_datasets": 3
+ },
+ "portal": {
+  "portal_url": "https://dadosabertos.aneel.gov.br",
+  "name": "ANEEL",
+  "title": "ANEEL open data portal (Dados Abertos ANEEL)",
+  "repository": "lsp3cesarschool/5ltep-layer5-aneel"
+ },
+ "notice": {
+  "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
+  "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
+ },
+ "generated_at": "2026-10-13T19:19:22+00:00",
+ "engine": {
+  "repository": "lsp3cesarschool/5ltep-layer5-aneel",
+  "commit": "898d710770a5aac3aa2404bda5372f9d4c343807",
+  "run_id": "38453894219"
+ },
+ "ficha": {
+  "id": "sha256:b7da8eef9fb215597df8de21de67e174e0e36cca9e7487316f00cc6d4c1b7e66",
+  "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=projetos-de-eficiencia-energetica",
+  "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/projetos-de-eficiencia-energetica.json",
+  "how_to_cite": {
+   "en": "5L-TEP Layer 5 record of 'projetos-de-eficiencia-energetica' (ANEEL), 2026-10-13, sha256:b7da8eef9fb21559…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=projetos-de-eficiencia-energetica",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'projetos-de-eficiencia-energetica' (ANEEL), 2026-10-13, sha256:b7da8eef9fb21559…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=projetos-de-eficiencia-energetica"
+  }
+ }
+}

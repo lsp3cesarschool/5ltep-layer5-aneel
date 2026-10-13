@@ -1,0 +1,379 @@
+{
+ "dataset": {
+  "name": "beneficiarios-da-cde",
+  "title": "Beneficiários da Conta de Desenvolvimento Energético - CDE",
+  "id": "a7191647-b187-4893-b20a-8954d57ff89c",
+  "resources": 110,
+  "last_change": null,
+  "last_type": null,
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c#57a342b32ccc",
+  "portal_page": "https://dadosabertos.aneel.gov.br/dataset/beneficiarios-da-cde"
+ },
+ "qs": {
+  "kind": "partial",
+  "factor": 1.0,
+  "coverage": 0.5,
+  "valid_layers": [
+   "L1",
+   "L4"
+  ],
+  "integrity": [],
+  "low": 0.2,
+  "high": 0.7,
+  "band": "alert",
+  "eligible": false,
+  "missing_layers": [
+   "L2",
+   "L3"
+  ]
+ },
+ "layers": {
+  "L1": {
+   "status": "valid",
+   "reason": null,
+   "rate": 0.0,
+   "evaluated_at": "2026-10-03T11:46:20+00:00",
+   "current": true,
+   "facts": {
+    "level": 1,
+    "tables": 109,
+    "verifiable": 109,
+    "conformant": 0
+   },
+   "signals": [
+    {
+     "key": "L1:beneficiarios-da-cde",
+     "count": 109,
+     "en": "109 of 109 verifiable file(s) do not conform to the declared schema",
+     "pt": "109 de 109 arquivo(s) verificável(is) fora do esquema declarado"
+    }
+   ]
+  },
+  "L2": {
+   "status": "missing",
+   "reason": "not_reached",
+   "rate": null,
+   "evaluated_at": null,
+   "current": null,
+   "facts": {},
+   "signals": []
+  },
+  "L3": {
+   "status": "missing",
+   "reason": "not_reached",
+   "rate": null,
+   "evaluated_at": null,
+   "current": null,
+   "facts": {},
+   "signals": []
+  },
+  "L4": {
+   "status": "valid",
+   "reason": null,
+   "rate": 1.0,
+   "evaluated_at": "2026-10-13T14:03:28+00:00",
+   "current": true,
+   "facts": {
+    "observations": 34,
+    "critical_in_window": 0,
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c#57a342b32ccc"
+   },
+   "signals": []
+  }
+ },
+ "findings": [
+  {
+   "layer": "L1",
+   "kind": "signal",
+   "key": "L1:beneficiarios-da-cde",
+   "count": 109,
+   "when": null,
+   "en": "109 of 109 verifiable file(s) do not conform to the declared schema",
+   "pt": "109 de 109 arquivo(s) verificável(is) fora do esquema declarado"
+  }
+ ],
+ "outcomes": {
+  "open": [
+   {
+    "key": "L1:beneficiarios-da-cde",
+    "layer": "L1",
+    "first_reported": "2026-10-13T19:19:22+00:00",
+    "count": 109,
+    "evaluated_at": "2026-10-03T11:46:20+00:00",
+    "status": "reported",
+    "en": "109 of 109 verifiable file(s) do not conform to the declared schema",
+    "pt": "109 de 109 arquivo(s) verificável(is) fora do esquema declarado",
+    "digests": {
+     "684a68fd-4278-4af1-bcf2-c02810dd7c0c": "ac0534e5bdcb9c620ad11854f1a868a7d1557d6037ee470640fb41307ecc4222",
+     "237f3f67-4795-4bd7-a4d2-5f6071ef39af": "098c125d954b570c8ab6c5b704f396fd1265dcbf5801267d73e8ceb1ce2630c3",
+     "0bd1f129-39c5-4edc-b272-3f1d11181cca": "6e6d3ebe0db193ce51a7d2fc9e0d8c8124725dc882da62ed7e102ae23890e740",
+     "f77bb713-cc06-406a-baa8-246acc357ff5": "93e49098bb036c9e2eb67e75034f1e41372cfba2eaaaa605d1d31f22c8df1430",
+     "cdf1b068-7c76-462a-ab57-d6619ad290fa": "78d87e3f282699f2cb6ef2f4507ea10f6cd772f5dbcd5b433dfddc154a43f9f7",
+     "e390baae-5304-4a94-854f-0905094b3357": "7f29a25c83ffaa864c2daf3e13699b4f28eb7f080d9d7d0f534b7de375de1d82",
+     "4fae7803-c71e-4c52-a221-112eea7135ab": "25eb6abcf721a1805b7d2e8505fc7e61d96f1a9624cca37fde8be781ad6efeba",
+     "e5231715-4245-4c18-9e67-f52ea56816be": "81922660ea7848c1f63fde5d5a679fd50b42eb1b150ec14e0897450acbd6242e",
+     "673841d3-260a-4bd7-9e39-928fe96114f5": "0c6b6b0b6db84d117328aa8288989077477c235ddd9e3b5608c8bed8bb68bfb7",
+     "69e189d5-8d75-44cd-a933-afcf75f2909f": "32642a2ffd61f61c5f3384c1eda91459f9ddfaa78e4f9e9da7e3d964b384cae2",
+     "fff5e6ce-ec39-476a-bb95-9b509159b7a5": "b5b47d580a2dc5d4575f7703d985972f56ab1a0ee5f89fdf794a85f5468a24bf",
+     "a8a9bd1b-319c-4819-9856-28cd82d5afce": "d1e299f25b396c5aab031d70840c8eac5dd6f3b4ca44cfe87df046e0f3b001c8",
+     "b6393c37-44ab-4a6c-a4b8-75815bf1bb7c": "84b693a0a32f3b7bcd2176e218924765a6a84c22410719d41af0156960797d48",
+     "19566828-abda-4c70-a970-040ae3beee28": "02064cd9519cc217c890ba6a4a6bcba1f3991170d143ff9b5dee9c9e931293ee",
+     "e7cd0297-c8b4-4cd1-8d9d-cb8e9e1dfc74": "ea124c1d022ad225cdb1921039ca93424a0a4cd46e5c19f813038c41ebd0939f",
+     "9776db17-b1af-47a7-bc6c-ac8ef40113ae": "154c1b42ab2e5d36757edd9fa285b0c31dd322ad91ac27b8f7d21ad917281b60",
+     "162f9745-85b0-42cc-a98a-b7e8cdb5dbfc": "ab42e1e094f638c3632536aec3cb755499ace4759d5fef47627f962338b72878",
+     "c1fa52b2-223d-4c46-8b9e-b01470b16d6e": "f52228ba4077821399def8f26e4560471966e5afa7cb42a4f795792f726fae88",
+     "437571fd-9f8f-4320-8072-31ed04c97408": "6c4302d744d8502124e8983040a8aee35ce90f72c08c67d0575388eadb4b1a04",
+     "11100b9b-344e-4176-aa76-31cf07d92d65": "185eaa53bb2b77f19f702a89cae13001030b679b91759c0595e3205ca550180c",
+     "99fee086-4cb5-4321-ab76-072318ed73ec": "73eb293f9fdc348b3e808967ee72424f0a16b9561389a526d98c9a401dc57ed4",
+     "c9cbca33-8614-4b03-b000-6a4a859a4bf2": "b36958e0f57d05360c71cf3c55fdb4120c144766df9b9d0cc43bc70041459933",
+     "85bda7bd-f371-4f04-b153-8026546b173e": "71b843955a8e613e7f8a214293d886c9ec3c6668dc91571a46dcadf0c729c1bc",
+     "c1f064bd-5bff-4263-94d1-68884be850ba": "c545393b3839e7e6c8a3cbd00b7620d83fbb7dab4a15a27e10899e6af74b5929",
+     "944d0114-0d8d-4315-aea4-034189aa4b23": "010eb2cd1b5d9f6024446c685ab18b6f61a8fb43b4e3c7d5e6323a8ced8613b5",
+     "0c3526c9-3318-48b4-ab11-8c0bac57fbad": "8eecc94daf9bf47264ee555a2918d7f4d96fea377fe7162bd8a4bb2ec200cf55",
+     "26babd50-d887-4694-a8ba-b2f0bec5d8c1": "d64a82ac638bed6afbedcef8bc9ea15f44b7421947c077a1944f9f375ea2152c",
+     "65547189-5d1f-4e99-8efe-a3923fcd47cc": "3c149438e3d61e9342b087e0e9e55af4dc001471345d598bdd2adb6a40a8f573",
+     "8a09ff6c-e997-4ab3-a07b-c136d462a4d4": "fa470147a49065a9a73c6666e9da87f45b5245151b2dc38585e328caab29746c",
+     "7a3809d0-0d63-490a-be4f-1722db5f519c": "f1cf1edbf9cf519d4f6da72ed778071ceb419fb012d72c04628cd83bfecb8a40",
+     "9c019271-832b-4a79-9802-5b3120e08039": "5ee334c0aff3187e9db2b0fafc367a395f89babf6a6bec1b4c26943fb6d7882c",
+     "34fa1179-233e-4fe7-8657-56225afb6e1b": "c907531227519d80c312a89d001f112d2433b60303c07839165abfe8be746b27",
+     "a053ec33-4b70-415f-a011-313c9dfc952b": "017e8687d26f674c02c596666fb08b0b4bbf58642b20d06822b150eccd7f0b0a",
+     "502cbb9c-5763-4bca-ae4f-e9b29acba4f8": "c1c783d02777263bd1bfda04d9d0c189fd82fd5478d57f6bdece8c2dc99fb2e2",
+     "26589323-58a4-4b1b-a09c-8b4898f9348f": "8621fc18aac1788069ffda3789c403b218585bcf883a28e1c41359ecb5cc66c8",
+     "0c9855fe-40de-46b7-a32a-577994f86722": "16a02f1eda9710d88666986a3f34703ec339b5b9f7e0074879d137a24a5b2946",
+     "5fd04691-4570-4459-ba65-39b17c5e963b": "0be13d5213e6a846d676ababe16e63c27c6ae7faff24a523323a9d51d98243e2",
+     "9c571497-e30f-44e1-bf83-42d5f3e68658": "568faefec4fc843d72946f5f07af74be61e6fbae773cdc15db19ca6691ee8e85",
+     "8337fe53-94a9-4ab1-abfe-48293aa103fa": "51be967a515208b05a2e012fb764ec568ecc8bec6e3bef9195f7afa243fa537c",
+     "78d58050-f7bf-4e17-9af0-706e182e05e7": "ec567be97127b0d0c1c02eac3f98e1710e9981390cd0b2831042d673fa17fb8b",
+     "3d52ac29-59a7-4fd9-a206-68f57e5e6f18": "ed06c56e28d2d0a9fb7ae339f50dc7a377b137fca0cca5358409bd85b82a5037",
+     "d3dd0704-9c99-45c1-b298-c28f63bb6848": "10e83aec3a6e0a2571c359a76cb77f39a98250bc7552d00314a8f70d460540ab",
+     "992aa5fb-6a2d-4bf8-8abe-174ba6c95dfe": "838112d5b0c1898627202f6b5ae93353d6fe0d430962ed5e8d619ce80cf1ed3a",
+     "d0437ed9-45a4-4f62-8a7d-90b27c87726e": "67d8a4b87de94926937258e92291efa1df93c09b5d9f6e1bcb245f268d35df09",
+     "2e6d3d91-50c9-44b0-9967-cf0edaf7b2df": "4a46d24366266e33a9339a1142bf9de631148d24be51d88507828bab904225fd",
+     "99edb958-2828-402b-ba5b-a4a4e91f20f9": "d49cf598b62c1728a082b1e26d48c0a651096cb0f1ab4e5f01b86eeaee585dcb",
+     "1975a3f7-b6a9-4e97-98c1-38becb743ef7": "bf61beec3bb5f659cbfb89c7ca2a41ec45e36a2fa746f98cc4daf27095124652",
+     "effb57ee-20ed-4266-abce-ba33e44f53dc": "efcb6e6bc788a6b0965daf81832ea465c029c69cb1bbe309447830a41efff799",
+     "0523ee9b-cb55-4a02-a839-cb92b81775fd": "67f79adb4ebd8409dd2e5fb666f0fe77d6f6bb15159fb42a6a5212768e126848",
+     "6b7efcac-f042-4278-97d4-90bd3cec84e9": "8d27af4b14fb2d33c599096f8460c25256402b5d98080a79dffe61df3e9ade00",
+     "73e519ed-dbfa-4533-8dc0-fc4b8448b3c1": "130a0a7e3d37d498f65581a0f9d5070b25b74cda5d7e758cec4db59b7130a777",
+     "9730a17d-f721-4521-b200-9346d0dfa8a3": "8abc79664d744f7b9114d6978e32912d3e0fea3a7d9d05ff7352be90223af683",
+     "9e7d8d2f-7188-42b2-bc99-12e8f19d77b9": "1edca7ca17febc51e456d6e4697fd450337f391fcba40c0b5158a870abb8495d",
+     "dcaf68ca-510d-4520-a290-84f3cfc215eb": "277c867ec7d3e960153751f9cdda5c2ed1ca02a7f452a97de729b0c575c05cc1",
+     "fb8580e8-61a1-43ed-8ed8-59335187d9ff": "3171dc77480ecb338dd104a70c982b3c524ce92a08f39c12704a42ccfbb11e37",
+     "736586f3-9ccc-49de-a3b5-ff1e6e26b780": "2b89b455c289e01467c3c9226a3cfd458747c03c59e3b7bb7982d50d889d6137",
+     "cd93c9f6-fd79-417a-808f-422c74e1d0e5": "cb599a8fa2136090e09d1ec1cd406f4ca975e641d19ef89242645ee5d811da39",
+     "e6585c3a-2a93-4083-bf24-bbcea6964865": "5bf49c3529726e283a100437f1982fd1a8548dcbff3c3c662e413a2f73d4e2cb",
+     "6ec535e2-b6b1-4f7d-824a-3f0d3e4682d1": "ce91e699c4ba58ebecbb9d047aef18f433bdd19b767c61f5d87bec2e5d281daa",
+     "db06581c-a4b4-4211-8a1b-9bb134306d82": "086cfbf80220a1d12492047f3f20631e31738761769d0c00b2fdbfdf68db14ff",
+     "dca9a28e-8649-421d-ac92-bae336ffd8f6": "92b6ae0519afdf6c0ba68e71f8741a2c4ad1d34060cb1dc916b420dcd23d6449",
+     "5f2b0a13-d869-4057-9f42-bb0074df7e61": "9534a4d2dd56584709c2d462f17123ab333eb61a7a4081264d54338b55b8ebdd",
+     "224ea6ff-60de-4b5d-bfbd-a4d1c9c4c46a": "81b3556bfcbac953dd2f10ab7b5ad5665349e3ef4a9f6dc3faf4fa568f380742",
+     "d97c6259-f38a-4d44-89a7-c9be79b144f0": "954cb47fab02b031ae87eeb12b9f46134ad0352a64ecc489e52bc8f67984d9a3",
+     "40b39033-16e5-43d5-892f-ff6d68129df3": "2aeb280e9e70cfa35d52ea071c4b9780738f0405fba4aa893aba8837e75b4192",
+     "74402f0b-a475-4eca-837e-b4f8dcf2ffeb": "79dfe225b5959511b0722c50e012e7250b023ffbd07e4c911b49eb72782725f4",
+     "75e1c189-010c-4186-a2b6-2d889ada6927": "70a0947bd178417d2811a501093f0bf59b47824fd8ddf8ea54ca97e0060d48d3",
+     "20a283ca-7c3e-42d5-8f7b-2f2fde25c980": "6b301f18451a812f0bfb82930ba6eaf8df3545c2f639a1b54c1dd042bebf7666",
+     "bd8004f6-2b36-45a9-b10f-cb05e7787451": "c826fa0ab558e173de5c1c073c2d23263c386ff64cb57bc9f3ebc50d1e809831",
+     "8e2c96fb-78a6-478c-97aa-707ad33db5b3": "52f8156331b6c5a2fac79eff2f78c83162980cb8e0b95a6df53025ad5165ae5f",
+     "456a0e7c-f4d3-401e-8cec-b4299253b4ee": "82ca033a1bd48f185c34680a8d89f345523c2da1857422007330d46a0a7de2c9",
+     "4cefdddd-675a-4b6b-b188-466242cb0aca": "ad37724070d72d6e1b61d1ed3f51f7bfc9e08b93c4c72e6af13765fb8755c76f",
+     "bef7067c-4bc9-49d8-9646-9d6acbfbeb20": "f255442da14ced427e64c7d964c932c2fc179285f165cf648e97ce2b7277cb57",
+     "c134f271-4234-44f1-827f-46cd8bd11acc": "00033ef9ea2463412a01c0b31ae0ad50ef3555e4b02703c85f0463a962e62df4",
+     "40f5d88e-4016-4785-9046-40850519cb52": "0c1c4d981b1c792ad37ded28ded4c6ba9fc013cd80bb0bac5731909072f2517b",
+     "91611e61-03b5-4abc-81ee-b73af4662767": "d2f35aabac8cd403b97f03bf38f9c30c32197eea01701798e14d7bbe8dcd9dba",
+     "2f80cdc0-1663-4769-b9df-68746e9f7dbb": "bea1bac85d79106f61ebb9f22048dc9b3e8e0fdbbe8c2cd084b08dee7d873a46",
+     "7ba4a293-5cc6-402c-a24f-0f4c4e33c9f4": "1852d059332b81254bd63de12b00576295b58344a44ea2bd600913f1d83903b2",
+     "957ba099-71ac-4e4d-8709-8940cc20983f": "04f2d0fe0053258801e1d29b8ba5396e428b3dd186a97823cbf14e9dbb805fe2",
+     "10f19d45-7dad-49a6-9927-bf0d8abb7cbe": "62a8baefd5e2573e804c1df08cc3268d3de4de45b6f9de3e43346dd63ff5c9c7",
+     "71187a48-7808-439d-a62c-940c994c7af0": "e40b8c645663adfd8b3b99fc0ff161c6093c945dcf8b00bfb069e43fd435c552",
+     "02a5bce6-a0ae-412b-b255-4fd997ad65c4": "143c5580d9711c3afe46c5d28792ba80a39219f52da51f33acfc27a7eeed9523",
+     "65372c6d-2040-40a6-bc00-4b464d79689d": "4f8a94de0dce659f30b33a6739c225d22ae61a921288c430b895ff16523142e5",
+     "3fa9d3c1-7c48-429d-9713-ffdb208eefc6": "6f7d5f2cd33d7102b844619b0ddfe3334410653564010c60a3fd7ea2285609e5",
+     "13504845-7bc0-4ca6-a39b-72fdb6a2ac78": "281826e5a8ca1d77ffddccd1ff5a0a80af1f25fafed8860053f246d08703018d",
+     "61d9fd67-2946-42a8-b633-dfc307ac696d": "038fd0e4171740c9060374cbff944f672d44eede60662d91808da0c4f813c72e",
+     "15f117db-cd9a-421d-bb44-d897e30c673d": "4127526e1b96621d6d06fd5fe526577679a930ecf5a724ae5152898cf86cd9ec",
+     "8415fa69-65a6-413c-910a-922f4590603b": "ef449d9577d9f09b2ee473c63268ac0c472dafea8b1df1494c921a5c7bda202c",
+     "cd5ac512-a450-4e31-8c20-54612032e887": "979880fdd704af682def08cb7d79cbf3674f8064f01ff42a675d0238a1c93db9",
+     "7d41d4bb-418c-4665-9fb9-0b50499a8eea": "485cb2254599bb6eb6a936e6d0a907f7c3dcb11564c1f59b98304f308e55e190",
+     "16c4065a-1e32-425a-af8b-990027f03c1d": "3bd0f2f87ddbb7ff2c781a0a312de97e6e4c7045f76e5c270581727be3ae4077",
+     "e8b75d08-89d0-4bb8-a412-59f71465333b": "7ccb836b4be361b8dd970a22431e37975062683106593d34ca61b15490d7e0dc",
+     "d31f2c92-eac1-42bf-93b5-738f539863db": "1e514feee3137244db7a6f39372b1e4c9f8f7e9c4e7178bbe2b12636b9575941",
+     "f65391d7-1ed8-4dcd-9981-b72bf93825c9": "32dd90189bde037497565427509dfb1b7f03c656b82c2c0debbf795190c20508",
+     "ffa4d920-8243-4ff3-a46f-57496748322b": "3d3363d21b48aacf08740e1d984be5751f1a78d929f8195bf417901fa5886100",
+     "7fc31e48-0e3c-444a-a26e-869f8ba7bdbe": "d4946cbc2b12047805219cebdb438a2362c32afddb5261f601dcd22ec7beff26",
+     "6e0153b1-e938-4c67-8c01-e7742c7228e8": "2cb4975e032211e1b09f9e49b2d1e7287774075424bce08c3e237361bfd5c784",
+     "f99097fa-6abd-4ce0-96a1-7c231343be43": "0eba50d7912a0d8baddb2f88f017a2747cd641152674aeb639ca9946d4d52f35",
+     "d4d13b7f-16a4-4f42-836c-ae717e4c546a": "02f1e9735028ecf1bd1a6f28561e239b33d9246cce76a87b553f1fbe96b14aa5",
+     "00202b52-3c74-4e87-89ab-d4af87e29530": "45b7ce895dd6cb0810cc79f84610413332e0da7e64983b0a98c3df9004fae1d6",
+     "cf43fb13-a8e7-46b9-92ce-bb19e3c15189": "22eb8badb07587f7a71284e92983f59b93c2fee895f228ad45ba909a34810dde",
+     "55b448fd-d402-47c3-9d86-c7b68b09bec4": "4f2a66393330751006b5c5b9ad019e3bb4592367aa811815106258f6e402e3d7",
+     "3ca864da-a2e4-4028-a609-0adf74208f53": "fd39c0fddd83d6c977810c841519e042a6f1e6c097c64f70d6898cf36a19347e",
+     "f7c68322-44de-4bec-97d6-73307508d21f": "32ed0c4075537f6732ea3505bc282ea45d4fb4e9afc464a958a8a905c2f40f90",
+     "d9852c6d-6678-44fe-9f1d-a6f94bb5eb6a": "b48d2c171e2f5dc5b41c3fb043a510dc5b0047b97e99541ab498b4e6d8a09d1e",
+     "0c67ed8d-db5e-4db6-b503-a0691acb1763": "2c8be55c959dbb42eafbf591b81f4dbe9d7beea568ce13fd82af038d0f6a9226",
+     "879116ac-6de8-43ae-bc9d-baf41d265983": "436dfb6088a49829aaa2da198a16a6a2345d5c7983ace502b4ebeaaa7bae0daf",
+     "6439f884-4b99-4026-82b8-c41eceeaa2cf": "9fb50e497490d6432c502bffd174bd3023322469a4406ae5b321852eb381e5f7",
+     "ff5c84d0-227d-4340-8b15-4e583dd94120": "045c5fda342a0d71430df774e326b80b141b4c3f0dacc4720a466c066f115b36"
+    }
+   }
+  ],
+  "closed": []
+ },
+ "sources": {
+  "L1": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-12T12:11:18+00:00",
+   "files": [
+    {
+     "path": "results/layer1_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1-aneel/main/results/layer1_summary.json",
+     "commit": {
+      "sha": "bfcc467186fa7317159052b7ecb4a70cd5f6f4a3",
+      "date": "2026-10-12T12:11:18Z"
+     }
+    },
+    {
+     "path": "results/validation.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1-aneel/main/results/validation.json",
+     "commit": {
+      "sha": "bfcc467186fa7317159052b7ecb4a70cd5f6f4a3",
+      "date": "2026-10-12T12:11:18Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer1-aneel/"
+  },
+  "L2": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-09T13:38:09+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer2.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
+     "commit": {
+      "sha": "b4d9c3ddeaaf6153dd88eec18724705fb505bf23",
+      "date": "2026-10-09T13:38:31Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer2-aneel/"
+  },
+  "L3": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-05T13:48:52+00:00",
+   "files": [
+    {
+     "path": "docs/data/index.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3-aneel/main/docs/data/index.json",
+     "commit": {
+      "sha": "ce996edce7ddbc28816b73f06896bf4e49af3c1a",
+      "date": "2026-09-29T19:25:30Z"
+     }
+    },
+    {
+     "path": "results/aneel-autos-infracao/layer3_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3-aneel/main/results/aneel-autos-infracao/layer3_summary.json",
+     "commit": {
+      "sha": "79a7baae961848243782fc3e0726b88232f5597b",
+      "date": "2026-10-05T13:48:52Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer3-aneel/"
+  },
+  "L4": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-13T14:04:02.384856+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer4.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
+     "commit": {
+      "sha": "55ca64320ab36d02e59e5463d1d4b508cf9ff141",
+      "date": "2026-10-13T14:04:02Z"
+     }
+    },
+    {
+     "path": "docs/data/cross_check.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
+     "commit": {
+      "sha": "f6a951bf6afebf2b5fd136984f1e83dcba427d18",
+      "date": "2026-10-13T10:52:49Z"
+     }
+    },
+    {
+     "path": "data/hash_store.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
+     "commit": {
+      "sha": "55ca64320ab36d02e59e5463d1d4b508cf9ff141",
+      "date": "2026-10-13T14:04:02Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer4-aneel/"
+  }
+ },
+ "policy": {
+  "policy_version": "1.1.0",
+  "aggregation": "arithmetic",
+  "weights": {
+   "L1": 0.3,
+   "L2": 0.3,
+   "L3": 0.2,
+   "L4": 0.2
+  },
+  "cutoff": 0.85,
+  "critical_floor": 0.7,
+  "integrity_factor": 0.5,
+  "integrity_types": [
+   "RETRO_ALTER"
+  ],
+  "scope_types": [
+   "SCHEMA_DRIFT"
+  ],
+  "unrecorded_change": "finding",
+  "cadence_days": {
+   "L1": 7,
+   "L2": 7,
+   "L3": 31,
+   "L4": 0.25
+  },
+  "validity_days": {
+   "L1": 14.0,
+   "L2": 14.0,
+   "L3": 62.0,
+   "L4": 0.5
+  },
+  "l4_window_days": 30,
+  "findings_window_days": 90,
+  "simultaneous_event_min_datasets": 3
+ },
+ "portal": {
+  "portal_url": "https://dadosabertos.aneel.gov.br",
+  "name": "ANEEL",
+  "title": "ANEEL open data portal (Dados Abertos ANEEL)",
+  "repository": "lsp3cesarschool/5ltep-layer5-aneel"
+ },
+ "notice": {
+  "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
+  "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
+ },
+ "generated_at": "2026-10-13T19:19:22+00:00",
+ "engine": {
+  "repository": "lsp3cesarschool/5ltep-layer5-aneel",
+  "commit": "898d710770a5aac3aa2404bda5372f9d4c343807",
+  "run_id": "38453894219"
+ },
+ "ficha": {
+  "id": "sha256:2e201c941b707defe81b7827e51f7a774cdaea13912c4624f9c519ee88026452",
+  "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=beneficiarios-da-cde",
+  "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/beneficiarios-da-cde.json",
+  "how_to_cite": {
+   "en": "5L-TEP Layer 5 record of 'beneficiarios-da-cde' (ANEEL), 2026-10-13, sha256:2e201c941b707def…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=beneficiarios-da-cde",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'beneficiarios-da-cde' (ANEEL), 2026-10-13, sha256:2e201c941b707def…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=beneficiarios-da-cde"
+  }
+ }
+}
