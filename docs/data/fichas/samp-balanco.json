@@ -56,19 +56,50 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-14T04:42:51+00:00",
+   "evaluated_at": "2026-10-15T04:24:40+00:00",
    "current": true,
    "facts": {
-    "observations": 36,
+    "observations": 40,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/3193ebab-81b3-406e-be0e-f968a4a21689#27808f7b201f"
    },
-   "signals": []
+   "signals": [
+    {
+     "key": "L4:cross_check:samp-balanco",
+     "count": 1,
+     "en": "unreconciled divergence in the independent cross-check",
+     "pt": "divergência não reconciliada no cross-check independente"
+    }
+   ]
   }
  },
- "findings": [],
+ "findings": [
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:cross_check:samp-balanco",
+   "count": 1,
+   "when": null,
+   "en": "unreconciled divergence in the independent cross-check",
+   "pt": "divergência não reconciliada no cross-check independente"
+  }
+ ],
  "outcomes": {
-  "open": [],
+  "open": [
+   {
+    "key": "L4:cross_check:samp-balanco",
+    "layer": "L4",
+    "first_reported": "2026-10-15T09:51:00+00:00",
+    "count": 1,
+    "evaluated_at": "2026-10-15T04:24:40+00:00",
+    "status": "reported",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
+    "digests": {
+     "9f03a034-fb01-4daa-b6a6-e25a84d979ed": "7b3ac8d7753e79c099a60d7a09dbb05c1079fc33f295552a12097639eabe7c1c"
+    }
+   }
+  ],
   "closed": []
  },
  "sources": {
@@ -139,30 +170,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-14T04:43:09.442597+00:00",
+   "generated_at": "2026-10-15T04:24:58.435232+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "bdaeab61bf7627498a3732ef01faf1285b14ae45",
-      "date": "2026-10-14T04:43:09Z"
+      "sha": "54de1bdfe189e2ea54e4c4ccfcfc9bddfa2c3071",
+      "date": "2026-10-15T04:24:58Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "ea7b285cd29c3aba260a1fde468dfaab7a2c325f",
-      "date": "2026-10-14T08:55:01Z"
+      "sha": "f53a9536725de9a0f60764859f16a2e357535382",
+      "date": "2026-10-15T08:30:19Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "bdaeab61bf7627498a3732ef01faf1285b14ae45",
-      "date": "2026-10-14T04:43:09Z"
+      "sha": "54de1bdfe189e2ea54e4c4ccfcfc9bddfa2c3071",
+      "date": "2026-10-15T04:24:58Z"
      }
     }
    ],
@@ -214,19 +245,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-14T10:08:10+00:00",
+ "generated_at": "2026-10-15T09:51:00+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "172a11f90d33941ec81197704c80f492f03a3652",
-  "run_id": "38547416388"
+  "commit": "549e172539c0757cbe6c7aa262eb980d4e72c938",
+  "run_id": "38715957978"
  },
  "ficha": {
-  "id": "sha256:b9cc2eda040c1d43ca51d412675286b16ff331f5c0a95827319c8d646a034f3a",
+  "id": "sha256:84f551d7efcdf828b7bf2849d42c10678e025b7c75d0e041d2342cb79b96a671",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=samp-balanco",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/samp-balanco.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'samp-balanco' (ANEEL), 2026-10-14, sha256:b9cc2eda040c1d43…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=samp-balanco",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'samp-balanco' (ANEEL), 2026-10-14, sha256:b9cc2eda040c1d43…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=samp-balanco"
+   "en": "5L-TEP Layer 5 record of 'samp-balanco' (ANEEL), 2026-10-15, sha256:84f551d7efcdf828…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=samp-balanco",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'samp-balanco' (ANEEL), 2026-10-15, sha256:84f551d7efcdf828…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=samp-balanco"
   }
  }
 }

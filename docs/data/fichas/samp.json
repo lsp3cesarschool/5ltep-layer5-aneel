@@ -64,19 +64,73 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-14T04:42:51+00:00",
+   "evaluated_at": "2026-10-15T04:24:40+00:00",
    "current": true,
    "facts": {
-    "observations": 36,
+    "observations": 40,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf#dd7d69586e9e"
    },
-   "signals": []
+   "signals": [
+    {
+     "key": "L4:cross_check:samp",
+     "count": 1,
+     "en": "unreconciled divergence in the independent cross-check",
+     "pt": "divergência não reconciliada no cross-check independente"
+    }
+   ]
   }
  },
- "findings": [],
+ "findings": [
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:cross_check:samp",
+   "count": 1,
+   "when": null,
+   "en": "unreconciled divergence in the independent cross-check",
+   "pt": "divergência não reconciliada no cross-check independente"
+  }
+ ],
  "outcomes": {
-  "open": [],
+  "open": [
+   {
+    "key": "L4:cross_check:samp",
+    "layer": "L4",
+    "first_reported": "2026-10-15T09:51:00+00:00",
+    "count": 1,
+    "evaluated_at": "2026-10-15T04:24:40+00:00",
+    "status": "reported",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
+    "digests": {
+     "349ca6b0-8e1b-4e1e-991d-b3d9edf6e368": "da9052164df7426723277fb639e6d9ef815a19475658dbde3c80867e9ccf1f7f",
+     "620bd3ee-7ad4-4e23-ae64-251e22a58303": "b42a20e436dc2a26f7830f7736f4fc586c29d3694279bb0f1c2be56ac3a31ae1",
+     "81fb84e5-2305-41b4-bc97-7673bc327796": "a935acb23cee84900ef4b423a149a65b53d91441a775a42e160f61ad30ca09e7",
+     "28fa2d25-233d-4a96-9345-fdc13fa76d6c": "dcd41cf15d536b468282713f839d663db332406a4390361924ec37f915d77210",
+     "a8ea4590-2202-4b50-a32d-74b1dc1280a7": "198fce79bd0b835c34dfcb9483e2243dbd634609591d23cf849b6951ca9e5036",
+     "944c4215-96d1-4646-ac9b-8c8146168eca": "433ae04aa0c81af1597887af34903680f1583a7a0a2fa78da7061342950bf074",
+     "0e414659-5840-4db3-8639-2ae678e15600": "e431a9937e1d5d350e9a43603de7aca5809ff4277278e0208570886d2d3d423c",
+     "475a41c8-905d-46c6-8fc9-fe9a8a9c6868": "9fdbdbcb99c2cc309d14368317393fc183eb9d78cd0ea5552a113647e8d9e4fb",
+     "9c25ad95-a433-482c-9847-4f7c5c2b3df0": "40f6fad49e99617f7cc6c31151950245b97d10506f600c46048185a2e295c231",
+     "b2f4411d-90db-4455-91c7-ebe399ba93c5": "a2eb096cf1627f2416e13ebfc3abc3d5328f80c5a68020a4413f362858b615b6",
+     "53fa913e-32bc-4765-b7c4-2c0544e33eb3": "7497a8b3a0593e6dfb80559f2389c04c9827dd3af2f1ac38f06cfd56830a1e4a",
+     "b53ee5a1-26f0-47f3-8dea-ae6894d714ac": "569d7cadfdeedb721340d04d50376a8b3a036e090021a51b85642b7c2451733d",
+     "1a35925f-8f7d-4074-973e-42dfbaa99636": "944220053488ef690d7d61c0ba175a737724948a6242f59ad3fe78bb91c2c977",
+     "f5421c87-81c5-42e4-bbf0-33af4cc98800": "6790689f138e1a7f6eceecac0781c010baf7839b29b5c77c144f84c910d181e4",
+     "4a84f3c8-9dc8-4448-bba8-cc2dfbc26ca2": "bde30e777e4d9f8e98432c204f5780f828d9d612e8a31e04d29a5906c1cddf7b",
+     "6ab6596e-170d-42e8-af93-9de024ebe36b": "6b56078cae2438d89506b578de1e4441afea187fea2d6e27763459fd4e66dd98",
+     "641003d6-4e87-4095-9416-ae5fbb5c94d3": "43d6a5c097b97df70423f604fab14017db18a406a2da539f0584e63900305404",
+     "29f9fec9-34dd-454b-8f3c-6b4ca5b22f2c": "803ef6726c0bdb234c03e5c849028e2a4dca2c2643b030deb873250508072177",
+     "84906f77-0bb4-4527-b9a0-cb6c2b525661": "33cee0514fa3775c23d83decee9c395bab1aa10e04e211b061e1362f048a7d88",
+     "7e097631-46ad-4051-8954-9ef8fb594fdc": "a79fd5095badfa51334f060d6ac3a47c64d2407d043232dca195cbfe95458a3a",
+     "b9ad890b-d500-4294-bd36-1108acc54832": "18cff27d4e941f4ffb1fe115dd937361eb68ccf86ac988843050bf22d0494fae",
+     "ff80dd21-eade-4eb5-9ca8-d802c883940e": "8687c0c10ef4a3cbeef925fbf85b562e83319bbfe923b3ce66301f81e08c7e8b",
+     "6fac5605-5df0-469d-be08-04ee22934f60": "ecc47c318d1c742a2c4b698ec87060645960a684ad48764ad56d520088935631",
+     "56f1c242-5017-4cef-a365-0a96fffb0f2b": "e1cb19f1827e7f7dd5a91896ddb7c6af788437523d68c49ea711783dde9772fa"
+    }
+   }
+  ],
   "closed": []
  },
  "sources": {
@@ -147,30 +201,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-14T04:43:09.442597+00:00",
+   "generated_at": "2026-10-15T04:24:58.435232+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "bdaeab61bf7627498a3732ef01faf1285b14ae45",
-      "date": "2026-10-14T04:43:09Z"
+      "sha": "54de1bdfe189e2ea54e4c4ccfcfc9bddfa2c3071",
+      "date": "2026-10-15T04:24:58Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "ea7b285cd29c3aba260a1fde468dfaab7a2c325f",
-      "date": "2026-10-14T08:55:01Z"
+      "sha": "f53a9536725de9a0f60764859f16a2e357535382",
+      "date": "2026-10-15T08:30:19Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "bdaeab61bf7627498a3732ef01faf1285b14ae45",
-      "date": "2026-10-14T04:43:09Z"
+      "sha": "54de1bdfe189e2ea54e4c4ccfcfc9bddfa2c3071",
+      "date": "2026-10-15T04:24:58Z"
      }
     }
    ],
@@ -222,19 +276,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-14T10:08:10+00:00",
+ "generated_at": "2026-10-15T09:51:00+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "172a11f90d33941ec81197704c80f492f03a3652",
-  "run_id": "38547416388"
+  "commit": "549e172539c0757cbe6c7aa262eb980d4e72c938",
+  "run_id": "38715957978"
  },
  "ficha": {
-  "id": "sha256:dce6193bb557eaa499ae19693d75eec953018322d27894f48b681543bac473ae",
+  "id": "sha256:d6451aa0633bb713edf4046fbbbca7d8163dc5ddaef19512910069f1735aa986",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=samp",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/samp.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'samp' (ANEEL), 2026-10-14, sha256:dce6193bb557eaa4…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=samp",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'samp' (ANEEL), 2026-10-14, sha256:dce6193bb557eaa4…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=samp"
+   "en": "5L-TEP Layer 5 record of 'samp' (ANEEL), 2026-10-15, sha256:d6451aa0633bb713…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=samp",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'samp' (ANEEL), 2026-10-15, sha256:d6451aa0633bb713…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=samp"
   }
  }
 }

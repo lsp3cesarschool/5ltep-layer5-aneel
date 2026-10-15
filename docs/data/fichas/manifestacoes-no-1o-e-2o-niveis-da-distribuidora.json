@@ -71,14 +71,21 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-14T04:42:51+00:00",
+   "evaluated_at": "2026-10-15T04:24:40+00:00",
    "current": true,
    "facts": {
-    "observations": 36,
+    "observations": 40,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba#5bc93b12a045"
    },
-   "signals": []
+   "signals": [
+    {
+     "key": "L4:cross_check:manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+     "count": 1,
+     "en": "unreconciled divergence in the independent cross-check",
+     "pt": "divergência não reconciliada no cross-check independente"
+    }
+   ]
   }
  },
  "findings": [
@@ -90,6 +97,15 @@
    "when": null,
    "en": "1 of 10 verifiable file(s) do not conform to the declared schema",
    "pt": "1 de 10 arquivo(s) verificável(is) fora do esquema declarado"
+  },
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:cross_check:manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+   "count": 1,
+   "when": null,
+   "en": "unreconciled divergence in the independent cross-check",
+   "pt": "divergência não reconciliada no cross-check independente"
   },
   {
    "layer": "L4",
@@ -111,6 +127,28 @@
     "status": "not_reassessed",
     "en": "1 of 10 verifiable file(s) do not conform to the declared schema",
     "pt": "1 de 10 arquivo(s) verificável(is) fora do esquema declarado",
+    "digests": {
+     "6c3e074c-d9ab-4840-8c6c-7993faa36ddb": "d025e14f417f60327197fcc29306da60772a6bac1ab3e9c1bf204f0da2e2de74",
+     "426f4fb2-6a89-452a-8236-cc48153ee607": "c7a14cba1617af1909ca379c28fd69185b34d7cc44ff451d784878dba53dd8c3",
+     "4af32411-da8b-492c-ae15-8f615e35d2e2": "97c2cc3fc543fe61160d3954ea2f4cf14c0cac2c1965f0f25348dc8a2ade967c",
+     "83839c4e-78f9-4f68-bcb7-51dcfcf05c9c": "4f0a1f9d53c928d62b8ff73ff3649f3d8fabb127245a020b3ceee09d340d61be",
+     "8c42c510-6549-4285-817c-58738914be19": "6b4f01102880db5699812718ae85c9003775bc96780ed48f6f207d59b8338392",
+     "290433a8-a5f8-4117-a450-44d3e62ead22": "75e9b2f11ea5710401f04921700a4c4618a1463991bf961c1d6d1150e6261175",
+     "908f7282-7a43-41e9-8303-edcab69c2706": "33290a123c76380c839633e43e220e5d5a5733844858a32422e22f7a6a6d398e",
+     "0060645e-c42c-454d-af8c-f0c06b0988ab": "04d73520113b6799ec920ebc692c4718bc1ea98be1b920cb00b621e882f07a55",
+     "a9ea21c7-1b2b-4c91-97b4-3d9732c77cec": "96ad7c8662cdf730b8c69a3c4ff8ae02dc1a84c3d896fade31b5a093ec0d84de",
+     "d0f619ef-1bbe-40d1-849c-35b47172df8e": "6596c7e9b84e61dbef9d234e305b237a9581b8319bd7a93d452c40640c747b52"
+    }
+   },
+   {
+    "key": "L4:cross_check:manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+    "layer": "L4",
+    "first_reported": "2026-10-15T09:51:00+00:00",
+    "count": 1,
+    "evaluated_at": "2026-10-15T04:24:40+00:00",
+    "status": "reported",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
     "digests": {
      "6c3e074c-d9ab-4840-8c6c-7993faa36ddb": "d025e14f417f60327197fcc29306da60772a6bac1ab3e9c1bf204f0da2e2de74",
      "426f4fb2-6a89-452a-8236-cc48153ee607": "c7a14cba1617af1909ca379c28fd69185b34d7cc44ff451d784878dba53dd8c3",
@@ -195,30 +233,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-14T04:43:09.442597+00:00",
+   "generated_at": "2026-10-15T04:24:58.435232+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "bdaeab61bf7627498a3732ef01faf1285b14ae45",
-      "date": "2026-10-14T04:43:09Z"
+      "sha": "54de1bdfe189e2ea54e4c4ccfcfc9bddfa2c3071",
+      "date": "2026-10-15T04:24:58Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "ea7b285cd29c3aba260a1fde468dfaab7a2c325f",
-      "date": "2026-10-14T08:55:01Z"
+      "sha": "f53a9536725de9a0f60764859f16a2e357535382",
+      "date": "2026-10-15T08:30:19Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "bdaeab61bf7627498a3732ef01faf1285b14ae45",
-      "date": "2026-10-14T04:43:09Z"
+      "sha": "54de1bdfe189e2ea54e4c4ccfcfc9bddfa2c3071",
+      "date": "2026-10-15T04:24:58Z"
      }
     }
    ],
@@ -270,19 +308,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-14T10:08:10+00:00",
+ "generated_at": "2026-10-15T09:51:00+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "172a11f90d33941ec81197704c80f492f03a3652",
-  "run_id": "38547416388"
+  "commit": "549e172539c0757cbe6c7aa262eb980d4e72c938",
+  "run_id": "38715957978"
  },
  "ficha": {
-  "id": "sha256:28017a6070c93f489ab03eb6d799e7f3af346c55605bfacda5c8b12100cfe0d9",
+  "id": "sha256:1a16e856509af57aecfd61e050a9ca45852ed0747034fd80f569dede241d92cf",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/manifestacoes-no-1o-e-2o-niveis-da-distribuidora.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'manifestacoes-no-1o-e-2o-niveis-da-distribuidora' (ANEEL), 2026-10-14, sha256:28017a6070c93f48…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'manifestacoes-no-1o-e-2o-niveis-da-distribuidora' (ANEEL), 2026-10-14, sha256:28017a6070c93f48…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=manifestacoes-no-1o-e-2o-niveis-da-distribuidora"
+   "en": "5L-TEP Layer 5 record of 'manifestacoes-no-1o-e-2o-niveis-da-distribuidora' (ANEEL), 2026-10-15, sha256:1a16e856509af57a…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'manifestacoes-no-1o-e-2o-niveis-da-distribuidora' (ANEEL), 2026-10-15, sha256:1a16e856509af57a…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=manifestacoes-no-1o-e-2o-niveis-da-distribuidora"
   }
  }
 }
