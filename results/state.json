@@ -1,6 +1,6 @@
 {
- "round": "2026-10-15T09:51:00+00:00",
- "rounds": 3,
+ "round": "2026-10-16T09:43:49+00:00",
+ "rounds": 4,
  "datasets": {
   "atendimento-ocorrencias-emergenciais": {
    "signals": {
@@ -309,28 +309,8 @@
       "0060645e-c42c-454d-af8c-f0c06b0988ab": "04d73520113b6799ec920ebc692c4718bc1ea98be1b920cb00b621e882f07a55",
       "a9ea21c7-1b2b-4c91-97b4-3d9732c77cec": "96ad7c8662cdf730b8c69a3c4ff8ae02dc1a84c3d896fade31b5a093ec0d84de",
       "d0f619ef-1bbe-40d1-849c-35b47172df8e": "6596c7e9b84e61dbef9d234e305b237a9581b8319bd7a93d452c40640c747b52"
-     }
-    },
-    "L4:cross_check:manifestacoes-no-1o-e-2o-niveis-da-distribuidora": {
-     "layer": "L4",
-     "first_reported": "2026-10-15T09:51:00+00:00",
-     "count": 1,
-     "evaluated_at": "2026-10-15T04:24:40+00:00",
-     "status": "reported",
-     "en": "unreconciled divergence in the independent cross-check",
-     "pt": "divergência não reconciliada no cross-check independente",
-     "digests": {
-      "6c3e074c-d9ab-4840-8c6c-7993faa36ddb": "d025e14f417f60327197fcc29306da60772a6bac1ab3e9c1bf204f0da2e2de74",
-      "426f4fb2-6a89-452a-8236-cc48153ee607": "c7a14cba1617af1909ca379c28fd69185b34d7cc44ff451d784878dba53dd8c3",
-      "4af32411-da8b-492c-ae15-8f615e35d2e2": "97c2cc3fc543fe61160d3954ea2f4cf14c0cac2c1965f0f25348dc8a2ade967c",
-      "83839c4e-78f9-4f68-bcb7-51dcfcf05c9c": "4f0a1f9d53c928d62b8ff73ff3649f3d8fabb127245a020b3ceee09d340d61be",
-      "8c42c510-6549-4285-817c-58738914be19": "6b4f01102880db5699812718ae85c9003775bc96780ed48f6f207d59b8338392",
-      "290433a8-a5f8-4117-a450-44d3e62ead22": "75e9b2f11ea5710401f04921700a4c4618a1463991bf961c1d6d1150e6261175",
-      "908f7282-7a43-41e9-8303-edcab69c2706": "33290a123c76380c839633e43e220e5d5a5733844858a32422e22f7a6a6d398e",
-      "0060645e-c42c-454d-af8c-f0c06b0988ab": "04d73520113b6799ec920ebc692c4718bc1ea98be1b920cb00b621e882f07a55",
-      "a9ea21c7-1b2b-4c91-97b4-3d9732c77cec": "96ad7c8662cdf730b8c69a3c4ff8ae02dc1a84c3d896fade31b5a093ec0d84de",
-      "d0f619ef-1bbe-40d1-849c-35b47172df8e": "6596c7e9b84e61dbef9d234e305b237a9581b8319bd7a93d452c40640c747b52"
-     }
+     },
+     "first_change_seen": "2026-10-16T09:43:49+00:00"
     }
    },
    "in_universe": true,
@@ -516,6 +496,47 @@
       "d4549533-b969-43fa-a1d4-7b75d7868a03": "7195759fd2f11d1d605b7d4650cb7b929b7e47926819eee5ad1113df430dcde2",
       "18c5fcae-1b7f-40a4-b092-d47344d4d195": "4d407da827c9a785ba42fa4430a46fd8bc470175ea93f783fa11a68137a2327b"
      }
+    }
+   },
+   "in_universe": true,
+   "presence": {
+    "L1": true,
+    "L2": false,
+    "L3": false,
+    "L4": true
+   },
+   "lost": {}
+  },
+  "sistema-de-gestao-da-transmissao-siget": {
+   "signals": {
+    "L4:cross_check:sistema-de-gestao-da-transmissao-siget": {
+     "layer": "L4",
+     "first_reported": "2026-10-15T09:51:00+00:00",
+     "count": 1,
+     "evaluated_at": "2026-10-15T04:24:40+00:00",
+     "status": "changed_signal_persists",
+     "en": "unreconciled divergence in the independent cross-check",
+     "pt": "divergência não reconciliada no cross-check independente",
+     "digests": {
+      "a1366325-1071-4eeb-94bd-27915747b177": "9c03497e1fd2c56fc810f966ca06eea5ee0e448d8ccfcfd111f15b2dc5ac00ca",
+      "caec5e88-c904-45e5-bde4-d7e96ef139b6": "df877dde23a962b1c74c293b45fd5aba2d576ab205b5a151232e1d499c1abc06",
+      "4343dcda-284a-4ede-b3b9-e809ea18385c": "2c65c695f67c159bb80183d1cfe6b0939f1fa7c013dd11084c5b15f6eb4338cb",
+      "89caca18-e9a8-484c-8772-c67b456d801a": "831c5b580d3bfb22079abde549ccec1c7797a188a7e65dd0ff47b5bbf4a55f2d",
+      "7c4e7f67-b674-4223-89c5-83c95cea1450": "475845c7e3ecc11979f755e1a03306277f78a43d7df37495538334b42e6f6d07",
+      "59ab6779-505e-4aa9-8641-3e07aca25699": "d5984437eb33abd9998612c93cbd02b9ec05e680d4cd480d23b0f5a07cf002fe",
+      "60e111c3-6ee1-412e-abe3-bc15af897537": "da54276327da95276679dbfc013395071840b86fd98b795e42f112919a80bb8c",
+      "1c345514-893d-44a1-8e7e-a9362137c356": "d4e56843ee9af948dfe22bffb7182ba0e7bfd5fec5f04b16b7b4cd39ce4b0f67",
+      "1d342bc9-4cbd-4c07-9cd4-02f6927175b9": "67189220b707eb056f9880482e95a851c3c276d7bd4d7cd0869f5e2eb8fb6a76",
+      "1effe1be-c6ff-4ffb-93b6-ed74228edea1": "43d5089c0fe6b792bc9cdca65485ac11a810d2999413115c173559e7eb63ab62",
+      "e5c1141e-c08c-46a5-bb55-68d66152033a": "8707921df437f2f64564a29d400370b15829c9d2b7f7fbb99c0afe385e3e7ed3",
+      "4a6c2449-c073-4a4a-b639-4e5359a102bf": "ee103ec28f7030a2ee08e378b5eae934e39fd63bbbcad598370673cbecb3222b",
+      "5e4e4916-fd70-44c7-a0eb-92bfb4efad6b": "bcb2db295bebb2181420545e83e51c7cffa6a644e3d8a463b5e8cd30da9c793a",
+      "ce4a2151-9348-42cd-afa7-ff1144387d08": "6440a03862c924cc2747b2f641743d12609c4b9bc7b3df533ec55213a5d7a5f8",
+      "f6e911b4-1db8-434a-88aa-6580681773b8": "ecea50648b839264a071a8401ed8583859830eeeb3eb4b2dabbba00e1d17ef6d",
+      "d381c304-8483-4974-8055-2dc08c740ddb": "7e796f00985dd05466ecbcf8c82470209f9320b5ccd5f3fc2226865bcb8a44d3",
+      "d7ba6cc7-b5dc-4acd-b38a-e9968cc0a649": "1ae7af865736481a31e6ceac56adfd86874a75a8b2a78a3bf04cd3b52c145ae7"
+     },
+     "first_change_seen": "2026-10-16T09:43:49+00:00"
     }
    },
    "in_universe": true,
@@ -1034,43 +1055,7 @@
    "lost": {}
   },
   "samp": {
-   "signals": {
-    "L4:cross_check:samp": {
-     "layer": "L4",
-     "first_reported": "2026-10-15T09:51:00+00:00",
-     "count": 1,
-     "evaluated_at": "2026-10-15T04:24:40+00:00",
-     "status": "reported",
-     "en": "unreconciled divergence in the independent cross-check",
-     "pt": "divergência não reconciliada no cross-check independente",
-     "digests": {
-      "349ca6b0-8e1b-4e1e-991d-b3d9edf6e368": "da9052164df7426723277fb639e6d9ef815a19475658dbde3c80867e9ccf1f7f",
-      "620bd3ee-7ad4-4e23-ae64-251e22a58303": "b42a20e436dc2a26f7830f7736f4fc586c29d3694279bb0f1c2be56ac3a31ae1",
-      "81fb84e5-2305-41b4-bc97-7673bc327796": "a935acb23cee84900ef4b423a149a65b53d91441a775a42e160f61ad30ca09e7",
-      "28fa2d25-233d-4a96-9345-fdc13fa76d6c": "dcd41cf15d536b468282713f839d663db332406a4390361924ec37f915d77210",
-      "a8ea4590-2202-4b50-a32d-74b1dc1280a7": "198fce79bd0b835c34dfcb9483e2243dbd634609591d23cf849b6951ca9e5036",
-      "944c4215-96d1-4646-ac9b-8c8146168eca": "433ae04aa0c81af1597887af34903680f1583a7a0a2fa78da7061342950bf074",
-      "0e414659-5840-4db3-8639-2ae678e15600": "e431a9937e1d5d350e9a43603de7aca5809ff4277278e0208570886d2d3d423c",
-      "475a41c8-905d-46c6-8fc9-fe9a8a9c6868": "9fdbdbcb99c2cc309d14368317393fc183eb9d78cd0ea5552a113647e8d9e4fb",
-      "9c25ad95-a433-482c-9847-4f7c5c2b3df0": "40f6fad49e99617f7cc6c31151950245b97d10506f600c46048185a2e295c231",
-      "b2f4411d-90db-4455-91c7-ebe399ba93c5": "a2eb096cf1627f2416e13ebfc3abc3d5328f80c5a68020a4413f362858b615b6",
-      "53fa913e-32bc-4765-b7c4-2c0544e33eb3": "7497a8b3a0593e6dfb80559f2389c04c9827dd3af2f1ac38f06cfd56830a1e4a",
-      "b53ee5a1-26f0-47f3-8dea-ae6894d714ac": "569d7cadfdeedb721340d04d50376a8b3a036e090021a51b85642b7c2451733d",
-      "1a35925f-8f7d-4074-973e-42dfbaa99636": "944220053488ef690d7d61c0ba175a737724948a6242f59ad3fe78bb91c2c977",
-      "f5421c87-81c5-42e4-bbf0-33af4cc98800": "6790689f138e1a7f6eceecac0781c010baf7839b29b5c77c144f84c910d181e4",
-      "4a84f3c8-9dc8-4448-bba8-cc2dfbc26ca2": "bde30e777e4d9f8e98432c204f5780f828d9d612e8a31e04d29a5906c1cddf7b",
-      "6ab6596e-170d-42e8-af93-9de024ebe36b": "6b56078cae2438d89506b578de1e4441afea187fea2d6e27763459fd4e66dd98",
-      "641003d6-4e87-4095-9416-ae5fbb5c94d3": "43d6a5c097b97df70423f604fab14017db18a406a2da539f0584e63900305404",
-      "29f9fec9-34dd-454b-8f3c-6b4ca5b22f2c": "803ef6726c0bdb234c03e5c849028e2a4dca2c2643b030deb873250508072177",
-      "84906f77-0bb4-4527-b9a0-cb6c2b525661": "33cee0514fa3775c23d83decee9c395bab1aa10e04e211b061e1362f048a7d88",
-      "7e097631-46ad-4051-8954-9ef8fb594fdc": "a79fd5095badfa51334f060d6ac3a47c64d2407d043232dca195cbfe95458a3a",
-      "b9ad890b-d500-4294-bd36-1108acc54832": "18cff27d4e941f4ffb1fe115dd937361eb68ccf86ac988843050bf22d0494fae",
-      "ff80dd21-eade-4eb5-9ca8-d802c883940e": "8687c0c10ef4a3cbeef925fbf85b562e83319bbfe923b3ce66301f81e08c7e8b",
-      "6fac5605-5df0-469d-be08-04ee22934f60": "ecc47c318d1c742a2c4b698ec87060645960a684ad48764ad56d520088935631",
-      "56f1c242-5017-4cef-a365-0a96fffb0f2b": "e1cb19f1827e7f7dd5a91896ddb7c6af788437523d68c49ea711783dde9772fa"
-     }
-    }
-   },
+   "signals": {},
    "in_universe": true,
    "presence": {
     "L1": true,
@@ -1081,20 +1066,7 @@
    "lost": {}
   },
   "samp-balanco": {
-   "signals": {
-    "L4:cross_check:samp-balanco": {
-     "layer": "L4",
-     "first_reported": "2026-10-15T09:51:00+00:00",
-     "count": 1,
-     "evaluated_at": "2026-10-15T04:24:40+00:00",
-     "status": "reported",
-     "en": "unreconciled divergence in the independent cross-check",
-     "pt": "divergência não reconciliada no cross-check independente",
-     "digests": {
-      "9f03a034-fb01-4daa-b6a6-e25a84d979ed": "7b3ac8d7753e79c099a60d7a09dbb05c1079fc33f295552a12097639eabe7c1c"
-     }
-    }
-   },
+   "signals": {},
    "in_universe": true,
    "presence": {
     "L1": false,
@@ -1120,46 +1092,6 @@
    "in_universe": true,
    "presence": {
     "L1": false,
-    "L2": false,
-    "L3": false,
-    "L4": true
-   },
-   "lost": {}
-  },
-  "sistema-de-gestao-da-transmissao-siget": {
-   "signals": {
-    "L4:cross_check:sistema-de-gestao-da-transmissao-siget": {
-     "layer": "L4",
-     "first_reported": "2026-10-15T09:51:00+00:00",
-     "count": 1,
-     "evaluated_at": "2026-10-15T04:24:40+00:00",
-     "status": "reported",
-     "en": "unreconciled divergence in the independent cross-check",
-     "pt": "divergência não reconciliada no cross-check independente",
-     "digests": {
-      "a1366325-1071-4eeb-94bd-27915747b177": "9c03497e1fd2c56fc810f966ca06eea5ee0e448d8ccfcfd111f15b2dc5ac00ca",
-      "caec5e88-c904-45e5-bde4-d7e96ef139b6": "df877dde23a962b1c74c293b45fd5aba2d576ab205b5a151232e1d499c1abc06",
-      "4343dcda-284a-4ede-b3b9-e809ea18385c": "2c65c695f67c159bb80183d1cfe6b0939f1fa7c013dd11084c5b15f6eb4338cb",
-      "89caca18-e9a8-484c-8772-c67b456d801a": "831c5b580d3bfb22079abde549ccec1c7797a188a7e65dd0ff47b5bbf4a55f2d",
-      "7c4e7f67-b674-4223-89c5-83c95cea1450": "475845c7e3ecc11979f755e1a03306277f78a43d7df37495538334b42e6f6d07",
-      "59ab6779-505e-4aa9-8641-3e07aca25699": "d5984437eb33abd9998612c93cbd02b9ec05e680d4cd480d23b0f5a07cf002fe",
-      "60e111c3-6ee1-412e-abe3-bc15af897537": "da54276327da95276679dbfc013395071840b86fd98b795e42f112919a80bb8c",
-      "1c345514-893d-44a1-8e7e-a9362137c356": "d4e56843ee9af948dfe22bffb7182ba0e7bfd5fec5f04b16b7b4cd39ce4b0f67",
-      "1d342bc9-4cbd-4c07-9cd4-02f6927175b9": "67189220b707eb056f9880482e95a851c3c276d7bd4d7cd0869f5e2eb8fb6a76",
-      "1effe1be-c6ff-4ffb-93b6-ed74228edea1": "43d5089c0fe6b792bc9cdca65485ac11a810d2999413115c173559e7eb63ab62",
-      "e5c1141e-c08c-46a5-bb55-68d66152033a": "8707921df437f2f64564a29d400370b15829c9d2b7f7fbb99c0afe385e3e7ed3",
-      "4a6c2449-c073-4a4a-b639-4e5359a102bf": "ee103ec28f7030a2ee08e378b5eae934e39fd63bbbcad598370673cbecb3222b",
-      "5e4e4916-fd70-44c7-a0eb-92bfb4efad6b": "bcb2db295bebb2181420545e83e51c7cffa6a644e3d8a463b5e8cd30da9c793a",
-      "ce4a2151-9348-42cd-afa7-ff1144387d08": "6440a03862c924cc2747b2f641743d12609c4b9bc7b3df533ec55213a5d7a5f8",
-      "f6e911b4-1db8-434a-88aa-6580681773b8": "ecea50648b839264a071a8401ed8583859830eeeb3eb4b2dabbba00e1d17ef6d",
-      "d381c304-8483-4974-8055-2dc08c740ddb": "7e796f00985dd05466ecbcf8c82470209f9320b5ccd5f3fc2226865bcb8a44d3",
-      "d7ba6cc7-b5dc-4acd-b38a-e9968cc0a649": "1ae7af865736481a31e6ceac56adfd86874a75a8b2a78a3bf04cd3b52c145ae7"
-     }
-    }
-   },
-   "in_universe": true,
-   "presence": {
-    "L1": true,
     "L2": false,
     "L3": false,
     "L4": true
@@ -1395,2039 +1327,2122 @@
    "dataset": "tfsee",
    "outcome": "cleared_without_data_change",
    "at": "2026-10-14T10:08:10+00:00"
+  },
+  {
+   "layer": "L4",
+   "first_reported": "2026-10-15T09:51:00+00:00",
+   "count": 1,
+   "evaluated_at": "2026-10-15T04:24:40+00:00",
+   "status": "remediated_observed",
+   "en": "unreconciled divergence in the independent cross-check",
+   "pt": "divergência não reconciliada no cross-check independente",
+   "digests": {
+    "6c3e074c-d9ab-4840-8c6c-7993faa36ddb": "d025e14f417f60327197fcc29306da60772a6bac1ab3e9c1bf204f0da2e2de74",
+    "426f4fb2-6a89-452a-8236-cc48153ee607": "c7a14cba1617af1909ca379c28fd69185b34d7cc44ff451d784878dba53dd8c3",
+    "4af32411-da8b-492c-ae15-8f615e35d2e2": "97c2cc3fc543fe61160d3954ea2f4cf14c0cac2c1965f0f25348dc8a2ade967c",
+    "83839c4e-78f9-4f68-bcb7-51dcfcf05c9c": "4f0a1f9d53c928d62b8ff73ff3649f3d8fabb127245a020b3ceee09d340d61be",
+    "8c42c510-6549-4285-817c-58738914be19": "6b4f01102880db5699812718ae85c9003775bc96780ed48f6f207d59b8338392",
+    "290433a8-a5f8-4117-a450-44d3e62ead22": "75e9b2f11ea5710401f04921700a4c4618a1463991bf961c1d6d1150e6261175",
+    "908f7282-7a43-41e9-8303-edcab69c2706": "33290a123c76380c839633e43e220e5d5a5733844858a32422e22f7a6a6d398e",
+    "0060645e-c42c-454d-af8c-f0c06b0988ab": "04d73520113b6799ec920ebc692c4718bc1ea98be1b920cb00b621e882f07a55",
+    "a9ea21c7-1b2b-4c91-97b4-3d9732c77cec": "96ad7c8662cdf730b8c69a3c4ff8ae02dc1a84c3d896fade31b5a093ec0d84de",
+    "d0f619ef-1bbe-40d1-849c-35b47172df8e": "6596c7e9b84e61dbef9d234e305b237a9581b8319bd7a93d452c40640c747b52"
+   },
+   "first_change_seen": "2026-10-16T09:43:49+00:00",
+   "key": "L4:cross_check:manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+   "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+   "outcome": "remediated_observed",
+   "at": "2026-10-16T09:43:49+00:00"
+  },
+  {
+   "layer": "L4",
+   "first_reported": "2026-10-15T09:51:00+00:00",
+   "count": 1,
+   "evaluated_at": "2026-10-15T04:24:40+00:00",
+   "status": "remediated_observed",
+   "en": "unreconciled divergence in the independent cross-check",
+   "pt": "divergência não reconciliada no cross-check independente",
+   "digests": {
+    "349ca6b0-8e1b-4e1e-991d-b3d9edf6e368": "da9052164df7426723277fb639e6d9ef815a19475658dbde3c80867e9ccf1f7f",
+    "620bd3ee-7ad4-4e23-ae64-251e22a58303": "b42a20e436dc2a26f7830f7736f4fc586c29d3694279bb0f1c2be56ac3a31ae1",
+    "81fb84e5-2305-41b4-bc97-7673bc327796": "a935acb23cee84900ef4b423a149a65b53d91441a775a42e160f61ad30ca09e7",
+    "28fa2d25-233d-4a96-9345-fdc13fa76d6c": "dcd41cf15d536b468282713f839d663db332406a4390361924ec37f915d77210",
+    "a8ea4590-2202-4b50-a32d-74b1dc1280a7": "198fce79bd0b835c34dfcb9483e2243dbd634609591d23cf849b6951ca9e5036",
+    "944c4215-96d1-4646-ac9b-8c8146168eca": "433ae04aa0c81af1597887af34903680f1583a7a0a2fa78da7061342950bf074",
+    "0e414659-5840-4db3-8639-2ae678e15600": "e431a9937e1d5d350e9a43603de7aca5809ff4277278e0208570886d2d3d423c",
+    "475a41c8-905d-46c6-8fc9-fe9a8a9c6868": "9fdbdbcb99c2cc309d14368317393fc183eb9d78cd0ea5552a113647e8d9e4fb",
+    "9c25ad95-a433-482c-9847-4f7c5c2b3df0": "40f6fad49e99617f7cc6c31151950245b97d10506f600c46048185a2e295c231",
+    "b2f4411d-90db-4455-91c7-ebe399ba93c5": "a2eb096cf1627f2416e13ebfc3abc3d5328f80c5a68020a4413f362858b615b6",
+    "53fa913e-32bc-4765-b7c4-2c0544e33eb3": "7497a8b3a0593e6dfb80559f2389c04c9827dd3af2f1ac38f06cfd56830a1e4a",
+    "b53ee5a1-26f0-47f3-8dea-ae6894d714ac": "569d7cadfdeedb721340d04d50376a8b3a036e090021a51b85642b7c2451733d",
+    "1a35925f-8f7d-4074-973e-42dfbaa99636": "944220053488ef690d7d61c0ba175a737724948a6242f59ad3fe78bb91c2c977",
+    "f5421c87-81c5-42e4-bbf0-33af4cc98800": "6790689f138e1a7f6eceecac0781c010baf7839b29b5c77c144f84c910d181e4",
+    "4a84f3c8-9dc8-4448-bba8-cc2dfbc26ca2": "bde30e777e4d9f8e98432c204f5780f828d9d612e8a31e04d29a5906c1cddf7b",
+    "6ab6596e-170d-42e8-af93-9de024ebe36b": "6b56078cae2438d89506b578de1e4441afea187fea2d6e27763459fd4e66dd98",
+    "641003d6-4e87-4095-9416-ae5fbb5c94d3": "43d6a5c097b97df70423f604fab14017db18a406a2da539f0584e63900305404",
+    "29f9fec9-34dd-454b-8f3c-6b4ca5b22f2c": "803ef6726c0bdb234c03e5c849028e2a4dca2c2643b030deb873250508072177",
+    "84906f77-0bb4-4527-b9a0-cb6c2b525661": "33cee0514fa3775c23d83decee9c395bab1aa10e04e211b061e1362f048a7d88",
+    "7e097631-46ad-4051-8954-9ef8fb594fdc": "a79fd5095badfa51334f060d6ac3a47c64d2407d043232dca195cbfe95458a3a",
+    "b9ad890b-d500-4294-bd36-1108acc54832": "18cff27d4e941f4ffb1fe115dd937361eb68ccf86ac988843050bf22d0494fae",
+    "ff80dd21-eade-4eb5-9ca8-d802c883940e": "8687c0c10ef4a3cbeef925fbf85b562e83319bbfe923b3ce66301f81e08c7e8b",
+    "6fac5605-5df0-469d-be08-04ee22934f60": "ecc47c318d1c742a2c4b698ec87060645960a684ad48764ad56d520088935631",
+    "56f1c242-5017-4cef-a365-0a96fffb0f2b": "e1cb19f1827e7f7dd5a91896ddb7c6af788437523d68c49ea711783dde9772fa"
+   },
+   "first_change_seen": "2026-10-16T09:43:49+00:00",
+   "key": "L4:cross_check:samp",
+   "dataset": "samp",
+   "outcome": "remediated_observed",
+   "at": "2026-10-16T09:43:49+00:00"
+  },
+  {
+   "layer": "L4",
+   "first_reported": "2026-10-15T09:51:00+00:00",
+   "count": 1,
+   "evaluated_at": "2026-10-15T04:24:40+00:00",
+   "status": "remediated_observed",
+   "en": "unreconciled divergence in the independent cross-check",
+   "pt": "divergência não reconciliada no cross-check independente",
+   "digests": {
+    "9f03a034-fb01-4daa-b6a6-e25a84d979ed": "7b3ac8d7753e79c099a60d7a09dbb05c1079fc33f295552a12097639eabe7c1c"
+   },
+   "first_change_seen": "2026-10-16T09:43:49+00:00",
+   "key": "L4:cross_check:samp-balanco",
+   "dataset": "samp-balanco",
+   "outcome": "remediated_observed",
+   "at": "2026-10-16T09:43:49+00:00"
   }
  ],
  "digests": {
   "3b3eb013-8831-4ca9-a582-01010ff4e0fb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "acrescimo-da-potencia-instalada",
    "sha256": "8d4c9a8e421ad3ccfb21bd12d0d112e3015811670085fde82ba87f2dd5afb5db",
    "at": "2026-10-03T04:21:08+00:00"
   },
   "20ef769f-a072-489d-9df4-c834529f8a78": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "agentes-de-geracao-de-energia-eletrica",
    "sha256": "0833e7a3089beb04c0ab4d3a3bb3bc2efc68489f491a24838d51ce6c215c6da4",
    "at": "2026-10-03T04:21:09+00:00"
   },
   "64250fc9-4f7a-4d97-b0d4-3c090e005e1c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "agentes-do-setor-eletrico",
    "sha256": "63e75acf405e6eac9992893ccab5732bf3a9ebaabfd463a124cafbf0c23cbd1a",
    "at": "2026-10-03T04:21:18+00:00"
   },
   "485b47f2-7929-4bff-bdde-0414f73bc266": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
    "sha256": "cfd338004d0226c3a36fdc7c9a199bb9c7ed0982e58547af8bb0182b5b202109",
    "at": "2026-10-03T04:21:18+00:00"
   },
   "c0f86267-a2e2-4840-8c65-91dd2f9147d7": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
    "sha256": "f0b9a185bb36ea823b7ac9aa0d57e2a4fce2910e37ed0a5b71145dfe81befc61",
    "at": "2026-10-03T04:22:26+00:00"
   },
   "99a8a17c-6360-4c40-83fe-3810620d666b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
    "sha256": "66295e98587c55169741cd4890ff4486a27fd497200d362f6eff2e2f90c20ba1",
    "at": "2026-10-03T04:24:03+00:00"
   },
   "7bdb5144-33a3-41f2-ba66-9de6698243da": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
    "sha256": "2c89fce774eefc072305def0f6d1846c7211fe45c16b292cd5e2c16e8d04c5ea",
    "at": "2026-10-03T04:24:31+00:00"
   },
   "5d803f7e-68eb-4af1-a166-81285465da74": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
    "sha256": "12985552c7ab57e2994915b75dde3353e46f032914195fc46486279ef9ce20be",
    "at": "2026-10-03T04:27:42+00:00"
   },
   "73b00e68-66b1-4a72-8d72-b7baab47048c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "atendimento-ocorrencias-emergenciais",
    "sha256": "e741d64d5232448db933463d2cd4dcc6fec5a37ca9f0132b508aa2f63a22b24a",
    "at": "2026-10-03T04:29:34+00:00"
   },
   "3710b245-88f0-4aa6-8cfb-8b1426e9021d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "atos-de-outorgas-de-geracao",
    "sha256": "5e52e58df778f6ddf9442170ec5b0c9fe4c87531f983a3e75083443142d1dd45",
    "at": "2026-10-03T04:31:42+00:00"
   },
   "5a4aba15-b8f7-4f80-807e-6a12a89b89fb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "audiencias-e-consultas-publicas",
    "sha256": "3303468e4f4fb61d9f951e79aca28012dff5b1f9fdb1710fc19a1129d51527e8",
    "at": "2026-10-03T04:31:43+00:00"
   },
   "f221158a-93a3-423f-b794-4312b6985a24": {
-   "layer": "L2 (previous round)",
+   "layer": "L2 (previous round) (previous round)",
    "dataset": "auto-de-infracao",
    "sha256": "a05192defd1399864639e899a5fbdc2ca6661e543a0aa1ff998edc7ce75b8d13",
    "at": "2026-10-14T09:37:27+00:00"
   },
   "5879ca80-b3bd-45b1-a135-d9b77c1d5b36": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bandeiras-tarifarias",
    "sha256": "a470305069a3b2571cfe1b41c11ef638ad0cd1bcabeeae955a20d670bf375cfa",
    "at": "2026-10-03T04:33:32+00:00"
   },
   "0591b8f6-fe54-437b-b72b-1aa2efd46e42": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bandeiras-tarifarias",
    "sha256": "810933724bbd6385e14ad6ef7801d2d51f5ac3009ff255825b97e2c6e061a2d2",
    "at": "2026-10-12T11:26:39+00:00"
   },
   "e62b61dd-0a27-41b6-b1d2-19faa6c61501": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bandeiras-tarifarias",
    "sha256": "dd2692969ca58b5777df1ba1efce31800f5980ba225ca536406eabbf023c9aff",
    "at": "2026-10-12T11:26:40+00:00"
   },
   "4318d38a-0bcd-421d-afb1-fb88b0c92a87": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "base-de-dados-geografica-da-distribuidora-bdgd",
    "sha256": "fb33840420dd87339c1ef11c29356c7682f9b3be68281a9fdcdc1b6068215469",
    "at": "2026-10-03T04:33:35+00:00"
   },
   "f6671cba-f269-42ef-8eb3-62cb3bfa0b98": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "base-de-dados-geografica-da-distribuidora-bdgd",
    "sha256": "2b5f1d46a89f6a95271c137c394e7a3bf6430c5dc63b8f9fbb11b8eb7ed6322e",
    "at": "2026-10-03T04:33:36+00:00"
   },
   "684a68fd-4278-4af1-bcf2-c02810dd7c0c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "ac0534e5bdcb9c620ad11854f1a868a7d1557d6037ee470640fb41307ecc4222",
    "at": "2026-10-03T04:36:17+00:00"
   },
   "237f3f67-4795-4bd7-a4d2-5f6071ef39af": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "098c125d954b570c8ab6c5b704f396fd1265dcbf5801267d73e8ceb1ce2630c3",
    "at": "2026-10-03T04:36:19+00:00"
   },
   "0bd1f129-39c5-4edc-b272-3f1d11181cca": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "6e6d3ebe0db193ce51a7d2fc9e0d8c8124725dc882da62ed7e102ae23890e740",
    "at": "2026-10-03T04:36:21+00:00"
   },
   "f77bb713-cc06-406a-baa8-246acc357ff5": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "93e49098bb036c9e2eb67e75034f1e41372cfba2eaaaa605d1d31f22c8df1430",
    "at": "2026-10-03T04:36:22+00:00"
   },
   "cdf1b068-7c76-462a-ab57-d6619ad290fa": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "78d87e3f282699f2cb6ef2f4507ea10f6cd772f5dbcd5b433dfddc154a43f9f7",
    "at": "2026-10-03T04:36:22+00:00"
   },
   "e390baae-5304-4a94-854f-0905094b3357": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "7f29a25c83ffaa864c2daf3e13699b4f28eb7f080d9d7d0f534b7de375de1d82",
    "at": "2026-10-03T04:36:24+00:00"
   },
   "4fae7803-c71e-4c52-a221-112eea7135ab": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "25eb6abcf721a1805b7d2e8505fc7e61d96f1a9624cca37fde8be781ad6efeba",
    "at": "2026-10-03T04:36:25+00:00"
   },
   "e5231715-4245-4c18-9e67-f52ea56816be": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "81922660ea7848c1f63fde5d5a679fd50b42eb1b150ec14e0897450acbd6242e",
    "at": "2026-10-03T04:36:26+00:00"
   },
   "673841d3-260a-4bd7-9e39-928fe96114f5": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "0c6b6b0b6db84d117328aa8288989077477c235ddd9e3b5608c8bed8bb68bfb7",
    "at": "2026-10-03T04:36:27+00:00"
   },
   "69e189d5-8d75-44cd-a933-afcf75f2909f": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "32642a2ffd61f61c5f3384c1eda91459f9ddfaa78e4f9e9da7e3d964b384cae2",
    "at": "2026-10-03T04:39:27+00:00"
   },
   "fff5e6ce-ec39-476a-bb95-9b509159b7a5": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "b5b47d580a2dc5d4575f7703d985972f56ab1a0ee5f89fdf794a85f5468a24bf",
    "at": "2026-10-03T04:42:48+00:00"
   },
   "a8a9bd1b-319c-4819-9856-28cd82d5afce": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "d1e299f25b396c5aab031d70840c8eac5dd6f3b4ca44cfe87df046e0f3b001c8",
    "at": "2026-10-03T04:46:12+00:00"
   },
   "b6393c37-44ab-4a6c-a4b8-75815bf1bb7c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "84b693a0a32f3b7bcd2176e218924765a6a84c22410719d41af0156960797d48",
    "at": "2026-10-03T04:49:44+00:00"
   },
   "19566828-abda-4c70-a970-040ae3beee28": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "02064cd9519cc217c890ba6a4a6bcba1f3991170d143ff9b5dee9c9e931293ee",
    "at": "2026-10-03T04:53:04+00:00"
   },
   "e7cd0297-c8b4-4cd1-8d9d-cb8e9e1dfc74": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "ea124c1d022ad225cdb1921039ca93424a0a4cd46e5c19f813038c41ebd0939f",
    "at": "2026-10-03T04:56:27+00:00"
   },
   "9776db17-b1af-47a7-bc6c-ac8ef40113ae": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "154c1b42ab2e5d36757edd9fa285b0c31dd322ad91ac27b8f7d21ad917281b60",
    "at": "2026-10-03T05:00:03+00:00"
   },
   "162f9745-85b0-42cc-a98a-b7e8cdb5dbfc": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "ab42e1e094f638c3632536aec3cb755499ace4759d5fef47627f962338b72878",
    "at": "2026-10-03T05:04:50+00:00"
   },
   "c1fa52b2-223d-4c46-8b9e-b01470b16d6e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "f52228ba4077821399def8f26e4560471966e5afa7cb42a4f795792f726fae88",
    "at": "2026-10-03T05:09:16+00:00"
   },
   "437571fd-9f8f-4320-8072-31ed04c97408": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "6c4302d744d8502124e8983040a8aee35ce90f72c08c67d0575388eadb4b1a04",
    "at": "2026-10-03T05:13:02+00:00"
   },
   "11100b9b-344e-4176-aa76-31cf07d92d65": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "185eaa53bb2b77f19f702a89cae13001030b679b91759c0595e3205ca550180c",
    "at": "2026-10-03T05:16:49+00:00"
   },
   "99fee086-4cb5-4321-ab76-072318ed73ec": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "73eb293f9fdc348b3e808967ee72424f0a16b9561389a526d98c9a401dc57ed4",
    "at": "2026-10-03T05:20:30+00:00"
   },
   "c9cbca33-8614-4b03-b000-6a4a859a4bf2": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "b36958e0f57d05360c71cf3c55fdb4120c144766df9b9d0cc43bc70041459933",
    "at": "2026-10-03T05:23:54+00:00"
   },
   "85bda7bd-f371-4f04-b153-8026546b173e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "71b843955a8e613e7f8a214293d886c9ec3c6668dc91571a46dcadf0c729c1bc",
    "at": "2026-10-03T05:27:09+00:00"
   },
   "c1f064bd-5bff-4263-94d1-68884be850ba": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "c545393b3839e7e6c8a3cbd00b7620d83fbb7dab4a15a27e10899e6af74b5929",
    "at": "2026-10-03T05:30:34+00:00"
   },
   "944d0114-0d8d-4315-aea4-034189aa4b23": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "010eb2cd1b5d9f6024446c685ab18b6f61a8fb43b4e3c7d5e6323a8ced8613b5",
    "at": "2026-10-03T05:34:09+00:00"
   },
   "0c3526c9-3318-48b4-ab11-8c0bac57fbad": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "8eecc94daf9bf47264ee555a2918d7f4d96fea377fe7162bd8a4bb2ec200cf55",
    "at": "2026-10-03T05:37:37+00:00"
   },
   "26babd50-d887-4694-a8ba-b2f0bec5d8c1": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "d64a82ac638bed6afbedcef8bc9ea15f44b7421947c077a1944f9f375ea2152c",
    "at": "2026-10-03T05:41:12+00:00"
   },
   "65547189-5d1f-4e99-8efe-a3923fcd47cc": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "3c149438e3d61e9342b087e0e9e55af4dc001471345d598bdd2adb6a40a8f573",
    "at": "2026-10-03T05:44:54+00:00"
   },
   "8a09ff6c-e997-4ab3-a07b-c136d462a4d4": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "fa470147a49065a9a73c6666e9da87f45b5245151b2dc38585e328caab29746c",
    "at": "2026-10-03T05:48:44+00:00"
   },
   "7a3809d0-0d63-490a-be4f-1722db5f519c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "f1cf1edbf9cf519d4f6da72ed778071ceb419fb012d72c04628cd83bfecb8a40",
    "at": "2026-10-03T05:52:16+00:00"
   },
   "9c019271-832b-4a79-9802-5b3120e08039": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "5ee334c0aff3187e9db2b0fafc367a395f89babf6a6bec1b4c26943fb6d7882c",
    "at": "2026-10-03T05:55:57+00:00"
   },
   "34fa1179-233e-4fe7-8657-56225afb6e1b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "c907531227519d80c312a89d001f112d2433b60303c07839165abfe8be746b27",
    "at": "2026-10-03T05:59:39+00:00"
   },
   "a053ec33-4b70-415f-a011-313c9dfc952b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "017e8687d26f674c02c596666fb08b0b4bbf58642b20d06822b150eccd7f0b0a",
    "at": "2026-10-03T06:03:20+00:00"
   },
   "502cbb9c-5763-4bca-ae4f-e9b29acba4f8": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "c1c783d02777263bd1bfda04d9d0c189fd82fd5478d57f6bdece8c2dc99fb2e2",
    "at": "2026-10-03T06:07:23+00:00"
   },
   "26589323-58a4-4b1b-a09c-8b4898f9348f": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "8621fc18aac1788069ffda3789c403b218585bcf883a28e1c41359ecb5cc66c8",
    "at": "2026-10-03T06:12:10+00:00"
   },
   "0c9855fe-40de-46b7-a32a-577994f86722": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "16a02f1eda9710d88666986a3f34703ec339b5b9f7e0074879d137a24a5b2946",
    "at": "2026-10-03T06:17:17+00:00"
   },
   "5fd04691-4570-4459-ba65-39b17c5e963b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "0be13d5213e6a846d676ababe16e63c27c6ae7faff24a523323a9d51d98243e2",
    "at": "2026-10-03T06:24:28+00:00"
   },
   "9c571497-e30f-44e1-bf83-42d5f3e68658": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "568faefec4fc843d72946f5f07af74be61e6fbae773cdc15db19ca6691ee8e85",
    "at": "2026-10-03T06:29:07+00:00"
   },
   "8337fe53-94a9-4ab1-abfe-48293aa103fa": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "51be967a515208b05a2e012fb764ec568ecc8bec6e3bef9195f7afa243fa537c",
    "at": "2026-10-03T06:34:26+00:00"
   },
   "78d58050-f7bf-4e17-9af0-706e182e05e7": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "ec567be97127b0d0c1c02eac3f98e1710e9981390cd0b2831042d673fa17fb8b",
    "at": "2026-10-03T06:38:58+00:00"
   },
   "3d52ac29-59a7-4fd9-a206-68f57e5e6f18": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "ed06c56e28d2d0a9fb7ae339f50dc7a377b137fca0cca5358409bd85b82a5037",
    "at": "2026-10-03T06:44:29+00:00"
   },
   "d3dd0704-9c99-45c1-b298-c28f63bb6848": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "10e83aec3a6e0a2571c359a76cb77f39a98250bc7552d00314a8f70d460540ab",
    "at": "2026-10-03T06:49:51+00:00"
   },
   "992aa5fb-6a2d-4bf8-8abe-174ba6c95dfe": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "838112d5b0c1898627202f6b5ae93353d6fe0d430962ed5e8d619ce80cf1ed3a",
    "at": "2026-10-03T06:54:57+00:00"
   },
   "d0437ed9-45a4-4f62-8a7d-90b27c87726e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "67d8a4b87de94926937258e92291efa1df93c09b5d9f6e1bcb245f268d35df09",
    "at": "2026-10-03T07:00:29+00:00"
   },
   "2e6d3d91-50c9-44b0-9967-cf0edaf7b2df": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "4a46d24366266e33a9339a1142bf9de631148d24be51d88507828bab904225fd",
    "at": "2026-10-03T07:06:24+00:00"
   },
   "99edb958-2828-402b-ba5b-a4a4e91f20f9": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "d49cf598b62c1728a082b1e26d48c0a651096cb0f1ab4e5f01b86eeaee585dcb",
    "at": "2026-10-03T07:12:37+00:00"
   },
   "1975a3f7-b6a9-4e97-98c1-38becb743ef7": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "bf61beec3bb5f659cbfb89c7ca2a41ec45e36a2fa746f98cc4daf27095124652",
    "at": "2026-10-03T07:17:11+00:00"
   },
   "effb57ee-20ed-4266-abce-ba33e44f53dc": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "efcb6e6bc788a6b0965daf81832ea465c029c69cb1bbe309447830a41efff799",
    "at": "2026-10-03T07:21:54+00:00"
   },
   "0523ee9b-cb55-4a02-a839-cb92b81775fd": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "67f79adb4ebd8409dd2e5fb666f0fe77d6f6bb15159fb42a6a5212768e126848",
    "at": "2026-10-03T07:26:24+00:00"
   },
   "6b7efcac-f042-4278-97d4-90bd3cec84e9": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "8d27af4b14fb2d33c599096f8460c25256402b5d98080a79dffe61df3e9ade00",
    "at": "2026-10-03T07:31:50+00:00"
   },
   "73e519ed-dbfa-4533-8dc0-fc4b8448b3c1": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "130a0a7e3d37d498f65581a0f9d5070b25b74cda5d7e758cec4db59b7130a777",
    "at": "2026-10-03T07:36:24+00:00"
   },
   "9730a17d-f721-4521-b200-9346d0dfa8a3": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "8abc79664d744f7b9114d6978e32912d3e0fea3a7d9d05ff7352be90223af683",
    "at": "2026-10-03T07:40:59+00:00"
   },
   "9e7d8d2f-7188-42b2-bc99-12e8f19d77b9": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "1edca7ca17febc51e456d6e4697fd450337f391fcba40c0b5158a870abb8495d",
    "at": "2026-10-03T07:45:41+00:00"
   },
   "dcaf68ca-510d-4520-a290-84f3cfc215eb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "277c867ec7d3e960153751f9cdda5c2ed1ca02a7f452a97de729b0c575c05cc1",
    "at": "2026-10-03T07:50:21+00:00"
   },
   "fb8580e8-61a1-43ed-8ed8-59335187d9ff": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "3171dc77480ecb338dd104a70c982b3c524ce92a08f39c12704a42ccfbb11e37",
    "at": "2026-10-03T07:56:16+00:00"
   },
   "736586f3-9ccc-49de-a3b5-ff1e6e26b780": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "2b89b455c289e01467c3c9226a3cfd458747c03c59e3b7bb7982d50d889d6137",
    "at": "2026-10-03T08:00:34+00:00"
   },
   "cd93c9f6-fd79-417a-808f-422c74e1d0e5": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "cb599a8fa2136090e09d1ec1cd406f4ca975e641d19ef89242645ee5d811da39",
    "at": "2026-10-03T08:04:46+00:00"
   },
   "e6585c3a-2a93-4083-bf24-bbcea6964865": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "5bf49c3529726e283a100437f1982fd1a8548dcbff3c3c662e413a2f73d4e2cb",
    "at": "2026-10-03T08:08:46+00:00"
   },
   "6ec535e2-b6b1-4f7d-824a-3f0d3e4682d1": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "ce91e699c4ba58ebecbb9d047aef18f433bdd19b767c61f5d87bec2e5d281daa",
    "at": "2026-10-03T08:12:53+00:00"
   },
   "db06581c-a4b4-4211-8a1b-9bb134306d82": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "086cfbf80220a1d12492047f3f20631e31738761769d0c00b2fdbfdf68db14ff",
    "at": "2026-10-03T08:17:05+00:00"
   },
   "dca9a28e-8649-421d-ac92-bae336ffd8f6": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "92b6ae0519afdf6c0ba68e71f8741a2c4ad1d34060cb1dc916b420dcd23d6449",
    "at": "2026-10-03T08:21:21+00:00"
   },
   "5f2b0a13-d869-4057-9f42-bb0074df7e61": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "9534a4d2dd56584709c2d462f17123ab333eb61a7a4081264d54338b55b8ebdd",
    "at": "2026-10-03T08:25:52+00:00"
   },
   "224ea6ff-60de-4b5d-bfbd-a4d1c9c4c46a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "81b3556bfcbac953dd2f10ab7b5ad5665349e3ef4a9f6dc3faf4fa568f380742",
    "at": "2026-10-03T08:30:02+00:00"
   },
   "d97c6259-f38a-4d44-89a7-c9be79b144f0": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "954cb47fab02b031ae87eeb12b9f46134ad0352a64ecc489e52bc8f67984d9a3",
    "at": "2026-10-03T08:34:42+00:00"
   },
   "40b39033-16e5-43d5-892f-ff6d68129df3": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "2aeb280e9e70cfa35d52ea071c4b9780738f0405fba4aa893aba8837e75b4192",
    "at": "2026-10-03T08:39:09+00:00"
   },
   "74402f0b-a475-4eca-837e-b4f8dcf2ffeb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "79dfe225b5959511b0722c50e012e7250b023ffbd07e4c911b49eb72782725f4",
    "at": "2026-10-03T08:43:28+00:00"
   },
   "75e1c189-010c-4186-a2b6-2d889ada6927": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "70a0947bd178417d2811a501093f0bf59b47824fd8ddf8ea54ca97e0060d48d3",
    "at": "2026-10-03T08:47:49+00:00"
   },
   "20a283ca-7c3e-42d5-8f7b-2f2fde25c980": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "6b301f18451a812f0bfb82930ba6eaf8df3545c2f639a1b54c1dd042bebf7666",
    "at": "2026-10-03T08:52:11+00:00"
   },
   "bd8004f6-2b36-45a9-b10f-cb05e7787451": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "c826fa0ab558e173de5c1c073c2d23263c386ff64cb57bc9f3ebc50d1e809831",
    "at": "2026-10-03T08:57:11+00:00"
   },
   "8e2c96fb-78a6-478c-97aa-707ad33db5b3": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "52f8156331b6c5a2fac79eff2f78c83162980cb8e0b95a6df53025ad5165ae5f",
    "at": "2026-10-03T09:01:45+00:00"
   },
   "456a0e7c-f4d3-401e-8cec-b4299253b4ee": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "82ca033a1bd48f185c34680a8d89f345523c2da1857422007330d46a0a7de2c9",
    "at": "2026-10-03T09:06:58+00:00"
   },
   "4cefdddd-675a-4b6b-b188-466242cb0aca": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "ad37724070d72d6e1b61d1ed3f51f7bfc9e08b93c4c72e6af13765fb8755c76f",
    "at": "2026-10-03T09:11:37+00:00"
   },
   "bef7067c-4bc9-49d8-9646-9d6acbfbeb20": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "f255442da14ced427e64c7d964c932c2fc179285f165cf648e97ce2b7277cb57",
    "at": "2026-10-03T09:17:05+00:00"
   },
   "c134f271-4234-44f1-827f-46cd8bd11acc": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "00033ef9ea2463412a01c0b31ae0ad50ef3555e4b02703c85f0463a962e62df4",
    "at": "2026-10-03T09:21:37+00:00"
   },
   "40f5d88e-4016-4785-9046-40850519cb52": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "0c1c4d981b1c792ad37ded28ded4c6ba9fc013cd80bb0bac5731909072f2517b",
    "at": "2026-10-03T09:25:56+00:00"
   },
   "91611e61-03b5-4abc-81ee-b73af4662767": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "d2f35aabac8cd403b97f03bf38f9c30c32197eea01701798e14d7bbe8dcd9dba",
    "at": "2026-10-03T09:30:16+00:00"
   },
   "2f80cdc0-1663-4769-b9df-68746e9f7dbb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "bea1bac85d79106f61ebb9f22048dc9b3e8e0fdbbe8c2cd084b08dee7d873a46",
    "at": "2026-10-03T09:34:54+00:00"
   },
   "7ba4a293-5cc6-402c-a24f-0f4c4e33c9f4": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "1852d059332b81254bd63de12b00576295b58344a44ea2bd600913f1d83903b2",
    "at": "2026-10-03T09:39:20+00:00"
   },
   "957ba099-71ac-4e4d-8709-8940cc20983f": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "04f2d0fe0053258801e1d29b8ba5396e428b3dd186a97823cbf14e9dbb805fe2",
    "at": "2026-10-03T09:43:23+00:00"
   },
   "10f19d45-7dad-49a6-9927-bf0d8abb7cbe": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "62a8baefd5e2573e804c1df08cc3268d3de4de45b6f9de3e43346dd63ff5c9c7",
    "at": "2026-10-03T09:47:39+00:00"
   },
   "71187a48-7808-439d-a62c-940c994c7af0": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "e40b8c645663adfd8b3b99fc0ff161c6093c945dcf8b00bfb069e43fd435c552",
    "at": "2026-10-03T09:51:54+00:00"
   },
   "02a5bce6-a0ae-412b-b255-4fd997ad65c4": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "143c5580d9711c3afe46c5d28792ba80a39219f52da51f33acfc27a7eeed9523",
    "at": "2026-10-03T09:55:52+00:00"
   },
   "65372c6d-2040-40a6-bc00-4b464d79689d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "4f8a94de0dce659f30b33a6739c225d22ae61a921288c430b895ff16523142e5",
    "at": "2026-10-03T09:59:43+00:00"
   },
   "3fa9d3c1-7c48-429d-9713-ffdb208eefc6": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "6f7d5f2cd33d7102b844619b0ddfe3334410653564010c60a3fd7ea2285609e5",
    "at": "2026-10-03T10:04:17+00:00"
   },
   "13504845-7bc0-4ca6-a39b-72fdb6a2ac78": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "281826e5a8ca1d77ffddccd1ff5a0a80af1f25fafed8860053f246d08703018d",
    "at": "2026-10-03T10:08:13+00:00"
   },
   "61d9fd67-2946-42a8-b633-dfc307ac696d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "038fd0e4171740c9060374cbff944f672d44eede60662d91808da0c4f813c72e",
    "at": "2026-10-03T10:12:10+00:00"
   },
   "15f117db-cd9a-421d-bb44-d897e30c673d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "4127526e1b96621d6d06fd5fe526577679a930ecf5a724ae5152898cf86cd9ec",
    "at": "2026-10-03T10:16:04+00:00"
   },
   "8415fa69-65a6-413c-910a-922f4590603b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "ef449d9577d9f09b2ee473c63268ac0c472dafea8b1df1494c921a5c7bda202c",
    "at": "2026-10-03T10:20:01+00:00"
   },
   "cd5ac512-a450-4e31-8c20-54612032e887": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "979880fdd704af682def08cb7d79cbf3674f8064f01ff42a675d0238a1c93db9",
    "at": "2026-10-03T10:24:04+00:00"
   },
   "7d41d4bb-418c-4665-9fb9-0b50499a8eea": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "485cb2254599bb6eb6a936e6d0a907f7c3dcb11564c1f59b98304f308e55e190",
    "at": "2026-10-03T10:28:01+00:00"
   },
   "16c4065a-1e32-425a-af8b-990027f03c1d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "3bd0f2f87ddbb7ff2c781a0a312de97e6e4c7045f76e5c270581727be3ae4077",
    "at": "2026-10-03T10:31:57+00:00"
   },
   "e8b75d08-89d0-4bb8-a412-59f71465333b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "7ccb836b4be361b8dd970a22431e37975062683106593d34ca61b15490d7e0dc",
    "at": "2026-10-03T10:35:56+00:00"
   },
   "d31f2c92-eac1-42bf-93b5-738f539863db": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "1e514feee3137244db7a6f39372b1e4c9f8f7e9c4e7178bbe2b12636b9575941",
    "at": "2026-10-03T10:39:54+00:00"
   },
   "f65391d7-1ed8-4dcd-9981-b72bf93825c9": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "32dd90189bde037497565427509dfb1b7f03c656b82c2c0debbf795190c20508",
    "at": "2026-10-03T10:43:56+00:00"
   },
   "ffa4d920-8243-4ff3-a46f-57496748322b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "3d3363d21b48aacf08740e1d984be5751f1a78d929f8195bf417901fa5886100",
    "at": "2026-10-03T10:47:55+00:00"
   },
   "7fc31e48-0e3c-444a-a26e-869f8ba7bdbe": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "d4946cbc2b12047805219cebdb438a2362c32afddb5261f601dcd22ec7beff26",
    "at": "2026-10-03T10:51:51+00:00"
   },
   "6e0153b1-e938-4c67-8c01-e7742c7228e8": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "2cb4975e032211e1b09f9e49b2d1e7287774075424bce08c3e237361bfd5c784",
    "at": "2026-10-03T10:56:00+00:00"
   },
   "f99097fa-6abd-4ce0-96a1-7c231343be43": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "0eba50d7912a0d8baddb2f88f017a2747cd641152674aeb639ca9946d4d52f35",
    "at": "2026-10-03T11:00:15+00:00"
   },
   "d4d13b7f-16a4-4f42-836c-ae717e4c546a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "02f1e9735028ecf1bd1a6f28561e239b33d9246cce76a87b553f1fbe96b14aa5",
    "at": "2026-10-03T11:07:51+00:00"
   },
   "00202b52-3c74-4e87-89ab-d4af87e29530": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "45b7ce895dd6cb0810cc79f84610413332e0da7e64983b0a98c3df9004fae1d6",
    "at": "2026-10-03T11:11:56+00:00"
   },
   "cf43fb13-a8e7-46b9-92ce-bb19e3c15189": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "22eb8badb07587f7a71284e92983f59b93c2fee895f228ad45ba909a34810dde",
    "at": "2026-10-03T11:15:52+00:00"
   },
   "55b448fd-d402-47c3-9d86-c7b68b09bec4": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "4f2a66393330751006b5c5b9ad019e3bb4592367aa811815106258f6e402e3d7",
    "at": "2026-10-03T11:19:52+00:00"
   },
   "3ca864da-a2e4-4028-a609-0adf74208f53": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "fd39c0fddd83d6c977810c841519e042a6f1e6c097c64f70d6898cf36a19347e",
    "at": "2026-10-03T11:23:50+00:00"
   },
   "f7c68322-44de-4bec-97d6-73307508d21f": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "32ed0c4075537f6732ea3505bc282ea45d4fb4e9afc464a958a8a905c2f40f90",
    "at": "2026-10-03T11:27:44+00:00"
   },
   "d9852c6d-6678-44fe-9f1d-a6f94bb5eb6a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "b48d2c171e2f5dc5b41c3fb043a510dc5b0047b97e99541ab498b4e6d8a09d1e",
    "at": "2026-10-03T11:31:31+00:00"
   },
   "0c67ed8d-db5e-4db6-b503-a0691acb1763": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "2c8be55c959dbb42eafbf591b81f4dbe9d7beea568ce13fd82af038d0f6a9226",
    "at": "2026-10-03T11:34:56+00:00"
   },
   "879116ac-6de8-43ae-bc9d-baf41d265983": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "436dfb6088a49829aaa2da198a16a6a2345d5c7983ace502b4ebeaaa7bae0daf",
    "at": "2026-10-03T11:38:15+00:00"
   },
   "6439f884-4b99-4026-82b8-c41eceeaa2cf": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "9fb50e497490d6432c502bffd174bd3023322469a4406ae5b321852eb381e5f7",
    "at": "2026-10-03T11:42:27+00:00"
   },
   "ff5c84d0-227d-4340-8b15-4e583dd94120": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "beneficiarios-da-cde",
    "sha256": "045c5fda342a0d71430df774e326b80b141b4c3f0dacc4720a466c066f115b36",
    "at": "2026-10-03T11:46:20+00:00"
   },
   "705b6121-1287-425c-a7d2-91975a2448ee": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "c0da86774cb4026b4f3539201b54e2ea5bfb24c10d00b350740e312c54741806",
    "at": "2026-10-03T11:49:52+00:00"
   },
   "1c42a999-abb2-45b1-9e6c-97171896c5f4": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "5114fde3512b225d7505fa586d04f3e15bbc5ed69e657e2d4966e1df9d31703d",
    "at": "2026-10-03T11:49:53+00:00"
   },
   "b5514d3a-b366-43cc-9089-92ddefd2cc01": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "47b9ee3ab1b985d256681fdcf7f7d2ce68edcec1e03cabe6c90a74e7e595e644",
    "at": "2026-10-03T11:49:54+00:00"
   },
   "e5726271-be65-4c59-b1f0-7b7e294dc335": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "532f26e23220710d70d59d0245da10bd5f7c9254b0eb194331dd81ea5d28fa42",
    "at": "2026-10-03T11:49:54+00:00"
   },
   "66d8304b-d9c6-453a-be25-ca4143cde795": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "4942fdde9122bad4b15d394c8a01268aea502c4758a927fc0f29efb7b8ff1d9d",
    "at": "2026-10-03T11:49:55+00:00"
   },
   "08d3ceee-0534-4d11-b2df-7bace8e5120b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "98a6e15687f6744fc5dc34a287981eda15237b47da39a12bd524f1bac7cd15be",
    "at": "2026-10-03T11:49:55+00:00"
   },
   "bff7eaff-b9f0-4fed-9963-93321af29235": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "2f20af5aec511396861e2baf3797ad89b26767ebf7c6bc4aa8ea50eeccfbf839",
    "at": "2026-10-03T11:49:56+00:00"
   },
   "8fc72cbd-59a2-4396-b158-a24365f3c7c1": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "c2edbabd9da56a49abe8202acc2337063b2e4c640a81cd4f341bb8c8574b76da",
    "at": "2026-10-03T11:49:56+00:00"
   },
   "66f877c7-bd46-40b1-a4a0-03987b8551ff": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "51819da85f65382debb847b3494746309db71b49e7147a879cf771192ad7337b",
    "at": "2026-10-03T11:49:57+00:00"
   },
   "5780873e-7654-43cc-89b7-bf3690a82383": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "9113da109f807c76d9eb965beb24b891a37a577f472ec6fc59ec6d10db62fca1",
    "at": "2026-10-03T11:49:57+00:00"
   },
   "3c36896c-34aa-4b0c-938f-095c85b839fb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "9554a4f31791ef483535ea5cbeb66a58b477d14b5a8b7ef659cf3db5fe58835a",
    "at": "2026-10-03T11:49:57+00:00"
   },
   "938a49a7-3095-40b4-a34f-a1051e65303a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "7d9a361aba46dcfab3696ba93e6808828485c3a73519903f691b946ffd5d0404",
    "at": "2026-10-03T11:49:58+00:00"
   },
   "912f189a-4737-48d3-9298-5ea0422194bb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "87e623c3ebbef954c6f03da9be8f4ee91db07afe7eb9a31678cdf4ac9bb02541",
    "at": "2026-10-03T11:49:58+00:00"
   },
   "06e653ad-bd1d-414d-991c-c162a019c043": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "014bef8355c4bdc1a9d756c07c2eefa0e5698834ff40574fc7f2c3004b6b7c01",
    "at": "2026-10-03T11:49:59+00:00"
   },
   "3e582b2d-4481-4f43-8a5d-27ca7c67c8cd": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "72a30eadd3e51dd0bf1d1929c34956e0396a4a76c483b022443497efbdc9fa63",
    "at": "2026-10-03T11:49:59+00:00"
   },
   "6253aeaf-0abc-45df-b12e-f424aeee2fd3": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "82cdf3e935ffc934f578d2ad05fe35945d0a6d1cbc06ea0f2b419cf1730e245d",
    "at": "2026-10-03T11:49:59+00:00"
   },
   "494d6e24-8c7d-4388-9cc0-699359069f3b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "3891b4669986978051401e1674e5f3901a5be2efc4880940dcd00c1f18b4410d",
    "at": "2026-10-03T11:50:00+00:00"
   },
   "adcedba4-4dfa-414e-b448-bb329cf3b0c1": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "e4696f37f0c9a5593a93c6bc64e0b0c31d67e8ea059081da3930cfb572cc33be",
    "at": "2026-10-03T11:50:00+00:00"
   },
   "7a8b9418-15dc-4bef-a071-9aa114dfa045": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "5e6927c2a90bd0d259544a01c3f30f953a8200528ef0e659653065320007cfe2",
    "at": "2026-10-03T11:50:01+00:00"
   },
   "4e1ade4b-3117-43eb-8f65-4f06b0cb727c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "941041f81cf8c5a815490ef20e14399907c4fa5e7b613b63791d501b6c3ad64f",
    "at": "2026-10-03T11:50:01+00:00"
   },
   "bfefedc6-98a3-485f-bf3a-927a4532ebca": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "508fa75f66a0c28fc0a3bbbe6d51729895bc5ef97096dc5211d8fc8abd340e36",
    "at": "2026-10-03T11:50:01+00:00"
   },
   "643e7631-2cd3-49c6-8496-b0ee1e59bdf0": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "a4bf14aac5c0228bcb7f8fb81f1fb5e42aca74bb8490f220988eb178f8e8059d",
    "at": "2026-10-03T11:50:02+00:00"
   },
   "1e9a5a72-6a83-47a7-bc70-6f965cdc98be": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "5ec8ae0791eb8a3157661371875f9059c49895ed8b970fac38b4bc67b047da22",
    "at": "2026-10-03T11:50:02+00:00"
   },
   "f7ca78ee-29d7-49c4-b2d8-2acc0f4b652b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "465025ae5516248a96ea340a4fc357eb4d83a73c5f2eb090d42ff3021a5d37c1",
    "at": "2026-10-03T11:50:03+00:00"
   },
   "459217b8-3b75-4682-b1c2-576c797a72ef": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "sha256": "06f91e46d078189d43faf54ca15a0d4bb98816cbb49b8e5b5257ca2a172e2b8a",
    "at": "2026-10-03T11:50:03+00:00"
   },
   "e0d1245c-5781-4f41-b12f-27ada075b561": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-subestacao",
    "sha256": "f9eee23413a56d1f17f249f18aa70c29be8a214e5f2ff8caf0630aa6b932562a",
    "at": "2026-10-03T11:50:04+00:00"
   },
   "b3a41102-9ee0-43bd-ba8e-48c3ed082266": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-subestacao",
    "sha256": "fc9c599ca39b7c489141cd58cffd1233145e7debc1e119d8d677018475428089",
    "at": "2026-10-03T11:50:06+00:00"
   },
   "baffda83-011a-4999-abc1-c4747766bd1d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-subestacao",
    "sha256": "647aa50e47b81cce7c4772e06d273f75f8e6411bce62586bbd810eb162c163a8",
    "at": "2026-10-03T11:50:07+00:00"
   },
   "bd74c7b9-d6b7-4bec-927d-c12aad551201": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "bpr-banco-de-precos-de-referencia-subestacao",
    "sha256": "7bfc88f65d963240ef60408f22f2ccf3240159f051addd2e3fa55e536e9b2dcc",
    "at": "2026-10-03T11:50:08+00:00"
   },
   "6fbee0f8-2617-4879-a69a-6b7892f12dad": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "capacidade-instalada-por-unidade-da-federacao",
    "sha256": "86cb7ae600a8fb85cec819f6e410c479bcddcaf1231790689c083f91b03f46ac",
    "at": "2026-10-03T11:50:10+00:00"
   },
   "9e63214b-f262-46cb-a0e1-cb3c634368a0": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "cfurh",
    "sha256": "c1375d64e51ce6136b09b6e722391d4eed72edd0c90b9b5c6c4f9fcbfda1ddcb",
    "at": "2026-10-05T11:58:25+00:00"
   },
   "003b55b9-0864-4645-b3c3-b1d91c58bfba": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "cfurh",
    "sha256": "e590fff3b32b4eb7d0099746d9eb7a41dc6e563a5392581235a13e2b6bc9f992",
    "at": "2026-10-05T11:58:25+00:00"
   },
   "96f5df6c-459b-49bc-b3f4-f0f00fcaccf0": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "cfurh",
    "sha256": "af14d098425ac9c4cf384211223a238d7a089d42db8708b3c355f17404f95b28",
    "at": "2026-10-05T11:58:26+00:00"
   },
   "518a4804-6c34-4559-8034-9f2cfe4a4049": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "cfurh",
    "sha256": "06c1a7799f8a8c6fc78533229c3027bcd6b8d9897b1cce68753cca5bdf7002a7",
    "at": "2026-10-05T11:58:26+00:00"
   },
   "21ee5fa9-669b-4220-bbc6-c077079f3cfe": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "cfurh",
    "sha256": "0b2ff6a0cc1f1590f5034a97f130f16e83c28642e48c8ebbc37af0148e50f0a1",
    "at": "2026-10-05T11:58:27+00:00"
   },
   "df09e492-0927-4873-8488-31d854a14709": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "cfurh",
    "sha256": "5e74a842878b6eaa7ff4a348f7f5dd1da3eb999c61945f2bc867a5658005ed85",
    "at": "2026-10-05T11:58:32+00:00"
   },
   "6ad76203-68d8-48c1-a338-a6ff5e6167a7": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "cfurh",
    "sha256": "b03362f2b73e44597abb5e12d3c9631525df2f5abee429562075f957e318fd35",
    "at": "2026-10-05T12:01:10+00:00"
   },
   "93e532ec-5060-4ff8-8881-963624f2f065": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "cfurh",
    "sha256": "319f2f9d2a3b617079cc2832bce36e7dcb9956e5886ff19b8a222cde4cd000ab",
    "at": "2026-10-05T12:01:55+00:00"
   },
   "61d26571-537c-43ad-832c-50247236763b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "componentes-tarifarias",
    "sha256": "a8256bd498d4fdecfbc75dae83b0b7a49be3aa6fdb25903d5e71ffb8502a16e6",
    "at": "2026-10-03T11:53:20+00:00"
   },
   "5f3f8fbf-7110-457c-8218-1e3a9ac472eb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "componentes-tarifarias",
    "sha256": "c3d34c4200f68a62b04f36b31cde5f8f05fdc4512e2df137ad7cbe408098a83c",
    "at": "2026-10-03T11:54:09+00:00"
   },
   "7b103c10-0045-4f05-99dc-f6d91cb67c0d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "componentes-tarifarias",
    "sha256": "b69a7ad4dbb06a386bd4912c2d675344334b15fa5a2c96b0de0bd529b224d4a8",
    "at": "2026-10-03T11:54:39+00:00"
   },
   "b03ef3a3-0a85-4623-99f2-2760db30351e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "componentes-tarifarias",
    "sha256": "3dd877be0d4b51a02a29f3ee8af832437b4ee0bca64777f2ec838d4e6a55aea8",
    "at": "2026-10-03T11:55:14+00:00"
   },
   "b1b10eca-ebe5-42ab-8ac0-456fdf5c0f6e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "componentes-tarifarias",
    "sha256": "7721b18fc6d668acc312cff48cc67d8f4f1a1b59b9c13174325fd3ceb72a923a",
    "at": "2026-10-03T11:55:36+00:00"
   },
   "61bee465-54cc-4996-ba47-b4a31e6463be": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "componentes-tarifarias",
    "sha256": "4fca77f840b1e074e74ff98a484a020e2336d60543015a139bce0f2ebf8bce23",
    "at": "2026-10-03T11:56:13+00:00"
   },
   "daf955f9-7d92-4fe0-b4cd-1fbc69b8a3a8": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "componentes-tarifarias",
    "sha256": "fbd225abfa0a3a5652e5edbac95dd6f7daaf3c56afd5736c1b2e297d0ed6f9ff",
    "at": "2026-10-03T11:57:42+00:00"
   },
   "359fddf2-d1b4-4167-9c5d-b8cdfc580a53": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "componentes-tarifarias",
    "sha256": "c6920724b5bb53366bf945b3e5e87bce33b8c891e6b9e6e5b8a97eb4356d3fb2",
    "at": "2026-10-03T11:58:09+00:00"
   },
   "133e7a3d-1ef6-4494-9ebd-e1a0935a0762": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "componentes-tarifarias",
    "sha256": "23cb5ebfde33a0b78f44c11f621b781b5eb6fe2b0630e4db907538a521d3b34d",
    "at": "2026-10-03T11:58:41+00:00"
   },
   "9e40e8a7-664f-4dab-a868-e5781fcf604b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "componentes-tarifarias",
    "sha256": "a8cb4c87464a87f0079d6c13142e5082df52f9ff3b2f61a96a612d8897377a6f",
    "at": "2026-10-03T11:59:08+00:00"
   },
   "ab0f6630-9e5d-41a1-8097-343bf09d7c16": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "componentes-tarifarias",
    "sha256": "0103fc9d248717e84037276f3f95c8676e68aa3c92afc6c5e92e8807689b6151",
    "at": "2026-10-03T11:59:35+00:00"
   },
   "8bfa100a-fd79-4daf-8fab-8b14d02fd08a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "componentes-tarifarias",
    "sha256": "f301dd1876dd9bce86aad6ba169e73d2d2cda257b16fc4ce7d8a59b068b57881",
    "at": "2026-10-03T12:01:00+00:00"
   },
   "70ac08d1-53fc-4ceb-9c22-3a3a2c70e9fa": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "componentes-tarifarias",
    "sha256": "b2b096bd2c78e528d9c80058777a54e070a64acd5eada9d8696713c5b61d56c4",
    "at": "2026-10-03T12:01:45+00:00"
   },
   "a4060165-3a0c-404f-926c-83901088b67c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "componentes-tarifarias",
    "sha256": "7423fce72434a335fcf9882fe5b89a5c1c29eaec90be2df0de49424e6eec2e4c",
    "at": "2026-10-12T11:26:13+00:00"
   },
   "e8717aa8-2521-453f-bf16-fbb9a16eea39": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "componentes-tarifarias",
    "sha256": "d899a2f83d0dd40bfbf819d56dba8097ecb89de8a995dc994405d3ff8684aaaa",
    "at": "2026-10-12T11:27:13+00:00"
   },
   "ef4129fc-d72b-47db-9a79-d49f5c5ee879": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "composicao-societaria-polimero",
    "sha256": "c181b89f08c42789a62839e7c73a07ed1bc21d844bb06cc6c6970f56c5c504be",
    "at": "2026-10-03T12:04:45+00:00"
   },
   "90430056-d594-4f42-8b89-6c15839e5377": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios",
    "sha256": "92c4a4810da708d79eb8ca77527b88c45530fc96cd19d95f6b852aa0d5d4e561",
    "at": "2026-10-03T12:05:11+00:00"
   },
   "a77cacce-6a49-44c7-af20-508aecd4539d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ctr-curva-de-carga",
    "sha256": "573e9c02683f26f6d520bdbff3534620b830dc32dba4b1edaf8cecbb2fb53908",
    "at": "2026-10-03T12:05:11+00:00"
   },
   "b0418edb-038d-4fde-b624-c318d376a734": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ctr-curva-de-carga",
    "sha256": "86f81f36a6beb185b681619605e9903dccbceeb89499f1f456dd333314f44d49",
    "at": "2026-10-03T12:05:35+00:00"
   },
   "cdb7f515-f90c-4727-8ff8-109d78991dcb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "empreendimento-hidreletrico-em-estudo",
    "sha256": "8a54534aa148bbd186752060b0a101debda2da3d57c8497ce49e3ed03860dd30",
    "at": "2026-10-03T12:08:04+00:00"
   },
   "e61fd029-5e78-43be-bed4-873b7b11f04c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "empreendimentos-em-operacao",
    "sha256": "ccb83ed1da32d74ec8580fda6e0ce5acf74df5603d95ade079e67c0d4db4c75e",
    "at": "2026-10-03T12:08:06+00:00"
   },
   "c45842cd-b870-4d81-82e3-c35d2f46855d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "evento-situacao-de-emergencia",
    "sha256": "cf831e7ddbdc963570e5ec149227a08a76462e7b28abed665ec888c5e8931b56",
    "at": "2026-10-03T12:08:07+00:00"
   },
   "3bd4b2a5-c9bd-41af-bf0f-0f63b429d05b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "evento-situacao-de-emergencia",
    "sha256": "f8480e2b5fa112da797faff2777c0e527b8daef3ebebcb600215e7e3ac848189",
    "at": "2026-10-03T12:08:08+00:00"
   },
   "c1399837-ed14-4955-a7e0-7027b0caf980": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fsb-fiscalizacao-de-seguranca-de-barragens",
    "sha256": "08a7393e4b9b686144677f444ba4674707d7ae6a6d8d73d715f45c69571455f2",
    "at": "2026-10-03T12:09:50+00:00"
   },
   "a59f9b7a-3f1b-4781-991a-78d5deda01f1": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "gcem-gestao-de-informacoes-de-campos-eletromagneticos",
    "sha256": "4ab213c17dd98f3430a699d1e62e02c6a390265c174e9248f33b85266ffd30ea",
    "at": "2026-10-03T12:09:57+00:00"
   },
   "883aaff9-f475-4ac7-b308-25cc272e4fe5": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "gcem-gestao-de-informacoes-de-campos-eletromagneticos",
    "sha256": "32ed80cbf5499d1b6f1d58fc7675ef29eab7f1d4bbc9743954f4cefa60b7d1ca",
    "at": "2026-10-03T12:10:02+00:00"
   },
   "8dd3acbe-0d0f-40c4-bafc-da270c639ed9": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indger-indicadores-gerenciais-da-distribuicao",
    "sha256": "6198caff730d7b87fa62c06e45b281dcb2d1dba6415886e0b8d25afacd8da031",
    "at": "2026-10-03T12:11:51+00:00"
   },
   "fd10c9d4-cb76-4020-a322-e79afb13eaf7": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indger-indicadores-gerenciais-da-distribuicao",
    "sha256": "7278b95d6a3c350ea0d189b6d45f6bef2d5b6c3c920a7d2c91e6d6757b03b70e",
    "at": "2026-10-03T12:15:34+00:00"
   },
   "a19a3bee-2554-4d70-b031-a7eb4875ce42": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indger-indicadores-gerenciais-da-distribuicao",
    "sha256": "6a89de3d7e04fb8a1e7a10bca0ba9a890887254c12f7747ce8ecba89ee0084f9",
    "at": "2026-10-03T12:15:49+00:00"
   },
   "515d8462-6c58-4727-afc3-dbad332fa231": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indger-indicadores-gerenciais-da-distribuicao",
    "sha256": "f7f33d54c6703f321d7f66b342357afef25fd286217056983027a8ffce68929d",
    "at": "2026-10-03T12:16:34+00:00"
   },
   "2dbe9459-3161-4d48-b949-3d40b73cf4c0": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indger-indicadores-gerenciais-da-distribuicao",
    "sha256": "1bc455c8e945b267afd3195e456ae6d3d10eb52240d82be5db648c4f86f1fdb4",
    "at": "2026-10-03T12:16:43+00:00"
   },
   "4493985c-baea-429c-9df5-3030422c71d7": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
    "sha256": "1d26f758497a4327b9c37207c5312d263b940aa04ea796301dc44f2db0272b62",
    "at": "2026-10-05T12:04:35+00:00"
   },
   "b4dbdc46-a8a3-4e5d-9565-9f23b1156496": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
    "sha256": "84f93790a10865628cbd916c6604889bad3b828115a384179acf8291dd657522",
    "at": "2026-10-05T12:05:01+00:00"
   },
   "33818f8c-bb8f-4a81-b89b-cacbd0a79e75": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
    "sha256": "5cf72042b282faa69fd314430a7b5e501373a984daff9bb6fd574fca1a65b4ee",
    "at": "2026-10-05T12:05:15+00:00"
   },
   "364d945e-a18b-4111-ab1b-73aa0f7b06b1": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
    "sha256": "a63558a8dd4d8658f060196f456c69edff73eb63187e3e7f14d24ba615422e3b",
    "at": "2026-10-05T12:08:20+00:00"
   },
   "8cdad784-07c1-4a67-a285-2f2adce5df70": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
    "sha256": "d734a0df8c26997bd9385dc946677318b8a4c1adb278f06c11b9a6d1b6a31913",
    "at": "2026-10-05T12:11:16+00:00"
   },
   "fd69e1dd-fd66-4269-b60c-cc0b7eb221b4": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
    "sha256": "6cf409fc39aed93553293209ad662c8462036362feafc6337ea9c414ee0d9e92",
    "at": "2026-10-05T12:11:22+00:00"
   },
   "3c780aca-38cf-406d-9d45-f07a9216eef2": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
    "sha256": "9a8b5c32639594b0c9e8b31f814df06a626cc8271f2bb533f6e246cd345cfe47",
    "at": "2026-10-05T12:11:30+00:00"
   },
   "17fc99b7-e707-4ec4-9553-a43d7a41f7a6": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
    "sha256": "fd08d3dab0af7a082ca354cbcf116848ddd544b90aeb9d0a83e630e706dd17c5",
    "at": "2026-10-05T12:11:31+00:00"
   },
   "b6755d51-f537-4e0f-8fd8-d2cead66178a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente",
    "sha256": "439b76b3f531fd70753527f69044744e031720393795ab1eb1be6fa2a379756e",
    "at": "2026-10-03T12:23:16+00:00"
   },
   "476d0490-a225-4de7-89a8-bb7a189f0868": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente",
    "sha256": "2c70d147084777158632b9840daff327bcd22e56f7d62d01f19957f817ce80a9",
    "at": "2026-10-03T12:24:01+00:00"
   },
   "33e71481-7f94-493e-8a35-8c23a928c842": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente",
    "sha256": "c974bc7e29b7693cc489c3345e5ababe69a75eace5696128d8589d9d811ae0ec",
    "at": "2026-10-03T12:24:31+00:00"
   },
   "153c0076-28cf-45ac-bf6e-e9ac29b25d21": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indicadores-de-qualidade-do-atendimento-telefonico",
    "sha256": "bc15c8342c0436f234b731e112b9ae3c8a435425812053e4e5f22612129d9e72",
    "at": "2026-10-05T12:11:32+00:00"
   },
   "7abd3a47-1e1a-4a33-933b-48d658a6f912": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indice-aneel-de-satisfacao-do-consumidor-iasc",
    "sha256": "99f4c617c101bad8a205e3de0b4c184caca5679217b42549a6262bd2584c8162",
    "at": "2026-10-03T12:26:12+00:00"
   },
   "0bb73b5d-b2e1-417d-9873-6de6b2d397d1": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indqual-inadimplencia",
    "sha256": "4ed094c99d6057667e6a0f1eb19fb5d19c72d854059549a7d5d24d16cdb32308",
    "at": "2026-10-03T12:26:14+00:00"
   },
   "11f8d9bd-6d99-4d69-8edb-45c058da746f": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indqual-inadimplencia",
    "sha256": "d5eff5ec8cd407454c616bbf9384638596fc4d40a3320fb35b8b1c1fd5cf9182",
    "at": "2026-10-03T12:26:40+00:00"
   },
   "3f841488-80a8-42f2-a6ca-e0c593b228de": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "indqual-municipio",
    "sha256": "4063c5ba8ddaaabf27dad1a115eaa5a3f509f6ed3d22ac5c25c20f0d21365e09",
    "at": "2026-10-03T12:26:40+00:00"
   },
   "246e926b-a686-42fc-b55f-32e4046834de": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
    "sha256": "cfe6af9635c9a56f8fa2f984645bb6956bc565a9140d611c9402520224199d67",
    "at": "2026-10-03T12:26:41+00:00"
   },
   "8fcce0f2-4ea2-42ea-b7ac-00fd8feab03c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
    "sha256": "939b6e89d0888c0ed7f891216232fee493a59f4c49b1601e1eff64e995a0c24b",
    "at": "2026-10-03T12:27:25+00:00"
   },
   "965d2abb-91fe-4fab-b463-8c84f2e02188": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
    "sha256": "a55ff4926291a9338cb7dabf36a3b0d44f297a8be7f7885959840102ff8e71bd",
    "at": "2026-10-03T12:28:47+00:00"
   },
   "58201617-8364-4e7f-975d-21f8b8c7436f": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
    "sha256": "a74b2c57a5959e8473b31f63ee426a89f132c80e524ec47e8f8d171c5a58e6f9",
    "at": "2026-10-03T12:30:21+00:00"
   },
   "42d778de-4a10-4b54-a00a-87c8ff35db6f": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
    "sha256": "187eff8e07128b478f8a71e62f5e81760b36a26900073851720bebf2041c5d59",
    "at": "2026-10-03T12:31:47+00:00"
   },
   "7d081751-3f4c-4ede-96b5-1bf2e46b61ca": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
    "sha256": "7bc4af2ef14e194783169ac7b9eecd29f06ce9cadea42e393a0c0c0fb50446c5",
    "at": "2026-10-03T12:33:29+00:00"
   },
   "cce72c2b-a4cb-4b98-818f-3ac56bbf2a78": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
    "sha256": "668e6e317e448ea08912a1bf57e5bd16ddbc5a83ab8d448ba32cc628454df9a3",
    "at": "2026-10-03T12:35:48+00:00"
   },
   "cc091bb8-b308-46b2-98ec-c2fd58e7194b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
    "sha256": "ffc1b1009624416043f5c9abcd246f37a984469349b44288b29e63119f3983f4",
    "at": "2026-10-03T12:38:48+00:00"
   },
   "1aa6ad85-05b8-4471-9ca4-316566214ba9": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
    "sha256": "205b1163073f0968089f620f9c3899fcbdf4a294674be193c0f84ee4119f44a2",
    "at": "2026-10-03T12:40:29+00:00"
   },
   "33a21bd6-4893-42fc-bc05-888154f7511e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
    "sha256": "87dd5be92a0752bedfffaa80090022182db359538b2fd0518c26537a26576e4d",
    "at": "2026-10-03T12:42:28+00:00"
   },
   "75419902-c692-498b-a6ef-85f6d4beb5b2": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
    "sha256": "8835f44a3928ed45390042da968ac15f871a4a72784d580b4a8d8e0d47439bba",
    "at": "2026-10-12T11:26:14+00:00"
   },
   "60b47530-6189-445f-acfa-882cb43bef8d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
    "sha256": "9a61a353fef08252b91987aaa4f44a6cb8367c299d05bf52fc03341352ddc73f",
    "at": "2026-10-12T11:26:14+00:00"
   },
   "6c3e074c-d9ab-4840-8c6c-7993faa36ddb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
    "sha256": "d025e14f417f60327197fcc29306da60772a6bac1ab3e9c1bf204f0da2e2de74",
    "at": "2026-10-12T11:27:14+00:00"
   },
   "426f4fb2-6a89-452a-8236-cc48153ee607": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
    "sha256": "c7a14cba1617af1909ca379c28fd69185b34d7cc44ff451d784878dba53dd8c3",
    "at": "2026-10-12T11:27:21+00:00"
   },
   "4af32411-da8b-492c-ae15-8f615e35d2e2": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
    "sha256": "97c2cc3fc543fe61160d3954ea2f4cf14c0cac2c1965f0f25348dc8a2ade967c",
    "at": "2026-10-12T11:27:32+00:00"
   },
   "83839c4e-78f9-4f68-bcb7-51dcfcf05c9c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
    "sha256": "4f0a1f9d53c928d62b8ff73ff3649f3d8fabb127245a020b3ceee09d340d61be",
    "at": "2026-10-12T11:31:24+00:00"
   },
   "8c42c510-6549-4285-817c-58738914be19": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
    "sha256": "6b4f01102880db5699812718ae85c9003775bc96780ed48f6f207d59b8338392",
    "at": "2026-10-12T11:35:35+00:00"
   },
   "290433a8-a5f8-4117-a450-44d3e62ead22": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
    "sha256": "75e9b2f11ea5710401f04921700a4c4618a1463991bf961c1d6d1150e6261175",
    "at": "2026-10-12T11:37:17+00:00"
   },
   "908f7282-7a43-41e9-8303-edcab69c2706": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
    "sha256": "33290a123c76380c839633e43e220e5d5a5733844858a32422e22f7a6a6d398e",
    "at": "2026-10-12T11:37:46+00:00"
   },
   "0060645e-c42c-454d-af8c-f0c06b0988ab": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
    "sha256": "04d73520113b6799ec920ebc692c4718bc1ea98be1b920cb00b621e882f07a55",
    "at": "2026-10-12T11:38:50+00:00"
   },
   "a9ea21c7-1b2b-4c91-97b4-3d9732c77cec": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
    "sha256": "96ad7c8662cdf730b8c69a3c4ff8ae02dc1a84c3d896fade31b5a093ec0d84de",
    "at": "2026-10-12T11:39:39+00:00"
   },
   "d0f619ef-1bbe-40d1-849c-35b47172df8e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
    "sha256": "6596c7e9b84e61dbef9d234e305b237a9581b8319bd7a93d452c40640c747b52",
    "at": "2026-10-12T11:42:54+00:00"
   },
   "845b550c-e454-4cac-a8e7-ab7f1732fa6d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
    "sha256": "56de9466decb688a5cc08cbd636e6e5f0c20a8b5429ddb6bf454f574bcd35cae",
    "at": "2026-10-03T13:10:00+00:00"
   },
   "5a7f1a13-2ec1-406c-b542-3bcba96c8a9e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
    "sha256": "cd32cb38a05732f0827754481ce7172e6442c32995fd68ac904522e708f0c8a5",
    "at": "2026-10-03T13:12:04+00:00"
   },
   "770611ff-cec4-4b18-82e0-b06375a462f0": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
    "sha256": "2bafa571be612be07d791f626f39e6ac648d7628b9fae9baa66fa34d47830fd4",
    "at": "2026-10-03T13:14:02+00:00"
   },
   "f41804fe-b3c3-4f39-b777-c48c602affb1": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
    "sha256": "f2309148ee72971cb6e2f74504e1bd0d1cc6c756f95c19b4caecf3d8fa274112",
    "at": "2026-10-03T13:16:25+00:00"
   },
   "ca188f2f-2384-4690-af3a-048f44575c74": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
    "sha256": "da41353c75540db4afc5fdea1156674b2c38a5962785adb45a4230c81b7d3f6a",
    "at": "2026-10-03T13:19:08+00:00"
   },
   "4ecf2f60-65de-4874-b293-330927720ccf": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
    "sha256": "7789e288d1d46ba0a9761d337ec9229ec0a44c2812b7f66db9cbcb70e261eb59",
    "at": "2026-10-03T13:21:27+00:00"
   },
   "4796181d-5156-4ce5-8729-43f4e71e2d45": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
    "sha256": "9fabc00bcf261a2faf945e49dccc68bc7efce37fba32e82b7d8690f7fd7bf2b0",
    "at": "2026-10-03T13:24:43+00:00"
   },
   "d6024771-f068-414a-8476-656e5fb83aea": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
    "sha256": "404f433dcc1444b092e1549fb9e5d04ce9c5e687e277ec262fd06855327fe341",
    "at": "2026-10-03T13:28:07+00:00"
   },
   "04e2d968-76a5-4433-91c2-c1d5d43147c0": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
    "sha256": "6db6d652e8084d3bab2780da21c5728cd6c70baec7bfb829787bc28bf8716cfe",
    "at": "2026-10-03T13:30:29+00:00"
   },
   "040c840a-b9fa-4c63-bd3c-f1a99640366b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
    "sha256": "7ed1050092342916bc6e797f4dd79577ac84683956963e1f2c3be652a7876c8c",
    "at": "2026-10-03T13:32:30+00:00"
   },
   "65fdd6a5-2073-4e97-99df-b5f750042add": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ouvidoria-setorial-aneel",
    "sha256": "03310281e1fab5f5dd6bf852c79243fa5e416de9ede8172b86a4c8f49c1f47c1",
    "at": "2026-10-03T13:33:35+00:00"
   },
   "e5ee09c7-e7fc-43b7-ac1f-0e2d98db9fce": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ouvidoria-setorial-aneel",
    "sha256": "0e577843281d96afed031811f1705348e7af38e9a5b995c20b6e7c7f7f7990ea",
    "at": "2026-10-03T13:33:56+00:00"
   },
   "4632bf42-3ae4-44df-92c8-1b6a18423948": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ouvidoria-setorial-aneel",
    "sha256": "44e97bff6f71a496a2311385c8928c11f0e08a5cc9133edb8a883d1da5e97220",
    "at": "2026-10-03T13:34:21+00:00"
   },
   "289ed6b6-1650-4261-b8de-ef1f207bd589": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ouvidoria-setorial-aneel",
    "sha256": "0544ff137c769ff39d37c43012e23f651fffd0d62257c9481ecc0ee21af3b4c2",
    "at": "2026-10-03T13:34:32+00:00"
   },
   "561a3eca-8c3b-4c8a-b11e-a31f7d6a1032": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ouvidoria-setorial-aneel",
    "sha256": "aa9ca3e74f31eb0bc0d0dc7ddf532dde05c4caa7d6474b53f741b703861edf19",
    "at": "2026-10-03T13:34:41+00:00"
   },
   "a07c92fc-b60b-4589-b579-edefe2bf99ea": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ouvidoria-setorial-aneel",
    "sha256": "7f87fad3eba70b845bac8992e445b0d7da25c153e130d15dc62527b8dd5133e8",
    "at": "2026-10-03T13:34:54+00:00"
   },
   "42419fa2-6720-4349-a91b-3ed65126aed2": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ouvidoria-setorial-aneel",
    "sha256": "1ff6a21985a660c957f9aebeca6ad8a6d15a245b5cbecfb973c648a1667c0139",
    "at": "2026-10-03T13:35:15+00:00"
   },
   "43dbf8bf-5d91-417b-b977-d28cc4107f96": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ouvidoria-setorial-aneel",
    "sha256": "6c1ed1ff1d07716f8cdce5ee192aa75f1c39cb236118e19f4dbfa066b2ff49c8",
    "at": "2026-10-03T13:35:32+00:00"
   },
   "927c458a-760c-470f-9967-f9f5e8809095": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ouvidoria-setorial-aneel",
    "sha256": "0c2641ceb87ecd5f43031220a209df46ab178c093732a1619d2380e14a4bd754",
    "at": "2026-10-03T13:35:43+00:00"
   },
   "56d51b86-debe-4911-8d56-f2ebd9d444ff": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ouvidoria-setorial-aneel",
    "sha256": "d8a4d2d91cf7ec155d07c42a3a9f40f4890c8564e8faa8f97a9fb4a838301f3a",
    "at": "2026-10-03T13:36:02+00:00"
   },
   "0b15d4cf-4d19-49e9-9ad8-8c81670182c7": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ouvidoria-setorial-aneel",
    "sha256": "63fed67c920fb65a3245488d03182f0cb6c871ef9b1ac5f9edb3f6ec67404e68",
    "at": "2026-10-03T13:36:16+00:00"
   },
   "93d50388-a4dd-4c31-a9e6-065ade8078f3": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ouvidoria-setorial-aneel",
    "sha256": "3c9860048d860d7133c892d20c7738bd46c24dc429413baa2ac480d97c26c468",
    "at": "2026-10-12T11:47:00+00:00"
   },
   "1ee51181-9d1f-40f1-ae6e-61719d276b28": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ouvidoria-setorial-aneel",
    "sha256": "8f21989dc7b9d273419a84b5916eb0049bd907bbacd1881c452f4c7aa1e300bb",
    "at": "2026-10-12T11:47:14+00:00"
   },
   "43386a8b-4781-44ec-a082-fa7fdfe33186": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "pautas-e-atas-das-reunioes-publicas-da-diretoria",
    "sha256": "356bab8bd7837bb5e7a594ee9ef1a122fe9e26ca9d7ecc3ee12db9eddd7a39a8",
    "at": "2026-10-12T11:26:16+00:00"
   },
   "30b8fbb7-4d7a-49d1-8985-97e9bb7d65e0": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "pdd",
    "sha256": "3f2cf5694fecead52a92f53c49f9ce2f9de8396a07d61bc18b1face84ee44295",
    "at": "2026-10-03T13:36:49+00:00"
   },
   "28686698-544b-48e2-af58-ad4f7616246c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "projetos-de-eficiencia-energetica",
    "sha256": "0c39b1b824147321cf66378f94b107e4580d9d998f7f78f5c6b1e8e24928a085",
    "at": "2026-10-03T13:36:50+00:00"
   },
   "252a83cf-9c79-43be-8814-1fdea94a64f9": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "projetos-de-eficiencia-energetica",
    "sha256": "0d12b56fad81e1e5d7a60ca5f466e5229bef87ae06b747fcbfade284c789bee7",
    "at": "2026-10-03T13:36:51+00:00"
   },
   "e12d5430-f747-4fc7-b620-2460ed02cc17": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "projetos-de-eficiencia-energetica",
    "sha256": "f7213b07b65b31ccbd518601ceaf564d7a0b4f8b486ac470bf3756e17ad0f1db",
    "at": "2026-10-03T13:36:56+00:00"
   },
   "3a7aee00-b6ee-4913-9670-f6b60f4a7bea": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "projetos-de-p-d-em-energia-eletrica",
    "sha256": "1d240c0a8cd60a90ab7dff0fd4ce4f301fa47aedc991382bbc4625f76ca0c76a",
    "at": "2026-10-03T13:36:57+00:00"
   },
   "11473878-1059-44f8-abf0-677212ff247b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "qualidade-do-atendimento-comercial",
    "sha256": "72a521c3da992d9893646affaaf1a0e8d0b04090dad829741e98e6fe44520764",
    "at": "2026-10-03T13:43:43+00:00"
   },
   "e3724332-7de8-4273-8f0d-b20ebb91bf7c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "qualidade-do-atendimento-comercial",
    "sha256": "4fb014965d5b36d18fc2298038f74224fd2f0dfa9242a20646ab770b0ba6c977",
    "at": "2026-10-03T13:44:08+00:00"
   },
   "4a615df8-4c25-48fa-bbea-873a36a79518": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
    "sha256": "4453b28dbe8794b65bdee924d3d89d783a55ae6fb40b0ff6a31c593be870f714",
    "at": "2026-10-12T11:26:16+00:00"
   },
   "6b476bbe-e269-4133-a808-5309860cffb6": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
    "sha256": "37a4075005f45053228c836ee5011cd25e460098f3d4bfb033a8bd2e3b5c432a",
    "at": "2026-10-12T11:26:19+00:00"
   },
   "8a794ee4-3d41-4ce7-a80a-ae7702a16b7b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
    "sha256": "dba2fddf13ad32eca46fc9c4628e41bb2673132283ee78ddd5da30d6adb94a9a",
    "at": "2026-10-12T11:26:20+00:00"
   },
   "f08f3f8f-db6f-4c3b-9f4f-7179d099c255": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
    "sha256": "e49155fd86319d3ea021933eff992ba09a45ee9f497882d6d24717cea2ef3b85",
    "at": "2026-10-12T11:26:33+00:00"
   },
   "2e47d5a5-ec9c-4f9e-b58d-08fcf37461f4": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
    "sha256": "c35f8561ccee74c31dc41cffcddab372dc37bfacd0e69abb493169a439939fe8",
    "at": "2026-10-12T11:26:33+00:00"
   },
   "c8adddf9-bed6-4f25-989d-69e463fa0ade": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
    "sha256": "2d282ae0ce81f5ec243bec5606c21d325f780e625e577341a4a5bb373b3d6302",
    "at": "2026-10-12T11:26:34+00:00"
   },
   "b1bd71e7-d0ad-4214-9053-cbd58e9564a7": {
-   "layer": "L2 (previous round)",
+   "layer": "L2 (previous round) (previous round)",
    "dataset": "relacao-de-empreendimentos-de-geracao-distribuida",
    "sha256": "12e80101ea00c5e52e61d9bc3811fbf29d7a3dbc9a23eca0a0bfa0baea71fe21",
    "at": "2026-10-14T09:37:27+00:00"
   },
   "5f903d78-25ae-4a3f-a2bd-9a93351c59fb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "relacao-de-empreendimentos-de-geracao-distribuida",
    "sha256": "5a16c6521b66c538ae9e58a028afb9f4d4d8e5c0c17c706063eb287db2b82229",
    "at": "2026-10-12T11:47:26+00:00"
   },
   "49fa9ca0-f609-4ae3-a6f7-b97bd0945a3a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "relacao-de-empreendimentos-de-geracao-distribuida",
    "sha256": "02626d088cb7e0394f4126a531ddb8113c3c00d27a66f11a9ac9e9439049e5bd",
    "at": "2026-10-12T11:47:38+00:00"
   },
   "c189442a-18f0-44eb-9c89-3b48147a4d65": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "relacao-de-empreendimentos-de-geracao-distribuida",
    "sha256": "91d77f8ed2c8fd32a99bb340082583bb965e2676542cc9915cb3fb5f65c33a95",
    "at": "2026-10-12T11:47:40+00:00"
   },
   "bd1d3783-b389-49d8-a828-a56e193d0671": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "relacao-de-empreendimentos-de-geracao-distribuida",
    "sha256": "7ab98fe4c7f35a002a5a346178c494fdda8a562a9858482d17c98f6c1c5a0ee9",
    "at": "2026-10-12T11:47:41+00:00"
   },
   "a1328fc1-f06b-437d-8893-57ac2c8103df": {
-   "layer": "L2 (previous round)",
+   "layer": "L2 (previous round) (previous round)",
    "dataset": "resultado-de-leiloes",
    "sha256": "547345ef69c8d7ca37f0ba143c5d12585e3dbd445906223ef537e1b71ef6c747",
    "at": "2026-10-14T09:37:27+00:00"
   },
   "453cb742-8089-4c16-aaf2-42088b5553dc": {
-   "layer": "L2 (previous round)",
+   "layer": "L2 (previous round) (previous round)",
    "dataset": "resultado-de-leiloes",
    "sha256": "a7165dbb5c148ba144b49ee8c807b52290215f77a83c113dfcf8bd3d3f971124",
    "at": "2026-10-14T09:37:27+00:00"
   },
   "0ed659f8-eb6c-4fe9-8784-36df0e07c74a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "reunioes-publicas-da-diretoria",
    "sha256": "a69f00a4e827419e8aeb32e32e73909da3d603a6e601502441a97e2849154eee",
    "at": "2026-10-03T13:53:26+00:00"
   },
   "349ca6b0-8e1b-4e1e-991d-b3d9edf6e368": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "da9052164df7426723277fb639e6d9ef815a19475658dbde3c80867e9ccf1f7f",
    "at": "2026-10-03T13:53:27+00:00"
   },
   "620bd3ee-7ad4-4e23-ae64-251e22a58303": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "b42a20e436dc2a26f7830f7736f4fc586c29d3694279bb0f1c2be56ac3a31ae1",
    "at": "2026-10-03T13:53:54+00:00"
   },
   "81fb84e5-2305-41b4-bc97-7673bc327796": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "a935acb23cee84900ef4b423a149a65b53d91441a775a42e160f61ad30ca09e7",
    "at": "2026-10-03T13:54:11+00:00"
   },
   "28fa2d25-233d-4a96-9345-fdc13fa76d6c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "dcd41cf15d536b468282713f839d663db332406a4390361924ec37f915d77210",
    "at": "2026-10-03T13:54:31+00:00"
   },
   "a8ea4590-2202-4b50-a32d-74b1dc1280a7": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "198fce79bd0b835c34dfcb9483e2243dbd634609591d23cf849b6951ca9e5036",
    "at": "2026-10-03T13:54:51+00:00"
   },
   "944c4215-96d1-4646-ac9b-8c8146168eca": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "433ae04aa0c81af1597887af34903680f1583a7a0a2fa78da7061342950bf074",
    "at": "2026-10-03T13:55:09+00:00"
   },
   "0e414659-5840-4db3-8639-2ae678e15600": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "e431a9937e1d5d350e9a43603de7aca5809ff4277278e0208570886d2d3d423c",
    "at": "2026-10-03T13:55:22+00:00"
   },
   "475a41c8-905d-46c6-8fc9-fe9a8a9c6868": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "9fdbdbcb99c2cc309d14368317393fc183eb9d78cd0ea5552a113647e8d9e4fb",
    "at": "2026-10-03T13:55:36+00:00"
   },
   "9c25ad95-a433-482c-9847-4f7c5c2b3df0": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "40f6fad49e99617f7cc6c31151950245b97d10506f600c46048185a2e295c231",
    "at": "2026-10-03T13:55:50+00:00"
   },
   "b2f4411d-90db-4455-91c7-ebe399ba93c5": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "a2eb096cf1627f2416e13ebfc3abc3d5328f80c5a68020a4413f362858b615b6",
    "at": "2026-10-03T13:56:34+00:00"
   },
   "53fa913e-32bc-4765-b7c4-2c0544e33eb3": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "7497a8b3a0593e6dfb80559f2389c04c9827dd3af2f1ac38f06cfd56830a1e4a",
    "at": "2026-10-03T13:57:17+00:00"
   },
   "b53ee5a1-26f0-47f3-8dea-ae6894d714ac": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "569d7cadfdeedb721340d04d50376a8b3a036e090021a51b85642b7c2451733d",
    "at": "2026-10-03T13:57:56+00:00"
   },
   "1a35925f-8f7d-4074-973e-42dfbaa99636": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "944220053488ef690d7d61c0ba175a737724948a6242f59ad3fe78bb91c2c977",
    "at": "2026-10-03T13:58:35+00:00"
   },
   "f5421c87-81c5-42e4-bbf0-33af4cc98800": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "6790689f138e1a7f6eceecac0781c010baf7839b29b5c77c144f84c910d181e4",
    "at": "2026-10-03T13:59:24+00:00"
   },
   "4a84f3c8-9dc8-4448-bba8-cc2dfbc26ca2": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "bde30e777e4d9f8e98432c204f5780f828d9d612e8a31e04d29a5906c1cddf7b",
    "at": "2026-10-03T14:00:08+00:00"
   },
   "6ab6596e-170d-42e8-af93-9de024ebe36b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "6b56078cae2438d89506b578de1e4441afea187fea2d6e27763459fd4e66dd98",
    "at": "2026-10-03T14:00:54+00:00"
   },
   "641003d6-4e87-4095-9416-ae5fbb5c94d3": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "43d6a5c097b97df70423f604fab14017db18a406a2da539f0584e63900305404",
    "at": "2026-10-03T14:01:30+00:00"
   },
   "29f9fec9-34dd-454b-8f3c-6b4ca5b22f2c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "803ef6726c0bdb234c03e5c849028e2a4dca2c2643b030deb873250508072177",
    "at": "2026-10-03T14:02:15+00:00"
   },
   "84906f77-0bb4-4527-b9a0-cb6c2b525661": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "33cee0514fa3775c23d83decee9c395bab1aa10e04e211b061e1362f048a7d88",
    "at": "2026-10-03T14:03:27+00:00"
   },
   "7e097631-46ad-4051-8954-9ef8fb594fdc": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "a79fd5095badfa51334f060d6ac3a47c64d2407d043232dca195cbfe95458a3a",
    "at": "2026-10-03T14:04:19+00:00"
   },
   "b9ad890b-d500-4294-bd36-1108acc54832": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "18cff27d4e941f4ffb1fe115dd937361eb68ccf86ac988843050bf22d0494fae",
    "at": "2026-10-03T14:04:54+00:00"
   },
   "ff80dd21-eade-4eb5-9ca8-d802c883940e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "8687c0c10ef4a3cbeef925fbf85b562e83319bbfe923b3ce66301f81e08c7e8b",
    "at": "2026-10-05T11:58:18+00:00"
   },
   "6fac5605-5df0-469d-be08-04ee22934f60": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "ecc47c318d1c742a2c4b698ec87060645960a684ad48764ad56d520088935631",
    "at": "2026-10-03T14:08:14+00:00"
   },
   "56f1c242-5017-4cef-a365-0a96fffb0f2b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp",
    "sha256": "e1cb19f1827e7f7dd5a91896ddb7c6af788437523d68c49ea711783dde9772fa",
    "at": "2026-10-05T12:50:50+00:00"
   },
   "9f03a034-fb01-4daa-b6a6-e25a84d979ed": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "samp-balanco",
    "sha256": "7b3ac8d7753e79c099a60d7a09dbb05c1079fc33f295552a12097639eabe7c1c",
    "at": "2026-10-03T14:08:14+00:00"
   },
   "87764789-84c3-4592-a845-cb2b317f6142": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "scs-sistema-de-controle-de-subvencoes-e-programas-sociais",
    "sha256": "a38971c65e8fb8f5f9fa0a1bb0ec98eb4d3e3813d12f63444ab71187c7022b67",
    "at": "2026-10-03T14:10:15+00:00"
   },
   "ebe17185-a400-4f7a-a680-87c7d67f43dc": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "seguranca-do-trabalho-e-das-instalacoes",
    "sha256": "4c577a2c86757995532ad1d3f55ada29b74fd7abfcf76124fe1c3fb65f6ce75a",
    "at": "2026-10-05T12:50:55+00:00"
   },
   "f5afe5c7-75b2-47e3-97d6-06b2bdd142dc": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "seguranca-do-trabalho-e-das-instalacoes",
    "sha256": "9683a92d3357674d0420830c541322bf77a3ed14f106ee1d310704f0c1f02f90",
    "at": "2026-10-03T14:11:54+00:00"
   },
   "11ec447d-698d-4ab8-977f-b424d5deee6a": {
-   "layer": "L2 (previous round)",
+   "layer": "L2 (previous round) (previous round)",
    "dataset": "siga-sistema-de-informacoes-de-geracao-da-aneel",
    "sha256": "60de2b32e25a67bc8708f649f3848b13ba602f6edc3823a5483405f07a0a5540",
    "at": "2026-10-14T09:37:27+00:00"
   },
   "2f65a1b0-19b8-4360-8238-b34ab4693d55": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "siga-sistema-de-informacoes-de-geracao-da-aneel",
    "sha256": "c665da42fd846394c3ece5195c3e9cbe7d9817546744c066718b93f137b5c8f6",
    "at": "2026-10-12T11:47:42+00:00"
   },
   "eca732ac-4f08-401f-b1cf-f9eff88a9b20": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sigec-sistema-de-gestao-de-creditos",
    "sha256": "ff8275abca1ba50908a5d2ec88e4e10789bf5f982dd629ee396c1b2644d8469f",
    "at": "2026-10-12T11:47:45+00:00"
   },
   "0bf361e5-dc58-4380-95f0-b61a55ec3423": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sigec-sistema-de-gestao-de-creditos",
    "sha256": "90a56fdc2439eb418b72e0be7a73b1bde482ffb744d6f3eb7e15c4ca18b9fb70",
    "at": "2026-10-12T11:48:10+00:00"
   },
   "a1366325-1071-4eeb-94bd-27915747b177": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "9c03497e1fd2c56fc810f966ca06eea5ee0e448d8ccfcfd111f15b2dc5ac00ca",
    "at": "2026-10-12T11:48:49+00:00"
   },
   "caec5e88-c904-45e5-bde4-d7e96ef139b6": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "df877dde23a962b1c74c293b45fd5aba2d576ab205b5a151232e1d499c1abc06",
    "at": "2026-10-12T11:26:34+00:00"
   },
   "4343dcda-284a-4ede-b3b9-e809ea18385c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "2c65c695f67c159bb80183d1cfe6b0939f1fa7c013dd11084c5b15f6eb4338cb",
    "at": "2026-10-12T11:26:35+00:00"
   },
   "89caca18-e9a8-484c-8772-c67b456d801a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "831c5b580d3bfb22079abde549ccec1c7797a188a7e65dd0ff47b5bbf4a55f2d",
    "at": "2026-10-12T11:26:35+00:00"
   },
   "7c4e7f67-b674-4223-89c5-83c95cea1450": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "475845c7e3ecc11979f755e1a03306277f78a43d7df37495538334b42e6f6d07",
    "at": "2026-10-12T11:26:36+00:00"
   },
   "59ab6779-505e-4aa9-8641-3e07aca25699": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "d5984437eb33abd9998612c93cbd02b9ec05e680d4cd480d23b0f5a07cf002fe",
    "at": "2026-10-12T11:26:36+00:00"
   },
   "60e111c3-6ee1-412e-abe3-bc15af897537": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "da54276327da95276679dbfc013395071840b86fd98b795e42f112919a80bb8c",
    "at": "2026-10-12T11:26:37+00:00"
   },
   "1c345514-893d-44a1-8e7e-a9362137c356": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "d4e56843ee9af948dfe22bffb7182ba0e7bfd5fec5f04b16b7b4cd39ce4b0f67",
    "at": "2026-10-12T11:26:38+00:00"
   },
   "1d342bc9-4cbd-4c07-9cd4-02f6927175b9": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "67189220b707eb056f9880482e95a851c3c276d7bd4d7cd0869f5e2eb8fb6a76",
    "at": "2026-10-12T11:26:38+00:00"
   },
   "1effe1be-c6ff-4ffb-93b6-ed74228edea1": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "43d5089c0fe6b792bc9cdca65485ac11a810d2999413115c173559e7eb63ab62",
    "at": "2026-10-12T11:26:39+00:00"
   },
   "e5c1141e-c08c-46a5-bb55-68d66152033a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "8707921df437f2f64564a29d400370b15829c9d2b7f7fbb99c0afe385e3e7ed3",
    "at": "2026-10-12T11:26:39+00:00"
   },
   "4a6c2449-c073-4a4a-b639-4e5359a102bf": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "ee103ec28f7030a2ee08e378b5eae934e39fd63bbbcad598370673cbecb3222b",
    "at": "2026-10-12T11:26:39+00:00"
   },
   "5e4e4916-fd70-44c7-a0eb-92bfb4efad6b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "bcb2db295bebb2181420545e83e51c7cffa6a644e3d8a463b5e8cd30da9c793a",
    "at": "2026-10-12T11:48:20+00:00"
   },
   "ce4a2151-9348-42cd-afa7-ff1144387d08": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "6440a03862c924cc2747b2f641743d12609c4b9bc7b3df533ec55213a5d7a5f8",
    "at": "2026-10-12T11:48:21+00:00"
   },
   "f6e911b4-1db8-434a-88aa-6580681773b8": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "ecea50648b839264a071a8401ed8583859830eeeb3eb4b2dabbba00e1d17ef6d",
    "at": "2026-10-12T11:48:22+00:00"
   },
   "d381c304-8483-4974-8055-2dc08c740ddb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "7e796f00985dd05466ecbcf8c82470209f9320b5ccd5f3fc2226865bcb8a44d3",
    "at": "2026-10-12T11:48:22+00:00"
   },
   "d7ba6cc7-b5dc-4acd-b38a-e9968cc0a649": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sistema-de-gestao-da-transmissao-siget",
    "sha256": "1ae7af865736481a31e6ceac56adfd86874a75a8b2a78a3bf04cd3b52c145ae7",
    "at": "2026-10-12T11:48:25+00:00"
   },
   "bed05cd1-636e-4a94-839c-0a08c0a7a9db": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "slc-sistema-de-licitacoes-e-contratos",
    "sha256": "63035be52b230402cf200e6bbabc61a39580c956c30b3bcca5412f9507b4f0a9",
    "at": "2026-10-03T14:15:50+00:00"
   },
   "325c828c-1cde-485e-9571-a412fa64f768": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "subsidios-tarifarios",
    "sha256": "7c7e9d800bafe64b39f101e0117f9af0043902fc25e164c9d433391f09cea4ec",
    "at": "2026-10-03T14:15:54+00:00"
   },
   "fcf2906c-7c32-4b9b-a637-054e7a5234f4": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "tarifas-distribuidoras-energia-eletrica",
    "sha256": "48f1f5062900e45a5941b4cdb282256faa35ddb132b6fabbafd73e6677725fe1",
    "at": "2026-10-12T11:48:45+00:00"
   },
   "186f7895-2d71-4c68-93c9-57de0e5c5498": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "termo-de-intimacao-ti",
    "sha256": "55e22c8c1b65be718e4a7b548a75a6a8af074a339060cd4903676fc43e868bb5",
    "at": "2026-10-05T12:28:27+00:00"
   },
   "3aec3f42-5004-44e1-8b9c-4562084196f6": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "termo-de-notificacao",
    "sha256": "14b2660c6bf5825431f93689f479238f04f94164b6063b053f7ce1d64698d7a3",
    "at": "2026-10-05T12:28:27+00:00"
   },
   "84ba04eb-0a82-423c-9aac-aab4ce8102a3": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
    "sha256": "4ac6392792431e21b72b6aa5e763c554bca83aafe345e9b29c2aa07bb7981e64",
    "at": "2026-10-05T12:28:27+00:00"
   },
   "9914bb13-27a9-45c0-8d31-ae2473fbecc4": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
    "sha256": "a6e255236440eee9122564844de9db979375be850cfac71d0b55b73f6813c6f3",
    "at": "2026-10-05T12:28:28+00:00"
   },
   "0e3cb385-65d2-4b9e-ae50-f1e217e4e3bf": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
    "sha256": "15d4a35dac3c5987ad7fb3a027eedd24228d68013e6ff037987461016c04c60b",
    "at": "2026-10-05T12:28:28+00:00"
   },
   "d4549533-b969-43fa-a1d4-7b75d7868a03": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
    "sha256": "7195759fd2f11d1d605b7d4650cb7b929b7e47926819eee5ad1113df430dcde2",
    "at": "2026-10-05T12:28:28+00:00"
   },
   "18c5fcae-1b7f-40a4-b092-d47344d4d195": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
    "sha256": "4d407da827c9a785ba42fa4430a46fd8bc470175ea93f783fa11a68137a2327b",
    "at": "2026-10-05T12:28:28+00:00"
   },
   "3ff1ab0a-0d0c-4fc6-b52e-050ee6ea19bd": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "tfsee",
    "sha256": "6fb741a934c3503545dc5142939bd356cc80d2db7a59dd0bc6bcd0687f5810d3",
    "at": "2026-10-12T11:48:46+00:00"
   },
   "0803a420-10ba-473a-941c-e2b569e3ad2b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "usinas-termeletricas-por-tipo",
    "sha256": "4bfa5161a3e6e28762f7ee78cf56b956a6827e96350059ba900ebc5b5aaab4be",
    "at": "2026-10-03T14:18:26+00:00"
