@@ -8,7 +8,7 @@
  },
  "@graph": [
   {
-   "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/tree/724c69d768776d897c0d9604a5617fd4bb0f8c13",
+   "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/tree/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7",
    "@type": [
     "prov:SoftwareAgent",
     "prov:Agent"
@@ -16,7 +16,7 @@
    "dcterms:title": "5L-TEP Layer 5"
   },
   {
-   "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json",
+   "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json",
    "@type": "dqv:QualityPolicy",
    "dcterms:title": "Layer 5 quality policy",
    "5ltep:policyVersion": "1.1.0",
@@ -71,40 +71,40 @@
    }
   },
   {
-   "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json",
+   "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json",
    "@type": "prov:Entity",
    "5ltep:layer": "L4",
    "prov:generatedAtTime": {
-    "@value": "2026-10-16T04:20:22.680108+00:00",
+    "@value": "2026-10-17T04:12:33.245200+00:00",
     "@type": "xsd:dateTime"
    }
   },
   {
-   "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/9adddf663a3b3afa6a95b903d247bff80fadc073/docs/data/cross_check.json",
+   "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/b21c626a6dffb9d81517acf199e0d4cdc527b602/docs/data/cross_check.json",
    "@type": "prov:Entity",
    "5ltep:layer": "L4",
    "prov:generatedAtTime": {
-    "@value": "2026-10-16T04:20:22.680108+00:00",
+    "@value": "2026-10-17T04:12:33.245200+00:00",
     "@type": "xsd:dateTime"
    }
   },
   {
-   "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/data/hash_store.json",
+   "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/data/hash_store.json",
    "@type": "prov:Entity",
    "5ltep:layer": "L4",
    "prov:generatedAtTime": {
-    "@value": "2026-10-16T04:20:22.680108+00:00",
+    "@value": "2026-10-17T04:12:33.245200+00:00",
     "@type": "xsd:dateTime"
    }
   },
   {
-   "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374",
+   "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499",
    "@type": "prov:Activity",
    "prov:wasAssociatedWith": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/tree/724c69d768776d897c0d9604a5617fd4bb0f8c13"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/tree/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7"
    },
    "prov:endedAtTime": {
-    "@value": "2026-10-16T09:43:49+00:00",
+    "@value": "2026-10-17T09:17:59+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:used": [
@@ -124,21 +124,21 @@
      "@id": "https://github.com/lsp3cesarschool/5ltep-layer3-aneel/blob/79a7baae961848243782fc3e0726b88232f5597b/results/aneel-autos-infracao/layer3_summary.json"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/9adddf663a3b3afa6a95b903d247bff80fadc073/docs/data/cross_check.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/b21c626a6dffb9d81517acf199e0d4cdc527b602/docs/data/cross_check.json"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/data/hash_store.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/data/hash_store.json"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ]
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/acrescimo-da-potencia-instalada/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/acrescimo-da-potencia-instalada/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/4bf07812-e421-48f3-8e48-eec0040764ba#6313d27ef493"
@@ -149,7 +149,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T04:21:08+00:00",
@@ -160,7 +160,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/acrescimo-da-potencia-instalada/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/acrescimo-da-potencia-instalada/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/4bf07812-e421-48f3-8e48-eec0040764ba#6313d27ef493"
@@ -171,18 +171,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/acrescimo-da-potencia-instalada/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/acrescimo-da-potencia-instalada/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/4bf07812-e421-48f3-8e48-eec0040764ba#6313d27ef493"
@@ -195,21 +195,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/acrescimo-da-potencia-instalada/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/acrescimo-da-potencia-instalada/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/acrescimo-da-potencia-instalada/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/acrescimo-da-potencia-instalada/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/acrescimo-da-potencia-instalada/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/acrescimo-da-potencia-instalada/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/4bf07812-e421-48f3-8e48-eec0040764ba#6313d27ef493"
@@ -222,21 +222,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/acrescimo-da-potencia-instalada/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/acrescimo-da-potencia-instalada/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/acrescimo-da-potencia-instalada/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/acrescimo-da-potencia-instalada/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/agentes-de-geracao-de-energia-eletrica/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/agentes-de-geracao-de-energia-eletrica/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/283a0172-3966-49e7-ae45-d2885ad17b03#ef58ff07d2c0"
@@ -247,18 +247,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/agentes-do-setor-eletrico/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/agentes-do-setor-eletrico/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/71d1007e-7e14-4875-8758-7e3a0d1118df#3031093f9a77"
@@ -269,7 +269,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T04:21:18+00:00",
@@ -280,7 +280,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/agentes-do-setor-eletrico/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/agentes-do-setor-eletrico/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/71d1007e-7e14-4875-8758-7e3a0d1118df#3031093f9a77"
@@ -291,18 +291,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/agentes-do-setor-eletrico/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/agentes-do-setor-eletrico/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/71d1007e-7e14-4875-8758-7e3a0d1118df#3031093f9a77"
@@ -315,21 +315,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/agentes-do-setor-eletrico/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/agentes-do-setor-eletrico/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/agentes-do-setor-eletrico/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/agentes-do-setor-eletrico/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/agentes-do-setor-eletrico/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/agentes-do-setor-eletrico/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/71d1007e-7e14-4875-8758-7e3a0d1118df#3031093f9a77"
@@ -342,21 +342,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/agentes-do-setor-eletrico/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/agentes-do-setor-eletrico/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/agentes-do-setor-eletrico/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/agentes-do-setor-eletrico/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/atendimento-mmgd-mini-e-micro-geracao-distribuida/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/atendimento-mmgd-mini-e-micro-geracao-distribuida/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/f0773920-9847-46cb-9bc0-dde68761c573#b3b6f7df8289"
@@ -367,18 +367,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/atendimento-ocorrencias-emergenciais/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/atendimento-ocorrencias-emergenciais/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/dcdff65d-d173-4d2e-a3b9-84eec7702f06#b9aa35e0b777"
@@ -389,7 +389,7 @@
    "dqv:value": 0.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T04:29:34+00:00",
@@ -400,7 +400,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/atendimento-ocorrencias-emergenciais/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/atendimento-ocorrencias-emergenciais/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/dcdff65d-d173-4d2e-a3b9-84eec7702f06#b9aa35e0b777"
@@ -411,18 +411,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/atendimento-ocorrencias-emergenciais/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/atendimento-ocorrencias-emergenciais/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/dcdff65d-d173-4d2e-a3b9-84eec7702f06#b9aa35e0b777"
@@ -435,21 +435,21 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/atendimento-ocorrencias-emergenciais/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/atendimento-ocorrencias-emergenciais/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/atendimento-ocorrencias-emergenciais/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/atendimento-ocorrencias-emergenciais/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/atendimento-ocorrencias-emergenciais/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/atendimento-ocorrencias-emergenciais/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/dcdff65d-d173-4d2e-a3b9-84eec7702f06#b9aa35e0b777"
@@ -462,21 +462,21 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/atendimento-ocorrencias-emergenciais/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/atendimento-ocorrencias-emergenciais/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/atendimento-ocorrencias-emergenciais/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/atendimento-ocorrencias-emergenciais/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/atos-de-outorgas-de-geracao/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/atos-de-outorgas-de-geracao/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/2d8a4c72-ed48-4afc-b14f-cc8f5c499a68#dbef87a828f6"
@@ -487,18 +487,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/audiencias-e-consultas-publicas/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/audiencias-e-consultas-publicas/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/db3838bc-96b4-4335-9061-ca330f5bb39a#9b6bc10a91ec"
@@ -509,7 +509,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T04:31:43+00:00",
@@ -520,7 +520,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/audiencias-e-consultas-publicas/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/audiencias-e-consultas-publicas/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/db3838bc-96b4-4335-9061-ca330f5bb39a#9b6bc10a91ec"
@@ -531,18 +531,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/audiencias-e-consultas-publicas/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/audiencias-e-consultas-publicas/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/db3838bc-96b4-4335-9061-ca330f5bb39a#9b6bc10a91ec"
@@ -555,21 +555,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/audiencias-e-consultas-publicas/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/audiencias-e-consultas-publicas/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/audiencias-e-consultas-publicas/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/audiencias-e-consultas-publicas/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/audiencias-e-consultas-publicas/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/audiencias-e-consultas-publicas/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/db3838bc-96b4-4335-9061-ca330f5bb39a#9b6bc10a91ec"
@@ -582,21 +582,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/audiencias-e-consultas-publicas/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/audiencias-e-consultas-publicas/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/audiencias-e-consultas-publicas/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/audiencias-e-consultas-publicas/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/auto-de-infracao/L2",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/auto-de-infracao/L2",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271#70e1c70d80fd"
@@ -607,7 +607,7 @@
    "dqv:value": 0.998353,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-14T09:38:06+00:00",
@@ -618,7 +618,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/auto-de-infracao/L3",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/auto-de-infracao/L3",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271#70e1c70d80fd"
@@ -629,7 +629,7 @@
    "dqv:value": 0.9583,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-05T13:47:01+00:00",
@@ -640,7 +640,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/auto-de-infracao/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/auto-de-infracao/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271#70e1c70d80fd"
@@ -651,18 +651,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/auto-de-infracao/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/auto-de-infracao/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271#70e1c70d80fd"
@@ -675,24 +675,24 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/auto-de-infracao/L2"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/auto-de-infracao/L2"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/auto-de-infracao/L3"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/auto-de-infracao/L3"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/auto-de-infracao/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/auto-de-infracao/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/auto-de-infracao/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/auto-de-infracao/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271#70e1c70d80fd"
@@ -705,24 +705,24 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/auto-de-infracao/L2"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/auto-de-infracao/L2"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/auto-de-infracao/L3"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/auto-de-infracao/L3"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/auto-de-infracao/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/auto-de-infracao/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/eb0360f1-0d5d-4961-8311-97edde216fe9#d97106b12572"
@@ -733,18 +733,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/bandeiras-tarifarias/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/bandeiras-tarifarias/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/7f43a020-6dc5-44b8-80b4-d97eaa94436c#a27a3fed3ad1"
@@ -755,18 +755,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/base-de-dados-geografica-da-distribuidora-bdgd/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/base-de-dados-geografica-da-distribuidora-bdgd/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/4459e483-451f-4444-8022-bd8b5eac05c5#a5e27c6cf3e6"
@@ -777,18 +777,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/beneficiarios-da-cde/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/beneficiarios-da-cde/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c#57a342b32ccc"
@@ -799,7 +799,7 @@
    "dqv:value": 0.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T11:46:20+00:00",
@@ -810,7 +810,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/beneficiarios-da-cde/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/beneficiarios-da-cde/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c#57a342b32ccc"
@@ -821,18 +821,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/beneficiarios-da-cde/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/beneficiarios-da-cde/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c#57a342b32ccc"
@@ -845,21 +845,21 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/beneficiarios-da-cde/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/beneficiarios-da-cde/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/beneficiarios-da-cde/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/beneficiarios-da-cde/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/beneficiarios-da-cde/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/beneficiarios-da-cde/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c#57a342b32ccc"
@@ -872,21 +872,21 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/beneficiarios-da-cde/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/beneficiarios-da-cde/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/beneficiarios-da-cde/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/beneficiarios-da-cde/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/bpr-banco-de-precos-de-referencia-linha-de-transmissao/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/bpr-banco-de-precos-de-referencia-linha-de-transmissao/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/00e8b187-87a7-4100-8ee8-4ac200f9ee45#e23853d7db46"
@@ -897,18 +897,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/bpr-banco-de-precos-de-referencia-subestacao/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/bpr-banco-de-precos-de-referencia-subestacao/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/7981fa38-867f-4447-8bf0-775939705a6c#6deef8c2b408"
@@ -919,18 +919,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/capacidade-instalada-por-unidade-da-federacao/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/capacidade-instalada-por-unidade-da-federacao/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/cec20fdd-97e4-40a8-870f-c63339f5d8b7#b0fa367e9e91"
@@ -941,7 +941,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T11:50:10+00:00",
@@ -952,7 +952,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/capacidade-instalada-por-unidade-da-federacao/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/capacidade-instalada-por-unidade-da-federacao/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/cec20fdd-97e4-40a8-870f-c63339f5d8b7#b0fa367e9e91"
@@ -963,18 +963,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/capacidade-instalada-por-unidade-da-federacao/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/capacidade-instalada-por-unidade-da-federacao/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/cec20fdd-97e4-40a8-870f-c63339f5d8b7#b0fa367e9e91"
@@ -987,21 +987,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/capacidade-instalada-por-unidade-da-federacao/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/capacidade-instalada-por-unidade-da-federacao/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/capacidade-instalada-por-unidade-da-federacao/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/capacidade-instalada-por-unidade-da-federacao/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/capacidade-instalada-por-unidade-da-federacao/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/capacidade-instalada-por-unidade-da-federacao/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/cec20fdd-97e4-40a8-870f-c63339f5d8b7#b0fa367e9e91"
@@ -1014,21 +1014,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/capacidade-instalada-por-unidade-da-federacao/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/capacidade-instalada-por-unidade-da-federacao/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/capacidade-instalada-por-unidade-da-federacao/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/capacidade-instalada-por-unidade-da-federacao/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/cfurh/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/cfurh/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/855a73ed-f4e0-4e88-8467-c330ba0223d3#217fc13e8f10"
@@ -1039,7 +1039,7 @@
    "dqv:value": 0.625,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-05T12:01:55+00:00",
@@ -1050,7 +1050,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/cfurh/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/cfurh/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/855a73ed-f4e0-4e88-8467-c330ba0223d3#217fc13e8f10"
@@ -1061,18 +1061,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/cfurh/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/cfurh/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/855a73ed-f4e0-4e88-8467-c330ba0223d3#217fc13e8f10"
@@ -1085,21 +1085,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/cfurh/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/cfurh/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/cfurh/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/cfurh/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/cfurh/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/cfurh/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/855a73ed-f4e0-4e88-8467-c330ba0223d3#217fc13e8f10"
@@ -1112,21 +1112,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/cfurh/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/cfurh/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/cfurh/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/cfurh/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/compensacao-financeira-royalties/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/compensacao-financeira-royalties/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/39fc299f-26ad-456a-a756-2845ca69568e#fb413a4aa805"
@@ -1137,18 +1137,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/componentes-tarifarias/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/componentes-tarifarias/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5#9d1fc8dbc87e"
@@ -1159,18 +1159,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/composicao-societaria-polimero/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/composicao-societaria-polimero/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/cb79864b-0cfd-475a-8b7a-f8f23d86cf31#5e4d5aef099d"
@@ -1181,7 +1181,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T12:04:45+00:00",
@@ -1192,7 +1192,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/composicao-societaria-polimero/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/composicao-societaria-polimero/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/cb79864b-0cfd-475a-8b7a-f8f23d86cf31#5e4d5aef099d"
@@ -1203,18 +1203,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/composicao-societaria-polimero/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/composicao-societaria-polimero/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/cb79864b-0cfd-475a-8b7a-f8f23d86cf31#5e4d5aef099d"
@@ -1227,21 +1227,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/composicao-societaria-polimero/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/composicao-societaria-polimero/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/composicao-societaria-polimero/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/composicao-societaria-polimero/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/composicao-societaria-polimero/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/composicao-societaria-polimero/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/cb79864b-0cfd-475a-8b7a-f8f23d86cf31#5e4d5aef099d"
@@ -1254,21 +1254,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/composicao-societaria-polimero/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/composicao-societaria-polimero/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/composicao-societaria-polimero/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/composicao-societaria-polimero/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/b3259e81-f581-4595-a9ca-708d911af085#20e78334d52f"
@@ -1279,7 +1279,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T12:05:11+00:00",
@@ -1290,7 +1290,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/b3259e81-f581-4595-a9ca-708d911af085#20e78334d52f"
@@ -1301,18 +1301,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/b3259e81-f581-4595-a9ca-708d911af085#20e78334d52f"
@@ -1325,21 +1325,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/b3259e81-f581-4595-a9ca-708d911af085#20e78334d52f"
@@ -1352,21 +1352,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ctr-curva-de-carga/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ctr-curva-de-carga/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/2594ebad-1306-49d1-9f30-ded144acca87#a2cdb74f623e"
@@ -1377,7 +1377,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T12:05:35+00:00",
@@ -1388,7 +1388,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ctr-curva-de-carga/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ctr-curva-de-carga/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/2594ebad-1306-49d1-9f30-ded144acca87#a2cdb74f623e"
@@ -1399,18 +1399,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ctr-curva-de-carga/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ctr-curva-de-carga/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/2594ebad-1306-49d1-9f30-ded144acca87#a2cdb74f623e"
@@ -1423,21 +1423,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ctr-curva-de-carga/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ctr-curva-de-carga/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ctr-curva-de-carga/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ctr-curva-de-carga/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ctr-curva-de-carga/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ctr-curva-de-carga/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/2594ebad-1306-49d1-9f30-ded144acca87#a2cdb74f623e"
@@ -1450,21 +1450,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ctr-curva-de-carga/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ctr-curva-de-carga/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ctr-curva-de-carga/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ctr-curva-de-carga/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/desempenho-das-concessionarias-de-transmissao/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/desempenho-das-concessionarias-de-transmissao/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/2b26eeff-b2c2-4511-8fd5-1e6920d7d7be#c8e7f0060893"
@@ -1475,18 +1475,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/empreendimento-hidreletrico-em-estudo/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/empreendimento-hidreletrico-em-estudo/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/fb81a809-e0eb-4acb-b589-3130380cd9f4#57c431563b71"
@@ -1497,18 +1497,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/empreendimentos-em-operacao/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/empreendimentos-em-operacao/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/306a6fdb-beb9-4296-bf18-77fa0e076ef1#fbd655168317"
@@ -1519,7 +1519,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T12:08:06+00:00",
@@ -1530,7 +1530,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/empreendimentos-em-operacao/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/empreendimentos-em-operacao/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/306a6fdb-beb9-4296-bf18-77fa0e076ef1#fbd655168317"
@@ -1541,18 +1541,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/empreendimentos-em-operacao/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/empreendimentos-em-operacao/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/306a6fdb-beb9-4296-bf18-77fa0e076ef1#fbd655168317"
@@ -1565,21 +1565,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/empreendimentos-em-operacao/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/empreendimentos-em-operacao/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/empreendimentos-em-operacao/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/empreendimentos-em-operacao/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/empreendimentos-em-operacao/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/empreendimentos-em-operacao/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/306a6fdb-beb9-4296-bf18-77fa0e076ef1#fbd655168317"
@@ -1592,21 +1592,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/empreendimentos-em-operacao/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/empreendimentos-em-operacao/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/empreendimentos-em-operacao/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/empreendimentos-em-operacao/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/evento-situacao-de-emergencia/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/evento-situacao-de-emergencia/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/4788a5ec-3ce2-476d-b72a-337562e0d02d#8d452bf03ee1"
@@ -1617,18 +1617,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/fiscalizacao-economica-e-financeira/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/fiscalizacao-economica-e-financeira/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/d44a7879-fff1-4921-b093-0839a95baade#81e655e9c53c"
@@ -1639,18 +1639,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/fsb-fiscalizacao-de-seguranca-de-barragens/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/fsb-fiscalizacao-de-seguranca-de-barragens/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/fa46f760-d963-495e-89c7-6339a4f1ed5c#bff889249c13"
@@ -1661,18 +1661,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/gcem-gestao-de-informacoes-de-campos-eletromagneticos/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/gcem-gestao-de-informacoes-de-campos-eletromagneticos/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/f8258ef8-1b0d-4dc2-a5db-f3de743d6608#efe746367ded"
@@ -1683,18 +1683,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/geracao/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/geracao/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/26803a1c-f669-4a80-9f4b-4bcba24f8f43#54df647a9133"
@@ -1705,18 +1705,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indger-indicadores-gerenciais-da-distribuicao/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indger-indicadores-gerenciais-da-distribuicao/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/7cacb2c4-b165-4591-a793-9ed20d1f167d#ff3b295301de"
@@ -1727,7 +1727,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T12:16:43+00:00",
@@ -1738,7 +1738,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indger-indicadores-gerenciais-da-distribuicao/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indger-indicadores-gerenciais-da-distribuicao/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/7cacb2c4-b165-4591-a793-9ed20d1f167d#ff3b295301de"
@@ -1749,18 +1749,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indger-indicadores-gerenciais-da-distribuicao/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indger-indicadores-gerenciais-da-distribuicao/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/7cacb2c4-b165-4591-a793-9ed20d1f167d#ff3b295301de"
@@ -1773,21 +1773,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indger-indicadores-gerenciais-da-distribuicao/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indger-indicadores-gerenciais-da-distribuicao/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indger-indicadores-gerenciais-da-distribuicao/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indger-indicadores-gerenciais-da-distribuicao/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indger-indicadores-gerenciais-da-distribuicao/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indger-indicadores-gerenciais-da-distribuicao/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/7cacb2c4-b165-4591-a793-9ed20d1f167d#ff3b295301de"
@@ -1800,21 +1800,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indger-indicadores-gerenciais-da-distribuicao/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indger-indicadores-gerenciais-da-distribuicao/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indger-indicadores-gerenciais-da-distribuicao/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indger-indicadores-gerenciais-da-distribuicao/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/d5f0712e-62f6-4736-8dff-9991f10758a7#e54ff57f96ee"
@@ -1825,7 +1825,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-05T12:11:31+00:00",
@@ -1836,7 +1836,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/d5f0712e-62f6-4736-8dff-9991f10758a7#e54ff57f96ee"
@@ -1847,18 +1847,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/d5f0712e-62f6-4736-8dff-9991f10758a7#e54ff57f96ee"
@@ -1871,21 +1871,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/d5f0712e-62f6-4736-8dff-9991f10758a7#e54ff57f96ee"
@@ -1898,21 +1898,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-coletivos-de-continuidade-dec-e-fec/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/51f2d7ea-3171-4d22-9115-3384113d01df#5b001880572e"
@@ -1923,7 +1923,7 @@
    "dqv:value": 0.5,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T12:24:31+00:00",
@@ -1934,7 +1934,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/51f2d7ea-3171-4d22-9115-3384113d01df#5b001880572e"
@@ -1945,18 +1945,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/51f2d7ea-3171-4d22-9115-3384113d01df#5b001880572e"
@@ -1969,21 +1969,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/51f2d7ea-3171-4d22-9115-3384113d01df#5b001880572e"
@@ -1996,21 +1996,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-de-qualidade-do-atendimento-telefonico/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-de-qualidade-do-atendimento-telefonico/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/df624eb6-f1ed-46ed-bf84-bf641f97b4cb#c3b6c0079ee4"
@@ -2021,18 +2021,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indicadores-quantitativos-modelo-vigente-ate-2015/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indicadores-quantitativos-modelo-vigente-ate-2015/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/5a01baab-2890-4675-ad29-809ab364b0b6#5172a5deefb2"
@@ -2043,18 +2043,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indice-aneel-de-satisfacao-do-consumidor-iasc/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indice-aneel-de-satisfacao-do-consumidor-iasc/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/f216da23-4b7e-4bbe-9833-06905331a827#8d1d1ee593d5"
@@ -2065,18 +2065,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indqual-inadimplencia/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indqual-inadimplencia/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/af2cc4e5-5a31-4b39-98d5-d759abaf1b9e#1fa5b1ed6865"
@@ -2087,7 +2087,7 @@
    "dqv:value": 0.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T12:26:40+00:00",
@@ -2098,7 +2098,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indqual-inadimplencia/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indqual-inadimplencia/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/af2cc4e5-5a31-4b39-98d5-d759abaf1b9e#1fa5b1ed6865"
@@ -2109,18 +2109,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indqual-inadimplencia/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indqual-inadimplencia/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/af2cc4e5-5a31-4b39-98d5-d759abaf1b9e#1fa5b1ed6865"
@@ -2133,21 +2133,21 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indqual-inadimplencia/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indqual-inadimplencia/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indqual-inadimplencia/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indqual-inadimplencia/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indqual-inadimplencia/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indqual-inadimplencia/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/af2cc4e5-5a31-4b39-98d5-d759abaf1b9e#1fa5b1ed6865"
@@ -2160,21 +2160,21 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indqual-inadimplencia/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indqual-inadimplencia/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indqual-inadimplencia/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indqual-inadimplencia/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/indqual-municipio/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/indqual-municipio/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/db9c9f60-b3b5-4504-9dfe-2637922d53ce#68b8f62c92cb"
@@ -2185,18 +2185,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/ccb25653-f07b-4f28-84c2-62a89d1f5a56#dcb2078b649c"
@@ -2207,21 +2207,21 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/liberacao-para-operacao-comercial-de-empreendimentos-de-geracao/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/liberacao-para-operacao-comercial-de-empreendimentos-de-geracao/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/2b2ace01-5692-4636-8c99-2a84ff094f4f#e9e619afd481"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/2b2ace01-5692-4636-8c99-2a84ff094f4f#2a79542c5d38"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/L4-intact-observation-rate"
@@ -2229,21 +2229,21 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba#cf36a343b987"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba#38ee3a3f731e"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/L1-conformance-rate"
@@ -2251,7 +2251,7 @@
    "dqv:value": 0.9,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-12T11:42:54+00:00",
@@ -2262,10 +2262,10 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba#cf36a343b987"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba#38ee3a3f731e"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/L4-intact-observation-rate"
@@ -2273,21 +2273,21 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba#cf36a343b987"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba#38ee3a3f731e"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/Qs-partial-lower-bound"
@@ -2297,24 +2297,24 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba#cf36a343b987"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba#38ee3a3f731e"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/Qs-partial-upper-bound"
@@ -2324,21 +2324,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/manifestacoes-no-1o-e-2o-niveis-da-distribuidora/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ocorrencias-emergenciais-nas-redes-de-distribuicao/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ocorrencias-emergenciais-nas-redes-de-distribuicao/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/ced06b4c-45a5-4cae-8a7e-f576ffc3b412#c60a4ef38344"
@@ -2349,21 +2349,21 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ouvidoria-setorial-aneel/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ouvidoria-setorial-aneel/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26#eea84e9afcab"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26#c2d30960dd0e"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/L4-intact-observation-rate"
@@ -2371,18 +2371,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/pautas-e-atas-das-reunioes-publicas-da-diretoria/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/pautas-e-atas-das-reunioes-publicas-da-diretoria/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/a9fb5b4b-59ca-4be8-9690-876d9547271d#69803d7e95ee"
@@ -2393,18 +2393,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/pdd/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/pdd/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/6838f13d-7ea5-4482-a2b9-1515fa56ef42#897f615f1a00"
@@ -2415,18 +2415,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/projetos-de-eficiencia-energetica/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/projetos-de-eficiencia-energetica/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/f9336ee6-7562-4c92-880a-d7217df6cc94#19ce74f93d44"
@@ -2437,18 +2437,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/projetos-de-p-d-em-energia-eletrica/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/projetos-de-p-d-em-energia-eletrica/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/78c2db95-fb29-4851-98f9-4d55cb5bf646#f70d65864e87"
@@ -2459,18 +2459,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/projetos-de-p-d-temas-estrategicos/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/projetos-de-p-d-temas-estrategicos/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/2df0845e-d782-413a-85fc-4cd79d66c34d#def1fe0359eb"
@@ -2481,18 +2481,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/projetos-por-tipologia/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/projetos-por-tipologia/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/8ea45cdf-0031-44c8-9524-e400aaf86a06#b4c18c1e662a"
@@ -2503,18 +2503,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/projetos-res-n-316-2008-219-2006-e-anteriores/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/projetos-res-n-316-2008-219-2006-e-anteriores/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/77ec79dc-9ef0-4e50-8dfc-7c3bc7c26caf#da6561a4bccd"
@@ -2525,18 +2525,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/projetos-retornos-e-investimentos/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/projetos-retornos-e-investimentos/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/dbe863ff-f27f-49bf-ad07-84eddb1629ba#0a04cbf90072"
@@ -2547,18 +2547,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/qualidade-do-atendimento-comercial/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/qualidade-do-atendimento-comercial/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/b7b32b0c-4bac-4584-b9ec-76a32c05ca02#cebfcc196a44"
@@ -2569,7 +2569,7 @@
    "dqv:value": 0.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T13:44:08+00:00",
@@ -2580,7 +2580,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/qualidade-do-atendimento-comercial/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/qualidade-do-atendimento-comercial/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/b7b32b0c-4bac-4584-b9ec-76a32c05ca02#cebfcc196a44"
@@ -2591,18 +2591,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/qualidade-do-atendimento-comercial/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/qualidade-do-atendimento-comercial/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/b7b32b0c-4bac-4584-b9ec-76a32c05ca02#cebfcc196a44"
@@ -2615,21 +2615,21 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/qualidade-do-atendimento-comercial/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/qualidade-do-atendimento-comercial/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/qualidade-do-atendimento-comercial/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/qualidade-do-atendimento-comercial/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/qualidade-do-atendimento-comercial/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/qualidade-do-atendimento-comercial/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/b7b32b0c-4bac-4584-b9ec-76a32c05ca02#cebfcc196a44"
@@ -2642,24 +2642,24 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/qualidade-do-atendimento-comercial/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/qualidade-do-atendimento-comercial/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/qualidade-do-atendimento-comercial/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/qualidade-do-atendimento-comercial/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477#cb88119537c3"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477#6f19d9075eb0"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/L1-conformance-rate"
@@ -2667,7 +2667,7 @@
    "dqv:value": 0.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-12T11:26:34+00:00",
@@ -2678,10 +2678,10 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477#cb88119537c3"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477#6f19d9075eb0"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/L4-intact-observation-rate"
@@ -2689,21 +2689,21 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477#cb88119537c3"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477#6f19d9075eb0"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/Qs-partial-lower-bound"
@@ -2713,24 +2713,24 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477#cb88119537c3"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477#6f19d9075eb0"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/Qs-partial-upper-bound"
@@ -2740,21 +2740,21 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/relacao-de-empreendimentos-de-geracao-distribuida/L2",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/relacao-de-empreendimentos-de-geracao-distribuida/L2",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/5e0fafd2-21b9-4d5b-b622-40438d40aba2#11ee7b346988"
@@ -2765,7 +2765,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-14T09:38:05+00:00",
@@ -2776,7 +2776,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/relacao-de-empreendimentos-de-geracao-distribuida/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/relacao-de-empreendimentos-de-geracao-distribuida/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/5e0fafd2-21b9-4d5b-b622-40438d40aba2#11ee7b346988"
@@ -2787,18 +2787,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/relacao-de-empreendimentos-de-geracao-distribuida/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/relacao-de-empreendimentos-de-geracao-distribuida/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/5e0fafd2-21b9-4d5b-b622-40438d40aba2#11ee7b346988"
@@ -2811,21 +2811,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/relacao-de-empreendimentos-de-geracao-distribuida/L2"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/relacao-de-empreendimentos-de-geracao-distribuida/L2"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/relacao-de-empreendimentos-de-geracao-distribuida/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/relacao-de-empreendimentos-de-geracao-distribuida/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/relacao-de-empreendimentos-de-geracao-distribuida/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/relacao-de-empreendimentos-de-geracao-distribuida/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/5e0fafd2-21b9-4d5b-b622-40438d40aba2#11ee7b346988"
@@ -2838,21 +2838,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/relacao-de-empreendimentos-de-geracao-distribuida/L2"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/relacao-de-empreendimentos-de-geracao-distribuida/L2"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/relacao-de-empreendimentos-de-geracao-distribuida/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/relacao-de-empreendimentos-de-geracao-distribuida/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/resultado-de-leiloes/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/resultado-de-leiloes/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/593537c6-9e0e-4ed9-817a-2c5d5de05147#89d2345e661c"
@@ -2863,7 +2863,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T13:53:25+00:00",
@@ -2874,7 +2874,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/resultado-de-leiloes/L2",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/resultado-de-leiloes/L2",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/593537c6-9e0e-4ed9-817a-2c5d5de05147#89d2345e661c"
@@ -2885,7 +2885,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-14T09:37:43+00:00",
@@ -2896,7 +2896,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/resultado-de-leiloes/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/resultado-de-leiloes/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/593537c6-9e0e-4ed9-817a-2c5d5de05147#89d2345e661c"
@@ -2907,18 +2907,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/resultado-de-leiloes/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/resultado-de-leiloes/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/593537c6-9e0e-4ed9-817a-2c5d5de05147#89d2345e661c"
@@ -2931,24 +2931,24 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/resultado-de-leiloes/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/resultado-de-leiloes/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/resultado-de-leiloes/L2"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/resultado-de-leiloes/L2"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/resultado-de-leiloes/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/resultado-de-leiloes/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/resultado-de-leiloes/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/resultado-de-leiloes/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/593537c6-9e0e-4ed9-817a-2c5d5de05147#89d2345e661c"
@@ -2961,24 +2961,24 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/resultado-de-leiloes/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/resultado-de-leiloes/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/resultado-de-leiloes/L2"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/resultado-de-leiloes/L2"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/resultado-de-leiloes/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/resultado-de-leiloes/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/reunioes-publicas-da-diretoria/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/reunioes-publicas-da-diretoria/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/43dd358f-0ee2-4eb5-80f6-73461bd7d2d1#18bede3bacb6"
@@ -2989,7 +2989,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T13:53:26+00:00",
@@ -3000,7 +3000,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/reunioes-publicas-da-diretoria/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/reunioes-publicas-da-diretoria/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/43dd358f-0ee2-4eb5-80f6-73461bd7d2d1#18bede3bacb6"
@@ -3011,18 +3011,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/reunioes-publicas-da-diretoria/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/reunioes-publicas-da-diretoria/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/43dd358f-0ee2-4eb5-80f6-73461bd7d2d1#18bede3bacb6"
@@ -3035,21 +3035,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/reunioes-publicas-da-diretoria/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/reunioes-publicas-da-diretoria/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/reunioes-publicas-da-diretoria/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/reunioes-publicas-da-diretoria/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/reunioes-publicas-da-diretoria/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/reunioes-publicas-da-diretoria/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/43dd358f-0ee2-4eb5-80f6-73461bd7d2d1#18bede3bacb6"
@@ -3062,21 +3062,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/reunioes-publicas-da-diretoria/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/reunioes-publicas-da-diretoria/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/reunioes-publicas-da-diretoria/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/reunioes-publicas-da-diretoria/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/samp/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/samp/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf#2d5bf9b8f765"
@@ -3087,7 +3087,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-05T12:50:50+00:00",
@@ -3098,7 +3098,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/samp/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/samp/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf#2d5bf9b8f765"
@@ -3109,18 +3109,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/samp/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/samp/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf#2d5bf9b8f765"
@@ -3133,21 +3133,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/samp/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/samp/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/samp/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/samp/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/samp/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/samp/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf#2d5bf9b8f765"
@@ -3160,21 +3160,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/samp/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/samp/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/samp/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/samp/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/samp-balanco/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/samp-balanco/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/3193ebab-81b3-406e-be0e-f968a4a21689#1f4c91a67eb2"
@@ -3185,18 +3185,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/scs-sistema-de-controle-de-subvencoes-e-programas-sociais/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/scs-sistema-de-controle-de-subvencoes-e-programas-sociais/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/942de3e1-0b52-4e41-a6c1-eff9f3b7c7d6#f41e7f452b48"
@@ -3207,18 +3207,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/seguranca-do-trabalho-e-das-instalacoes/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/seguranca-do-trabalho-e-das-instalacoes/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/65e3b443-aadf-4d7c-bc61-827101cca4a7#0b13e2d214b4"
@@ -3229,7 +3229,7 @@
    "dqv:value": 0.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-05T12:50:55+00:00",
@@ -3240,7 +3240,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/seguranca-do-trabalho-e-das-instalacoes/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/seguranca-do-trabalho-e-das-instalacoes/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/65e3b443-aadf-4d7c-bc61-827101cca4a7#0b13e2d214b4"
@@ -3251,18 +3251,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/seguranca-do-trabalho-e-das-instalacoes/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/seguranca-do-trabalho-e-das-instalacoes/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/65e3b443-aadf-4d7c-bc61-827101cca4a7#0b13e2d214b4"
@@ -3275,21 +3275,21 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/seguranca-do-trabalho-e-das-instalacoes/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/seguranca-do-trabalho-e-das-instalacoes/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/seguranca-do-trabalho-e-das-instalacoes/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/seguranca-do-trabalho-e-das-instalacoes/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/seguranca-do-trabalho-e-das-instalacoes/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/seguranca-do-trabalho-e-das-instalacoes/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/65e3b443-aadf-4d7c-bc61-827101cca4a7#0b13e2d214b4"
@@ -3302,24 +3302,24 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/seguranca-do-trabalho-e-das-instalacoes/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/seguranca-do-trabalho-e-das-instalacoes/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/seguranca-do-trabalho-e-das-instalacoes/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/seguranca-do-trabalho-e-das-instalacoes/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#07d88aabe0a3"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#f6c3716330d3"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/L1-conformance-rate"
@@ -3327,7 +3327,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-12T11:47:42+00:00",
@@ -3338,10 +3338,10 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L2",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L2",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#07d88aabe0a3"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#f6c3716330d3"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/L2-check-pass-rate"
@@ -3349,7 +3349,7 @@
    "dqv:value": 0.989347,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-14T09:38:06+00:00",
@@ -3360,10 +3360,10 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#07d88aabe0a3"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#f6c3716330d3"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/L4-intact-observation-rate"
@@ -3371,21 +3371,21 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#07d88aabe0a3"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#f6c3716330d3"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/Qs-partial-lower-bound"
@@ -3395,27 +3395,27 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L2"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L2"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#07d88aabe0a3"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#f6c3716330d3"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/Qs-partial-upper-bound"
@@ -3425,27 +3425,27 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L2"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L2"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/siga-sistema-de-informacoes-de-geracao-da-aneel/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/sigec-sistema-de-gestao-de-creditos/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/sigec-sistema-de-gestao-de-creditos/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a#63b85cbc30df"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a#2d9807aa77b4"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/L4-intact-observation-rate"
@@ -3453,29 +3453,29 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/sistema-de-gestao-da-transmissao-siget/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/sistema-de-gestao-da-transmissao-siget/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6#651e4341e1b2"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6#117145b762a0"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/L1-conformance-rate"
    },
    "dqv:value": 1.0,
-   "5ltep:evidenceStatus": "valid",
+   "5ltep:evidenceStatus": "out_of_scope",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-12T11:48:49+00:00",
@@ -3486,83 +3486,29 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/sistema-de-gestao-da-transmissao-siget/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/sistema-de-gestao-da-transmissao-siget/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6#651e4341e1b2"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6#117145b762a0"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/L4-intact-observation-rate"
    },
-   "dqv:value": 1.0,
+   "dqv:value": 0.979167,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/sistema-de-gestao-da-transmissao-siget/Qs-low",
-   "@type": "dqv:QualityMeasurement",
-   "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6#651e4341e1b2"
-   },
-   "dqv:isMeasurementOf": {
-    "@id": "5ltep:metric/Qs-partial-lower-bound"
-   },
-   "dqv:value": 0.5,
-   "5ltep:coverage": 0.5,
-   "5ltep:band": "undetermined",
-   "prov:wasDerivedFrom": [
-    {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/sistema-de-gestao-da-transmissao-siget/L1"
-    },
-    {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/sistema-de-gestao-da-transmissao-siget/L4"
-    },
-    {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
-    }
-   ],
-   "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
-   }
-  },
-  {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/sistema-de-gestao-da-transmissao-siget/Qs-high",
-   "@type": "dqv:QualityMeasurement",
-   "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6#651e4341e1b2"
-   },
-   "dqv:isMeasurementOf": {
-    "@id": "5ltep:metric/Qs-partial-upper-bound"
-   },
-   "dqv:value": 1.0,
-   "5ltep:coverage": 0.5,
-   "5ltep:band": "undetermined",
-   "prov:wasDerivedFrom": [
-    {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/sistema-de-gestao-da-transmissao-siget/L1"
-    },
-    {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/sistema-de-gestao-da-transmissao-siget/L4"
-    },
-    {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
-    }
-   ],
-   "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
-   }
-  },
-  {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/slc-sistema-de-licitacoes-e-contratos/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/slc-sistema-de-licitacoes-e-contratos/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/45192a41-e5c0-4e1e-af71-4f2c74166768#cdaf1592ed15"
@@ -3573,7 +3519,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T14:15:50+00:00",
@@ -3584,7 +3530,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/slc-sistema-de-licitacoes-e-contratos/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/slc-sistema-de-licitacoes-e-contratos/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/45192a41-e5c0-4e1e-af71-4f2c74166768#cdaf1592ed15"
@@ -3595,18 +3541,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/slc-sistema-de-licitacoes-e-contratos/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/slc-sistema-de-licitacoes-e-contratos/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/45192a41-e5c0-4e1e-af71-4f2c74166768#cdaf1592ed15"
@@ -3619,21 +3565,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/slc-sistema-de-licitacoes-e-contratos/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/slc-sistema-de-licitacoes-e-contratos/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/slc-sistema-de-licitacoes-e-contratos/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/slc-sistema-de-licitacoes-e-contratos/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/slc-sistema-de-licitacoes-e-contratos/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/slc-sistema-de-licitacoes-e-contratos/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/45192a41-e5c0-4e1e-af71-4f2c74166768#cdaf1592ed15"
@@ -3646,21 +3592,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/slc-sistema-de-licitacoes-e-contratos/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/slc-sistema-de-licitacoes-e-contratos/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/slc-sistema-de-licitacoes-e-contratos/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/slc-sistema-de-licitacoes-e-contratos/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/subsidios-tarifarios/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/subsidios-tarifarios/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/28a6b7de-6f3a-4a5b-aa69-229f3bc4fbc9#62d05336283c"
@@ -3671,7 +3617,7 @@
    "dqv:value": 0.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-03T14:15:54+00:00",
@@ -3682,7 +3628,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/subsidios-tarifarios/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/subsidios-tarifarios/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/28a6b7de-6f3a-4a5b-aa69-229f3bc4fbc9#62d05336283c"
@@ -3693,18 +3639,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/subsidios-tarifarios/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/subsidios-tarifarios/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/28a6b7de-6f3a-4a5b-aa69-229f3bc4fbc9#62d05336283c"
@@ -3717,21 +3663,21 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/subsidios-tarifarios/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/subsidios-tarifarios/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/subsidios-tarifarios/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/subsidios-tarifarios/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/subsidios-tarifarios/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/subsidios-tarifarios/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/28a6b7de-6f3a-4a5b-aa69-229f3bc4fbc9#62d05336283c"
@@ -3744,21 +3690,21 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/subsidios-tarifarios/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/subsidios-tarifarios/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/subsidios-tarifarios/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/subsidios-tarifarios/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/tarifa-social-de-energia-eletrica-beneficiarios/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/tarifa-social-de-energia-eletrica-beneficiarios/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/0ffe45bc-b0bc-4c18-99ab-e97e94841418#c7405da36e67"
@@ -3769,40 +3715,40 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/tarifas-distribuidoras-energia-eletrica/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/tarifas-distribuidoras-energia-eletrica/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/5a583f3e-1646-4f67-bf0f-69db4203e89e#fb79dd6bdf79"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/5a583f3e-1646-4f67-bf0f-69db4203e89e#b5fa0840a157"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/L4-intact-observation-rate"
    },
-   "dqv:value": 1.0,
+   "dqv:value": 0.979167,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-intimacao-ti/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-intimacao-ti/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10#c95399f88f28"
@@ -3813,7 +3759,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-05T12:28:27+00:00",
@@ -3824,7 +3770,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-intimacao-ti/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-intimacao-ti/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10#c95399f88f28"
@@ -3835,18 +3781,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-intimacao-ti/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-intimacao-ti/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10#c95399f88f28"
@@ -3859,21 +3805,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-intimacao-ti/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-intimacao-ti/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-intimacao-ti/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-intimacao-ti/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-intimacao-ti/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-intimacao-ti/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10#c95399f88f28"
@@ -3886,21 +3832,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-intimacao-ti/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-intimacao-ti/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-intimacao-ti/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-intimacao-ti/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-notificacao/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-notificacao/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/f72dd455-ef2b-4922-862f-e9e59f999ded#6fd4dddbe18b"
@@ -3911,7 +3857,7 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-05T12:28:27+00:00",
@@ -3922,7 +3868,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-notificacao/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-notificacao/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/f72dd455-ef2b-4922-862f-e9e59f999ded#6fd4dddbe18b"
@@ -3933,18 +3879,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-notificacao/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-notificacao/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/f72dd455-ef2b-4922-862f-e9e59f999ded#6fd4dddbe18b"
@@ -3957,21 +3903,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-notificacao/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-notificacao/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-notificacao/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-notificacao/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-notificacao/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-notificacao/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/f72dd455-ef2b-4922-862f-e9e59f999ded#6fd4dddbe18b"
@@ -3984,21 +3930,21 @@
    "5ltep:band": "undetermined",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-notificacao/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-notificacao/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termo-de-notificacao/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termo-de-notificacao/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/L1",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/L1",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8#4ee4c8a8c987"
@@ -4009,7 +3955,7 @@
    "dqv:value": 0.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
     "@value": "2026-10-05T12:28:28+00:00",
@@ -4020,7 +3966,7 @@
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8#4ee4c8a8c987"
@@ -4031,18 +3977,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/Qs-low",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/Qs-low",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8#4ee4c8a8c987"
@@ -4055,21 +4001,21 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/Qs-high",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/Qs-high",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8#4ee4c8a8c987"
@@ -4082,24 +4028,24 @@
    "5ltep:band": "alert",
    "prov:wasDerivedFrom": [
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/L1"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/L1"
     },
     {
-     "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/L4"
+     "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/termos-de-intimacao-das-penas-dos-editais-tipe/L4"
     },
     {
-     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/724c69d768776d897c0d9604a5617fd4bb0f8c13/policy.json"
+     "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/blob/7b1c29b66bf239a34fe2c544fee4a4225dd8bac7/policy.json"
     }
    ],
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/tfsee/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/tfsee/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
-    "@id": "https://dadosabertos.aneel.gov.br/dataset/738e425b-5554-4fe4-8a8a-2d163308e9ff#d1bb006c4d9c"
+    "@id": "https://dadosabertos.aneel.gov.br/dataset/738e425b-5554-4fe4-8a8a-2d163308e9ff#ac31cb4fdea0"
    },
    "dqv:isMeasurementOf": {
     "@id": "5ltep:metric/L4-intact-observation-rate"
@@ -4107,18 +4053,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/transmissao-e-distribuicao/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/transmissao-e-distribuicao/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/7cd37711-c998-453b-abf6-ebd6144d0565#6916b81fd53d"
@@ -4129,18 +4075,18 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   },
   {
-   "@id": "5ltep:l5/2026-10-16T09:43:49+00:00/usinas-termeletricas-por-tipo/L4",
+   "@id": "5ltep:l5/2026-10-17T09:17:59+00:00/usinas-termeletricas-por-tipo/L4",
    "@type": "dqv:QualityMeasurement",
    "dqv:computedOn": {
     "@id": "https://dadosabertos.aneel.gov.br/dataset/4cc8f5c8-4d94-41b2-bf7e-482ae787be6d#f17cce20107a"
@@ -4151,14 +4097,14 @@
    "dqv:value": 1.0,
    "5ltep:evidenceStatus": "valid",
    "prov:wasGeneratedBy": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/38882433374"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer5-aneel/actions/runs/39020587499"
    },
    "5ltep:evaluatedAt": {
-    "@value": "2026-10-16T04:19:59+00:00",
+    "@value": "2026-10-17T04:12:08+00:00",
     "@type": "xsd:dateTime"
    },
    "prov:wasDerivedFrom": {
-    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/f830b2b97a8bc7e9153c9d276dd24738c0fd1709/docs/data/layer4.json"
+    "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel/blob/995627aeff4cb1d586fc6057dcbe80e96f790eef/docs/data/layer4.json"
    }
   }
  ]

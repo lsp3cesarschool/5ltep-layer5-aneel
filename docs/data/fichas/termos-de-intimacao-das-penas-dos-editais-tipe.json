@@ -71,10 +71,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-16T04:19:59+00:00",
+   "evaluated_at": "2026-10-17T04:12:08+00:00",
    "current": true,
    "facts": {
-    "observations": 44,
+    "observations": 48,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8#4ee4c8a8c987"
    },
@@ -190,30 +190,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-16T04:20:22.680108+00:00",
+   "generated_at": "2026-10-17T04:12:33.245200+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "f830b2b97a8bc7e9153c9d276dd24738c0fd1709",
-      "date": "2026-10-16T04:20:22Z"
+      "sha": "995627aeff4cb1d586fc6057dcbe80e96f790eef",
+      "date": "2026-10-17T04:12:33Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "9adddf663a3b3afa6a95b903d247bff80fadc073",
-      "date": "2026-10-16T08:22:48Z"
+      "sha": "b21c626a6dffb9d81517acf199e0d4cdc527b602",
+      "date": "2026-10-17T07:57:15Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "f830b2b97a8bc7e9153c9d276dd24738c0fd1709",
-      "date": "2026-10-16T04:20:22Z"
+      "sha": "995627aeff4cb1d586fc6057dcbe80e96f790eef",
+      "date": "2026-10-17T04:12:33Z"
      }
     }
    ],
@@ -265,19 +265,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-16T09:43:49+00:00",
+ "generated_at": "2026-10-17T09:17:59+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "724c69d768776d897c0d9604a5617fd4bb0f8c13",
-  "run_id": "38882433374"
+  "commit": "7b1c29b66bf239a34fe2c544fee4a4225dd8bac7",
+  "run_id": "39020587499"
  },
  "ficha": {
-  "id": "sha256:e73b4892c74f4ce30a50fcd70313d9cc89bb6fdeabb96ea80c50fa9a6c12ab97",
+  "id": "sha256:17789522237d4760cde814e1c4e7bb58b5cb537a348d8baf43b8b50e75d98268",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/termos-de-intimacao-das-penas-dos-editais-tipe.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'termos-de-intimacao-das-penas-dos-editais-tipe' (ANEEL), 2026-10-16, sha256:e73b4892c74f4ce3…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'termos-de-intimacao-das-penas-dos-editais-tipe' (ANEEL), 2026-10-16, sha256:e73b4892c74f4ce3…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe"
+   "en": "5L-TEP Layer 5 record of 'termos-de-intimacao-das-penas-dos-editais-tipe' (ANEEL), 2026-10-17, sha256:17789522237d4760…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'termos-de-intimacao-das-penas-dos-editais-tipe' (ANEEL), 2026-10-17, sha256:17789522237d4760…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe"
   }
  }
 }
