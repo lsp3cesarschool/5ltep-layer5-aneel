@@ -4,9 +4,9 @@
   "title": "Componentes Tarifárias",
   "id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
   "resources": 31,
-  "last_change": "2026-10-13T14:03:28+00:00",
+  "last_change": "2026-10-17T10:32:09+00:00",
   "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5#9d1fc8dbc87e",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5#c6774192e291",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/componentes-tarifarias"
  },
  "qs": {
@@ -56,12 +56,12 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-17T04:12:08+00:00",
+   "evaluated_at": "2026-10-18T04:18:39+00:00",
    "current": true,
    "facts": {
-    "observations": 48,
+    "observations": 52,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5#9d1fc8dbc87e"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5#c6774192e291"
    },
    "signals": [
     {
@@ -82,6 +82,14 @@
    "when": null,
    "en": "unreconciled divergence in the independent cross-check",
    "pt": "divergência não reconciliada no cross-check independente"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-10-17T10:32:09+00:00",
+   "count": 5,
+   "en": "CONTENT_MOD in 5 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 5 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -132,7 +140,7 @@
     "first_reported": "2026-10-17T09:17:59+00:00",
     "count": 1,
     "evaluated_at": "2026-10-17T04:12:08+00:00",
-    "status": "reported",
+    "status": "changed_signal_persists",
     "en": "unreconciled divergence in the independent cross-check",
     "pt": "divergência não reconciliada no cross-check independente",
     "digests": {
@@ -151,7 +159,8 @@
      "70ac08d1-53fc-4ceb-9c22-3a3a2c70e9fa": "b2b096bd2c78e528d9c80058777a54e070a64acd5eada9d8696713c5b61d56c4",
      "a4060165-3a0c-404f-926c-83901088b67c": "7423fce72434a335fcf9882fe5b89a5c1c29eaec90be2df0de49424e6eec2e4c",
      "e8717aa8-2521-453f-bf16-fbb9a16eea39": "d899a2f83d0dd40bfbf819d56dba8097ecb89de8a995dc994405d3ff8684aaaa"
-    }
+    },
+    "first_change_seen": "2026-10-18T09:31:50+00:00"
    }
   ],
   "closed": [
@@ -255,30 +264,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-17T04:12:33.245200+00:00",
+   "generated_at": "2026-10-18T04:19:09.550730+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "995627aeff4cb1d586fc6057dcbe80e96f790eef",
-      "date": "2026-10-17T04:12:33Z"
+      "sha": "7e87e7350fb7a0528834616c95ad456b49aa7ac1",
+      "date": "2026-10-18T04:19:09Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "b21c626a6dffb9d81517acf199e0d4cdc527b602",
-      "date": "2026-10-17T07:57:15Z"
+      "sha": "24c46810b54afe5eea550b3351b28b1fd24fb475",
+      "date": "2026-10-18T08:13:22Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "995627aeff4cb1d586fc6057dcbe80e96f790eef",
-      "date": "2026-10-17T04:12:33Z"
+      "sha": "7e87e7350fb7a0528834616c95ad456b49aa7ac1",
+      "date": "2026-10-18T04:19:09Z"
      }
     }
    ],
@@ -330,19 +339,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-17T09:17:59+00:00",
+ "generated_at": "2026-10-18T09:31:50+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "7b1c29b66bf239a34fe2c544fee4a4225dd8bac7",
-  "run_id": "39020587499"
+  "commit": "f8ec17099d47e941f4795fda322e3ba01a9d7fb5",
+  "run_id": "39115686164"
  },
  "ficha": {
-  "id": "sha256:c024ad1e73ae38ca190a2bf780146aac7281f9f83c4139f080e3d6bd355bd95f",
+  "id": "sha256:f529cb6fc02654cbc8de614dcc87dd92e6a4476134fe199fe18b229ed3373845",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/componentes-tarifarias.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'componentes-tarifarias' (ANEEL), 2026-10-17, sha256:c024ad1e73ae38ca…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'componentes-tarifarias' (ANEEL), 2026-10-17, sha256:c024ad1e73ae38ca…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias"
+   "en": "5L-TEP Layer 5 record of 'componentes-tarifarias' (ANEEL), 2026-10-18, sha256:f529cb6fc02654cb…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'componentes-tarifarias' (ANEEL), 2026-10-18, sha256:f529cb6fc02654cb…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias"
   }
  }
 }

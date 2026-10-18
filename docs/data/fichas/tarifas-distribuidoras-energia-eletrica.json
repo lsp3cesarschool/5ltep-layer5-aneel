@@ -4,9 +4,9 @@
   "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
   "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
   "resources": 4,
-  "last_change": "2026-10-16T11:13:19+00:00",
-  "last_type": "SCHEMA_DRIFT",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/5a583f3e-1646-4f67-bf0f-69db4203e89e#b5fa0840a157",
+  "last_change": "2026-10-17T10:32:09+00:00",
+  "last_type": "CONTENT_MOD",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/5a583f3e-1646-4f67-bf0f-69db4203e89e#a1d94041ba36",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica"
  },
  "qs": {
@@ -55,13 +55,13 @@
   "L4": {
    "status": "valid",
    "reason": null,
-   "rate": 0.9791666666666666,
-   "evaluated_at": "2026-10-17T04:12:08+00:00",
+   "rate": 0.9807692307692307,
+   "evaluated_at": "2026-10-18T04:18:39+00:00",
    "current": true,
    "facts": {
-    "observations": 48,
+    "observations": 52,
     "critical_in_window": 1,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/5a583f3e-1646-4f67-bf0f-69db4203e89e#b5fa0840a157"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/5a583f3e-1646-4f67-bf0f-69db4203e89e#a1d94041ba36"
    },
    "signals": []
   }
@@ -73,6 +73,14 @@
    "when": "2026-10-16T11:13:19+00:00",
    "en": "the dataset structure changed (SCHEMA_DRIFT): earlier evaluations no longer cover it",
    "pt": "a estrutura do conjunto mudou (SCHEMA_DRIFT): avaliações anteriores deixam de cobri-lo"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-10-17T10:32:09+00:00",
+   "count": 5,
+   "en": "CONTENT_MOD in 5 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 5 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -268,30 +276,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-17T04:12:33.245200+00:00",
+   "generated_at": "2026-10-18T04:19:09.550730+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "995627aeff4cb1d586fc6057dcbe80e96f790eef",
-      "date": "2026-10-17T04:12:33Z"
+      "sha": "7e87e7350fb7a0528834616c95ad456b49aa7ac1",
+      "date": "2026-10-18T04:19:09Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "b21c626a6dffb9d81517acf199e0d4cdc527b602",
-      "date": "2026-10-17T07:57:15Z"
+      "sha": "24c46810b54afe5eea550b3351b28b1fd24fb475",
+      "date": "2026-10-18T08:13:22Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "995627aeff4cb1d586fc6057dcbe80e96f790eef",
-      "date": "2026-10-17T04:12:33Z"
+      "sha": "7e87e7350fb7a0528834616c95ad456b49aa7ac1",
+      "date": "2026-10-18T04:19:09Z"
      }
     }
    ],
@@ -343,19 +351,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-17T09:17:59+00:00",
+ "generated_at": "2026-10-18T09:31:50+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "7b1c29b66bf239a34fe2c544fee4a4225dd8bac7",
-  "run_id": "39020587499"
+  "commit": "f8ec17099d47e941f4795fda322e3ba01a9d7fb5",
+  "run_id": "39115686164"
  },
  "ficha": {
-  "id": "sha256:cebfc64993c08ffb0458a7909a58a608fe7ea47dbd61ebbf136f00093a1305b2",
+  "id": "sha256:e226a35447d584834a9156d98a1fa3db6d82a1461bf278d6d93a94093992d021",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tarifas-distribuidoras-energia-eletrica",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/tarifas-distribuidoras-energia-eletrica.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'tarifas-distribuidoras-energia-eletrica' (ANEEL), 2026-10-17, sha256:cebfc64993c08ffb…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tarifas-distribuidoras-energia-eletrica",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'tarifas-distribuidoras-energia-eletrica' (ANEEL), 2026-10-17, sha256:cebfc64993c08ffb…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tarifas-distribuidoras-energia-eletrica"
+   "en": "5L-TEP Layer 5 record of 'tarifas-distribuidoras-energia-eletrica' (ANEEL), 2026-10-18, sha256:e226a35447d58483…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tarifas-distribuidoras-energia-eletrica",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'tarifas-distribuidoras-energia-eletrica' (ANEEL), 2026-10-18, sha256:e226a35447d58483…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tarifas-distribuidoras-energia-eletrica"
   }
  }
 }
