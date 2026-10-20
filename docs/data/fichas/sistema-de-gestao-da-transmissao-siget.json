@@ -4,9 +4,9 @@
   "title": "Sistema de Gestão da Transmissão - SIGET",
   "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
   "resources": 35,
-  "last_change": "2026-10-18T10:53:49+00:00",
+  "last_change": "2026-10-19T12:56:04+00:00",
   "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6#3071193ed97d",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6#815a95d2eaf3",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget"
  },
  "qs": {
@@ -18,8 +18,8 @@
    "L4"
   ],
   "integrity": [],
-  "low": 0.49642857142857144,
-  "high": 0.9964285714285714,
+  "low": 0.496551724137931,
+  "high": 0.996551724137931,
   "band": "undetermined",
   "eligible": false,
   "missing_layers": [
@@ -33,7 +33,7 @@
    "reason": null,
    "rate": 1.0,
    "evaluated_at": "2026-10-19T10:13:23+00:00",
-   "current": true,
+   "current": false,
    "facts": {
     "level": 0,
     "tables": 18,
@@ -63,13 +63,13 @@
   "L4": {
    "status": "valid",
    "reason": null,
-   "rate": 0.9821428571428571,
-   "evaluated_at": "2026-10-19T04:28:00+00:00",
+   "rate": 0.9827586206896551,
+   "evaluated_at": "2026-10-20T04:38:03+00:00",
    "current": true,
    "facts": {
-    "observations": 56,
+    "observations": 58,
     "critical_in_window": 1,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6#3071193ed97d"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6#815a95d2eaf3"
    },
    "signals": []
   }
@@ -81,6 +81,14 @@
    "when": "2026-10-16T11:13:19+00:00",
    "en": "the dataset structure changed (SCHEMA_DRIFT): earlier evaluations no longer cover it",
    "pt": "a estrutura do conjunto mudou (SCHEMA_DRIFT): avaliações anteriores deixam de cobri-lo"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-10-19T12:56:04+00:00",
+   "count": 10,
+   "en": "CONTENT_MOD in 10 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 10 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -366,30 +374,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-19T04:28:18.474428+00:00",
+   "generated_at": "2026-10-20T04:38:29.205151+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "e003365a32e84b86a44fea7e19ce0df1983ea0f9",
-      "date": "2026-10-19T04:28:18Z"
+      "sha": "efb2715200530bb5aaba0cd94a1cd06202aa492f",
+      "date": "2026-10-20T04:38:29Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "d6eae5b4319597aefd4b7ea533b5a09db3a26263",
-      "date": "2026-10-19T09:12:06Z"
+      "sha": "b100920a6f098fdcd15711d95a332cc2d9e3f580",
+      "date": "2026-10-20T08:45:43Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "e003365a32e84b86a44fea7e19ce0df1983ea0f9",
-      "date": "2026-10-19T04:28:18Z"
+      "sha": "efb2715200530bb5aaba0cd94a1cd06202aa492f",
+      "date": "2026-10-20T04:38:29Z"
      }
     }
    ],
@@ -441,19 +449,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-19T10:42:30+00:00",
+ "generated_at": "2026-10-20T09:59:24+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "c554c3b7d44d8500ddc3c1e5eaa58f823f8bfd4d",
-  "run_id": "39239355928"
+  "commit": "d766df1498dd2e816d1e7632202bc8983c1443f1",
+  "run_id": "39404666197"
  },
  "ficha": {
-  "id": "sha256:655be430985788d3dadedd360f7ac7761aaeac6cb85d645c7442717e3674d6a4",
+  "id": "sha256:5c3e73d120ee079cef73d2af559467c3a0c28ff356b3100c2d3dd4b00a081a9a",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=sistema-de-gestao-da-transmissao-siget",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/sistema-de-gestao-da-transmissao-siget.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'sistema-de-gestao-da-transmissao-siget' (ANEEL), 2026-10-19, sha256:655be430985788d3…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=sistema-de-gestao-da-transmissao-siget",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'sistema-de-gestao-da-transmissao-siget' (ANEEL), 2026-10-19, sha256:655be430985788d3…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=sistema-de-gestao-da-transmissao-siget"
+   "en": "5L-TEP Layer 5 record of 'sistema-de-gestao-da-transmissao-siget' (ANEEL), 2026-10-20, sha256:5c3e73d120ee079c…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=sistema-de-gestao-da-transmissao-siget",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'sistema-de-gestao-da-transmissao-siget' (ANEEL), 2026-10-20, sha256:5c3e73d120ee079c…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=sistema-de-gestao-da-transmissao-siget"
   }
  }
 }

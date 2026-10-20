@@ -4,9 +4,9 @@
   "title": "Bandeiras Tarifárias",
   "id": "7f43a020-6dc5-44b8-80b4-d97eaa94436c",
   "resources": 6,
-  "last_change": "2026-10-10T05:39:46+00:00",
+  "last_change": "2026-10-19T12:56:04+00:00",
   "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/7f43a020-6dc5-44b8-80b4-d97eaa94436c#a27a3fed3ad1",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/7f43a020-6dc5-44b8-80b4-d97eaa94436c#72ad8ce0d4ea",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/bandeiras-tarifarias"
  },
  "qs": {
@@ -56,48 +56,24 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-19T04:28:00+00:00",
+   "evaluated_at": "2026-10-20T04:38:03+00:00",
    "current": true,
    "facts": {
-    "observations": 56,
+    "observations": 58,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/7f43a020-6dc5-44b8-80b4-d97eaa94436c#a27a3fed3ad1"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/7f43a020-6dc5-44b8-80b4-d97eaa94436c#72ad8ce0d4ea"
    },
-   "signals": [
-    {
-     "key": "L4:cross_check:bandeiras-tarifarias",
-     "count": 1,
-     "en": "unreconciled divergence in the independent cross-check",
-     "pt": "divergência não reconciliada no cross-check independente"
-    }
-   ]
+   "signals": []
   }
  },
  "findings": [
   {
    "layer": "L4",
-   "kind": "signal",
-   "key": "L4:cross_check:bandeiras-tarifarias",
-   "count": 1,
-   "when": null,
-   "en": "unreconciled divergence in the independent cross-check",
-   "pt": "divergência não reconciliada no cross-check independente"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-10-19T09:35:23+00:00",
-   "resource_id": "0591b8f6-fe54-437b-b72b-1aa2efd46e42",
-   "en": "the bytes of resource 0591b8f6-fe54-437b-b72b-1aa2efd46e42 changed between 2026-10-12 and 2026-10-19 with no change in the portal metadata",
-   "pt": "os bytes do recurso 0591b8f6-fe54-437b-b72b-1aa2efd46e42 mudaram entre 2026-10-12 e 2026-10-19 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-10-19T09:35:43+00:00",
-   "resource_id": "e62b61dd-0a27-41b6-b1d2-19faa6c61501",
-   "en": "the bytes of resource e62b61dd-0a27-41b6-b1d2-19faa6c61501 changed between 2026-10-12 and 2026-10-19 with no change in the portal metadata",
-   "pt": "os bytes do recurso e62b61dd-0a27-41b6-b1d2-19faa6c61501 mudaram entre 2026-10-12 e 2026-10-19 sem mudança nos metadados do portal"
+   "kind": "simultaneous",
+   "when": "2026-10-19T12:56:04+00:00",
+   "count": 10,
+   "en": "CONTENT_MOD in 10 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 10 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -117,24 +93,28 @@
   }
  ],
  "outcomes": {
-  "open": [
+  "open": [],
+  "closed": [
    {
-    "key": "L4:cross_check:bandeiras-tarifarias",
     "layer": "L4",
     "first_reported": "2026-10-19T10:42:30+00:00",
     "count": 1,
     "evaluated_at": "2026-10-19T04:28:00+00:00",
-    "status": "reported",
+    "status": "remediated_observed",
     "en": "unreconciled divergence in the independent cross-check",
     "pt": "divergência não reconciliada no cross-check independente",
     "digests": {
      "5879ca80-b3bd-45b1-a135-d9b77c1d5b36": "a470305069a3b2571cfe1b41c11ef638ad0cd1bcabeeae955a20d670bf375cfa",
      "0591b8f6-fe54-437b-b72b-1aa2efd46e42": "090621956303447d0cd8ff7f656fd629dfd125e0f16326eda9faa257fb3bfb3b",
      "e62b61dd-0a27-41b6-b1d2-19faa6c61501": "cfc1d0d8ebd99397df824d722371dd73fb2944a23954e87a55814ba6cb36b615"
-    }
+    },
+    "first_change_seen": "2026-10-20T09:59:24+00:00",
+    "key": "L4:cross_check:bandeiras-tarifarias",
+    "dataset": "bandeiras-tarifarias",
+    "outcome": "remediated_observed",
+    "at": "2026-10-20T09:59:24+00:00"
    }
-  ],
-  "closed": []
+  ]
  },
  "sources": {
   "L1": {
@@ -204,30 +184,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-19T04:28:18.474428+00:00",
+   "generated_at": "2026-10-20T04:38:29.205151+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "e003365a32e84b86a44fea7e19ce0df1983ea0f9",
-      "date": "2026-10-19T04:28:18Z"
+      "sha": "efb2715200530bb5aaba0cd94a1cd06202aa492f",
+      "date": "2026-10-20T04:38:29Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "d6eae5b4319597aefd4b7ea533b5a09db3a26263",
-      "date": "2026-10-19T09:12:06Z"
+      "sha": "b100920a6f098fdcd15711d95a332cc2d9e3f580",
+      "date": "2026-10-20T08:45:43Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "e003365a32e84b86a44fea7e19ce0df1983ea0f9",
-      "date": "2026-10-19T04:28:18Z"
+      "sha": "efb2715200530bb5aaba0cd94a1cd06202aa492f",
+      "date": "2026-10-20T04:38:29Z"
      }
     }
    ],
@@ -279,19 +259,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-19T10:42:30+00:00",
+ "generated_at": "2026-10-20T09:59:24+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "c554c3b7d44d8500ddc3c1e5eaa58f823f8bfd4d",
-  "run_id": "39239355928"
+  "commit": "d766df1498dd2e816d1e7632202bc8983c1443f1",
+  "run_id": "39404666197"
  },
  "ficha": {
-  "id": "sha256:3dee97696daa27289ee26b0d024652ccdc28e0255d9b915d7999cda3be05eead",
+  "id": "sha256:d6b413bd55ca657079bc8d5c71c685756a919151caf65c0268142451678e6f21",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bandeiras-tarifarias",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/bandeiras-tarifarias.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'bandeiras-tarifarias' (ANEEL), 2026-10-19, sha256:3dee97696daa2728…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bandeiras-tarifarias",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'bandeiras-tarifarias' (ANEEL), 2026-10-19, sha256:3dee97696daa2728…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bandeiras-tarifarias"
+   "en": "5L-TEP Layer 5 record of 'bandeiras-tarifarias' (ANEEL), 2026-10-20, sha256:d6b413bd55ca6570…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bandeiras-tarifarias",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'bandeiras-tarifarias' (ANEEL), 2026-10-20, sha256:d6b413bd55ca6570…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bandeiras-tarifarias"
   }
  }
 }
