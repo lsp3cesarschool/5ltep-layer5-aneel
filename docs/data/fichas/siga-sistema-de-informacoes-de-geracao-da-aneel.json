@@ -4,9 +4,9 @@
   "title": "SIGA - Sistema de Informações de Geração da ANEEL",
   "id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
   "resources": 5,
-  "last_change": "2026-10-19T12:56:04+00:00",
+  "last_change": "2026-10-20T11:23:48+00:00",
   "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#ee9863e62650",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#18f9d5a70111",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel"
  },
  "qs": {
@@ -46,8 +46,8 @@
    "status": "valid",
    "reason": null,
    "rate": 0.9893465770766384,
-   "evaluated_at": "2026-10-14T09:38:06+00:00",
-   "current": false,
+   "evaluated_at": "2026-10-21T09:29:04+00:00",
+   "current": true,
    "facts": {
     "rules": [
      "cgh-above-5000-kw",
@@ -93,12 +93,12 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-20T04:38:03+00:00",
+   "evaluated_at": "2026-10-21T04:31:07+00:00",
    "current": true,
    "facts": {
-    "observations": 58,
+    "observations": 62,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#ee9863e62650"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#18f9d5a70111"
    },
    "signals": []
   }
@@ -130,6 +130,14 @@
    "when": null,
    "en": "465 signal(s) of rule 'Plant coordinates missing or outside Brazil' in 25045 check(s)",
    "pt": "465 sinal(is) da regra 'Coordenada da usina ausente ou fora do Brasil' em 25045 verificação(ões)"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-10-20T11:23:48+00:00",
+   "count": 7,
+   "en": "CONTENT_MOD in 7 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 7 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -322,14 +330,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-14T09:38:07+00:00",
+   "generated_at": "2026-10-21T09:29:07+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
      "commit": {
-      "sha": "a6c957255a4b56d7b0a22966f62f067be2f133b8",
-      "date": "2026-10-14T09:38:22Z"
+      "sha": "370754fdcdd5fa1a47a5fb71576373c46f784d59",
+      "date": "2026-10-21T09:29:25Z"
      }
     }
    ],
@@ -362,30 +370,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-20T04:38:29.205151+00:00",
+   "generated_at": "2026-10-21T04:31:37.363184+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "efb2715200530bb5aaba0cd94a1cd06202aa492f",
-      "date": "2026-10-20T04:38:29Z"
+      "sha": "9139e13e21895973db73d1af8bad3abfee868891",
+      "date": "2026-10-21T04:31:37Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "b100920a6f098fdcd15711d95a332cc2d9e3f580",
-      "date": "2026-10-20T08:45:43Z"
+      "sha": "b7d5581fa6584cb9113abec9b5543e70b6215c85",
+      "date": "2026-10-21T08:46:45Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "efb2715200530bb5aaba0cd94a1cd06202aa492f",
-      "date": "2026-10-20T04:38:29Z"
+      "sha": "9139e13e21895973db73d1af8bad3abfee868891",
+      "date": "2026-10-21T04:31:37Z"
      }
     }
    ],
@@ -437,19 +445,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-20T09:59:24+00:00",
+ "generated_at": "2026-10-21T10:04:42+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "d766df1498dd2e816d1e7632202bc8983c1443f1",
-  "run_id": "39404666197"
+  "commit": "105fbe28be144b3fe333e42f274b9093bf3b208f",
+  "run_id": "39581876254"
  },
  "ficha": {
-  "id": "sha256:3005482a438de8ce5d3899a2735f0d0973587bb0ea5904a09ff7163a3fe02507",
+  "id": "sha256:334c42d96b41f83e26ac03c0c0aad4ef9c674c98f6fd760e5a1b9f4ff5a50b41",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=siga-sistema-de-informacoes-de-geracao-da-aneel",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/siga-sistema-de-informacoes-de-geracao-da-aneel.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'siga-sistema-de-informacoes-de-geracao-da-aneel' (ANEEL), 2026-10-20, sha256:3005482a438de8ce…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=siga-sistema-de-informacoes-de-geracao-da-aneel",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'siga-sistema-de-informacoes-de-geracao-da-aneel' (ANEEL), 2026-10-20, sha256:3005482a438de8ce…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=siga-sistema-de-informacoes-de-geracao-da-aneel"
+   "en": "5L-TEP Layer 5 record of 'siga-sistema-de-informacoes-de-geracao-da-aneel' (ANEEL), 2026-10-21, sha256:334c42d96b41f83e…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=siga-sistema-de-informacoes-de-geracao-da-aneel",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'siga-sistema-de-informacoes-de-geracao-da-aneel' (ANEEL), 2026-10-21, sha256:334c42d96b41f83e…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=siga-sistema-de-informacoes-de-geracao-da-aneel"
   }
  }
 }

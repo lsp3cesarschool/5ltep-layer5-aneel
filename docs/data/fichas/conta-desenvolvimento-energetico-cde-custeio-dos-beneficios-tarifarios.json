@@ -64,10 +64,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-20T04:38:03+00:00",
+   "evaluated_at": "2026-10-21T04:31:07+00:00",
    "current": true,
    "facts": {
-    "observations": 58,
+    "observations": 62,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/b3259e81-f581-4595-a9ca-708d911af085#20e78334d52f"
    },
@@ -107,14 +107,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-14T09:38:07+00:00",
+   "generated_at": "2026-10-21T09:29:07+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
      "commit": {
-      "sha": "a6c957255a4b56d7b0a22966f62f067be2f133b8",
-      "date": "2026-10-14T09:38:22Z"
+      "sha": "370754fdcdd5fa1a47a5fb71576373c46f784d59",
+      "date": "2026-10-21T09:29:25Z"
      }
     }
    ],
@@ -147,30 +147,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-20T04:38:29.205151+00:00",
+   "generated_at": "2026-10-21T04:31:37.363184+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "efb2715200530bb5aaba0cd94a1cd06202aa492f",
-      "date": "2026-10-20T04:38:29Z"
+      "sha": "9139e13e21895973db73d1af8bad3abfee868891",
+      "date": "2026-10-21T04:31:37Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "b100920a6f098fdcd15711d95a332cc2d9e3f580",
-      "date": "2026-10-20T08:45:43Z"
+      "sha": "b7d5581fa6584cb9113abec9b5543e70b6215c85",
+      "date": "2026-10-21T08:46:45Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "efb2715200530bb5aaba0cd94a1cd06202aa492f",
-      "date": "2026-10-20T04:38:29Z"
+      "sha": "9139e13e21895973db73d1af8bad3abfee868891",
+      "date": "2026-10-21T04:31:37Z"
      }
     }
    ],
@@ -222,19 +222,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-20T09:59:24+00:00",
+ "generated_at": "2026-10-21T10:04:42+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "d766df1498dd2e816d1e7632202bc8983c1443f1",
-  "run_id": "39404666197"
+  "commit": "105fbe28be144b3fe333e42f274b9093bf3b208f",
+  "run_id": "39581876254"
  },
  "ficha": {
-  "id": "sha256:f3960e18c4bd3499084d1f20f7660a493758b5a88dae4b02f10822d8c386692e",
+  "id": "sha256:b71a40c1232101d87fa800dfc1c13f70af45a698493aa3e10bd7a3d7d3167d84",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios' (ANEEL), 2026-10-20, sha256:f3960e18c4bd3499…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios' (ANEEL), 2026-10-20, sha256:f3960e18c4bd3499…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios"
+   "en": "5L-TEP Layer 5 record of 'conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios' (ANEEL), 2026-10-21, sha256:b71a40c1232101d8…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios' (ANEEL), 2026-10-21, sha256:b71a40c1232101d8…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios"
   }
  }
 }

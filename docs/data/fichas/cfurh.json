@@ -4,9 +4,9 @@
   "title": "CFURH - Compensação Financeira pela Utilização de Recursos Hídricos",
   "id": "855a73ed-f4e0-4e88-8467-c330ba0223d3",
   "resources": 20,
-  "last_change": "2026-10-05T14:25:06+00:00",
+  "last_change": "2026-10-20T21:32:03+00:00",
   "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/855a73ed-f4e0-4e88-8467-c330ba0223d3#217fc13e8f10",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/855a73ed-f4e0-4e88-8467-c330ba0223d3#b085d8e651a6",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/cfurh"
  },
  "qs": {
@@ -71,12 +71,12 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-20T04:38:03+00:00",
+   "evaluated_at": "2026-10-21T04:31:07+00:00",
    "current": true,
    "facts": {
-    "observations": 58,
+    "observations": 62,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/855a73ed-f4e0-4e88-8467-c330ba0223d3#217fc13e8f10"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/855a73ed-f4e0-4e88-8467-c330ba0223d3#b085d8e651a6"
    },
    "signals": []
   }
@@ -120,7 +120,8 @@
      "df09e492-0927-4873-8488-31d854a14709": "5e74a842878b6eaa7ff4a348f7f5dd1da3eb999c61945f2bc867a5658005ed85",
      "6ad76203-68d8-48c1-a338-a6ff5e6167a7": "b03362f2b73e44597abb5e12d3c9631525df2f5abee429562075f957e318fd35",
      "93e532ec-5060-4ff8-8881-963624f2f065": "319f2f9d2a3b617079cc2832bce36e7dcb9956e5886ff19b8a222cde4cd000ab"
-    }
+    },
+    "first_change_seen": "2026-10-21T10:04:42+00:00"
    }
   ],
   "closed": []
@@ -153,14 +154,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-14T09:38:07+00:00",
+   "generated_at": "2026-10-21T09:29:07+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
      "commit": {
-      "sha": "a6c957255a4b56d7b0a22966f62f067be2f133b8",
-      "date": "2026-10-14T09:38:22Z"
+      "sha": "370754fdcdd5fa1a47a5fb71576373c46f784d59",
+      "date": "2026-10-21T09:29:25Z"
      }
     }
    ],
@@ -193,30 +194,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-20T04:38:29.205151+00:00",
+   "generated_at": "2026-10-21T04:31:37.363184+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "efb2715200530bb5aaba0cd94a1cd06202aa492f",
-      "date": "2026-10-20T04:38:29Z"
+      "sha": "9139e13e21895973db73d1af8bad3abfee868891",
+      "date": "2026-10-21T04:31:37Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "b100920a6f098fdcd15711d95a332cc2d9e3f580",
-      "date": "2026-10-20T08:45:43Z"
+      "sha": "b7d5581fa6584cb9113abec9b5543e70b6215c85",
+      "date": "2026-10-21T08:46:45Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "efb2715200530bb5aaba0cd94a1cd06202aa492f",
-      "date": "2026-10-20T04:38:29Z"
+      "sha": "9139e13e21895973db73d1af8bad3abfee868891",
+      "date": "2026-10-21T04:31:37Z"
      }
     }
    ],
@@ -268,19 +269,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-20T09:59:24+00:00",
+ "generated_at": "2026-10-21T10:04:42+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "d766df1498dd2e816d1e7632202bc8983c1443f1",
-  "run_id": "39404666197"
+  "commit": "105fbe28be144b3fe333e42f274b9093bf3b208f",
+  "run_id": "39581876254"
  },
  "ficha": {
-  "id": "sha256:cd292985f6748da8554efd3b463f985fc07c970dbf202655468b46407073058b",
+  "id": "sha256:8a83f7499832a3cb099bddd59a5d3adf5bcb1e69f9f59be2deb572832fab65cb",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=cfurh",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/cfurh.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'cfurh' (ANEEL), 2026-10-20, sha256:cd292985f6748da8…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=cfurh",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'cfurh' (ANEEL), 2026-10-20, sha256:cd292985f6748da8…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=cfurh"
+   "en": "5L-TEP Layer 5 record of 'cfurh' (ANEEL), 2026-10-21, sha256:8a83f7499832a3cb…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=cfurh",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'cfurh' (ANEEL), 2026-10-21, sha256:8a83f7499832a3cb…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=cfurh"
   }
  }
 }
