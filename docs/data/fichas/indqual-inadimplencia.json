@@ -4,9 +4,9 @@
   "title": "Indqual Inadimplência",
   "id": "af2cc4e5-5a31-4b39-98d5-d759abaf1b9e",
   "resources": 3,
-  "last_change": null,
-  "last_type": null,
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/af2cc4e5-5a31-4b39-98d5-d759abaf1b9e#1fa5b1ed6865",
+  "last_change": "2026-10-21T17:04:46+00:00",
+  "last_type": "CONTENT_MOD",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/af2cc4e5-5a31-4b39-98d5-d759abaf1b9e#865bcdec37bc",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/indqual-inadimplencia"
  },
  "qs": {
@@ -33,7 +33,7 @@
    "reason": null,
    "rate": 0.0,
    "evaluated_at": "2026-10-03T12:26:40+00:00",
-   "current": true,
+   "current": false,
    "facts": {
     "level": 1,
     "tables": 2,
@@ -71,12 +71,12 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-21T04:31:07+00:00",
+   "evaluated_at": "2026-10-22T04:29:23+00:00",
    "current": true,
    "facts": {
-    "observations": 62,
+    "observations": 66,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/af2cc4e5-5a31-4b39-98d5-d759abaf1b9e#1fa5b1ed6865"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/af2cc4e5-5a31-4b39-98d5-d759abaf1b9e#865bcdec37bc"
    },
    "signals": []
   }
@@ -106,7 +106,8 @@
     "digests": {
      "0bb73b5d-b2e1-417d-9873-6de6b2d397d1": "4ed094c99d6057667e6a0f1eb19fb5d19c72d854059549a7d5d24d16cdb32308",
      "11f8d9bd-6d99-4d69-8edb-45c058da746f": "d5eff5ec8cd407454c616bbf9384638596fc4d40a3320fb35b8b1c1fd5cf9182"
-    }
+    },
+    "first_change_seen": "2026-10-22T10:07:06+00:00"
    }
   ],
   "closed": []
@@ -179,30 +180,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-21T04:31:37.363184+00:00",
+   "generated_at": "2026-10-22T04:29:45.756609+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "9139e13e21895973db73d1af8bad3abfee868891",
-      "date": "2026-10-21T04:31:37Z"
+      "sha": "41c8f357694ef6a344a44827f647af08e79001fd",
+      "date": "2026-10-22T04:29:45Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "b7d5581fa6584cb9113abec9b5543e70b6215c85",
-      "date": "2026-10-21T08:46:45Z"
+      "sha": "775465b305223e94c4fedd802c6d15c71846df5b",
+      "date": "2026-10-22T08:48:45Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "9139e13e21895973db73d1af8bad3abfee868891",
-      "date": "2026-10-21T04:31:37Z"
+      "sha": "41c8f357694ef6a344a44827f647af08e79001fd",
+      "date": "2026-10-22T04:29:45Z"
      }
     }
    ],
@@ -254,19 +255,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-21T10:04:42+00:00",
+ "generated_at": "2026-10-22T10:07:06+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "105fbe28be144b3fe333e42f274b9093bf3b208f",
-  "run_id": "39581876254"
+  "commit": "b608ab97667a31e38790bd2bc178c017493aa394",
+  "run_id": "39760648611"
  },
  "ficha": {
-  "id": "sha256:8971a504a64c849b93f2075fd5cb7fc58d9e1a902b94864337db521666b11476",
+  "id": "sha256:713bbae5bfe383c174f227732aaac7eea135edc2b56fdee02b90b67139bd7106",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indqual-inadimplencia",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/indqual-inadimplencia.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'indqual-inadimplencia' (ANEEL), 2026-10-21, sha256:8971a504a64c849b…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indqual-inadimplencia",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'indqual-inadimplencia' (ANEEL), 2026-10-21, sha256:8971a504a64c849b…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indqual-inadimplencia"
+   "en": "5L-TEP Layer 5 record of 'indqual-inadimplencia' (ANEEL), 2026-10-22, sha256:713bbae5bfe383c1…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indqual-inadimplencia",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'indqual-inadimplencia' (ANEEL), 2026-10-22, sha256:713bbae5bfe383c1…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indqual-inadimplencia"
   }
  }
 }

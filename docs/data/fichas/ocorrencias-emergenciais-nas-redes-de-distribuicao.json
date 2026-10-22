@@ -55,11 +55,11 @@
   "L4": {
    "status": "valid",
    "reason": null,
-   "rate": 0.9838709677419355,
-   "evaluated_at": "2026-10-21T04:31:07+00:00",
+   "rate": 0.9848484848484849,
+   "evaluated_at": "2026-10-22T04:29:23+00:00",
    "current": true,
    "facts": {
-    "observations": 62,
+    "observations": 66,
     "critical_in_window": 1,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/ced06b4c-45a5-4cae-8a7e-f576ffc3b412#ebd451d1c96b"
    },
@@ -155,30 +155,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-21T04:31:37.363184+00:00",
+   "generated_at": "2026-10-22T04:29:45.756609+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "9139e13e21895973db73d1af8bad3abfee868891",
-      "date": "2026-10-21T04:31:37Z"
+      "sha": "41c8f357694ef6a344a44827f647af08e79001fd",
+      "date": "2026-10-22T04:29:45Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "b7d5581fa6584cb9113abec9b5543e70b6215c85",
-      "date": "2026-10-21T08:46:45Z"
+      "sha": "775465b305223e94c4fedd802c6d15c71846df5b",
+      "date": "2026-10-22T08:48:45Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "9139e13e21895973db73d1af8bad3abfee868891",
-      "date": "2026-10-21T04:31:37Z"
+      "sha": "41c8f357694ef6a344a44827f647af08e79001fd",
+      "date": "2026-10-22T04:29:45Z"
      }
     }
    ],
@@ -230,19 +230,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-21T10:04:42+00:00",
+ "generated_at": "2026-10-22T10:07:06+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "105fbe28be144b3fe333e42f274b9093bf3b208f",
-  "run_id": "39581876254"
+  "commit": "b608ab97667a31e38790bd2bc178c017493aa394",
+  "run_id": "39760648611"
  },
  "ficha": {
-  "id": "sha256:c0d7311922c66e4ddcae669300f02efe95c6538579834381d02ae71bc5297bbf",
+  "id": "sha256:2b8543fae8d42b80dbed1a3cb2ff299b25c91dfbc0b4fefe4cd11201ba7f6140",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ocorrencias-emergenciais-nas-redes-de-distribuicao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/ocorrencias-emergenciais-nas-redes-de-distribuicao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'ocorrencias-emergenciais-nas-redes-de-distribuicao' (ANEEL), 2026-10-21, sha256:c0d7311922c66e4d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ocorrencias-emergenciais-nas-redes-de-distribuicao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'ocorrencias-emergenciais-nas-redes-de-distribuicao' (ANEEL), 2026-10-21, sha256:c0d7311922c66e4d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ocorrencias-emergenciais-nas-redes-de-distribuicao"
+   "en": "5L-TEP Layer 5 record of 'ocorrencias-emergenciais-nas-redes-de-distribuicao' (ANEEL), 2026-10-22, sha256:2b8543fae8d42b80…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ocorrencias-emergenciais-nas-redes-de-distribuicao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'ocorrencias-emergenciais-nas-redes-de-distribuicao' (ANEEL), 2026-10-22, sha256:2b8543fae8d42b80…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ocorrencias-emergenciais-nas-redes-de-distribuicao"
   }
  }
 }
