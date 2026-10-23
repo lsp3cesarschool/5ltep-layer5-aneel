@@ -56,10 +56,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-22T04:29:23+00:00",
+   "evaluated_at": "2026-10-23T04:35:02+00:00",
    "current": true,
    "facts": {
-    "observations": 66,
+    "observations": 70,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/6838f13d-7ea5-4482-a2b9-1515fa56ef42#897f615f1a00"
    },
@@ -139,30 +139,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-22T04:29:45.756609+00:00",
+   "generated_at": "2026-10-23T04:36:03.315700+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "41c8f357694ef6a344a44827f647af08e79001fd",
-      "date": "2026-10-22T04:29:45Z"
+      "sha": "8fb98e77afedbcdc1af59856e9176d0d0c72f3f6",
+      "date": "2026-10-23T04:36:03Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "775465b305223e94c4fedd802c6d15c71846df5b",
-      "date": "2026-10-22T08:48:45Z"
+      "sha": "37daad47ee4b5ca74475722368b00b52d7d8e466",
+      "date": "2026-10-23T08:44:41Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "41c8f357694ef6a344a44827f647af08e79001fd",
-      "date": "2026-10-22T04:29:45Z"
+      "sha": "8fb98e77afedbcdc1af59856e9176d0d0c72f3f6",
+      "date": "2026-10-23T04:36:03Z"
      }
     }
    ],
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-22T10:07:06+00:00",
+ "generated_at": "2026-10-23T10:00:04+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "b608ab97667a31e38790bd2bc178c017493aa394",
-  "run_id": "39760648611"
+  "commit": "770ab19f41e88feb853e0be80de5c4af91aff9c0",
+  "run_id": "39935904726"
  },
  "ficha": {
-  "id": "sha256:c3ef7d5cfa70bbc4cd72cfce3f2a75f4080f291b9058e7f167478432a8feb118",
+  "id": "sha256:661500c25e67823cb83ef571517f57faf0bde573772b977e6e3c19e3e54341e0",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=pdd",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/pdd.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'pdd' (ANEEL), 2026-10-22, sha256:c3ef7d5cfa70bbc4…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=pdd",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'pdd' (ANEEL), 2026-10-22, sha256:c3ef7d5cfa70bbc4…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=pdd"
+   "en": "5L-TEP Layer 5 record of 'pdd' (ANEEL), 2026-10-23, sha256:661500c25e67823c…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=pdd",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'pdd' (ANEEL), 2026-10-23, sha256:661500c25e67823c…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=pdd"
   }
  }
 }

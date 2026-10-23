@@ -4,9 +4,9 @@
   "title": "Componentes Tarifárias",
   "id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
   "resources": 31,
-  "last_change": "2026-10-20T11:23:48+00:00",
+  "last_change": "2026-10-22T11:39:14+00:00",
   "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5#44007f9ea1cf",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5#0bb29a845130",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/componentes-tarifarias"
  },
  "qs": {
@@ -56,32 +56,24 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-22T04:29:23+00:00",
+   "evaluated_at": "2026-10-23T04:35:02+00:00",
    "current": true,
    "facts": {
-    "observations": 66,
+    "observations": 70,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5#44007f9ea1cf"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5#0bb29a845130"
    },
-   "signals": [
-    {
-     "key": "L4:cross_check:componentes-tarifarias",
-     "count": 1,
-     "en": "unreconciled divergence in the independent cross-check",
-     "pt": "divergência não reconciliada no cross-check independente"
-    }
-   ]
+   "signals": []
   }
  },
  "findings": [
   {
    "layer": "L4",
-   "kind": "signal",
-   "key": "L4:cross_check:componentes-tarifarias",
-   "count": 1,
-   "when": null,
-   "en": "unreconciled divergence in the independent cross-check",
-   "pt": "divergência não reconciliada no cross-check independente"
+   "kind": "simultaneous",
+   "when": "2026-10-22T11:39:14+00:00",
+   "count": 6,
+   "en": "CONTENT_MOD in 6 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 6 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -149,35 +141,7 @@
   }
  ],
  "outcomes": {
-  "open": [
-   {
-    "key": "L4:cross_check:componentes-tarifarias",
-    "layer": "L4",
-    "first_reported": "2026-10-22T10:07:06+00:00",
-    "count": 1,
-    "evaluated_at": "2026-10-22T04:29:23+00:00",
-    "status": "reported",
-    "en": "unreconciled divergence in the independent cross-check",
-    "pt": "divergência não reconciliada no cross-check independente",
-    "digests": {
-     "61d26571-537c-43ad-832c-50247236763b": "a8256bd498d4fdecfbc75dae83b0b7a49be3aa6fdb25903d5e71ffb8502a16e6",
-     "5f3f8fbf-7110-457c-8218-1e3a9ac472eb": "c3d34c4200f68a62b04f36b31cde5f8f05fdc4512e2df137ad7cbe408098a83c",
-     "7b103c10-0045-4f05-99dc-f6d91cb67c0d": "b69a7ad4dbb06a386bd4912c2d675344334b15fa5a2c96b0de0bd529b224d4a8",
-     "b03ef3a3-0a85-4623-99f2-2760db30351e": "3dd877be0d4b51a02a29f3ee8af832437b4ee0bca64777f2ec838d4e6a55aea8",
-     "b1b10eca-ebe5-42ab-8ac0-456fdf5c0f6e": "7721b18fc6d668acc312cff48cc67d8f4f1a1b59b9c13174325fd3ceb72a923a",
-     "61bee465-54cc-4996-ba47-b4a31e6463be": "4fca77f840b1e074e74ff98a484a020e2336d60543015a139bce0f2ebf8bce23",
-     "daf955f9-7d92-4fe0-b4cd-1fbc69b8a3a8": "fbd225abfa0a3a5652e5edbac95dd6f7daaf3c56afd5736c1b2e297d0ed6f9ff",
-     "359fddf2-d1b4-4167-9c5d-b8cdfc580a53": "c6920724b5bb53366bf945b3e5e87bce33b8c891e6b9e6e5b8a97eb4356d3fb2",
-     "133e7a3d-1ef6-4494-9ebd-e1a0935a0762": "23cb5ebfde33a0b78f44c11f621b781b5eb6fe2b0630e4db907538a521d3b34d",
-     "9e40e8a7-664f-4dab-a868-e5781fcf604b": "a8cb4c87464a87f0079d6c13142e5082df52f9ff3b2f61a96a612d8897377a6f",
-     "ab0f6630-9e5d-41a1-8097-343bf09d7c16": "0103fc9d248717e84037276f3f95c8676e68aa3c92afc6c5e92e8807689b6151",
-     "8bfa100a-fd79-4daf-8fab-8b14d02fd08a": "f301dd1876dd9bce86aad6ba169e73d2d2cda257b16fc4ce7d8a59b068b57881",
-     "70ac08d1-53fc-4ceb-9c22-3a3a2c70e9fa": "b2b096bd2c78e528d9c80058777a54e070a64acd5eada9d8696713c5b61d56c4",
-     "a4060165-3a0c-404f-926c-83901088b67c": "71258f2aab994338cfc0611d1a2ec820930575ab534f7a1295f9fdb63fff6f9e",
-     "e8717aa8-2521-453f-bf16-fbb9a16eea39": "e37c227708fe8f912bc0b7fec8f288865c40f623d2512a4cc83163d66130bb79"
-    }
-   }
-  ],
+  "open": [],
   "closed": [
    {
     "layer": "L4",
@@ -270,6 +234,37 @@
     "dataset": "componentes-tarifarias",
     "outcome": "remediated_observed",
     "at": "2026-10-21T10:04:42+00:00"
+   },
+   {
+    "layer": "L4",
+    "first_reported": "2026-10-22T10:07:06+00:00",
+    "count": 1,
+    "evaluated_at": "2026-10-22T04:29:23+00:00",
+    "status": "remediated_observed",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
+    "digests": {
+     "61d26571-537c-43ad-832c-50247236763b": "a8256bd498d4fdecfbc75dae83b0b7a49be3aa6fdb25903d5e71ffb8502a16e6",
+     "5f3f8fbf-7110-457c-8218-1e3a9ac472eb": "c3d34c4200f68a62b04f36b31cde5f8f05fdc4512e2df137ad7cbe408098a83c",
+     "7b103c10-0045-4f05-99dc-f6d91cb67c0d": "b69a7ad4dbb06a386bd4912c2d675344334b15fa5a2c96b0de0bd529b224d4a8",
+     "b03ef3a3-0a85-4623-99f2-2760db30351e": "3dd877be0d4b51a02a29f3ee8af832437b4ee0bca64777f2ec838d4e6a55aea8",
+     "b1b10eca-ebe5-42ab-8ac0-456fdf5c0f6e": "7721b18fc6d668acc312cff48cc67d8f4f1a1b59b9c13174325fd3ceb72a923a",
+     "61bee465-54cc-4996-ba47-b4a31e6463be": "4fca77f840b1e074e74ff98a484a020e2336d60543015a139bce0f2ebf8bce23",
+     "daf955f9-7d92-4fe0-b4cd-1fbc69b8a3a8": "fbd225abfa0a3a5652e5edbac95dd6f7daaf3c56afd5736c1b2e297d0ed6f9ff",
+     "359fddf2-d1b4-4167-9c5d-b8cdfc580a53": "c6920724b5bb53366bf945b3e5e87bce33b8c891e6b9e6e5b8a97eb4356d3fb2",
+     "133e7a3d-1ef6-4494-9ebd-e1a0935a0762": "23cb5ebfde33a0b78f44c11f621b781b5eb6fe2b0630e4db907538a521d3b34d",
+     "9e40e8a7-664f-4dab-a868-e5781fcf604b": "a8cb4c87464a87f0079d6c13142e5082df52f9ff3b2f61a96a612d8897377a6f",
+     "ab0f6630-9e5d-41a1-8097-343bf09d7c16": "0103fc9d248717e84037276f3f95c8676e68aa3c92afc6c5e92e8807689b6151",
+     "8bfa100a-fd79-4daf-8fab-8b14d02fd08a": "f301dd1876dd9bce86aad6ba169e73d2d2cda257b16fc4ce7d8a59b068b57881",
+     "70ac08d1-53fc-4ceb-9c22-3a3a2c70e9fa": "b2b096bd2c78e528d9c80058777a54e070a64acd5eada9d8696713c5b61d56c4",
+     "a4060165-3a0c-404f-926c-83901088b67c": "71258f2aab994338cfc0611d1a2ec820930575ab534f7a1295f9fdb63fff6f9e",
+     "e8717aa8-2521-453f-bf16-fbb9a16eea39": "e37c227708fe8f912bc0b7fec8f288865c40f623d2512a4cc83163d66130bb79"
+    },
+    "first_change_seen": "2026-10-23T10:00:04+00:00",
+    "key": "L4:cross_check:componentes-tarifarias",
+    "dataset": "componentes-tarifarias",
+    "outcome": "remediated_observed",
+    "at": "2026-10-23T10:00:04+00:00"
    }
   ]
  },
@@ -341,30 +336,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-22T04:29:45.756609+00:00",
+   "generated_at": "2026-10-23T04:36:03.315700+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "41c8f357694ef6a344a44827f647af08e79001fd",
-      "date": "2026-10-22T04:29:45Z"
+      "sha": "8fb98e77afedbcdc1af59856e9176d0d0c72f3f6",
+      "date": "2026-10-23T04:36:03Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "775465b305223e94c4fedd802c6d15c71846df5b",
-      "date": "2026-10-22T08:48:45Z"
+      "sha": "37daad47ee4b5ca74475722368b00b52d7d8e466",
+      "date": "2026-10-23T08:44:41Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "41c8f357694ef6a344a44827f647af08e79001fd",
-      "date": "2026-10-22T04:29:45Z"
+      "sha": "8fb98e77afedbcdc1af59856e9176d0d0c72f3f6",
+      "date": "2026-10-23T04:36:03Z"
      }
     }
    ],
@@ -416,19 +411,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-22T10:07:06+00:00",
+ "generated_at": "2026-10-23T10:00:04+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "b608ab97667a31e38790bd2bc178c017493aa394",
-  "run_id": "39760648611"
+  "commit": "770ab19f41e88feb853e0be80de5c4af91aff9c0",
+  "run_id": "39935904726"
  },
  "ficha": {
-  "id": "sha256:1e6c1c901c16891223189824e2ec03b48f1d7b23f7963ada322116a7f8b36acc",
+  "id": "sha256:cb76c86ff8109f722a5e95378c5e0c34ade8de9bb1e4f22bdfe7980a7f9ca42c",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/componentes-tarifarias.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'componentes-tarifarias' (ANEEL), 2026-10-22, sha256:1e6c1c901c168912…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'componentes-tarifarias' (ANEEL), 2026-10-22, sha256:1e6c1c901c168912…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias"
+   "en": "5L-TEP Layer 5 record of 'componentes-tarifarias' (ANEEL), 2026-10-23, sha256:cb76c86ff8109f72…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'componentes-tarifarias' (ANEEL), 2026-10-23, sha256:cb76c86ff8109f72…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias"
   }
  }
 }
