@@ -4,9 +4,9 @@
   "title": "Qualidade do Atendimento Comercial",
   "id": "b7b32b0c-4bac-4584-b9ec-76a32c05ca02",
   "resources": 4,
-  "last_change": null,
-  "last_type": null,
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/b7b32b0c-4bac-4584-b9ec-76a32c05ca02#cebfcc196a44",
+  "last_change": "2026-10-23T16:57:18+00:00",
+  "last_type": "CONTENT_MOD",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/b7b32b0c-4bac-4584-b9ec-76a32c05ca02#833037538394",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/qualidade-do-atendimento-comercial"
  },
  "qs": {
@@ -33,7 +33,7 @@
    "reason": null,
    "rate": 0.0,
    "evaluated_at": "2026-10-03T13:44:08+00:00",
-   "current": true,
+   "current": false,
    "facts": {
     "level": 1,
     "tables": 2,
@@ -71,12 +71,12 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-23T04:35:02+00:00",
+   "evaluated_at": "2026-10-24T04:25:01+00:00",
    "current": true,
    "facts": {
-    "observations": 70,
+    "observations": 74,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/b7b32b0c-4bac-4584-b9ec-76a32c05ca02#cebfcc196a44"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/b7b32b0c-4bac-4584-b9ec-76a32c05ca02#833037538394"
    },
    "signals": []
   }
@@ -90,6 +90,14 @@
    "when": null,
    "en": "2 of 2 verifiable file(s) do not conform to the declared schema",
    "pt": "2 de 2 arquivo(s) verificável(is) fora do esquema declarado"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-10-23T16:57:18+00:00",
+   "count": 6,
+   "en": "CONTENT_MOD in 6 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 6 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   }
  ],
  "outcomes": {
@@ -106,7 +114,8 @@
     "digests": {
      "11473878-1059-44f8-abf0-677212ff247b": "72a521c3da992d9893646affaaf1a0e8d0b04090dad829741e98e6fe44520764",
      "e3724332-7de8-4273-8f0d-b20ebb91bf7c": "4fb014965d5b36d18fc2298038f74224fd2f0dfa9242a20646ab770b0ba6c977"
-    }
+    },
+    "first_change_seen": "2026-10-24T09:28:57+00:00"
    }
   ],
   "closed": []
@@ -179,30 +188,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-23T04:36:03.315700+00:00",
+   "generated_at": "2026-10-24T04:25:42.738052+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "8fb98e77afedbcdc1af59856e9176d0d0c72f3f6",
-      "date": "2026-10-23T04:36:03Z"
+      "sha": "43015390db1bf8135c6f4b1274d8577798ba54b5",
+      "date": "2026-10-24T04:25:42Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "37daad47ee4b5ca74475722368b00b52d7d8e466",
-      "date": "2026-10-23T08:44:41Z"
+      "sha": "fd293ca2509b46b1c1bd9739557a29d57a63874a",
+      "date": "2026-10-24T08:19:17Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "8fb98e77afedbcdc1af59856e9176d0d0c72f3f6",
-      "date": "2026-10-23T04:36:03Z"
+      "sha": "43015390db1bf8135c6f4b1274d8577798ba54b5",
+      "date": "2026-10-24T04:25:42Z"
      }
     }
    ],
@@ -254,19 +263,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-23T10:00:04+00:00",
+ "generated_at": "2026-10-24T09:28:57+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "770ab19f41e88feb853e0be80de5c4af91aff9c0",
-  "run_id": "39935904726"
+  "commit": "a6aa3966eafabfdc0434e547ca1d9ce95ea9eed6",
+  "run_id": "40082110736"
  },
  "ficha": {
-  "id": "sha256:63c3f8eca8500932e4b3085d6dfef5009c776e69bf0edbe75b9240e767b2e632",
+  "id": "sha256:0946e562baa5403c73b8962b296ea5206b251f787a10a2b85cadac8bfeb01b24",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=qualidade-do-atendimento-comercial",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/qualidade-do-atendimento-comercial.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'qualidade-do-atendimento-comercial' (ANEEL), 2026-10-23, sha256:63c3f8eca8500932…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=qualidade-do-atendimento-comercial",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'qualidade-do-atendimento-comercial' (ANEEL), 2026-10-23, sha256:63c3f8eca8500932…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=qualidade-do-atendimento-comercial"
+   "en": "5L-TEP Layer 5 record of 'qualidade-do-atendimento-comercial' (ANEEL), 2026-10-24, sha256:0946e562baa5403c…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=qualidade-do-atendimento-comercial",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'qualidade-do-atendimento-comercial' (ANEEL), 2026-10-24, sha256:0946e562baa5403c…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=qualidade-do-atendimento-comercial"
   }
  }
 }
