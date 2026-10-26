@@ -4,9 +4,9 @@
   "title": "Componentes Tarifárias",
   "id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
   "resources": 31,
-  "last_change": "2026-10-24T15:49:48+00:00",
+  "last_change": "2026-10-25T20:44:12+00:00",
   "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5#d025dddfd833",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5#72e0e66f0f81",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/componentes-tarifarias"
  },
  "qs": {
@@ -24,7 +24,7 @@
    "status": "missing",
    "reason": "l1_nothing_verifiable",
    "rate": null,
-   "evaluated_at": "2026-10-19T09:38:40+00:00",
+   "evaluated_at": "2026-10-26T09:45:48+00:00",
    "current": null,
    "facts": {
     "level": 1,
@@ -56,17 +56,33 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-25T04:28:48+00:00",
+   "evaluated_at": "2026-10-26T04:32:10+00:00",
    "current": true,
    "facts": {
-    "observations": 77,
+    "observations": 81,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5#d025dddfd833"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5#72e0e66f0f81"
    },
-   "signals": []
+   "signals": [
+    {
+     "key": "L4:cross_check:componentes-tarifarias",
+     "count": 1,
+     "en": "unreconciled divergence in the independent cross-check",
+     "pt": "divergência não reconciliada no cross-check independente"
+    }
+   ]
   }
  },
  "findings": [
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:cross_check:componentes-tarifarias",
+   "count": 1,
+   "when": null,
+   "en": "unreconciled divergence in the independent cross-check",
+   "pt": "divergência não reconciliada no cross-check independente"
+  },
   {
    "layer": "L4",
    "kind": "simultaneous",
@@ -149,7 +165,35 @@
   }
  ],
  "outcomes": {
-  "open": [],
+  "open": [
+   {
+    "key": "L4:cross_check:componentes-tarifarias",
+    "layer": "L4",
+    "first_reported": "2026-10-26T11:01:44+00:00",
+    "count": 1,
+    "evaluated_at": "2026-10-26T04:32:10+00:00",
+    "status": "reported",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
+    "digests": {
+     "61d26571-537c-43ad-832c-50247236763b": "66176941be7ce52d00bce82c42b951739f797ddba47efd550c1c2fa485b2889d",
+     "5f3f8fbf-7110-457c-8218-1e3a9ac472eb": "70b90d792077e037355c59687503cf15dfa8470fc207a8fb8eb5985556030f6c",
+     "7b103c10-0045-4f05-99dc-f6d91cb67c0d": "b69a7ad4dbb06a386bd4912c2d675344334b15fa5a2c96b0de0bd529b224d4a8",
+     "b03ef3a3-0a85-4623-99f2-2760db30351e": "889b1a96775f71e357e20d8aa60efbb967854a69c32e8e1d5319916c5414ffc0",
+     "b1b10eca-ebe5-42ab-8ac0-456fdf5c0f6e": "7721b18fc6d668acc312cff48cc67d8f4f1a1b59b9c13174325fd3ceb72a923a",
+     "61bee465-54cc-4996-ba47-b4a31e6463be": "4fca77f840b1e074e74ff98a484a020e2336d60543015a139bce0f2ebf8bce23",
+     "daf955f9-7d92-4fe0-b4cd-1fbc69b8a3a8": "fbd225abfa0a3a5652e5edbac95dd6f7daaf3c56afd5736c1b2e297d0ed6f9ff",
+     "359fddf2-d1b4-4167-9c5d-b8cdfc580a53": "c6920724b5bb53366bf945b3e5e87bce33b8c891e6b9e6e5b8a97eb4356d3fb2",
+     "133e7a3d-1ef6-4494-9ebd-e1a0935a0762": "23cb5ebfde33a0b78f44c11f621b781b5eb6fe2b0630e4db907538a521d3b34d",
+     "9e40e8a7-664f-4dab-a868-e5781fcf604b": "a8cb4c87464a87f0079d6c13142e5082df52f9ff3b2f61a96a612d8897377a6f",
+     "ab0f6630-9e5d-41a1-8097-343bf09d7c16": "0103fc9d248717e84037276f3f95c8676e68aa3c92afc6c5e92e8807689b6151",
+     "8bfa100a-fd79-4daf-8fab-8b14d02fd08a": "f301dd1876dd9bce86aad6ba169e73d2d2cda257b16fc4ce7d8a59b068b57881",
+     "70ac08d1-53fc-4ceb-9c22-3a3a2c70e9fa": "b2b096bd2c78e528d9c80058777a54e070a64acd5eada9d8696713c5b61d56c4",
+     "a4060165-3a0c-404f-926c-83901088b67c": "71258f2aab994338cfc0611d1a2ec820930575ab534f7a1295f9fdb63fff6f9e",
+     "e8717aa8-2521-453f-bf16-fbb9a16eea39": "130c69d1c148cf522fb616d9c3da6d4473e6691e2e0f9f8222db8e7cbd04cd4c"
+    }
+   }
+  ],
   "closed": [
    {
     "layer": "L4",
@@ -311,22 +355,22 @@
   "L1": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-19T10:41:59+00:00",
+   "generated_at": "2026-10-26T10:36:55+00:00",
    "files": [
     {
      "path": "results/layer1_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1-aneel/main/results/layer1_summary.json",
      "commit": {
-      "sha": "bbd76ec952266680d5e055a14bf2a2c4d61e5607",
-      "date": "2026-10-19T10:41:59Z"
+      "sha": "e9e2cbaf2f574ac78a842de4591ba10a6526ac37",
+      "date": "2026-10-26T10:36:56Z"
      }
     },
     {
      "path": "results/validation.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1-aneel/main/results/validation.json",
      "commit": {
-      "sha": "bbd76ec952266680d5e055a14bf2a2c4d61e5607",
-      "date": "2026-10-19T10:41:59Z"
+      "sha": "e9e2cbaf2f574ac78a842de4591ba10a6526ac37",
+      "date": "2026-10-26T10:36:56Z"
      }
     }
    ],
@@ -375,30 +419,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-25T04:29:11.146718+00:00",
+   "generated_at": "2026-10-26T04:33:21.901432+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "063dfb06d95af639ec7fda076459e58ccf53ebde",
-      "date": "2026-10-25T04:29:11Z"
+      "sha": "f8a32721491207435bba949ace02251d41c8ba10",
+      "date": "2026-10-26T04:33:22Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "daef81f18c86bb5839446ab22b440cb1eadca3fc",
-      "date": "2026-10-25T08:37:00Z"
+      "sha": "0fb5667cda6755bb3c16d5067e63432102302cbe",
+      "date": "2026-10-26T09:14:47Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "063dfb06d95af639ec7fda076459e58ccf53ebde",
-      "date": "2026-10-25T04:29:11Z"
+      "sha": "f8a32721491207435bba949ace02251d41c8ba10",
+      "date": "2026-10-26T04:33:22Z"
      }
     }
    ],
@@ -450,19 +494,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-25T09:46:32+00:00",
+ "generated_at": "2026-10-26T11:01:44+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "d5e7e4579fb57b86565de3c370d3365a62407fca",
-  "run_id": "40182031130"
+  "commit": "8143dff4417d0f08e93d75e857dbc2244a9b1d2d",
+  "run_id": "40311933142"
  },
  "ficha": {
-  "id": "sha256:a989c115cbb5ff175c3d1c03f61e1a77e1ced6f50711321c08b229ff19a0c83c",
+  "id": "sha256:9c75075567072419b5ba6f09e5e8c7e126420fd5b0d9ccda79368e47ada62f6a",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/componentes-tarifarias.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'componentes-tarifarias' (ANEEL), 2026-10-25, sha256:a989c115cbb5ff17…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'componentes-tarifarias' (ANEEL), 2026-10-25, sha256:a989c115cbb5ff17…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias"
+   "en": "5L-TEP Layer 5 record of 'componentes-tarifarias' (ANEEL), 2026-10-26, sha256:9c75075567072419…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'componentes-tarifarias' (ANEEL), 2026-10-26, sha256:9c75075567072419…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias"
   }
  }
 }

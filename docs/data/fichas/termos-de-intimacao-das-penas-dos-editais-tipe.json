@@ -32,8 +32,8 @@
    "status": "valid",
    "reason": null,
    "rate": 0.0,
-   "evaluated_at": "2026-10-19T09:31:49+00:00",
-   "current": false,
+   "evaluated_at": "2026-10-26T09:43:37+00:00",
+   "current": true,
    "facts": {
     "level": 1,
     "tables": 5,
@@ -71,14 +71,21 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-25T04:28:48+00:00",
+   "evaluated_at": "2026-10-26T04:32:10+00:00",
    "current": true,
    "facts": {
-    "observations": 77,
+    "observations": 81,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8#081493304881"
    },
-   "signals": []
+   "signals": [
+    {
+     "key": "L4:cross_check:termos-de-intimacao-das-penas-dos-editais-tipe",
+     "count": 1,
+     "en": "unreconciled divergence in the independent cross-check",
+     "pt": "divergência não reconciliada no cross-check independente"
+    }
+   ]
   }
  },
  "findings": [
@@ -90,6 +97,15 @@
    "when": null,
    "en": "5 of 5 verifiable file(s) do not conform to the declared schema",
    "pt": "5 de 5 arquivo(s) verificável(is) fora do esquema declarado"
+  },
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:cross_check:termos-de-intimacao-das-penas-dos-editais-tipe",
+   "count": 1,
+   "when": null,
+   "en": "unreconciled divergence in the independent cross-check",
+   "pt": "divergência não reconciliada no cross-check independente"
   },
   {
    "layer": "L4",
@@ -127,6 +143,23 @@
      "18c5fcae-1b7f-40a4-b092-d47344d4d195": "4d407da827c9a785ba42fa4430a46fd8bc470175ea93f783fa11a68137a2327b"
     },
     "first_change_seen": "2026-10-19T10:42:30+00:00"
+   },
+   {
+    "key": "L4:cross_check:termos-de-intimacao-das-penas-dos-editais-tipe",
+    "layer": "L4",
+    "first_reported": "2026-10-26T11:01:44+00:00",
+    "count": 1,
+    "evaluated_at": "2026-10-26T04:32:10+00:00",
+    "status": "reported",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
+    "digests": {
+     "84ba04eb-0a82-423c-9aac-aab4ce8102a3": "62dd8cbd59fb8676779c0aec49ab15d48589bae1b1a00eefe7b624bbd7c8e5f9",
+     "9914bb13-27a9-45c0-8d31-ae2473fbecc4": "cb941ebfb19b7c0c18bad5882017ce0bca0ba3fffa9709edc483357cdff8f157",
+     "0e3cb385-65d2-4b9e-ae50-f1e217e4e3bf": "1d7e9e716ef9c38616e6fb39515666b4418fdfc09c26feade775b4df3a4e5fd4",
+     "d4549533-b969-43fa-a1d4-7b75d7868a03": "212545929c566a918dfad8a5f2ff96651c1fcbc140325e6b72afdad12a98e628",
+     "18c5fcae-1b7f-40a4-b092-d47344d4d195": "8cfba895e31601ddf03fb5a592616a627fc541eac13b0fe61c1205a536b8fc87"
+    }
    }
   ],
   "closed": [
@@ -157,22 +190,22 @@
   "L1": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-19T10:41:59+00:00",
+   "generated_at": "2026-10-26T10:36:55+00:00",
    "files": [
     {
      "path": "results/layer1_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1-aneel/main/results/layer1_summary.json",
      "commit": {
-      "sha": "bbd76ec952266680d5e055a14bf2a2c4d61e5607",
-      "date": "2026-10-19T10:41:59Z"
+      "sha": "e9e2cbaf2f574ac78a842de4591ba10a6526ac37",
+      "date": "2026-10-26T10:36:56Z"
      }
     },
     {
      "path": "results/validation.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1-aneel/main/results/validation.json",
      "commit": {
-      "sha": "bbd76ec952266680d5e055a14bf2a2c4d61e5607",
-      "date": "2026-10-19T10:41:59Z"
+      "sha": "e9e2cbaf2f574ac78a842de4591ba10a6526ac37",
+      "date": "2026-10-26T10:36:56Z"
      }
     }
    ],
@@ -221,30 +254,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-25T04:29:11.146718+00:00",
+   "generated_at": "2026-10-26T04:33:21.901432+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "063dfb06d95af639ec7fda076459e58ccf53ebde",
-      "date": "2026-10-25T04:29:11Z"
+      "sha": "f8a32721491207435bba949ace02251d41c8ba10",
+      "date": "2026-10-26T04:33:22Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "daef81f18c86bb5839446ab22b440cb1eadca3fc",
-      "date": "2026-10-25T08:37:00Z"
+      "sha": "0fb5667cda6755bb3c16d5067e63432102302cbe",
+      "date": "2026-10-26T09:14:47Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "063dfb06d95af639ec7fda076459e58ccf53ebde",
-      "date": "2026-10-25T04:29:11Z"
+      "sha": "f8a32721491207435bba949ace02251d41c8ba10",
+      "date": "2026-10-26T04:33:22Z"
      }
     }
    ],
@@ -296,19 +329,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-25T09:46:32+00:00",
+ "generated_at": "2026-10-26T11:01:44+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "d5e7e4579fb57b86565de3c370d3365a62407fca",
-  "run_id": "40182031130"
+  "commit": "8143dff4417d0f08e93d75e857dbc2244a9b1d2d",
+  "run_id": "40311933142"
  },
  "ficha": {
-  "id": "sha256:1bd0bcdce9c4e6dcb1e5004e2395e79eab902756b76cc5447a55aae0e56853d0",
+  "id": "sha256:a0c79a7d0572ad698fdcfa97ae4578fa64bb3f4d5500a428b17c7d3a6e06d12d",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/termos-de-intimacao-das-penas-dos-editais-tipe.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'termos-de-intimacao-das-penas-dos-editais-tipe' (ANEEL), 2026-10-25, sha256:1bd0bcdce9c4e6dc…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'termos-de-intimacao-das-penas-dos-editais-tipe' (ANEEL), 2026-10-25, sha256:1bd0bcdce9c4e6dc…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe"
+   "en": "5L-TEP Layer 5 record of 'termos-de-intimacao-das-penas-dos-editais-tipe' (ANEEL), 2026-10-26, sha256:a0c79a7d0572ad69…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'termos-de-intimacao-das-penas-dos-editais-tipe' (ANEEL), 2026-10-26, sha256:a0c79a7d0572ad69…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe"
   }
  }
 }
