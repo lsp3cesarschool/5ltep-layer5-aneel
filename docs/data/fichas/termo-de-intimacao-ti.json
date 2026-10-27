@@ -4,9 +4,9 @@
   "title": "Termo de Intimação (TI)",
   "id": "e8d03b9e-3717-46dc-b0c4-c33d3bf80b10",
   "resources": 2,
-  "last_change": "2026-10-19T12:56:04+00:00",
+  "last_change": "2026-10-26T12:47:27+00:00",
   "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10#671b20fd756a",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10#b3be2b7611f7",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/termo-de-intimacao-ti"
  },
  "qs": {
@@ -33,7 +33,7 @@
    "reason": null,
    "rate": 1.0,
    "evaluated_at": "2026-10-26T09:43:29+00:00",
-   "current": true,
+   "current": false,
    "facts": {
     "level": 4,
     "tables": 1,
@@ -64,32 +64,24 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-26T04:32:10+00:00",
+   "evaluated_at": "2026-10-27T04:50:29+00:00",
    "current": true,
    "facts": {
-    "observations": 81,
+    "observations": 84,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10#671b20fd756a"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10#b3be2b7611f7"
    },
-   "signals": [
-    {
-     "key": "L4:cross_check:termo-de-intimacao-ti",
-     "count": 1,
-     "en": "unreconciled divergence in the independent cross-check",
-     "pt": "divergência não reconciliada no cross-check independente"
-    }
-   ]
+   "signals": []
   }
  },
  "findings": [
   {
    "layer": "L4",
-   "kind": "signal",
-   "key": "L4:cross_check:termo-de-intimacao-ti",
-   "count": 1,
-   "when": null,
-   "en": "unreconciled divergence in the independent cross-check",
-   "pt": "divergência não reconciliada no cross-check independente"
+   "kind": "simultaneous",
+   "when": "2026-10-26T12:47:27+00:00",
+   "count": 11,
+   "en": "CONTENT_MOD in 11 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 11 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -109,21 +101,7 @@
   }
  ],
  "outcomes": {
-  "open": [
-   {
-    "key": "L4:cross_check:termo-de-intimacao-ti",
-    "layer": "L4",
-    "first_reported": "2026-10-26T11:01:44+00:00",
-    "count": 1,
-    "evaluated_at": "2026-10-26T04:32:10+00:00",
-    "status": "reported",
-    "en": "unreconciled divergence in the independent cross-check",
-    "pt": "divergência não reconciliada no cross-check independente",
-    "digests": {
-     "186f7895-2d71-4c68-93c9-57de0e5c5498": "fa2749d64a52c8f6fca61e498a1a4b6d3cff489a35f1e904602358952ba7af3f"
-    }
-   }
-  ],
+  "open": [],
   "closed": [
    {
     "layer": "L4",
@@ -141,6 +119,23 @@
     "dataset": "termo-de-intimacao-ti",
     "outcome": "remediated_observed",
     "at": "2026-10-20T09:59:24+00:00"
+   },
+   {
+    "layer": "L4",
+    "first_reported": "2026-10-26T11:01:44+00:00",
+    "count": 1,
+    "evaluated_at": "2026-10-26T04:32:10+00:00",
+    "status": "remediated_observed",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
+    "digests": {
+     "186f7895-2d71-4c68-93c9-57de0e5c5498": "fa2749d64a52c8f6fca61e498a1a4b6d3cff489a35f1e904602358952ba7af3f"
+    },
+    "first_change_seen": "2026-10-27T10:29:50+00:00",
+    "key": "L4:cross_check:termo-de-intimacao-ti",
+    "dataset": "termo-de-intimacao-ti",
+    "outcome": "remediated_observed",
+    "at": "2026-10-27T10:29:50+00:00"
    }
   ]
  },
@@ -212,30 +207,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-26T04:33:21.901432+00:00",
+   "generated_at": "2026-10-27T04:51:38.534900+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "f8a32721491207435bba949ace02251d41c8ba10",
-      "date": "2026-10-26T04:33:22Z"
+      "sha": "1207a4ad6c707ab28e32ae8b42c9961ac505e3e4",
+      "date": "2026-10-27T04:51:38Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "0fb5667cda6755bb3c16d5067e63432102302cbe",
-      "date": "2026-10-26T09:14:47Z"
+      "sha": "dd47f971aac3a44efbb0176bfd085ab84b6c25e5",
+      "date": "2026-10-27T09:14:54Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "f8a32721491207435bba949ace02251d41c8ba10",
-      "date": "2026-10-26T04:33:22Z"
+      "sha": "1207a4ad6c707ab28e32ae8b42c9961ac505e3e4",
+      "date": "2026-10-27T04:51:38Z"
      }
     }
    ],
@@ -287,19 +282,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-26T11:01:44+00:00",
+ "generated_at": "2026-10-27T10:29:50+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "8143dff4417d0f08e93d75e857dbc2244a9b1d2d",
-  "run_id": "40311933142"
+  "commit": "9d3a407b88d7917ba84760aab6d1559d94dbf647",
+  "run_id": "40488899785"
  },
  "ficha": {
-  "id": "sha256:8b296eb473d57991a1e3b6481fcc75b3775ab7873ad15439937305bdaedc8238",
+  "id": "sha256:9d3b2e4750e420f48eb4459ea673f816e480fbdea534c81db4803e7de7aaa63e",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termo-de-intimacao-ti",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/termo-de-intimacao-ti.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'termo-de-intimacao-ti' (ANEEL), 2026-10-26, sha256:8b296eb473d57991…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termo-de-intimacao-ti",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'termo-de-intimacao-ti' (ANEEL), 2026-10-26, sha256:8b296eb473d57991…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termo-de-intimacao-ti"
+   "en": "5L-TEP Layer 5 record of 'termo-de-intimacao-ti' (ANEEL), 2026-10-27, sha256:9d3b2e4750e420f4…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termo-de-intimacao-ti",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'termo-de-intimacao-ti' (ANEEL), 2026-10-27, sha256:9d3b2e4750e420f4…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termo-de-intimacao-ti"
   }
  }
 }

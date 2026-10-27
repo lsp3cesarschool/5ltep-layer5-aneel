@@ -4,9 +4,9 @@
   "title": "Auto de Infração",
   "id": "4d690c9d-8158-4b04-ae44-7d3de8616271",
   "resources": 3,
-  "last_change": "2026-10-19T12:56:04+00:00",
+  "last_change": "2026-10-26T12:47:27+00:00",
   "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271#35f337f5c0f6",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271#a28ec3d6d8e4",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/auto-de-infracao"
  },
  "qs": {
@@ -102,21 +102,14 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-26T04:32:10+00:00",
+   "evaluated_at": "2026-10-27T04:50:29+00:00",
    "current": true,
    "facts": {
-    "observations": 81,
+    "observations": 84,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271#35f337f5c0f6"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271#a28ec3d6d8e4"
    },
-   "signals": [
-    {
-     "key": "L4:cross_check:auto-de-infracao",
-     "count": 1,
-     "en": "unreconciled divergence in the independent cross-check",
-     "pt": "divergência não reconciliada no cross-check independente"
-    }
-   ]
+   "signals": []
   }
  },
  "findings": [
@@ -148,21 +141,20 @@
    "pt": "1 anomalia(s) sinalizada(s) na janela ['2025-10', '2026-09']"
   },
   {
-   "layer": "L4",
-   "kind": "signal",
-   "key": "L4:cross_check:auto-de-infracao",
-   "count": 1,
-   "when": null,
-   "en": "unreconciled divergence in the independent cross-check",
-   "pt": "divergência não reconciliada no cross-check independente"
-  },
-  {
    "layer": "L5",
    "kind": "unrecorded_change",
    "when": "2026-10-26T09:43:27+00:00",
    "resource_id": "f221158a-93a3-423f-b794-4312b6985a24",
    "en": "the bytes of resource f221158a-93a3-423f-b794-4312b6985a24 changed between 2026-10-21 and 2026-10-26 with no change in the portal metadata",
    "pt": "os bytes do recurso f221158a-93a3-423f-b794-4312b6985a24 mudaram entre 2026-10-21 e 2026-10-26 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-10-26T12:47:27+00:00",
+   "count": 11,
+   "en": "CONTENT_MOD in 11 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 11 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -224,19 +216,6 @@
      "f221158a-93a3-423f-b794-4312b6985a24": "a05192defd1399864639e899a5fbdc2ca6661e543a0aa1ff998edc7ce75b8d13"
     },
     "first_change_seen": "2026-10-19T10:42:30+00:00"
-   },
-   {
-    "key": "L4:cross_check:auto-de-infracao",
-    "layer": "L4",
-    "first_reported": "2026-10-26T11:01:44+00:00",
-    "count": 1,
-    "evaluated_at": "2026-10-26T04:32:10+00:00",
-    "status": "reported",
-    "en": "unreconciled divergence in the independent cross-check",
-    "pt": "divergência não reconciliada no cross-check independente",
-    "digests": {
-     "f221158a-93a3-423f-b794-4312b6985a24": "1117a61d095cf95da10ee3cf560b42697ec063781b49cd88edb9262047a26ba4"
-    }
    }
   ],
   "closed": [
@@ -256,6 +235,23 @@
     "dataset": "auto-de-infracao",
     "outcome": "remediated_observed",
     "at": "2026-10-20T09:59:24+00:00"
+   },
+   {
+    "layer": "L4",
+    "first_reported": "2026-10-26T11:01:44+00:00",
+    "count": 1,
+    "evaluated_at": "2026-10-26T04:32:10+00:00",
+    "status": "remediated_observed",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
+    "digests": {
+     "f221158a-93a3-423f-b794-4312b6985a24": "1117a61d095cf95da10ee3cf560b42697ec063781b49cd88edb9262047a26ba4"
+    },
+    "first_change_seen": "2026-10-27T10:29:50+00:00",
+    "key": "L4:cross_check:auto-de-infracao",
+    "dataset": "auto-de-infracao",
+    "outcome": "remediated_observed",
+    "at": "2026-10-27T10:29:50+00:00"
    }
   ]
  },
@@ -327,30 +323,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-26T04:33:21.901432+00:00",
+   "generated_at": "2026-10-27T04:51:38.534900+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "f8a32721491207435bba949ace02251d41c8ba10",
-      "date": "2026-10-26T04:33:22Z"
+      "sha": "1207a4ad6c707ab28e32ae8b42c9961ac505e3e4",
+      "date": "2026-10-27T04:51:38Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "0fb5667cda6755bb3c16d5067e63432102302cbe",
-      "date": "2026-10-26T09:14:47Z"
+      "sha": "dd47f971aac3a44efbb0176bfd085ab84b6c25e5",
+      "date": "2026-10-27T09:14:54Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "f8a32721491207435bba949ace02251d41c8ba10",
-      "date": "2026-10-26T04:33:22Z"
+      "sha": "1207a4ad6c707ab28e32ae8b42c9961ac505e3e4",
+      "date": "2026-10-27T04:51:38Z"
      }
     }
    ],
@@ -402,19 +398,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-26T11:01:44+00:00",
+ "generated_at": "2026-10-27T10:29:50+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "8143dff4417d0f08e93d75e857dbc2244a9b1d2d",
-  "run_id": "40311933142"
+  "commit": "9d3a407b88d7917ba84760aab6d1559d94dbf647",
+  "run_id": "40488899785"
  },
  "ficha": {
-  "id": "sha256:8f087c450626339efde114db9a467b8de1df9b29222bef05c5547ea37d93338a",
+  "id": "sha256:d8ea31f3b5c69f0582840ca4daf9aac182c1ead4e438e2cde0ec80c1619be69f",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=auto-de-infracao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/auto-de-infracao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'auto-de-infracao' (ANEEL), 2026-10-26, sha256:8f087c450626339e…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=auto-de-infracao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'auto-de-infracao' (ANEEL), 2026-10-26, sha256:8f087c450626339e…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=auto-de-infracao"
+   "en": "5L-TEP Layer 5 record of 'auto-de-infracao' (ANEEL), 2026-10-27, sha256:d8ea31f3b5c69f05…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=auto-de-infracao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'auto-de-infracao' (ANEEL), 2026-10-27, sha256:d8ea31f3b5c69f05…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=auto-de-infracao"
   }
  }
 }
