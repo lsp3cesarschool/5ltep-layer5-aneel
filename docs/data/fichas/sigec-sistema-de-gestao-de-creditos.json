@@ -4,9 +4,9 @@
   "title": "SIGEC - Sistema de Gestão de Créditos",
   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
   "resources": 5,
-  "last_change": "2026-10-28T05:25:47+00:00",
+  "last_change": "2026-10-29T05:34:55+00:00",
   "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a#52710b0524a1",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a#dfd4e351e3c5",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/sigec-sistema-de-gestao-de-creditos"
  },
  "qs": {
@@ -56,17 +56,33 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-28T05:25:47+00:00",
+   "evaluated_at": "2026-10-29T05:34:55+00:00",
    "current": true,
    "facts": {
-    "observations": 88,
+    "observations": 91,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a#52710b0524a1"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a#dfd4e351e3c5"
    },
-   "signals": []
+   "signals": [
+    {
+     "key": "L4:cross_check:sigec-sistema-de-gestao-de-creditos",
+     "count": 1,
+     "en": "unreconciled divergence in the independent cross-check",
+     "pt": "divergência não reconciliada no cross-check independente"
+    }
+   ]
   }
  },
  "findings": [
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:cross_check:sigec-sistema-de-gestao-de-creditos",
+   "count": 1,
+   "when": null,
+   "en": "unreconciled divergence in the independent cross-check",
+   "pt": "divergência não reconciliada no cross-check independente"
+  },
   {
    "layer": "L4",
    "kind": "simultaneous",
@@ -173,7 +189,22 @@
   }
  ],
  "outcomes": {
-  "open": [],
+  "open": [
+   {
+    "key": "L4:cross_check:sigec-sistema-de-gestao-de-creditos",
+    "layer": "L4",
+    "first_reported": "2026-10-29T11:28:49+00:00",
+    "count": 1,
+    "evaluated_at": "2026-10-29T05:34:55+00:00",
+    "status": "reported",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
+    "digests": {
+     "eca732ac-4f08-401f-b1cf-f9eff88a9b20": "28e12d5af3d35cf21e97aada6b5209190a6fce8e25d4edc95d460d3c5bc56bfd",
+     "0bf361e5-dc58-4380-95f0-b61a55ec3423": "987edf6d5ce594c0a07ee5dffe3171fff1d9f42d5ff7e122ef330a497fd29e5d"
+    }
+   }
+  ],
   "closed": [
    {
     "layer": "L4",
@@ -317,30 +348,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-28T05:26:12.653873+00:00",
+   "generated_at": "2026-10-29T05:35:35.022438+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "1f7ef45ba0c2f5e57142a0abd443c643c98e2d34",
-      "date": "2026-10-28T05:26:13Z"
+      "sha": "eb814c3eec0f8ac62ac9c94a6bef1eeffbe5c2de",
+      "date": "2026-10-29T05:35:35Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "e876102ee5ca2be70f9b7735b846f48123c3e090",
-      "date": "2026-10-28T09:55:32Z"
+      "sha": "cc5c3df1854e95eaa83e4dda2964b7ba00d37ac9",
+      "date": "2026-10-29T10:17:00Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "1f7ef45ba0c2f5e57142a0abd443c643c98e2d34",
-      "date": "2026-10-28T05:26:13Z"
+      "sha": "eb814c3eec0f8ac62ac9c94a6bef1eeffbe5c2de",
+      "date": "2026-10-29T05:35:35Z"
      }
     }
    ],
@@ -392,19 +423,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-28T11:18:05+00:00",
+ "generated_at": "2026-10-29T11:28:49+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "2d39d871317c4672b13111db8a48eb077db3e4ec",
-  "run_id": "40678857242"
+  "commit": "a0cd8aef731e30728f0600322382df36af7ade6c",
+  "run_id": "40865688864"
  },
  "ficha": {
-  "id": "sha256:0b59ab5ebd66aab6b8f1a8d45333672cf580375835ccc3f4bea16a94bc303383",
+  "id": "sha256:845928b217d49b4c1a0a320998bb4761939d4af071b72a8beb8e81733321aca2",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=sigec-sistema-de-gestao-de-creditos",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/sigec-sistema-de-gestao-de-creditos.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'sigec-sistema-de-gestao-de-creditos' (ANEEL), 2026-10-28, sha256:0b59ab5ebd66aab6…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=sigec-sistema-de-gestao-de-creditos",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'sigec-sistema-de-gestao-de-creditos' (ANEEL), 2026-10-28, sha256:0b59ab5ebd66aab6…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=sigec-sistema-de-gestao-de-creditos"
+   "en": "5L-TEP Layer 5 record of 'sigec-sistema-de-gestao-de-creditos' (ANEEL), 2026-10-29, sha256:845928b217d49b4c…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=sigec-sistema-de-gestao-de-creditos",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'sigec-sistema-de-gestao-de-creditos' (ANEEL), 2026-10-29, sha256:845928b217d49b4c…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=sigec-sistema-de-gestao-de-creditos"
   }
  }
 }

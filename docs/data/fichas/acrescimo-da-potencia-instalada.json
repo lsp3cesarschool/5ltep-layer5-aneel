@@ -4,8 +4,8 @@
   "title": "Acréscimo anual da potência instalada",
   "id": "4bf07812-e421-48f3-8e48-eec0040764ba",
   "resources": 2,
-  "last_change": null,
-  "last_type": null,
+  "last_change": "2026-10-29T05:34:55+00:00",
+  "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/4bf07812-e421-48f3-8e48-eec0040764ba#6313d27ef493",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/acrescimo-da-potencia-instalada"
  },
@@ -33,7 +33,7 @@
    "reason": null,
    "rate": 1.0,
    "evaluated_at": "2026-10-03T04:21:08+00:00",
-   "current": true,
+   "current": false,
    "facts": {
     "level": 1,
     "tables": 1,
@@ -64,10 +64,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-28T05:25:47+00:00",
+   "evaluated_at": "2026-10-29T05:34:55+00:00",
    "current": true,
    "facts": {
-    "observations": 88,
+    "observations": 91,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/4bf07812-e421-48f3-8e48-eec0040764ba#6313d27ef493"
    },
@@ -147,30 +147,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-28T05:26:12.653873+00:00",
+   "generated_at": "2026-10-29T05:35:35.022438+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "1f7ef45ba0c2f5e57142a0abd443c643c98e2d34",
-      "date": "2026-10-28T05:26:13Z"
+      "sha": "eb814c3eec0f8ac62ac9c94a6bef1eeffbe5c2de",
+      "date": "2026-10-29T05:35:35Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "e876102ee5ca2be70f9b7735b846f48123c3e090",
-      "date": "2026-10-28T09:55:32Z"
+      "sha": "cc5c3df1854e95eaa83e4dda2964b7ba00d37ac9",
+      "date": "2026-10-29T10:17:00Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "1f7ef45ba0c2f5e57142a0abd443c643c98e2d34",
-      "date": "2026-10-28T05:26:13Z"
+      "sha": "eb814c3eec0f8ac62ac9c94a6bef1eeffbe5c2de",
+      "date": "2026-10-29T05:35:35Z"
      }
     }
    ],
@@ -222,19 +222,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-28T11:18:05+00:00",
+ "generated_at": "2026-10-29T11:28:49+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "2d39d871317c4672b13111db8a48eb077db3e4ec",
-  "run_id": "40678857242"
+  "commit": "a0cd8aef731e30728f0600322382df36af7ade6c",
+  "run_id": "40865688864"
  },
  "ficha": {
-  "id": "sha256:ba436d4e86d685899cc5dadbaeb8d0664d34e01c6a66929c6434f63041df2492",
+  "id": "sha256:b0072c81414541dade9de8c5a082d18dbcf31da587a953ec081eb4faa2334a0a",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=acrescimo-da-potencia-instalada",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/acrescimo-da-potencia-instalada.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'acrescimo-da-potencia-instalada' (ANEEL), 2026-10-28, sha256:ba436d4e86d68589…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=acrescimo-da-potencia-instalada",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'acrescimo-da-potencia-instalada' (ANEEL), 2026-10-28, sha256:ba436d4e86d68589…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=acrescimo-da-potencia-instalada"
+   "en": "5L-TEP Layer 5 record of 'acrescimo-da-potencia-instalada' (ANEEL), 2026-10-29, sha256:b0072c81414541da…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=acrescimo-da-potencia-instalada",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'acrescimo-da-potencia-instalada' (ANEEL), 2026-10-29, sha256:b0072c81414541da…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=acrescimo-da-potencia-instalada"
   }
  }
 }

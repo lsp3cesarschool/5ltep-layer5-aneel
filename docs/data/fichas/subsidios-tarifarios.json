@@ -4,8 +4,8 @@
   "title": "Subsídios Tarifários",
   "id": "28a6b7de-6f3a-4a5b-aa69-229f3bc4fbc9",
   "resources": 2,
-  "last_change": null,
-  "last_type": null,
+  "last_change": "2026-10-29T05:34:55+00:00",
+  "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/28a6b7de-6f3a-4a5b-aa69-229f3bc4fbc9#62d05336283c",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/subsidios-tarifarios"
  },
@@ -33,7 +33,7 @@
    "reason": null,
    "rate": 0.0,
    "evaluated_at": "2026-10-03T14:15:54+00:00",
-   "current": true,
+   "current": false,
    "facts": {
     "level": 3,
     "tables": 1,
@@ -71,10 +71,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-28T05:25:47+00:00",
+   "evaluated_at": "2026-10-29T05:34:55+00:00",
    "current": true,
    "facts": {
-    "observations": 88,
+    "observations": 91,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/28a6b7de-6f3a-4a5b-aa69-229f3bc4fbc9#62d05336283c"
    },
@@ -105,7 +105,8 @@
     "pt": "1 de 1 arquivo(s) verificável(is) fora do esquema declarado",
     "digests": {
      "325c828c-1cde-485e-9571-a412fa64f768": "7c7e9d800bafe64b39f101e0117f9af0043902fc25e164c9d433391f09cea4ec"
-    }
+    },
+    "first_change_seen": "2026-10-29T11:28:49+00:00"
    }
   ],
   "closed": []
@@ -178,30 +179,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-28T05:26:12.653873+00:00",
+   "generated_at": "2026-10-29T05:35:35.022438+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "1f7ef45ba0c2f5e57142a0abd443c643c98e2d34",
-      "date": "2026-10-28T05:26:13Z"
+      "sha": "eb814c3eec0f8ac62ac9c94a6bef1eeffbe5c2de",
+      "date": "2026-10-29T05:35:35Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "e876102ee5ca2be70f9b7735b846f48123c3e090",
-      "date": "2026-10-28T09:55:32Z"
+      "sha": "cc5c3df1854e95eaa83e4dda2964b7ba00d37ac9",
+      "date": "2026-10-29T10:17:00Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "1f7ef45ba0c2f5e57142a0abd443c643c98e2d34",
-      "date": "2026-10-28T05:26:13Z"
+      "sha": "eb814c3eec0f8ac62ac9c94a6bef1eeffbe5c2de",
+      "date": "2026-10-29T05:35:35Z"
      }
     }
    ],
@@ -253,19 +254,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-28T11:18:05+00:00",
+ "generated_at": "2026-10-29T11:28:49+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "2d39d871317c4672b13111db8a48eb077db3e4ec",
-  "run_id": "40678857242"
+  "commit": "a0cd8aef731e30728f0600322382df36af7ade6c",
+  "run_id": "40865688864"
  },
  "ficha": {
-  "id": "sha256:8ae3d381d3c315f6372ca4ee2b6da8aaebf674780e4b31a600522ef89fcdb4ae",
+  "id": "sha256:13252b158528a7e7fe678e0837255b38559a43c6f045f4a2065a876ea7b69f79",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=subsidios-tarifarios",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/subsidios-tarifarios.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'subsidios-tarifarios' (ANEEL), 2026-10-28, sha256:8ae3d381d3c315f6…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=subsidios-tarifarios",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'subsidios-tarifarios' (ANEEL), 2026-10-28, sha256:8ae3d381d3c315f6…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=subsidios-tarifarios"
+   "en": "5L-TEP Layer 5 record of 'subsidios-tarifarios' (ANEEL), 2026-10-29, sha256:13252b158528a7e7…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=subsidios-tarifarios",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'subsidios-tarifarios' (ANEEL), 2026-10-29, sha256:13252b158528a7e7…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=subsidios-tarifarios"
   }
  }
 }
