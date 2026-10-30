@@ -4,7 +4,7 @@
   "title": "Tarifa Social de Energia Elétrica – Beneficiários (descontinuado)",
   "id": "0ffe45bc-b0bc-4c18-99ab-e97e94841418",
   "resources": 4,
-  "last_change": "2026-10-29T05:34:55+00:00",
+  "last_change": "2026-10-30T05:34:01+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/0ffe45bc-b0bc-4c18-99ab-e97e94841418#c7405da36e67",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/tarifa-social-de-energia-eletrica-beneficiarios"
@@ -56,10 +56,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-29T05:34:55+00:00",
+   "evaluated_at": "2026-10-30T05:34:01+00:00",
    "current": true,
    "facts": {
-    "observations": 91,
+    "observations": 94,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/0ffe45bc-b0bc-4c18-99ab-e97e94841418#c7405da36e67"
    },
@@ -139,30 +139,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-29T05:35:35.022438+00:00",
+   "generated_at": "2026-10-30T05:34:28.868395+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "eb814c3eec0f8ac62ac9c94a6bef1eeffbe5c2de",
-      "date": "2026-10-29T05:35:35Z"
+      "sha": "ca47c39b9cdc7f9ebe332e0ff088bd40c430827f",
+      "date": "2026-10-30T05:34:29Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "cc5c3df1854e95eaa83e4dda2964b7ba00d37ac9",
-      "date": "2026-10-29T10:17:00Z"
+      "sha": "fa4d1b824c554222361d15fdc8fb0a469e8c450a",
+      "date": "2026-10-30T10:19:18Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "eb814c3eec0f8ac62ac9c94a6bef1eeffbe5c2de",
-      "date": "2026-10-29T05:35:35Z"
+      "sha": "ca47c39b9cdc7f9ebe332e0ff088bd40c430827f",
+      "date": "2026-10-30T05:34:29Z"
      }
     }
    ],
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-29T11:28:49+00:00",
+ "generated_at": "2026-10-30T11:21:26+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "a0cd8aef731e30728f0600322382df36af7ade6c",
-  "run_id": "40865688864"
+  "commit": "f2dac3eae2b92aeba8934cdf0a7b796234c9bd9e",
+  "run_id": "41047491599"
  },
  "ficha": {
-  "id": "sha256:e1d7e9928500f996a570598f5d0faf17f576d14cf8afeffe374b08f13e10b60d",
+  "id": "sha256:36f0677bc86c07561fa1ff4fcc72aa7eac539f5c7ae031aaba515610cdf1b555",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tarifa-social-de-energia-eletrica-beneficiarios",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/tarifa-social-de-energia-eletrica-beneficiarios.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'tarifa-social-de-energia-eletrica-beneficiarios' (ANEEL), 2026-10-29, sha256:e1d7e9928500f996…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tarifa-social-de-energia-eletrica-beneficiarios",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'tarifa-social-de-energia-eletrica-beneficiarios' (ANEEL), 2026-10-29, sha256:e1d7e9928500f996…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tarifa-social-de-energia-eletrica-beneficiarios"
+   "en": "5L-TEP Layer 5 record of 'tarifa-social-de-energia-eletrica-beneficiarios' (ANEEL), 2026-10-30, sha256:36f0677bc86c0756…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tarifa-social-de-energia-eletrica-beneficiarios",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'tarifa-social-de-energia-eletrica-beneficiarios' (ANEEL), 2026-10-30, sha256:36f0677bc86c0756…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tarifa-social-de-energia-eletrica-beneficiarios"
   }
  }
 }
