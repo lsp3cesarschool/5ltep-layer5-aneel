@@ -4,7 +4,7 @@
   "title": "BPR - Banco de Preços de Referência (subestação)",
   "id": "7981fa38-867f-4447-8bf0-775939705a6c",
   "resources": 8,
-  "last_change": "2026-10-30T05:34:01+00:00",
+  "last_change": "2026-10-30T22:12:59+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/7981fa38-867f-4447-8bf0-775939705a6c#6deef8c2b408",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/bpr-banco-de-precos-de-referencia-subestacao"
@@ -56,10 +56,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-30T05:34:01+00:00",
+   "evaluated_at": "2026-10-31T05:22:30+00:00",
    "current": true,
    "facts": {
-    "observations": 94,
+    "observations": 97,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/7981fa38-867f-4447-8bf0-775939705a6c#6deef8c2b408"
    },
@@ -139,30 +139,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-30T05:34:28.868395+00:00",
+   "generated_at": "2026-10-31T05:22:52.889907+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "ca47c39b9cdc7f9ebe332e0ff088bd40c430827f",
-      "date": "2026-10-30T05:34:29Z"
+      "sha": "aff54b98d30fb2c4badb62ffd624747948c884d7",
+      "date": "2026-10-31T05:22:53Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "fa4d1b824c554222361d15fdc8fb0a469e8c450a",
-      "date": "2026-10-30T10:19:18Z"
+      "sha": "2e2d051356459c58e4282ca5b621c523d27a4c99",
+      "date": "2026-10-31T09:51:58Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "ca47c39b9cdc7f9ebe332e0ff088bd40c430827f",
-      "date": "2026-10-30T05:34:29Z"
+      "sha": "aff54b98d30fb2c4badb62ffd624747948c884d7",
+      "date": "2026-10-31T05:22:53Z"
      }
     }
    ],
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-30T11:21:26+00:00",
+ "generated_at": "2026-10-31T10:53:23+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "f2dac3eae2b92aeba8934cdf0a7b796234c9bd9e",
-  "run_id": "41047491599"
+  "commit": "a285d38583b3d2027480c3c6f144f5f1098c7526",
+  "run_id": "41194562994"
  },
  "ficha": {
-  "id": "sha256:14feaccbe10cf33d306c8cd9e1d55ec51110bfdde1b5544c999c42cc63ec21e2",
+  "id": "sha256:7bbedae5b823ca37c30925504c5fc58ec303f75eab5c338d3d814711e5fdaeb5",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bpr-banco-de-precos-de-referencia-subestacao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/bpr-banco-de-precos-de-referencia-subestacao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'bpr-banco-de-precos-de-referencia-subestacao' (ANEEL), 2026-10-30, sha256:14feaccbe10cf33d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bpr-banco-de-precos-de-referencia-subestacao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'bpr-banco-de-precos-de-referencia-subestacao' (ANEEL), 2026-10-30, sha256:14feaccbe10cf33d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bpr-banco-de-precos-de-referencia-subestacao"
+   "en": "5L-TEP Layer 5 record of 'bpr-banco-de-precos-de-referencia-subestacao' (ANEEL), 2026-10-31, sha256:7bbedae5b823ca37…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bpr-banco-de-precos-de-referencia-subestacao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'bpr-banco-de-precos-de-referencia-subestacao' (ANEEL), 2026-10-31, sha256:7bbedae5b823ca37…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bpr-banco-de-precos-de-referencia-subestacao"
   }
  }
 }
