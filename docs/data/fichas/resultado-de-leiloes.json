@@ -4,9 +4,9 @@
   "title": "Resultado de leilões de geração e transmissão de energia elétrica",
   "id": "593537c6-9e0e-4ed9-817a-2c5d5de05147",
   "resources": 4,
-  "last_change": "2026-10-31T05:22:30+00:00",
-  "last_type": "NOT_FINGERPRINTED",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/593537c6-9e0e-4ed9-817a-2c5d5de05147#89d2345e661c",
+  "last_change": "2026-11-01T05:49:42+00:00",
+  "last_type": "CONTENT_MOD",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/593537c6-9e0e-4ed9-817a-2c5d5de05147#bd041ed8e226",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/resultado-de-leiloes"
  },
  "qs": {
@@ -72,17 +72,26 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-31T05:22:30+00:00",
+   "evaluated_at": "2026-11-01T05:49:42+00:00",
    "current": true,
    "facts": {
-    "observations": 97,
+    "observations": 100,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/593537c6-9e0e-4ed9-817a-2c5d5de05147#89d2345e661c"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/593537c6-9e0e-4ed9-817a-2c5d5de05147#bd041ed8e226"
    },
    "signals": []
   }
  },
- "findings": [],
+ "findings": [
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-11-01T05:49:42+00:00",
+   "count": 20,
+   "en": "CONTENT_MOD in 20 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 20 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
+  }
+ ],
  "outcomes": {
   "open": [],
   "closed": []
@@ -155,30 +164,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-31T05:22:52.889907+00:00",
+   "generated_at": "2026-11-01T05:51:16.305177+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "aff54b98d30fb2c4badb62ffd624747948c884d7",
-      "date": "2026-10-31T05:22:53Z"
+      "sha": "cf020e82b33ab1409c9bdf47936bf2756475b272",
+      "date": "2026-11-01T05:51:16Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "2e2d051356459c58e4282ca5b621c523d27a4c99",
-      "date": "2026-10-31T09:51:58Z"
+      "sha": "2987cc6fc91e390e537cbf45ecbee8c4e74b2c86",
+      "date": "2026-11-01T10:42:59Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "aff54b98d30fb2c4badb62ffd624747948c884d7",
-      "date": "2026-10-31T05:22:53Z"
+      "sha": "cf020e82b33ab1409c9bdf47936bf2756475b272",
+      "date": "2026-11-01T05:51:16Z"
      }
     }
    ],
@@ -230,19 +239,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-31T10:53:23+00:00",
+ "generated_at": "2026-11-01T11:48:05+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "a285d38583b3d2027480c3c6f144f5f1098c7526",
-  "run_id": "41194562994"
+  "commit": "809c7ec881129eeb328dbcb79d83876342b84df0",
+  "run_id": "41303479840"
  },
  "ficha": {
-  "id": "sha256:f1868a06af7559138f3f0c5f8c07898f4f04a74d052e8f158f0d9089eb929c2d",
+  "id": "sha256:8e99031f56a008a3bdca633d04b4dfd30ff4e97aa197cd914a2024410bde401a",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=resultado-de-leiloes",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/resultado-de-leiloes.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'resultado-de-leiloes' (ANEEL), 2026-10-31, sha256:f1868a06af755913…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=resultado-de-leiloes",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'resultado-de-leiloes' (ANEEL), 2026-10-31, sha256:f1868a06af755913…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=resultado-de-leiloes"
+   "en": "5L-TEP Layer 5 record of 'resultado-de-leiloes' (ANEEL), 2026-11-01, sha256:8e99031f56a008a3…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=resultado-de-leiloes",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'resultado-de-leiloes' (ANEEL), 2026-11-01, sha256:8e99031f56a008a3…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=resultado-de-leiloes"
   }
  }
 }

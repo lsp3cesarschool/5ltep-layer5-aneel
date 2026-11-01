@@ -4,9 +4,9 @@
   "title": "BPR - Banco de Preços de Referência (subestação)",
   "id": "7981fa38-867f-4447-8bf0-775939705a6c",
   "resources": 8,
-  "last_change": "2026-10-30T22:12:59+00:00",
-  "last_type": "NOT_FINGERPRINTED",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/7981fa38-867f-4447-8bf0-775939705a6c#6deef8c2b408",
+  "last_change": "2026-11-01T05:49:42+00:00",
+  "last_type": "CONTENT_MOD",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/7981fa38-867f-4447-8bf0-775939705a6c#3d373e65ec24",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/bpr-banco-de-precos-de-referencia-subestacao"
  },
  "qs": {
@@ -56,17 +56,26 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-31T05:22:30+00:00",
+   "evaluated_at": "2026-11-01T05:49:42+00:00",
    "current": true,
    "facts": {
-    "observations": 97,
+    "observations": 100,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/7981fa38-867f-4447-8bf0-775939705a6c#6deef8c2b408"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/7981fa38-867f-4447-8bf0-775939705a6c#3d373e65ec24"
    },
    "signals": []
   }
  },
- "findings": [],
+ "findings": [
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-11-01T05:49:42+00:00",
+   "count": 20,
+   "en": "CONTENT_MOD in 20 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 20 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
+  }
+ ],
  "outcomes": {
   "open": [],
   "closed": []
@@ -139,30 +148,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-31T05:22:52.889907+00:00",
+   "generated_at": "2026-11-01T05:51:16.305177+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "aff54b98d30fb2c4badb62ffd624747948c884d7",
-      "date": "2026-10-31T05:22:53Z"
+      "sha": "cf020e82b33ab1409c9bdf47936bf2756475b272",
+      "date": "2026-11-01T05:51:16Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "2e2d051356459c58e4282ca5b621c523d27a4c99",
-      "date": "2026-10-31T09:51:58Z"
+      "sha": "2987cc6fc91e390e537cbf45ecbee8c4e74b2c86",
+      "date": "2026-11-01T10:42:59Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "aff54b98d30fb2c4badb62ffd624747948c884d7",
-      "date": "2026-10-31T05:22:53Z"
+      "sha": "cf020e82b33ab1409c9bdf47936bf2756475b272",
+      "date": "2026-11-01T05:51:16Z"
      }
     }
    ],
@@ -214,19 +223,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-31T10:53:23+00:00",
+ "generated_at": "2026-11-01T11:48:05+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "a285d38583b3d2027480c3c6f144f5f1098c7526",
-  "run_id": "41194562994"
+  "commit": "809c7ec881129eeb328dbcb79d83876342b84df0",
+  "run_id": "41303479840"
  },
  "ficha": {
-  "id": "sha256:7bbedae5b823ca37c30925504c5fc58ec303f75eab5c338d3d814711e5fdaeb5",
+  "id": "sha256:9608f2d05a96f47c6df0ad9a0916c7957f95fec83d430d8c56bd91a54e5eff33",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bpr-banco-de-precos-de-referencia-subestacao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/bpr-banco-de-precos-de-referencia-subestacao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'bpr-banco-de-precos-de-referencia-subestacao' (ANEEL), 2026-10-31, sha256:7bbedae5b823ca37…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bpr-banco-de-precos-de-referencia-subestacao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'bpr-banco-de-precos-de-referencia-subestacao' (ANEEL), 2026-10-31, sha256:7bbedae5b823ca37…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bpr-banco-de-precos-de-referencia-subestacao"
+   "en": "5L-TEP Layer 5 record of 'bpr-banco-de-precos-de-referencia-subestacao' (ANEEL), 2026-11-01, sha256:9608f2d05a96f47c…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bpr-banco-de-precos-de-referencia-subestacao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'bpr-banco-de-precos-de-referencia-subestacao' (ANEEL), 2026-11-01, sha256:9608f2d05a96f47c…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bpr-banco-de-precos-de-referencia-subestacao"
   }
  }
 }

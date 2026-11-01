@@ -1,11 +1,11 @@
 {
  "layer": 5,
  "run": {
-  "generated_at": "2026-10-31T10:53:23+00:00",
+  "generated_at": "2026-11-01T11:48:05+00:00",
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
   "version": "0.1.0",
-  "commit": "a285d38583b3d2027480c3c6f144f5f1098c7526",
-  "run_id": "41194562994"
+  "commit": "809c7ec881129eeb328dbcb79d83876342b84df0",
+  "run_id": "41303479840"
  },
  "portal": {
   "portal_url": "https://dadosabertos.aneel.gov.br",
@@ -59,7 +59,7 @@
    "reason": null,
    "detail": null,
    "generated_at": "2026-10-26T10:36:55+00:00",
-   "age_days": 5.01,
+   "age_days": 6.05,
    "validity_days": 14.0,
    "expired": false,
    "repository": "lsp3cesarschool/5ltep-layer1-aneel",
@@ -102,7 +102,7 @@
    "reason": null,
    "detail": null,
    "generated_at": "2026-10-21T09:29:07+00:00",
-   "age_days": 10.06,
+   "age_days": 11.1,
    "validity_days": 14.0,
    "expired": false,
    "repository": "lsp3cesarschool/5ltep-layer2-aneel",
@@ -134,7 +134,7 @@
    "reason": null,
    "detail": null,
    "generated_at": "2026-10-05T13:48:52+00:00",
-   "age_days": 25.88,
+   "age_days": 26.92,
    "validity_days": 62.0,
    "expired": false,
    "repository": "lsp3cesarschool/5ltep-layer3-aneel",
@@ -165,8 +165,8 @@
    "status": "ok",
    "reason": null,
    "detail": null,
-   "generated_at": "2026-10-31T05:22:52.889907+00:00",
-   "age_days": 0.23,
+   "generated_at": "2026-11-01T05:51:16.305177+00:00",
+   "age_days": 0.25,
    "validity_days": 0.5,
    "expired": false,
    "repository": "lsp3cesarschool/5ltep-layer4-aneel",
@@ -177,24 +177,24 @@
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "aff54b98d30fb2c4badb62ffd624747948c884d7",
-      "date": "2026-10-31T05:22:53Z"
+      "sha": "cf020e82b33ab1409c9bdf47936bf2756475b272",
+      "date": "2026-11-01T05:51:16Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "2e2d051356459c58e4282ca5b621c523d27a4c99",
-      "date": "2026-10-31T09:51:58Z"
+      "sha": "2987cc6fc91e390e537cbf45ecbee8c4e74b2c86",
+      "date": "2026-11-01T10:42:59Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "aff54b98d30fb2c4badb62ffd624747948c884d7",
-      "date": "2026-10-31T05:22:53Z"
+      "sha": "cf020e82b33ab1409c9bdf47936bf2756475b272",
+      "date": "2026-11-01T05:51:16Z"
      }
     }
    ],
@@ -208,19 +208,19 @@
  "totals": {
   "datasets": 72,
   "complete": 0,
-  "partial": 31,
-  "no_content": 41,
+  "partial": 30,
+  "no_content": 42,
   "eligible": 0,
   "bands": {
    "partial:undetermined": 23,
-   "none:None": 41,
-   "partial:alert": 8
+   "none:None": 42,
+   "partial:alert": 7
   }
  },
  "coverage": {
   "L1": {
    "reached": 29,
-   "valid": 29
+   "valid": 28
   },
   "L2": {
    "reached": 4,
@@ -240,14 +240,14 @@
    "layers": [
     "L4"
    ],
-   "datasets": 41
+   "datasets": 42
   },
   {
    "layers": [
     "L1",
     "L4"
    ],
-   "datasets": 27
+   "datasets": 26
   },
   {
    "layers": [
@@ -274,6 +274,45 @@
   }
  ],
  "groups": [
+  {
+   "type": "CONTENT_MOD",
+   "when": "2026-11-01T05:49:42+00:00",
+   "datasets": [
+    "agentes-de-geracao-de-energia-eletrica",
+    "agentes-do-setor-eletrico",
+    "atendimento-mmgd-mini-e-micro-geracao-distribuida",
+    "atos-de-outorgas-de-geracao",
+    "bandeiras-tarifarias",
+    "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
+    "bpr-banco-de-precos-de-referencia-subestacao",
+    "conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios",
+    "ctr-curva-de-carga",
+    "empreendimento-hidreletrico-em-estudo",
+    "fsb-fiscalizacao-de-seguranca-de-barragens",
+    "gcem-gestao-de-informacoes-de-campos-eletromagneticos",
+    "projetos-de-eficiencia-energetica",
+    "projetos-de-p-d-em-energia-eletrica",
+    "resultado-de-leiloes",
+    "reunioes-publicas-da-diretoria",
+    "siga-sistema-de-informacoes-de-geracao-da-aneel",
+    "sigec-sistema-de-gestao-de-creditos",
+    "sistema-de-gestao-da-transmissao-siget",
+    "slc-sistema-de-licitacoes-e-contratos"
+   ]
+  },
+  {
+   "type": "CONTENT_MOD",
+   "when": "2026-10-31T12:11:14+00:00",
+   "datasets": [
+    "ouvidoria-setorial-aneel",
+    "relacao-de-empreendimentos-de-geracao-distribuida",
+    "siga-sistema-de-informacoes-de-geracao-da-aneel",
+    "sigec-sistema-de-gestao-de-creditos",
+    "sistema-de-gestao-da-transmissao-siget",
+    "tarifas-distribuidoras-energia-eletrica",
+    "tfsee"
+   ]
+  },
   {
    "type": "CONTENT_MOD",
    "when": "2026-10-30T12:41:28+00:00",
@@ -718,25 +757,25 @@
  "inference": {
   "open_signals": 21,
   "closed": {
-   "remediated_observed": 33,
+   "remediated_observed": 35,
    "cleared_without_data_change": 5,
    "withdrawn_observed": 0
   },
   "open_by_status": {
    "unchanged": 0,
-   "changed_signal_persists": 13,
+   "changed_signal_persists": 14,
    "not_reassessed": 5,
-   "reported": 3
+   "reported": 2
   },
   "median_days_to_first_change": 1.0,
-  "rounds_observed": 19
+  "rounds_observed": 20
  },
  "datasets": [
   {
    "name": "acrescimo-da-potencia-instalada",
    "title": "Acréscimo anual da potência instalada",
    "resources": 2,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -763,7 +802,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -787,13 +826,13 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:8af90c5be0eca4a4c598e5b469583f4329ec08bb853c1386c4b91059c9c39274"
+   "ficha_id": "sha256:e09144326dfc42bfdb1d04ed671da5f55686c749ce42798cd78209e4b93bb34e"
   },
   {
    "name": "agentes-de-geracao-de-energia-eletrica",
    "title": "Agentes de Geração de Energia Elétrica",
    "resources": 2,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -820,7 +859,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -834,15 +873,17 @@
     "band": null,
     "integrity_open": false
    },
-   "findings": 0,
-   "finding_kinds": [],
-   "ficha_id": "sha256:4961a21cfef79dac92af47c30da6c30253c334bf6a430e2db513bc856253b244"
+   "findings": 1,
+   "finding_kinds": [
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:7584c0997ac957d1aacebe11c1779e738c643866975bf3506ac535148851aaca"
   },
   {
    "name": "agentes-do-setor-eletrico",
    "title": "Agentes do Setor Elétrico",
    "resources": 2,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -869,7 +910,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -891,15 +932,17 @@
     ],
     "integrity_open": false
    },
-   "findings": 0,
-   "finding_kinds": [],
-   "ficha_id": "sha256:fcf171155dd65f04d5e43723c11b4d88a206e2965d3b73b04b9effcbc32887c6"
+   "findings": 1,
+   "finding_kinds": [
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:4a2a5ff7c3578c63088f28c30105930988c523381a2d3a15cfa85453a5ce7359"
   },
   {
    "name": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
    "title": "Atendimento a pedidos de conexões MMGD - Mini e Microgeração distribuída - pós Lei 14300",
    "resources": 11,
-   "last_change": "2026-10-30T12:41:28+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -926,7 +969,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -940,17 +983,17 @@
     "band": null,
     "integrity_open": false
    },
-   "findings": 1,
+   "findings": 2,
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:d951b74bf193b07af69423e42406fa5f7ea65b4d893650225e7692ba8e042d6a"
+   "ficha_id": "sha256:da53a3c13396377c1f25021d4139934ddac340435c11d69845b6c8a17ec7fbcf"
   },
   {
    "name": "atendimento-ocorrencias-emergenciais",
    "title": "Atendimento às Ocorrências Emergenciais",
    "resources": 3,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-10-31T21:24:33+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -977,7 +1020,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1004,13 +1047,13 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:7da4c7b832d3144c284d0c9c5f3ac71ef30e16f9076e30aff3e7a48fc70810ad"
+   "ficha_id": "sha256:54c70e5b51baac10875500285672edf81acd68e05bd2580c0c379241a6b40967"
   },
   {
    "name": "atos-de-outorgas-de-geracao",
    "title": "Atos de Outorgas de Geração",
    "resources": 2,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -1037,7 +1080,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1051,15 +1094,17 @@
     "band": null,
     "integrity_open": false
    },
-   "findings": 0,
-   "finding_kinds": [],
-   "ficha_id": "sha256:65dff4be35e378123b26a4cab08b94cb999c7efeab1b0095a68187e13342565c"
+   "findings": 1,
+   "finding_kinds": [
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:1a678181a49a16ed60563a5183f82620943d37f50dcc4fd8e2509e8b91b24f9f"
   },
   {
    "name": "audiencias-e-consultas-publicas",
    "title": "Audiências e Consultas Públicas",
    "resources": 2,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-10-31T21:24:33+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -1086,7 +1131,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1112,13 +1157,13 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:3bd5376dae36abbdcad305a1cd4465844a2ed0c814073f9230904897c2bcfc2e"
+   "ficha_id": "sha256:23d863ecd650b501ffa095e30a3a90d70e2a1cf6798e92264fc60b01bc5a40d5"
   },
   {
    "name": "auto-de-infracao",
    "title": "Auto de Infração",
    "resources": 3,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-10-31T21:24:33+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -1145,7 +1190,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1173,7 +1218,7 @@
     "simultaneous",
     "unrecorded_change"
    ],
-   "ficha_id": "sha256:84e00ac9c3eb86b19dcfc63a6ee58a9b4b5fa954cbcec99a745c788e36949df8"
+   "ficha_id": "sha256:9108877d1e991f7d4d3111b334440167ad748782d3633d8a4aa7a46e1d41aec5"
   },
   {
    "name": "autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015",
@@ -1206,7 +1251,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1222,13 +1267,13 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:1792927950d2563ded794c2086d2a1a65c19214877d801dd6b46864a8cbb00d2"
+   "ficha_id": "sha256:224e6cc1b283406181d46332b50b195d59f64ee93bc906524dbf120a4cd3c818"
   },
   {
    "name": "bandeiras-tarifarias",
    "title": "Bandeiras Tarifárias",
    "resources": 6,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -1255,7 +1300,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1269,17 +1314,17 @@
     "band": null,
     "integrity_open": false
    },
-   "findings": 4,
+   "findings": 5,
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:438e1b14d1eab184646f08399d3b74263753edb7ec1f925a814d0f97295f5576"
+   "ficha_id": "sha256:9c742d6c1634d0fe74b32e9fe41c3998494c961862851c215441e2b2192fc581"
   },
   {
    "name": "base-de-dados-geografica-da-distribuidora-bdgd",
    "title": "Base de Dados Geográfica da Distribuidora - BDGD",
    "resources": 6,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -1306,7 +1351,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1322,7 +1367,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:270a7300fab9147248133ffda9b4f059a3d77222cbd6f8877427fa3eeca7c74e"
+   "ficha_id": "sha256:61c5324ef6a49a856f6e87e605b5e246275da692e380c55e18ebd30051ba7ba0"
   },
   {
    "name": "beneficiarios-da-cde",
@@ -1355,7 +1400,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1381,13 +1426,13 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:019084ff7f358b5b4c3da94b3efe2aa4b72d362fbba64561690be10dbaebe369"
+   "ficha_id": "sha256:ee7a67c76c8f108d32f233a735239ae1ec19c7644de1bd1342cd075279fc6ba0"
   },
   {
    "name": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
    "title": "BPR - Banco de Preços de Referência (linha de transmissão)",
    "resources": 50,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -1414,7 +1459,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1428,15 +1473,17 @@
     "band": null,
     "integrity_open": false
    },
-   "findings": 0,
-   "finding_kinds": [],
-   "ficha_id": "sha256:18c9042d72c43ec4d3ab0b4bd11f248d93aace9c964b1c35dd5604f76d9a1de5"
+   "findings": 1,
+   "finding_kinds": [
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:950aca33128800902e793c9cc30741fd2ad7fbd1d765d051f245dd7112aed7be"
   },
   {
    "name": "bpr-banco-de-precos-de-referencia-subestacao",
    "title": "BPR - Banco de Preços de Referência (subestação)",
    "resources": 8,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -1463,7 +1510,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1477,15 +1524,17 @@
     "band": null,
     "integrity_open": false
    },
-   "findings": 0,
-   "finding_kinds": [],
-   "ficha_id": "sha256:7bbedae5b823ca37c30925504c5fc58ec303f75eab5c338d3d814711e5fdaeb5"
+   "findings": 1,
+   "finding_kinds": [
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:9608f2d05a96f47c6df0ad9a0916c7957f95fec83d430d8c56bd91a54e5eff33"
   },
   {
    "name": "capacidade-instalada-por-unidade-da-federacao",
    "title": "Capacidade Instalada por Unidade da Federação",
    "resources": 2,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -1512,7 +1561,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1536,13 +1585,13 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:67e8076ad4afc20e6a433bdea79897c69dd4535a351752aaf59fddbcc37ddd82"
+   "ficha_id": "sha256:b54f945e371a2a10047ad8640a80fa7d9668cf689cc5935626a70d4b0d60f640"
   },
   {
    "name": "cfurh",
    "title": "CFURH - Compensação Financeira pela Utilização de Recursos Hídricos",
    "resources": 20,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -1569,7 +1618,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1596,7 +1645,7 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:03a58a015a50beadb1e2abcb8cdb21232334866582dd576977d791ac539ce758"
+   "ficha_id": "sha256:917aa3e1094780ad55838033056b94f5ad3e8d1fcdb4e4ed5db3119907fe8bdb"
   },
   {
    "name": "compensacao-financeira-royalties",
@@ -1629,7 +1678,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1645,13 +1694,13 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:a389ae0d5cfe1d3caeed78a643b264022e74acf5f7b3985d729903bddb38bcc5"
+   "ficha_id": "sha256:8590e5c14f4e1e5b680806ade1aec2b7a1f3550352e1704f4d982be54b1ebf0b"
   },
   {
    "name": "componentes-tarifarias",
    "title": "Componentes Tarifárias",
    "resources": 31,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-10-31T21:24:33+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -1678,7 +1727,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1696,7 +1745,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:599577dc8e9dc270d860773d36ba81dfda808908f45932e5b290d90b71c69615"
+   "ficha_id": "sha256:5363cb61a7f7e36e5cb9b42e85c38de040319bdcc1493d0edf368deb16634e04"
   },
   {
    "name": "composicao-societaria-polimero",
@@ -1729,7 +1778,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1753,13 +1802,13 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:fea5d7f4611b9c8068ab69fe82a0ca50421abc81ac7bb8096800c379ed2f308e"
+   "ficha_id": "sha256:9c3e8c1ee38f6c4aaa50dd004eb3559179372e2536f0d11d6b82bbda4e56ab0c"
   },
   {
    "name": "conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios",
    "title": "Conta Desenvolvimento Energético (CDE) - Custeio dos Benefícios Tarifários",
    "resources": 2,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -1786,7 +1835,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1808,15 +1857,17 @@
     ],
     "integrity_open": false
    },
-   "findings": 0,
-   "finding_kinds": [],
-   "ficha_id": "sha256:e9cbd71b2291d7461cd4e18e6742b23912457803066314a22b68eff485d916ce"
+   "findings": 1,
+   "finding_kinds": [
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:2169b85728e0e70b41fc9d7203df097c7addb1c8430db2c7e233655f9c130de3"
   },
   {
    "name": "ctr-curva-de-carga",
    "title": "CTR - Curva de Carga",
    "resources": 6,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -1843,7 +1894,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1865,9 +1916,11 @@
     ],
     "integrity_open": false
    },
-   "findings": 0,
-   "finding_kinds": [],
-   "ficha_id": "sha256:45c9b1ce0b5c1e5a44d9d8eb48de4a473146a0ac6638c2c060a44d4dd46f183d"
+   "findings": 1,
+   "finding_kinds": [
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:921a273f6aa55537fcacf5fff985f6dbc1b8b31c8303958c7bd362d79635a1b2"
   },
   {
    "name": "desempenho-das-concessionarias-de-transmissao",
@@ -1900,7 +1953,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1916,13 +1969,13 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:7e83b0976f1421b8467bf821f79c99c246efae7d18ef98b379caf720371d4f5b"
+   "ficha_id": "sha256:dd97ec5d0668e04b7419e53fd0381b938cc2a276639cc41d4fd222078d6658a9"
   },
   {
    "name": "empreendimento-hidreletrico-em-estudo",
    "title": "Empreendimento hidrelétrico em estudo",
    "resources": 3,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -1949,7 +2002,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -1963,15 +2016,17 @@
     "band": null,
     "integrity_open": false
    },
-   "findings": 0,
-   "finding_kinds": [],
-   "ficha_id": "sha256:2e21647e1d35eeb64a08c882fa3a596535dfdbc0b9c0989459aaf8b4a492124f"
+   "findings": 1,
+   "finding_kinds": [
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:d2732ec88656652499cc6a7c304b9d8552c4e16cb84be892d2bcbac538c91d5c"
   },
   {
    "name": "empreendimentos-em-operacao",
    "title": "Quantidade de empreendimentos de geração de energia em operação",
    "resources": 2,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-10-31T21:24:33+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -1998,7 +2053,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2022,13 +2077,13 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:6a30c226a0159c492dcb1c4d760784c894088a19fb36dc431f2e9adb32a9020c"
+   "ficha_id": "sha256:bb8f2a96a455a703db444843b1e78f114fe5cc6ffc2cc5fbd58ba3d688061c2c"
   },
   {
    "name": "evento-situacao-de-emergencia",
    "title": "Evento Situação de Emergência",
    "resources": 4,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-10-31T12:11:14+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -2053,9 +2108,9 @@
     },
     "L4": {
      "status": "valid",
-     "rate": 0.9896907216494846,
+     "rate": 0.99,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2069,12 +2124,13 @@
     "band": null,
     "integrity_open": false
    },
-   "findings": 4,
+   "findings": 5,
    "finding_kinds": [
     "scope",
+    "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:8eae62505f237e5ffbfc2da118073b96fc943faad4c360e83dc147ed07e95ee2"
+   "ficha_id": "sha256:4824a050c86aa1eb92214c06dfe6e521dec9212c79b2c50d00731b7f7fd4274c"
   },
   {
    "name": "fiscalizacao-economica-e-financeira",
@@ -2107,7 +2163,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2123,13 +2179,13 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:af190468c3c82559a671b32898fcf9a6fb5d09e874fdd0c84dd949c6a175fe48"
+   "ficha_id": "sha256:e70283d7abf77853d0019a32c46e8f37f1610a83ee6a2043aafc9ea929e38374"
   },
   {
    "name": "fsb-fiscalizacao-de-seguranca-de-barragens",
    "title": "FSB - Fiscalização de Segurança de Barragens",
    "resources": 2,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -2156,7 +2212,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2170,15 +2226,17 @@
     "band": null,
     "integrity_open": false
    },
-   "findings": 0,
-   "finding_kinds": [],
-   "ficha_id": "sha256:bd6c9052d0fd0c37e76ef4fb973d24bb58721e5bcf89933f54a219fc145c7548"
+   "findings": 1,
+   "finding_kinds": [
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:5266b8331a1714e765d937bd820bba02f87808cc165b9b5504f7f140c2e98831"
   },
   {
    "name": "gcem-gestao-de-informacoes-de-campos-eletromagneticos",
    "title": "GCEM - Gestão de Informações de Campos Eletromagnéticos",
    "resources": 4,
-   "last_change": "2026-10-29T22:40:56+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -2205,7 +2263,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2219,9 +2277,11 @@
     "band": null,
     "integrity_open": false
    },
-   "findings": 0,
-   "finding_kinds": [],
-   "ficha_id": "sha256:db1a290713f533a4a9a981bae854f6a45c9ed5abc9ed5e8f69ca939dadd36787"
+   "findings": 1,
+   "finding_kinds": [
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:8c022c55f0444f22ddb2ca1be5fa0b07b53e5f01549f880d67f6354594763306"
   },
   {
    "name": "geracao",
@@ -2254,7 +2314,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2270,13 +2330,13 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:55ca15f1c233fa2c3c3a659c8779e3c541efb00e51dd10ca57799eb0e468567d"
+   "ficha_id": "sha256:48f93465dd456b4785ed0bdca8c095f3157986e2eb82b082694b7aa59b4133c7"
   },
   {
    "name": "indger-indicadores-gerenciais-da-distribuicao",
    "title": "INDGER - Indicadores Gerenciais da Distribuição",
    "resources": 13,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -2303,7 +2363,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2329,13 +2389,13 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:0851789565ac96c7efa6101be98fabd1d3c6a637a65ffa2aad35aa9e7bc36289"
+   "ficha_id": "sha256:2828a6a68bb2e47ad26c723421f09f6f1167724df247a8bad0a7a6f79ad90165"
   },
   {
    "name": "indicadores-coletivos-de-continuidade-dec-e-fec",
    "title": "Indicadores Coletivos de Continuidade (DEC e FEC)",
    "resources": 17,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -2362,7 +2422,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2388,13 +2448,13 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:47f14c1a233edefd136764995a099c443a97ea54c3a6977ce4aadc41f612dcea"
+   "ficha_id": "sha256:8f06e79fcf02e2ebb5640a1b5676ba55c17c88da33f1fe586d8034d293f6c06d"
   },
   {
    "name": "indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente",
    "title": "Indicadores de Conformidade do Nível de Tensão em Regime Permanente",
    "resources": 7,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -2421,7 +2481,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2447,7 +2507,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:362529e49b809c44fe6e5f54db087ce761f9481acf984cc16c087a5bae331bdc"
+   "ficha_id": "sha256:d634df254e33534989d0c1ead155ed1ee1eca5e419bd529c4c7fb800d2d0e498"
   },
   {
    "name": "indicadores-de-qualidade-do-atendimento-telefonico",
@@ -2480,7 +2540,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2498,7 +2558,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:e1bf247cb6cea8d681998f5ca091aba594da86cc75195c45fbefce7cfabf4db1"
+   "ficha_id": "sha256:135793a236c3acd356934d9cc386025df010e027fc69771a6858057049fcd2e1"
   },
   {
    "name": "indicadores-quantitativos-modelo-vigente-ate-2015",
@@ -2531,7 +2591,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2547,7 +2607,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:617b639ab3493a3b891459f129bcc623f689b424f44f2cce4a872d023659e8f2"
+   "ficha_id": "sha256:dbd53c19f03b1927e2dc7fc9385bb932d7f7472477297e7474d56129523d514b"
   },
   {
    "name": "indice-aneel-de-satisfacao-do-consumidor-iasc",
@@ -2580,7 +2640,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2596,7 +2656,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:99ce27fb520bfca0f5d6f447b16ef3a0422293806146564b9f685e7eea0d8464"
+   "ficha_id": "sha256:18654c32e134964b20e3261202db54717f6439fdd95d6005e3ea8fcf42d5f8f1"
   },
   {
    "name": "indqual-inadimplencia",
@@ -2629,7 +2689,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2655,13 +2715,13 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:40c29f7bb70f67514a14437b993fcb3f7a4f68a3dfd754928b356f796fc3afeb"
+   "ficha_id": "sha256:7d50dc7e02a1f1202a42c6ffa18c60bc47d3c306002a600b9fdcf0370462c21d"
   },
   {
    "name": "indqual-municipio",
    "title": "IndQual Município",
    "resources": 2,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -2688,7 +2748,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2706,13 +2766,13 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:0f9a701a356b9ca20cd364fa2266a3b6990275de9ecdf973810da21bbb27ec82"
+   "ficha_id": "sha256:a7717da2d18317373bdf2496ae3dd606d6c4687ba74c6fe75fd886281c89b298"
   },
   {
    "name": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
    "title": "Interrupções de Energia Elétrica nas Redes de Distribuição",
    "resources": 22,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -2737,9 +2797,9 @@
     },
     "L4": {
      "status": "valid",
-     "rate": 0.9896907216494846,
+     "rate": 0.99,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2758,13 +2818,13 @@
     "scope",
     "simultaneous"
    ],
-   "ficha_id": "sha256:662f693ca25d8d96e6f0addd6a6c86bc5f0a2e91f11d8ad3b4660ff9c47ab17e"
+   "ficha_id": "sha256:b191cfc0b6d100f6c42a2c77bed52119262110596a0da6a061e9cbfe4cf2e1be"
   },
   {
    "name": "liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
    "title": "Liberação para operação comercial de empreendimentos de geração",
    "resources": 4,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-10-31T21:24:33+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -2789,9 +2849,9 @@
     },
     "L4": {
      "status": "valid",
-     "rate": 0.9896907216494846,
+     "rate": 0.99,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2810,13 +2870,13 @@
     "scope",
     "simultaneous"
    ],
-   "ficha_id": "sha256:22d278c538751bb3ab1390ed47030aca71d61303ca198f69b90bce49a064d5e8"
+   "ficha_id": "sha256:cee6408d4e4458bb045f5fb7aa8594d268455c304db12029466318c241891911"
   },
   {
    "name": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
    "title": "Manifestações no 1° e 2° nível da Distribuidora",
    "resources": 11,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-10-31T21:24:33+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -2843,7 +2903,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2870,13 +2930,13 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:93838e9db74b22fa98a8c2ad5914dedfc90e57169a039a3ad08b44585b0fbcac"
+   "ficha_id": "sha256:7131ca637b9ebc6ddc2c5195af37368dbb0c09153875ec5208b17e07aa9f8a01"
   },
   {
    "name": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
    "title": "Ocorrências Emergenciais nas Redes de Distribuição",
    "resources": 22,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-10-31T21:24:33+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -2901,9 +2961,9 @@
     },
     "L4": {
      "status": "valid",
-     "rate": 0.9896907216494846,
+     "rate": 0.99,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2922,13 +2982,13 @@
     "scope",
     "simultaneous"
    ],
-   "ficha_id": "sha256:b2cdcf11e0c6faf094a953795b0673f22fdff72148dcf538161d297868fb8230"
+   "ficha_id": "sha256:fc6484173435320dbbc95c96de1db61aee201265831a365f62e5ecfb00791075"
   },
   {
    "name": "ouvidoria-setorial-aneel",
    "title": "Ouvidoria Setorial ANEEL",
    "resources": 19,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-10-31T12:11:14+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -2955,7 +3015,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -2969,17 +3029,18 @@
     "band": null,
     "integrity_open": false
    },
-   "findings": 26,
+   "findings": 28,
    "finding_kinds": [
+    "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:92c9291ae83addb40b3298335ee0ec9f292e32e00762a3b6e2302f892788f817"
+   "ficha_id": "sha256:62ff3eb3387ce17967ef6c6c1dd5bf2d41d8f9bad538a7149bcf6ca7674767a4"
   },
   {
    "name": "pautas-e-atas-das-reunioes-publicas-da-diretoria",
    "title": "Pautas e Atas das Reuniões Publicas da Diretoria",
    "resources": 2,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -3006,7 +3067,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3022,7 +3083,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:f4e101dc4893c328760bd0be7d837a3daf0c6bb970e18ae94ad96c213016f4a5"
+   "ficha_id": "sha256:17d4d732fbb33f4d1d05f5285d340a96ded7538a67c54527e34ffcfa22b1b46a"
   },
   {
    "name": "pdd",
@@ -3055,7 +3116,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3071,13 +3132,13 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:119a94d7751073c3eff9740ba7fd87238d7b7c78f7fb9c254ce4d0bcdd41951b"
+   "ficha_id": "sha256:fb0aa46be3a87f48c063f0e38afa8ccb34d696cb3c553b3d04998b22650515af"
   },
   {
    "name": "projetos-de-eficiencia-energetica",
    "title": "Projetos de Eficiência Energética",
    "resources": 6,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -3104,7 +3165,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3118,15 +3179,17 @@
     "band": null,
     "integrity_open": false
    },
-   "findings": 0,
-   "finding_kinds": [],
-   "ficha_id": "sha256:a4f52ca899adef12495277288967cee29d336417941f530b01af94400a26f035"
+   "findings": 1,
+   "finding_kinds": [
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:4b8a0324948b4d6a3885242c9037bae90d181bb6e9b495eefba3d7b9409edd7e"
   },
   {
    "name": "projetos-de-p-d-em-energia-eletrica",
    "title": "Projetos de P&D em Energia Elétrica",
    "resources": 2,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -3153,7 +3216,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3167,9 +3230,11 @@
     "band": null,
     "integrity_open": false
    },
-   "findings": 0,
-   "finding_kinds": [],
-   "ficha_id": "sha256:2db8ca8918c79090d07d6b03ddb378476b6ebadde076b707428c55c670c345e6"
+   "findings": 1,
+   "finding_kinds": [
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:c4ce721f8e581140e9319d0a7351214072e4a6ffa849a6e33898af3a6cec178e"
   },
   {
    "name": "projetos-de-p-d-temas-estrategicos",
@@ -3202,7 +3267,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3218,7 +3283,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:a723d5020cf80679ca1046da21dc24ce95b1d68dfb1239b56a20156f5f25a479"
+   "ficha_id": "sha256:92d53a24228ec056229779c3f7c8d65bbfef408d715ca5bdc586eac35efa7bca"
   },
   {
    "name": "projetos-por-tipologia",
@@ -3251,7 +3316,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3267,7 +3332,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:9234e817557abd88240a13f331570a1d339aba06143aeed0fe8851d37c7f09c4"
+   "ficha_id": "sha256:63432a7542bd067f46efe47d00e1699342fc2eeee4976bc7efb00e131994e2b7"
   },
   {
    "name": "projetos-res-n-316-2008-219-2006-e-anteriores",
@@ -3300,7 +3365,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3316,7 +3381,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:b7b1e4bedc848c38e677010d77f4f2891c0e8a379a115ee594fd2348111ec7c1"
+   "ficha_id": "sha256:00709d9a0c3733788a083a57668c3604961b5252454297c026e1438bb2c4e2ed"
   },
   {
    "name": "projetos-retornos-e-investimentos",
@@ -3349,7 +3414,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3365,7 +3430,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:f29fff6ce410938bb9626d3651c4b03c444ebdf68dd4e143d2e31380a4a08ec3"
+   "ficha_id": "sha256:f7e2258d4c959a5af7b90647ace8e722b9b86d356d97426c1ecc2da0772f9e39"
   },
   {
    "name": "qualidade-do-atendimento-comercial",
@@ -3398,7 +3463,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3425,13 +3490,13 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:f73a3a717a37a1a97dcfbb6ecf5a87db3472e407f15f0d286a7ca80ab6408f14"
+   "ficha_id": "sha256:842bfd06f836cf645bbf4964229081196184f193c8cd2386c8c3aaa841743f91"
   },
   {
    "name": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
    "title": "RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica",
    "resources": 12,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -3458,7 +3523,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3485,13 +3550,13 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:56fff8687595b95ab100f2673dbc67a8fe92a8d4336983e38e7e45675fb2f717"
+   "ficha_id": "sha256:ce681f2b9190b94d937d7b40bc8227776f50786a5181ed451a7a9d20e0e8f6fa"
   },
   {
    "name": "relacao-de-empreendimentos-de-geracao-distribuida",
    "title": "Relação de empreendimentos de Mini e Micro Geração Distribuída",
    "resources": 12,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -3518,7 +3583,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3540,18 +3605,18 @@
     ],
     "integrity_open": false
    },
-   "findings": 5,
+   "findings": 6,
    "finding_kinds": [
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:c701026e68f9e3cf39fb1f2c5332a9240bbe87a19497f8b120515c39ee03ffba"
+   "ficha_id": "sha256:4a72087ae6700d67836bf0f2cecfb9f62bed8e397d485fb52cbb4aac8ff0a659"
   },
   {
    "name": "resultado-de-leiloes",
    "title": "Resultado de leilões de geração e transmissão de energia elétrica",
    "resources": 4,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -3578,7 +3643,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3600,15 +3665,17 @@
     ],
     "integrity_open": false
    },
-   "findings": 0,
-   "finding_kinds": [],
-   "ficha_id": "sha256:f1868a06af7559138f3f0c5f8c07898f4f04a74d052e8f158f0d9089eb929c2d"
+   "findings": 1,
+   "finding_kinds": [
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:8e99031f56a008a3bdca633d04b4dfd30ff4e97aa197cd914a2024410bde401a"
   },
   {
    "name": "reunioes-publicas-da-diretoria",
    "title": "Reuniões Públicas da Diretoria",
    "resources": 4,
-   "last_change": "2026-10-29T05:34:55+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -3635,7 +3702,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3657,15 +3724,17 @@
     ],
     "integrity_open": false
    },
-   "findings": 0,
-   "finding_kinds": [],
-   "ficha_id": "sha256:4aed91eff02d9e4a1cc1bf1ff680973a3a33f835d5f9a5cdfaf5b2bcf48ee21a"
+   "findings": 1,
+   "finding_kinds": [
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:f5827b4a5a98c22e6cf8f43d1c049b0fc9dc0ccc89375c01df2f9c3c0903cfa9"
   },
   {
    "name": "samp",
    "title": "SAMP - Sistema de Acompanhamento de Informações de Mercado para Regulação Econômica",
    "resources": 49,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -3692,7 +3761,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3718,7 +3787,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:7c78338b3580b40ec4e352e525cfe88770c665afa6c578e90c37267a72db50b0"
+   "ficha_id": "sha256:6246beb9bba483cb80518a8207266c98d04751a1b335e96031dae3aaca84f9c5"
   },
   {
    "name": "samp-balanco",
@@ -3751,7 +3820,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3769,13 +3838,13 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:d83ba7cbd1240fb4f0d1dd7a40bf7257734f0c98474ee70d16a7f60a79491738"
+   "ficha_id": "sha256:db69194713be296de23a24fb3dfcb2563e81842e7657d99e4df349639a96942f"
   },
   {
    "name": "scs-sistema-de-controle-de-subvencoes-e-programas-sociais",
    "title": "SCS - Sistema de Controle de Subvenções e Programas Sociais",
    "resources": 2,
-   "last_change": "2026-10-30T12:41:28+00:00",
+   "last_change": "2026-10-31T21:24:33+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -3802,7 +3871,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3820,13 +3889,13 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:68163975236aed5c15808399fd6a75fb5b2417c36ed38e895b2bf5282e32d9ab"
+   "ficha_id": "sha256:c8e99ecde0bfd69a650a985c77306e8cb44989faff07077cce1fcca482383b16"
   },
   {
    "name": "seguranca-do-trabalho-e-das-instalacoes",
    "title": "Segurança do Trabalho e das Instalações",
    "resources": 3,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-10-31T12:11:14+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -3853,7 +3922,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3879,13 +3948,13 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:36f64abafa3edaec29acab17407f9d5f7130522d6b3278064dc1735cc03ec2d4"
+   "ficha_id": "sha256:3e71f074be9e943017da7db0d41b235bfe4c21fe4a8f57f9f2a7d18ade5e042c"
   },
   {
    "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
    "title": "SIGA - Sistema de Informações de Geração da ANEEL",
    "resources": 5,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -3912,7 +3981,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3934,18 +4003,18 @@
     ],
     "integrity_open": false
    },
-   "findings": 28,
+   "findings": 30,
    "finding_kinds": [
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:cc43a988acfe7fddf14dfe7de4430424e1ded13a6097d19b378c0758c9c8f019"
+   "ficha_id": "sha256:58114b630bd9aea314c4894a97b31e1d68240a655bd686973345b0f89e119eb0"
   },
   {
    "name": "sigec-sistema-de-gestao-de-creditos",
    "title": "SIGEC - Sistema de Gestão de Créditos",
    "resources": 5,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -3972,7 +4041,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -3986,18 +4055,17 @@
     "band": null,
     "integrity_open": false
    },
-   "findings": 16,
+   "findings": 17,
    "finding_kinds": [
-    "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:5554c7144e3f68bd77ec69530b6567f99ff8b2560516226d5e96317f9a77a486"
+   "ficha_id": "sha256:35685d56602a5d3da80326e062d8529d25d066dec3d53f7351064331b5162886"
   },
   {
    "name": "sistema-de-gestao-da-transmissao-siget",
    "title": "Sistema de Gestão da Transmissão - SIGET",
    "resources": 35,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -4022,9 +4090,9 @@
     },
     "L4": {
      "status": "valid",
-     "rate": 0.9896907216494846,
+     "rate": 0.99,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -4036,8 +4104,8 @@
      "L1",
      "L4"
     ],
-    "low": 0.4979381443298969,
-    "high": 0.9979381443298969,
+    "low": 0.498,
+    "high": 0.998,
     "band": "undetermined",
     "eligible": false,
     "missing_layers": [
@@ -4046,19 +4114,19 @@
     ],
     "integrity_open": false
    },
-   "findings": 28,
+   "findings": 30,
    "finding_kinds": [
     "scope",
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:cc6b0848d16ab170ac296519d255f5c74839c3d1d6bde744fb3e95de0c14e32c"
+   "ficha_id": "sha256:6df6719b2b959f243eb4dcf58596dbbc16276dc350b92abc8e07eb4312859358"
   },
   {
    "name": "slc-sistema-de-licitacoes-e-contratos",
    "title": "SLC - Sistema de Licitações e Contratos",
    "resources": 2,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -4085,7 +4153,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -4107,22 +4175,24 @@
     ],
     "integrity_open": false
    },
-   "findings": 0,
-   "finding_kinds": [],
-   "ficha_id": "sha256:e9ab5cc542084135a7b09dd65b29849b74926d4728cf491e174562811769d0b3"
+   "findings": 1,
+   "finding_kinds": [
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:087c23e83bf1ca35b7956b6b42dbc0f098888ead0fb2498bf758b37e98c8d665"
   },
   {
    "name": "subsidios-tarifarios",
    "title": "Subsídios Tarifários",
-   "resources": 2,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "resources": 3,
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "out_of_scope",
      "rate": 0.0,
-     "reason": null,
+     "reason": "structure_changed_after",
      "evaluated_at": "2026-10-03T14:15:54+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -4140,35 +4210,28 @@
     },
     "L4": {
      "status": "valid",
-     "rate": 1.0,
+     "rate": 0.99,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.2,
-    "high": 0.7,
-    "band": "alert",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
-   "findings": 1,
+   "findings": 2,
    "finding_kinds": [
+    "scope",
     "signal"
    ],
-   "ficha_id": "sha256:55d3927ba2b149604a0ec2a2a6cab7d56845009b619f3e94e1eb7444fef8351a"
+   "ficha_id": "sha256:cdc1bbb473f57d6667bbbf24d721e0990e992e49b2dfd8c864d9d96ab1aa132c"
   },
   {
    "name": "tarifa-social-de-energia-eletrica-beneficiarios",
@@ -4201,7 +4264,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -4217,13 +4280,13 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:f656f9124487ea90dec696990ea970b55be33560d8b4f878e4209c7fe311de7a"
+   "ficha_id": "sha256:e68af645bfa18eec8b51d89c89d1ae648e3dae824cc49d51d41c914cdb4644bb"
   },
   {
    "name": "tarifas-distribuidoras-energia-eletrica",
    "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
    "resources": 4,
-   "last_change": "2026-10-31T05:22:30+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -4248,9 +4311,9 @@
     },
     "L4": {
      "status": "valid",
-     "rate": 0.9896907216494846,
+     "rate": 0.99,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -4264,18 +4327,18 @@
     "band": null,
     "integrity_open": false
    },
-   "findings": 27,
+   "findings": 28,
    "finding_kinds": [
     "scope",
     "simultaneous"
    ],
-   "ficha_id": "sha256:52ee5e23793bab8c30aae1797b4dcb2ee8aef110159eb711e99bf378f3f4b234"
+   "ficha_id": "sha256:b565fe7efb58a368c723475b58f7a883c7484db298397ff8d0f60ab7ba2219cf"
   },
   {
    "name": "termo-de-intimacao-ti",
    "title": "Termo de Intimação (TI)",
    "resources": 2,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "valid",
@@ -4302,7 +4365,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -4328,7 +4391,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:00ca1233144ac42c2959ba63c743826b3549a00278eba26cda5b171c655239f9"
+   "ficha_id": "sha256:d46990d04bcd21e50f02cc8b5ae3c2bc106f547c87e6d96b9c161cd9a71e8aa3"
   },
   {
    "name": "termo-de-notificacao",
@@ -4361,7 +4424,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -4387,7 +4450,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:59c0695c14fc9b069d7baf4994641eb7849ad27e21aa203ff5b35f841da7dc5e"
+   "ficha_id": "sha256:af56a16bd58cf6ffc1c94be6e2a85d998b60b129fdfa30210ba876723abd4a84"
   },
   {
    "name": "termos-de-intimacao-das-penas-dos-editais-tipe",
@@ -4420,7 +4483,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -4447,13 +4510,13 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:72edd8d1d46b34656e5155cc2b9b0144ab6e2110f8f5a0ade35e60fd839202d3"
+   "ficha_id": "sha256:b8a80aade07eaa3fb0db5268878716a4b0f2d4781a67ee8566f8200b7eac5cfe"
   },
   {
    "name": "tfsee",
    "title": "TFSEE - Taxa de Fiscalização de Serviços de Energia Elétrica",
    "resources": 2,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -4480,7 +4543,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -4496,10 +4559,9 @@
    },
    "findings": 23,
    "finding_kinds": [
-    "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:933f7ff7450ab791ab656deedded4dd2eb5c9b027d3159a44e8a135bc9dba31d"
+   "ficha_id": "sha256:57d028acd9c037b9a530bf4cb1d370b09673965e01c6495bb76a62e901dfc46a"
   },
   {
    "name": "transmissao-e-distribuicao",
@@ -4532,7 +4594,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -4548,13 +4610,13 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:d4eab175f711fac4ab198ef12bba9becf594c27fc589964aeff7a0e1b9835c44"
+   "ficha_id": "sha256:c4b500a6369bb583bc1569cc1c476b462f39149d7aab10bb819ccbc2f6d7789b"
   },
   {
    "name": "usinas-termeletricas-por-tipo",
    "title": "Quantidade de usinas termelétricas por tipo",
    "resources": 2,
-   "last_change": "2026-10-30T22:12:59+00:00",
+   "last_change": "2026-11-01T05:49:42+00:00",
    "layers": {
     "L1": {
      "status": "missing",
@@ -4581,7 +4643,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-10-31T05:22:30+00:00",
+     "evaluated_at": "2026-11-01T05:49:42+00:00",
      "current": true
     }
    },
@@ -4597,7 +4659,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:d36e11bf4041f62a06debdda0bd39691cded5a5839eb414273d2c7c27dca4020"
+   "ficha_id": "sha256:27a894eacd0617897b9f2b2fc447ed01a64239cbbb9bcacfc80d81527aea2466"
   }
  ]
 }
