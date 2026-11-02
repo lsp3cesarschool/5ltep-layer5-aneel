@@ -4,7 +4,7 @@
   "title": "Beneficiários da Conta de Desenvolvimento Energético - CDE",
   "id": "a7191647-b187-4893-b20a-8954d57ff89c",
   "resources": 110,
-  "last_change": "2026-10-31T05:22:30+00:00",
+  "last_change": "2026-11-01T21:56:45+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c#57a342b32ccc",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/beneficiarios-da-cde"
@@ -71,10 +71,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-01T05:49:42+00:00",
+   "evaluated_at": "2026-11-02T05:50:04+00:00",
    "current": true,
    "facts": {
-    "observations": 100,
+    "observations": 98,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c#57a342b32ccc"
    },
@@ -287,30 +287,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-01T05:51:16.305177+00:00",
+   "generated_at": "2026-11-02T05:51:34.544002+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "cf020e82b33ab1409c9bdf47936bf2756475b272",
-      "date": "2026-11-01T05:51:16Z"
+      "sha": "0dc024687e9f10154c3128fe5f903f0044d19c8e",
+      "date": "2026-11-02T05:51:34Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "2987cc6fc91e390e537cbf45ecbee8c4e74b2c86",
-      "date": "2026-11-01T10:42:59Z"
+      "sha": "788b1c569cfe398661c7ac070ae3f1d9560a8b8a",
+      "date": "2026-11-02T11:33:28Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "cf020e82b33ab1409c9bdf47936bf2756475b272",
-      "date": "2026-11-01T05:51:16Z"
+      "sha": "0dc024687e9f10154c3128fe5f903f0044d19c8e",
+      "date": "2026-11-02T05:51:34Z"
      }
     }
    ],
@@ -362,19 +362,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-01T11:48:05+00:00",
+ "generated_at": "2026-11-02T13:27:09+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "809c7ec881129eeb328dbcb79d83876342b84df0",
-  "run_id": "41303479840"
+  "commit": "25d203a8c35d0994ebeab988743da0ef5c7bbfac",
+  "run_id": "41453082959"
  },
  "ficha": {
-  "id": "sha256:ee7a67c76c8f108d32f233a735239ae1ec19c7644de1bd1342cd075279fc6ba0",
+  "id": "sha256:437c01186a93db92345e21a2cbd158881898edbde28d162205f400c9ff8f304d",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=beneficiarios-da-cde",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/beneficiarios-da-cde.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'beneficiarios-da-cde' (ANEEL), 2026-11-01, sha256:ee7a67c76c8f108d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=beneficiarios-da-cde",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'beneficiarios-da-cde' (ANEEL), 2026-11-01, sha256:ee7a67c76c8f108d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=beneficiarios-da-cde"
+   "en": "5L-TEP Layer 5 record of 'beneficiarios-da-cde' (ANEEL), 2026-11-02, sha256:437c01186a93db92…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=beneficiarios-da-cde",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'beneficiarios-da-cde' (ANEEL), 2026-11-02, sha256:437c01186a93db92…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=beneficiarios-da-cde"
   }
  }
 }

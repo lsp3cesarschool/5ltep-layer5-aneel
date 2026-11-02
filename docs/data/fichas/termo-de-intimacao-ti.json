@@ -64,17 +64,33 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-01T05:49:42+00:00",
+   "evaluated_at": "2026-11-02T05:50:04+00:00",
    "current": true,
    "facts": {
-    "observations": 100,
+    "observations": 98,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10#b3be2b7611f7"
    },
-   "signals": []
+   "signals": [
+    {
+     "key": "L4:cross_check:termo-de-intimacao-ti",
+     "count": 1,
+     "en": "unreconciled divergence in the independent cross-check",
+     "pt": "divergência não reconciliada no cross-check independente"
+    }
+   ]
   }
  },
  "findings": [
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:cross_check:termo-de-intimacao-ti",
+   "count": 1,
+   "when": null,
+   "en": "unreconciled divergence in the independent cross-check",
+   "pt": "divergência não reconciliada no cross-check independente"
+  },
   {
    "layer": "L4",
    "kind": "simultaneous",
@@ -101,7 +117,21 @@
   }
  ],
  "outcomes": {
-  "open": [],
+  "open": [
+   {
+    "key": "L4:cross_check:termo-de-intimacao-ti",
+    "layer": "L4",
+    "first_reported": "2026-11-02T13:27:09+00:00",
+    "count": 1,
+    "evaluated_at": "2026-11-02T05:50:04+00:00",
+    "status": "reported",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
+    "digests": {
+     "186f7895-2d71-4c68-93c9-57de0e5c5498": "fa2749d64a52c8f6fca61e498a1a4b6d3cff489a35f1e904602358952ba7af3f"
+    }
+   }
+  ],
   "closed": [
    {
     "layer": "L4",
@@ -207,30 +237,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-01T05:51:16.305177+00:00",
+   "generated_at": "2026-11-02T05:51:34.544002+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "cf020e82b33ab1409c9bdf47936bf2756475b272",
-      "date": "2026-11-01T05:51:16Z"
+      "sha": "0dc024687e9f10154c3128fe5f903f0044d19c8e",
+      "date": "2026-11-02T05:51:34Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "2987cc6fc91e390e537cbf45ecbee8c4e74b2c86",
-      "date": "2026-11-01T10:42:59Z"
+      "sha": "788b1c569cfe398661c7ac070ae3f1d9560a8b8a",
+      "date": "2026-11-02T11:33:28Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "cf020e82b33ab1409c9bdf47936bf2756475b272",
-      "date": "2026-11-01T05:51:16Z"
+      "sha": "0dc024687e9f10154c3128fe5f903f0044d19c8e",
+      "date": "2026-11-02T05:51:34Z"
      }
     }
    ],
@@ -282,19 +312,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-01T11:48:05+00:00",
+ "generated_at": "2026-11-02T13:27:09+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "809c7ec881129eeb328dbcb79d83876342b84df0",
-  "run_id": "41303479840"
+  "commit": "25d203a8c35d0994ebeab988743da0ef5c7bbfac",
+  "run_id": "41453082959"
  },
  "ficha": {
-  "id": "sha256:d46990d04bcd21e50f02cc8b5ae3c2bc106f547c87e6d96b9c161cd9a71e8aa3",
+  "id": "sha256:adfb0e50d8297c05c3366eade1da894a3715791daf741d1bf74cb33bbdb57c32",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termo-de-intimacao-ti",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/termo-de-intimacao-ti.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'termo-de-intimacao-ti' (ANEEL), 2026-11-01, sha256:d46990d04bcd21e5…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termo-de-intimacao-ti",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'termo-de-intimacao-ti' (ANEEL), 2026-11-01, sha256:d46990d04bcd21e5…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termo-de-intimacao-ti"
+   "en": "5L-TEP Layer 5 record of 'termo-de-intimacao-ti' (ANEEL), 2026-11-02, sha256:adfb0e50d8297c05…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termo-de-intimacao-ti",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'termo-de-intimacao-ti' (ANEEL), 2026-11-02, sha256:adfb0e50d8297c05…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termo-de-intimacao-ti"
   }
  }
 }

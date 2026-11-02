@@ -4,9 +4,9 @@
   "title": "Evento Situação de Emergência",
   "id": "4788a5ec-3ce2-476d-b72a-337562e0d02d",
   "resources": 4,
-  "last_change": "2026-10-31T12:11:14+00:00",
-  "last_type": "NOT_FINGERPRINTED",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/4788a5ec-3ce2-476d-b72a-337562e0d02d#579641f1b5f9",
+  "last_change": "2026-11-01T21:56:45+00:00",
+  "last_type": "CONTENT_MOD",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/4788a5ec-3ce2-476d-b72a-337562e0d02d#b125665f3cf9",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/evento-situacao-de-emergencia"
  },
  "qs": {
@@ -55,40 +55,32 @@
   "L4": {
    "status": "valid",
    "reason": null,
-   "rate": 0.99,
-   "evaluated_at": "2026-11-01T05:49:42+00:00",
+   "rate": 0.9897959183673469,
+   "evaluated_at": "2026-11-02T05:50:04+00:00",
    "current": true,
    "facts": {
-    "observations": 100,
+    "observations": 98,
     "critical_in_window": 1,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/4788a5ec-3ce2-476d-b72a-337562e0d02d#579641f1b5f9"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/4788a5ec-3ce2-476d-b72a-337562e0d02d#b125665f3cf9"
    },
-   "signals": [
-    {
-     "key": "L4:cross_check:evento-situacao-de-emergencia",
-     "count": 1,
-     "en": "unreconciled divergence in the independent cross-check",
-     "pt": "divergência não reconciliada no cross-check independente"
-    }
-   ]
+   "signals": []
   }
  },
  "findings": [
-  {
-   "layer": "L4",
-   "kind": "signal",
-   "key": "L4:cross_check:evento-situacao-de-emergencia",
-   "count": 1,
-   "when": null,
-   "en": "unreconciled divergence in the independent cross-check",
-   "pt": "divergência não reconciliada no cross-check independente"
-  },
   {
    "layer": "L4",
    "kind": "scope",
    "when": "2026-10-20T04:38:03+00:00",
    "en": "the dataset structure changed (SCHEMA_DRIFT): earlier evaluations no longer cover it",
    "pt": "a estrutura do conjunto mudou (SCHEMA_DRIFT): avaliações anteriores deixam de cobri-lo"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-11-01T21:56:45+00:00",
+   "count": 5,
+   "en": "CONTENT_MOD in 5 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 5 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -116,22 +108,7 @@
   }
  ],
  "outcomes": {
-  "open": [
-   {
-    "key": "L4:cross_check:evento-situacao-de-emergencia",
-    "layer": "L4",
-    "first_reported": "2026-11-01T11:48:05+00:00",
-    "count": 1,
-    "evaluated_at": "2026-11-01T05:49:42+00:00",
-    "status": "reported",
-    "en": "unreconciled divergence in the independent cross-check",
-    "pt": "divergência não reconciliada no cross-check independente",
-    "digests": {
-     "c45842cd-b870-4d81-82e3-c35d2f46855d": "e0228af64014570c698e89b2a3a9805d284474ee83295649fe25f08e380b781d",
-     "3bd4b2a5-c9bd-41af-bf0f-0f63b429d05b": "d159360b77e8e495afd7f4fe1c4e6f894ff37af2c334306f58d3b5c81054937a"
-    }
-   }
-  ],
+  "open": [],
   "closed": [
    {
     "layer": "L4",
@@ -150,6 +127,24 @@
     "dataset": "evento-situacao-de-emergencia",
     "outcome": "remediated_observed",
     "at": "2026-10-21T10:04:42+00:00"
+   },
+   {
+    "layer": "L4",
+    "first_reported": "2026-11-01T11:48:05+00:00",
+    "count": 1,
+    "evaluated_at": "2026-11-01T05:49:42+00:00",
+    "status": "remediated_observed",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
+    "digests": {
+     "c45842cd-b870-4d81-82e3-c35d2f46855d": "e0228af64014570c698e89b2a3a9805d284474ee83295649fe25f08e380b781d",
+     "3bd4b2a5-c9bd-41af-bf0f-0f63b429d05b": "d159360b77e8e495afd7f4fe1c4e6f894ff37af2c334306f58d3b5c81054937a"
+    },
+    "first_change_seen": "2026-11-02T13:27:09+00:00",
+    "key": "L4:cross_check:evento-situacao-de-emergencia",
+    "dataset": "evento-situacao-de-emergencia",
+    "outcome": "remediated_observed",
+    "at": "2026-11-02T13:27:09+00:00"
    }
   ]
  },
@@ -221,30 +216,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-01T05:51:16.305177+00:00",
+   "generated_at": "2026-11-02T05:51:34.544002+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "cf020e82b33ab1409c9bdf47936bf2756475b272",
-      "date": "2026-11-01T05:51:16Z"
+      "sha": "0dc024687e9f10154c3128fe5f903f0044d19c8e",
+      "date": "2026-11-02T05:51:34Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "2987cc6fc91e390e537cbf45ecbee8c4e74b2c86",
-      "date": "2026-11-01T10:42:59Z"
+      "sha": "788b1c569cfe398661c7ac070ae3f1d9560a8b8a",
+      "date": "2026-11-02T11:33:28Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "cf020e82b33ab1409c9bdf47936bf2756475b272",
-      "date": "2026-11-01T05:51:16Z"
+      "sha": "0dc024687e9f10154c3128fe5f903f0044d19c8e",
+      "date": "2026-11-02T05:51:34Z"
      }
     }
    ],
@@ -296,19 +291,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-01T11:48:05+00:00",
+ "generated_at": "2026-11-02T13:27:09+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "809c7ec881129eeb328dbcb79d83876342b84df0",
-  "run_id": "41303479840"
+  "commit": "25d203a8c35d0994ebeab988743da0ef5c7bbfac",
+  "run_id": "41453082959"
  },
  "ficha": {
-  "id": "sha256:4824a050c86aa1eb92214c06dfe6e521dec9212c79b2c50d00731b7f7fd4274c",
+  "id": "sha256:cc08e749d27d0517d04188946410d60ee8a6a3e8f995d232e2607e1791076661",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=evento-situacao-de-emergencia",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/evento-situacao-de-emergencia.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'evento-situacao-de-emergencia' (ANEEL), 2026-11-01, sha256:4824a050c86aa1eb…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=evento-situacao-de-emergencia",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'evento-situacao-de-emergencia' (ANEEL), 2026-11-01, sha256:4824a050c86aa1eb…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=evento-situacao-de-emergencia"
+   "en": "5L-TEP Layer 5 record of 'evento-situacao-de-emergencia' (ANEEL), 2026-11-02, sha256:cc08e749d27d0517…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=evento-situacao-de-emergencia",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'evento-situacao-de-emergencia' (ANEEL), 2026-11-02, sha256:cc08e749d27d0517…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=evento-situacao-de-emergencia"
   }
  }
 }
