@@ -4,7 +4,7 @@
   "title": "Base de Dados Geográfica da Distribuidora - BDGD",
   "id": "4459e483-451f-4444-8022-bd8b5eac05c5",
   "resources": 6,
-  "last_change": "2026-11-02T05:50:04+00:00",
+  "last_change": "2026-11-02T15:34:44+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/4459e483-451f-4444-8022-bd8b5eac05c5#a5e27c6cf3e6",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd"
@@ -24,7 +24,7 @@
    "status": "missing",
    "reason": "l1_level0",
    "rate": null,
-   "evaluated_at": "2026-10-26T10:14:48+00:00",
+   "evaluated_at": "2026-11-02T13:51:51+00:00",
    "current": null,
    "facts": {
     "level": 0,
@@ -56,10 +56,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-02T05:50:04+00:00",
+   "evaluated_at": "2026-11-02T15:34:44+00:00",
    "current": true,
    "facts": {
-    "observations": 98,
+    "observations": 95,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/4459e483-451f-4444-8022-bd8b5eac05c5#a5e27c6cf3e6"
    },
@@ -75,22 +75,22 @@
   "L1": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-26T10:36:55+00:00",
+   "generated_at": "2026-11-02T18:28:54+00:00",
    "files": [
     {
      "path": "results/layer1_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1-aneel/main/results/layer1_summary.json",
      "commit": {
-      "sha": "e9e2cbaf2f574ac78a842de4591ba10a6526ac37",
-      "date": "2026-10-26T10:36:56Z"
+      "sha": "f6b5dedc44522c76aa5e2f724f0152ed10009040",
+      "date": "2026-11-02T18:28:54Z"
      }
     },
     {
      "path": "results/validation.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1-aneel/main/results/validation.json",
      "commit": {
-      "sha": "e9e2cbaf2f574ac78a842de4591ba10a6526ac37",
-      "date": "2026-10-26T10:36:56Z"
+      "sha": "f6b5dedc44522c76aa5e2f724f0152ed10009040",
+      "date": "2026-11-02T18:28:54Z"
      }
     }
    ],
@@ -139,30 +139,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-02T05:51:34.544002+00:00",
+   "generated_at": "2026-11-03T00:54:04.426030+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "0dc024687e9f10154c3128fe5f903f0044d19c8e",
-      "date": "2026-11-02T05:51:34Z"
+      "sha": "421657f1269849ba341e9eef29487e612f8e9a4b",
+      "date": "2026-11-03T00:54:04Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "788b1c569cfe398661c7ac070ae3f1d9560a8b8a",
-      "date": "2026-11-02T11:33:28Z"
+      "sha": "e5a40489e79579f433188d76d5ec88f3fc922200",
+      "date": "2026-11-03T11:09:56Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "0dc024687e9f10154c3128fe5f903f0044d19c8e",
-      "date": "2026-11-02T05:51:34Z"
+      "sha": "12d4b2a8ab1aef027bf7a696d91dee2e0fdd35b9",
+      "date": "2026-11-02T15:35:21Z"
      }
     }
    ],
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-02T13:27:09+00:00",
+ "generated_at": "2026-11-03T12:44:34+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "25d203a8c35d0994ebeab988743da0ef5c7bbfac",
-  "run_id": "41453082959"
+  "commit": "e7a8b9236920768cf9de23aad3cbeda912fcb12f",
+  "run_id": "41638255928"
  },
  "ficha": {
-  "id": "sha256:39e2851dddcf51541811d218aae860a2190b4427812add7991048e41478bb8be",
+  "id": "sha256:0fb0cb82b1b6e85e24621c921a55268174d8feb72acdabcab19c567577e7a010",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=base-de-dados-geografica-da-distribuidora-bdgd",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/base-de-dados-geografica-da-distribuidora-bdgd.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'base-de-dados-geografica-da-distribuidora-bdgd' (ANEEL), 2026-11-02, sha256:39e2851dddcf5154…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=base-de-dados-geografica-da-distribuidora-bdgd",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'base-de-dados-geografica-da-distribuidora-bdgd' (ANEEL), 2026-11-02, sha256:39e2851dddcf5154…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=base-de-dados-geografica-da-distribuidora-bdgd"
+   "en": "5L-TEP Layer 5 record of 'base-de-dados-geografica-da-distribuidora-bdgd' (ANEEL), 2026-11-03, sha256:0fb0cb82b1b6e85e…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=base-de-dados-geografica-da-distribuidora-bdgd",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'base-de-dados-geografica-da-distribuidora-bdgd' (ANEEL), 2026-11-03, sha256:0fb0cb82b1b6e85e…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=base-de-dados-geografica-da-distribuidora-bdgd"
   }
  }
 }
