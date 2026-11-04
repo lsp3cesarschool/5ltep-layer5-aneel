@@ -4,28 +4,20 @@
   "title": "Relação de empreendimentos de Mini e Micro Geração Distribuída",
   "id": "5e0fafd2-21b9-4d5b-b622-40438d40aba2",
   "resources": 12,
-  "last_change": "2026-11-02T15:34:44+00:00",
-  "last_type": "NOT_FINGERPRINTED",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/5e0fafd2-21b9-4d5b-b622-40438d40aba2#412c71b5f20c",
+  "last_change": "2026-11-04T06:01:53+00:00",
+  "last_type": "CONTENT_MOD",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/5e0fafd2-21b9-4d5b-b622-40438d40aba2#8935e6080b5d",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/relacao-de-empreendimentos-de-geracao-distribuida"
  },
  "qs": {
-  "kind": "partial",
+  "kind": "none",
   "factor": 1.0,
-  "coverage": 0.5,
+  "coverage": 0.2,
   "valid_layers": [
-   "L2",
    "L4"
   ],
   "integrity": [],
-  "low": 0.5,
-  "high": 1.0,
-  "band": "undetermined",
-  "eligible": false,
-  "missing_layers": [
-   "L1",
-   "L3"
-  ]
+  "band": null
  },
  "layers": {
   "L1": {
@@ -43,20 +35,29 @@
    "signals": []
   },
   "L2": {
-   "status": "valid",
-   "reason": null,
-   "rate": 1.0,
-   "evaluated_at": "2026-10-21T09:29:02+00:00",
-   "current": false,
+   "status": "missing",
+   "reason": "l2_not_evaluated",
+   "rate": null,
+   "evaluated_at": "2026-11-04T12:24:19+00:00",
+   "current": null,
    "facts": {
-    "rules": [
-     "microgeneration-above-75-kw",
-     "minigeneration-outside-range",
-     "municipality-state"
-    ],
-    "checks": 9333570,
+    "rules": [],
+    "checks": 0,
     "signals": 0,
-    "not_evaluated": []
+    "not_evaluated": [
+     {
+      "rule": "microgeneration-above-75-kw",
+      "reason": "source_portal_unreachable"
+     },
+     {
+      "rule": "minigeneration-outside-range",
+      "reason": "source_portal_unreachable"
+     },
+     {
+      "rule": "municipality-state",
+      "reason": "source_portal_unreachable"
+     }
+    ]
    },
    "signals": []
   },
@@ -73,12 +74,12 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-02T15:34:44+00:00",
+   "evaluated_at": "2026-11-04T06:01:53+00:00",
    "current": true,
    "facts": {
-    "observations": 95,
+    "observations": 94,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/5e0fafd2-21b9-4d5b-b622-40438d40aba2#412c71b5f20c"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/5e0fafd2-21b9-4d5b-b622-40438d40aba2#8935e6080b5d"
    },
    "signals": [
     {
@@ -99,6 +100,22 @@
    "when": null,
    "en": "unreconciled divergence in the independent cross-check",
    "pt": "divergência não reconciliada no cross-check independente"
+  },
+  {
+   "layer": "L2",
+   "kind": "evidence_lost",
+   "when": "2026-11-04T12:57:07+00:00",
+   "reason": "l2_not_evaluated",
+   "en": "L2 had evidence on this dataset and no longer has it",
+   "pt": "a L2 tinha evidência sobre este conjunto e deixou de ter"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-11-03T23:13:44+00:00",
+   "count": 9,
+   "en": "CONTENT_MOD in 9 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 9 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -157,7 +174,7 @@
     "first_reported": "2026-11-03T12:44:34+00:00",
     "count": 1,
     "evaluated_at": "2026-11-02T15:34:44+00:00",
-    "status": "reported",
+    "status": "changed_signal_persists",
     "en": "unreconciled divergence in the independent cross-check",
     "pt": "divergência não reconciliada no cross-check independente",
     "digests": {
@@ -166,7 +183,8 @@
      "49fa9ca0-f609-4ae3-a6f7-b97bd0945a3a": "02626d088cb7e0394f4126a531ddb8113c3c00d27a66f11a9ac9e9439049e5bd",
      "c189442a-18f0-44eb-9c89-3b48147a4d65": "ed69257dd4edb06cf4257c9668e00d57596eaab092e31a85a649789144b4c798",
      "bd1d3783-b389-49d8-a828-a56e193d0671": "38719645dfad1108cdbeab37d863f501c880b9bc3add6d92f11adf4908aa2edf"
-    }
+    },
+    "first_change_seen": "2026-11-04T12:57:07+00:00"
    }
   ],
   "closed": [
@@ -221,14 +239,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-21T09:29:07+00:00",
+   "generated_at": "2026-11-04T12:24:19+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
      "commit": {
-      "sha": "370754fdcdd5fa1a47a5fb71576373c46f784d59",
-      "date": "2026-10-21T09:29:25Z"
+      "sha": "923a791c7f32307d0c96626668dd666f4787231a",
+      "date": "2026-11-04T12:24:35Z"
      }
     }
    ],
@@ -261,14 +279,14 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-03T00:54:04.426030+00:00",
+   "generated_at": "2026-11-04T06:03:01.217394+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "421657f1269849ba341e9eef29487e612f8e9a4b",
-      "date": "2026-11-03T00:54:04Z"
+      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
+      "date": "2026-11-04T06:03:01Z"
      }
     },
     {
@@ -283,8 +301,8 @@
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "12d4b2a8ab1aef027bf7a696d91dee2e0fdd35b9",
-      "date": "2026-11-02T15:35:21Z"
+      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
+      "date": "2026-11-04T06:03:01Z"
      }
     }
    ],
@@ -336,19 +354,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-03T12:44:34+00:00",
+ "generated_at": "2026-11-04T12:57:07+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "e7a8b9236920768cf9de23aad3cbeda912fcb12f",
-  "run_id": "41638255928"
+  "commit": "527fb14ee7775430a1ec1153394d1c6a2dec14b2",
+  "run_id": "41833681725"
  },
  "ficha": {
-  "id": "sha256:c325d2a5e975b3581ebb9c973b4c1831625dda71d2589913d6a69de9e89c00b6",
+  "id": "sha256:78d76d2857affef71847b620db87c190b6aecbf5ba81f8472bb462d69cb618d7",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=relacao-de-empreendimentos-de-geracao-distribuida",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/relacao-de-empreendimentos-de-geracao-distribuida.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'relacao-de-empreendimentos-de-geracao-distribuida' (ANEEL), 2026-11-03, sha256:c325d2a5e975b358…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=relacao-de-empreendimentos-de-geracao-distribuida",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'relacao-de-empreendimentos-de-geracao-distribuida' (ANEEL), 2026-11-03, sha256:c325d2a5e975b358…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=relacao-de-empreendimentos-de-geracao-distribuida"
+   "en": "5L-TEP Layer 5 record of 'relacao-de-empreendimentos-de-geracao-distribuida' (ANEEL), 2026-11-04, sha256:78d76d2857affef7…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=relacao-de-empreendimentos-de-geracao-distribuida",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'relacao-de-empreendimentos-de-geracao-distribuida' (ANEEL), 2026-11-04, sha256:78d76d2857affef7…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=relacao-de-empreendimentos-de-geracao-distribuida"
   }
  }
 }

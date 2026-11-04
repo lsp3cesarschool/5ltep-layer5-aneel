@@ -4,9 +4,9 @@
   "title": "Liberação para operação comercial de empreendimentos de geração",
   "id": "2b2ace01-5692-4636-8c99-2a84ff094f4f",
   "resources": 4,
-  "last_change": "2026-11-02T15:34:44+00:00",
-  "last_type": "NOT_FINGERPRINTED",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/2b2ace01-5692-4636-8c99-2a84ff094f4f#32c25f90218d",
+  "last_change": "2026-11-03T23:13:44+00:00",
+  "last_type": "CONTENT_MOD",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/2b2ace01-5692-4636-8c99-2a84ff094f4f#665b037bf9a5",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/liberacao-para-operacao-comercial-de-empreendimentos-de-geracao"
  },
  "qs": {
@@ -55,13 +55,13 @@
   "L4": {
    "status": "valid",
    "reason": null,
-   "rate": 0.9894736842105263,
-   "evaluated_at": "2026-11-02T15:34:44+00:00",
+   "rate": 0.9893617021276596,
+   "evaluated_at": "2026-11-04T06:01:53+00:00",
    "current": true,
    "facts": {
-    "observations": 95,
+    "observations": 94,
     "critical_in_window": 1,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/2b2ace01-5692-4636-8c99-2a84ff094f4f#32c25f90218d"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/2b2ace01-5692-4636-8c99-2a84ff094f4f#665b037bf9a5"
    },
    "signals": []
   }
@@ -73,6 +73,14 @@
    "when": "2026-10-20T04:38:03+00:00",
    "en": "the dataset structure changed (SCHEMA_DRIFT): earlier evaluations no longer cover it",
    "pt": "a estrutura do conjunto mudou (SCHEMA_DRIFT): avaliações anteriores deixam de cobri-lo"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-11-03T23:13:44+00:00",
+   "count": 9,
+   "en": "CONTENT_MOD in 9 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 9 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -131,14 +139,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-21T09:29:07+00:00",
+   "generated_at": "2026-11-04T12:24:19+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
      "commit": {
-      "sha": "370754fdcdd5fa1a47a5fb71576373c46f784d59",
-      "date": "2026-10-21T09:29:25Z"
+      "sha": "923a791c7f32307d0c96626668dd666f4787231a",
+      "date": "2026-11-04T12:24:35Z"
      }
     }
    ],
@@ -171,14 +179,14 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-03T00:54:04.426030+00:00",
+   "generated_at": "2026-11-04T06:03:01.217394+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "421657f1269849ba341e9eef29487e612f8e9a4b",
-      "date": "2026-11-03T00:54:04Z"
+      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
+      "date": "2026-11-04T06:03:01Z"
      }
     },
     {
@@ -193,8 +201,8 @@
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "12d4b2a8ab1aef027bf7a696d91dee2e0fdd35b9",
-      "date": "2026-11-02T15:35:21Z"
+      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
+      "date": "2026-11-04T06:03:01Z"
      }
     }
    ],
@@ -246,19 +254,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-03T12:44:34+00:00",
+ "generated_at": "2026-11-04T12:57:07+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "e7a8b9236920768cf9de23aad3cbeda912fcb12f",
-  "run_id": "41638255928"
+  "commit": "527fb14ee7775430a1ec1153394d1c6a2dec14b2",
+  "run_id": "41833681725"
  },
  "ficha": {
-  "id": "sha256:c305f2defaa17ae4ced52b62740f57f250a8bc8f26e588cd5c791ee8047ad3c3",
+  "id": "sha256:cc0ee305fe18d1dc5474c62890b0d7e1f68031e17c745f0447a37394835e371a",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/liberacao-para-operacao-comercial-de-empreendimentos-de-geracao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'liberacao-para-operacao-comercial-de-empreendimentos-de-geracao' (ANEEL), 2026-11-03, sha256:c305f2defaa17ae4…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'liberacao-para-operacao-comercial-de-empreendimentos-de-geracao' (ANEEL), 2026-11-03, sha256:c305f2defaa17ae4…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=liberacao-para-operacao-comercial-de-empreendimentos-de-geracao"
+   "en": "5L-TEP Layer 5 record of 'liberacao-para-operacao-comercial-de-empreendimentos-de-geracao' (ANEEL), 2026-11-04, sha256:cc0ee305fe18d1dc…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'liberacao-para-operacao-comercial-de-empreendimentos-de-geracao' (ANEEL), 2026-11-04, sha256:cc0ee305fe18d1dc…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=liberacao-para-operacao-comercial-de-empreendimentos-de-geracao"
   }
  }
 }

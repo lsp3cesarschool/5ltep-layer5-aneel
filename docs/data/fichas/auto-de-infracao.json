@@ -4,27 +4,27 @@
   "title": "Auto de Infração",
   "id": "4d690c9d-8158-4b04-ae44-7d3de8616271",
   "resources": 3,
-  "last_change": "2026-11-02T15:34:44+00:00",
-  "last_type": "CONTENT_MOD",
+  "last_change": "2026-11-03T23:13:44+00:00",
+  "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271#0d113070fb0c",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/auto-de-infracao"
  },
  "qs": {
   "kind": "partial",
   "factor": 1.0,
-  "coverage": 0.7,
+  "coverage": 0.4,
   "valid_layers": [
-   "L2",
    "L3",
    "L4"
   ],
   "integrity": [],
-  "low": 0.6911680623121071,
-  "high": 0.9911680623121071,
+  "low": 0.39166,
+  "high": 0.99166,
   "band": "undetermined",
   "eligible": false,
   "missing_layers": [
-   "L1"
+   "L1",
+   "L2"
   ]
  },
  "layers": {
@@ -43,36 +43,35 @@
    "signals": []
   },
   "L2": {
-   "status": "valid",
-   "reason": null,
-   "rate": 0.9983602077070238,
-   "evaluated_at": "2026-10-21T09:29:04+00:00",
-   "current": false,
+   "status": "missing",
+   "reason": "l2_not_evaluated",
+   "rate": null,
+   "evaluated_at": "2026-11-04T12:24:19+00:00",
+   "current": null,
    "facts": {
-    "rules": [
-     "board-decision-before-appeal",
-     "fine-after-appeal-above-original",
-     "notice-received-before-issue",
-     "warning-with-fine-value"
-    ],
-    "checks": 3659,
-    "signals": 6,
-    "not_evaluated": []
+    "rules": [],
+    "checks": 0,
+    "signals": 0,
+    "not_evaluated": [
+     {
+      "rule": "board-decision-before-appeal",
+      "reason": "source_portal_unreachable"
+     },
+     {
+      "rule": "fine-after-appeal-above-original",
+      "reason": "source_portal_unreachable"
+     },
+     {
+      "rule": "notice-received-before-issue",
+      "reason": "source_portal_unreachable"
+     },
+     {
+      "rule": "warning-with-fine-value",
+      "reason": "source_portal_unreachable"
+     }
+    ]
    },
-   "signals": [
-    {
-     "key": "L2:fine-after-appeal-above-original",
-     "count": 1,
-     "en": "1 signal(s) of rule 'Fine after appeal higher than the original' in 261 check(s)",
-     "pt": "1 sinal(is) da regra 'Multa após recurso maior que a original' em 261 verificação(ões)"
-    },
-    {
-     "key": "L2:notice-received-before-issue",
-     "count": 5,
-     "en": "5 signal(s) of rule 'Notice received before it was issued' in 1571 check(s)",
-     "pt": "5 sinal(is) da regra 'Recebimento do auto anterior à lavratura' em 1571 verificação(ões)"
-    }
-   ]
+   "signals": []
   },
   "L3": {
    "status": "valid",
@@ -102,10 +101,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-02T15:34:44+00:00",
+   "evaluated_at": "2026-11-04T06:01:53+00:00",
    "current": true,
    "facts": {
-    "observations": 95,
+    "observations": 94,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271#0d113070fb0c"
    },
@@ -113,24 +112,6 @@
   }
  },
  "findings": [
-  {
-   "layer": "L2",
-   "kind": "signal",
-   "key": "L2:fine-after-appeal-above-original",
-   "count": 1,
-   "when": null,
-   "en": "1 signal(s) of rule 'Fine after appeal higher than the original' in 261 check(s)",
-   "pt": "1 sinal(is) da regra 'Multa após recurso maior que a original' em 261 verificação(ões)"
-  },
-  {
-   "layer": "L2",
-   "kind": "signal",
-   "key": "L2:notice-received-before-issue",
-   "count": 5,
-   "when": null,
-   "en": "5 signal(s) of rule 'Notice received before it was issued' in 1571 check(s)",
-   "pt": "5 sinal(is) da regra 'Recebimento do auto anterior à lavratura' em 1571 verificação(ões)"
-  },
   {
    "layer": "L3",
    "kind": "signal",
@@ -141,12 +122,12 @@
    "pt": "1 anomalia(s) sinalizada(s) na janela ['2025-10', '2026-09']"
   },
   {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-10-26T09:43:27+00:00",
-   "resource_id": "f221158a-93a3-423f-b794-4312b6985a24",
-   "en": "the bytes of resource f221158a-93a3-423f-b794-4312b6985a24 changed between 2026-10-21 and 2026-10-26 with no change in the portal metadata",
-   "pt": "os bytes do recurso f221158a-93a3-423f-b794-4312b6985a24 mudaram entre 2026-10-21 e 2026-10-26 sem mudança nos metadados do portal"
+   "layer": "L2",
+   "kind": "evidence_lost",
+   "when": "2026-11-04T12:57:07+00:00",
+   "reason": "l2_not_evaluated",
+   "en": "L2 had evidence on this dataset and no longer has it",
+   "pt": "a L2 tinha evidência sobre este conjunto e deixou de ter"
   },
   {
    "layer": "L4",
@@ -183,34 +164,6 @@
  ],
  "outcomes": {
   "open": [
-   {
-    "key": "L2:fine-after-appeal-above-original",
-    "layer": "L2",
-    "first_reported": "2026-10-13T19:19:22+00:00",
-    "count": 1,
-    "evaluated_at": "2026-10-09T13:38:07+00:00",
-    "status": "changed_signal_persists",
-    "en": "1 signal(s) of rule 'Fine after appeal higher than the original' in 261 check(s)",
-    "pt": "1 sinal(is) da regra 'Multa após recurso maior que a original' em 261 verificação(ões)",
-    "digests": {
-     "f221158a-93a3-423f-b794-4312b6985a24": "a05192defd1399864639e899a5fbdc2ca6661e543a0aa1ff998edc7ce75b8d13"
-    },
-    "first_change_seen": "2026-10-19T10:42:30+00:00"
-   },
-   {
-    "key": "L2:notice-received-before-issue",
-    "layer": "L2",
-    "first_reported": "2026-10-13T19:19:22+00:00",
-    "count": 5,
-    "evaluated_at": "2026-10-09T13:38:07+00:00",
-    "status": "changed_signal_persists",
-    "en": "5 signal(s) of rule 'Notice received before it was issued' in 1556 check(s)",
-    "pt": "5 sinal(is) da regra 'Recebimento do auto anterior à lavratura' em 1556 verificação(ões)",
-    "digests": {
-     "f221158a-93a3-423f-b794-4312b6985a24": "a05192defd1399864639e899a5fbdc2ca6661e543a0aa1ff998edc7ce75b8d13"
-    },
-    "first_change_seen": "2026-10-19T10:42:30+00:00"
-   },
    {
     "key": "L3:aneel-autos-infracao",
     "layer": "L3",
@@ -277,6 +230,40 @@
     "dataset": "auto-de-infracao",
     "outcome": "remediated_observed",
     "at": "2026-11-03T12:44:34+00:00"
+   },
+   {
+    "layer": "L2",
+    "first_reported": "2026-10-13T19:19:22+00:00",
+    "count": 1,
+    "evaluated_at": "2026-10-09T13:38:07+00:00",
+    "status": "remediated_observed",
+    "en": "1 signal(s) of rule 'Fine after appeal higher than the original' in 261 check(s)",
+    "pt": "1 sinal(is) da regra 'Multa após recurso maior que a original' em 261 verificação(ões)",
+    "digests": {
+     "f221158a-93a3-423f-b794-4312b6985a24": "a05192defd1399864639e899a5fbdc2ca6661e543a0aa1ff998edc7ce75b8d13"
+    },
+    "first_change_seen": "2026-10-19T10:42:30+00:00",
+    "key": "L2:fine-after-appeal-above-original",
+    "dataset": "auto-de-infracao",
+    "outcome": "remediated_observed",
+    "at": "2026-11-04T12:57:07+00:00"
+   },
+   {
+    "layer": "L2",
+    "first_reported": "2026-10-13T19:19:22+00:00",
+    "count": 5,
+    "evaluated_at": "2026-10-09T13:38:07+00:00",
+    "status": "remediated_observed",
+    "en": "5 signal(s) of rule 'Notice received before it was issued' in 1556 check(s)",
+    "pt": "5 sinal(is) da regra 'Recebimento do auto anterior à lavratura' em 1556 verificação(ões)",
+    "digests": {
+     "f221158a-93a3-423f-b794-4312b6985a24": "a05192defd1399864639e899a5fbdc2ca6661e543a0aa1ff998edc7ce75b8d13"
+    },
+    "first_change_seen": "2026-10-19T10:42:30+00:00",
+    "key": "L2:notice-received-before-issue",
+    "dataset": "auto-de-infracao",
+    "outcome": "remediated_observed",
+    "at": "2026-11-04T12:57:07+00:00"
    }
   ]
  },
@@ -308,14 +295,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-21T09:29:07+00:00",
+   "generated_at": "2026-11-04T12:24:19+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
      "commit": {
-      "sha": "370754fdcdd5fa1a47a5fb71576373c46f784d59",
-      "date": "2026-10-21T09:29:25Z"
+      "sha": "923a791c7f32307d0c96626668dd666f4787231a",
+      "date": "2026-11-04T12:24:35Z"
      }
     }
    ],
@@ -348,14 +335,14 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-03T00:54:04.426030+00:00",
+   "generated_at": "2026-11-04T06:03:01.217394+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "421657f1269849ba341e9eef29487e612f8e9a4b",
-      "date": "2026-11-03T00:54:04Z"
+      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
+      "date": "2026-11-04T06:03:01Z"
      }
     },
     {
@@ -370,8 +357,8 @@
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "12d4b2a8ab1aef027bf7a696d91dee2e0fdd35b9",
-      "date": "2026-11-02T15:35:21Z"
+      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
+      "date": "2026-11-04T06:03:01Z"
      }
     }
    ],
@@ -423,19 +410,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-03T12:44:34+00:00",
+ "generated_at": "2026-11-04T12:57:07+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "e7a8b9236920768cf9de23aad3cbeda912fcb12f",
-  "run_id": "41638255928"
+  "commit": "527fb14ee7775430a1ec1153394d1c6a2dec14b2",
+  "run_id": "41833681725"
  },
  "ficha": {
-  "id": "sha256:c7eeac551f449af71f5cfe887141d1b99a4d2c2e9c526f7a77429c491346d490",
+  "id": "sha256:5a1448d1ede8dc1bcad5fa38e11ace8ae4e2c04eb93b615d1e56e05d8b09b0c3",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=auto-de-infracao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/auto-de-infracao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'auto-de-infracao' (ANEEL), 2026-11-03, sha256:c7eeac551f449af7…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=auto-de-infracao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'auto-de-infracao' (ANEEL), 2026-11-03, sha256:c7eeac551f449af7…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=auto-de-infracao"
+   "en": "5L-TEP Layer 5 record of 'auto-de-infracao' (ANEEL), 2026-11-04, sha256:5a1448d1ede8dc1b…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=auto-de-infracao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'auto-de-infracao' (ANEEL), 2026-11-04, sha256:5a1448d1ede8dc1b…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=auto-de-infracao"
   }
  }
 }

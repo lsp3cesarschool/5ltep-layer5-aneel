@@ -4,26 +4,26 @@
   "title": "SIGA - Sistema de Informações de Geração da ANEEL",
   "id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
   "resources": 5,
-  "last_change": "2026-11-02T15:34:44+00:00",
-  "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#4153045b01dd",
+  "last_change": "2026-11-04T06:01:53+00:00",
+  "last_type": "NOT_FINGERPRINTED",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#689ad35a43dd",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel"
  },
  "qs": {
   "kind": "partial",
   "factor": 1.0,
-  "coverage": 0.8,
+  "coverage": 0.5,
   "valid_layers": [
    "L1",
-   "L2",
    "L4"
   ],
   "integrity": [],
-  "low": 0.7968039731229914,
-  "high": 0.9968039731229914,
+  "low": 0.5,
+  "high": 1.0,
   "band": "undetermined",
   "eligible": false,
   "missing_layers": [
+   "L2",
    "L3"
   ]
  },
@@ -43,42 +43,35 @@
    "signals": []
   },
   "L2": {
-   "status": "valid",
-   "reason": null,
-   "rate": 0.9893465770766384,
-   "evaluated_at": "2026-10-21T09:29:04+00:00",
-   "current": false,
+   "status": "missing",
+   "reason": "l2_not_evaluated",
+   "rate": null,
+   "evaluated_at": "2026-11-04T12:24:19+00:00",
+   "current": null,
    "facts": {
-    "rules": [
-     "cgh-above-5000-kw",
-     "pch-outside-5000-30000-kw",
-     "physical-guarantee-above-granted-power",
-     "plant-coordinates-outside-brazil"
-    ],
-    "checks": 51345,
-    "signals": 547,
-    "not_evaluated": []
+    "rules": [],
+    "checks": 0,
+    "signals": 0,
+    "not_evaluated": [
+     {
+      "rule": "cgh-above-5000-kw",
+      "reason": "source_portal_unreachable"
+     },
+     {
+      "rule": "pch-outside-5000-30000-kw",
+      "reason": "source_portal_unreachable"
+     },
+     {
+      "rule": "physical-guarantee-above-granted-power",
+      "reason": "source_portal_unreachable"
+     },
+     {
+      "rule": "plant-coordinates-outside-brazil",
+      "reason": "source_portal_unreachable"
+     }
+    ]
    },
-   "signals": [
-    {
-     "key": "L2:pch-outside-5000-30000-kw",
-     "count": 77,
-     "en": "77 signal(s) of rule 'Small hydropower plant (PCH) outside 5,000-30,000 kW' in 537 check(s)",
-     "pt": "77 sinal(is) da regra 'Pequena central hidrelétrica (PCH) fora da faixa de 5.000 a 30.000 kW' em 537 verificação(ões)"
-    },
-    {
-     "key": "L2:physical-guarantee-above-granted-power",
-     "count": 5,
-     "en": "5 signal(s) of rule 'Physical guarantee above the granted power' in 25045 check(s)",
-     "pt": "5 sinal(is) da regra 'Garantia física maior que a potência outorgada' em 25045 verificação(ões)"
-    },
-    {
-     "key": "L2:plant-coordinates-outside-brazil",
-     "count": 465,
-     "en": "465 signal(s) of rule 'Plant coordinates missing or outside Brazil' in 25045 check(s)",
-     "pt": "465 sinal(is) da regra 'Coordenada da usina ausente ou fora do Brasil' em 25045 verificação(ões)"
-    }
-   ]
+   "signals": []
   },
   "L3": {
    "status": "missing",
@@ -93,12 +86,12 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-02T15:34:44+00:00",
+   "evaluated_at": "2026-11-04T06:01:53+00:00",
    "current": true,
    "facts": {
-    "observations": 95,
+    "observations": 94,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#4153045b01dd"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9#689ad35a43dd"
    },
    "signals": [
     {
@@ -112,33 +105,6 @@
  },
  "findings": [
   {
-   "layer": "L2",
-   "kind": "signal",
-   "key": "L2:pch-outside-5000-30000-kw",
-   "count": 77,
-   "when": null,
-   "en": "77 signal(s) of rule 'Small hydropower plant (PCH) outside 5,000-30,000 kW' in 537 check(s)",
-   "pt": "77 sinal(is) da regra 'Pequena central hidrelétrica (PCH) fora da faixa de 5.000 a 30.000 kW' em 537 verificação(ões)"
-  },
-  {
-   "layer": "L2",
-   "kind": "signal",
-   "key": "L2:physical-guarantee-above-granted-power",
-   "count": 5,
-   "when": null,
-   "en": "5 signal(s) of rule 'Physical guarantee above the granted power' in 25045 check(s)",
-   "pt": "5 sinal(is) da regra 'Garantia física maior que a potência outorgada' em 25045 verificação(ões)"
-  },
-  {
-   "layer": "L2",
-   "kind": "signal",
-   "key": "L2:plant-coordinates-outside-brazil",
-   "count": 465,
-   "when": null,
-   "en": "465 signal(s) of rule 'Plant coordinates missing or outside Brazil' in 25045 check(s)",
-   "pt": "465 sinal(is) da regra 'Coordenada da usina ausente ou fora do Brasil' em 25045 verificação(ões)"
-  },
-  {
    "layer": "L4",
    "kind": "signal",
    "key": "L4:cross_check:siga-sistema-de-informacoes-de-geracao-da-aneel",
@@ -146,6 +112,22 @@
    "when": null,
    "en": "unreconciled divergence in the independent cross-check",
    "pt": "divergência não reconciliada no cross-check independente"
+  },
+  {
+   "layer": "L2",
+   "kind": "evidence_lost",
+   "when": "2026-11-04T12:57:07+00:00",
+   "reason": "l2_not_evaluated",
+   "en": "L2 had evidence on this dataset and no longer has it",
+   "pt": "a L2 tinha evidência sobre este conjunto e deixou de ter"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-11-03T23:13:44+00:00",
+   "count": 9,
+   "en": "CONTENT_MOD in 9 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 9 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -383,51 +365,6 @@
  "outcomes": {
   "open": [
    {
-    "key": "L2:pch-outside-5000-30000-kw",
-    "layer": "L2",
-    "first_reported": "2026-10-13T19:19:22+00:00",
-    "count": 77,
-    "evaluated_at": "2026-10-09T13:38:06+00:00",
-    "status": "changed_signal_persists",
-    "en": "77 signal(s) of rule 'Small hydropower plant (PCH) outside 5,000-30,000 kW' in 537 check(s)",
-    "pt": "77 sinal(is) da regra 'Pequena central hidrelétrica (PCH) fora da faixa de 5.000 a 30.000 kW' em 537 verificação(ões)",
-    "digests": {
-     "11ec447d-698d-4ab8-977f-b424d5deee6a": "60de2b32e25a67bc8708f649f3848b13ba602f6edc3823a5483405f07a0a5540",
-     "2f65a1b0-19b8-4360-8238-b34ab4693d55": "c665da42fd846394c3ece5195c3e9cbe7d9817546744c066718b93f137b5c8f6"
-    },
-    "first_change_seen": "2026-10-15T09:51:00+00:00"
-   },
-   {
-    "key": "L2:physical-guarantee-above-granted-power",
-    "layer": "L2",
-    "first_reported": "2026-10-13T19:19:22+00:00",
-    "count": 5,
-    "evaluated_at": "2026-10-09T13:38:06+00:00",
-    "status": "changed_signal_persists",
-    "en": "5 signal(s) of rule 'Physical guarantee above the granted power' in 25045 check(s)",
-    "pt": "5 sinal(is) da regra 'Garantia física maior que a potência outorgada' em 25045 verificação(ões)",
-    "digests": {
-     "11ec447d-698d-4ab8-977f-b424d5deee6a": "60de2b32e25a67bc8708f649f3848b13ba602f6edc3823a5483405f07a0a5540",
-     "2f65a1b0-19b8-4360-8238-b34ab4693d55": "c665da42fd846394c3ece5195c3e9cbe7d9817546744c066718b93f137b5c8f6"
-    },
-    "first_change_seen": "2026-10-15T09:51:00+00:00"
-   },
-   {
-    "key": "L2:plant-coordinates-outside-brazil",
-    "layer": "L2",
-    "first_reported": "2026-10-13T19:19:22+00:00",
-    "count": 465,
-    "evaluated_at": "2026-10-09T13:38:06+00:00",
-    "status": "changed_signal_persists",
-    "en": "465 signal(s) of rule 'Plant coordinates missing or outside Brazil' in 25045 check(s)",
-    "pt": "465 sinal(is) da regra 'Coordenada da usina ausente ou fora do Brasil' em 25045 verificação(ões)",
-    "digests": {
-     "11ec447d-698d-4ab8-977f-b424d5deee6a": "60de2b32e25a67bc8708f649f3848b13ba602f6edc3823a5483405f07a0a5540",
-     "2f65a1b0-19b8-4360-8238-b34ab4693d55": "c665da42fd846394c3ece5195c3e9cbe7d9817546744c066718b93f137b5c8f6"
-    },
-    "first_change_seen": "2026-10-15T09:51:00+00:00"
-   },
-   {
     "key": "L4:cross_check:siga-sistema-de-informacoes-de-geracao-da-aneel",
     "layer": "L4",
     "first_reported": "2026-11-02T13:27:09+00:00",
@@ -443,7 +380,62 @@
     "first_change_seen": "2026-11-03T12:44:34+00:00"
    }
   ],
-  "closed": []
+  "closed": [
+   {
+    "layer": "L2",
+    "first_reported": "2026-10-13T19:19:22+00:00",
+    "count": 77,
+    "evaluated_at": "2026-10-09T13:38:06+00:00",
+    "status": "remediated_observed",
+    "en": "77 signal(s) of rule 'Small hydropower plant (PCH) outside 5,000-30,000 kW' in 537 check(s)",
+    "pt": "77 sinal(is) da regra 'Pequena central hidrelétrica (PCH) fora da faixa de 5.000 a 30.000 kW' em 537 verificação(ões)",
+    "digests": {
+     "11ec447d-698d-4ab8-977f-b424d5deee6a": "60de2b32e25a67bc8708f649f3848b13ba602f6edc3823a5483405f07a0a5540",
+     "2f65a1b0-19b8-4360-8238-b34ab4693d55": "c665da42fd846394c3ece5195c3e9cbe7d9817546744c066718b93f137b5c8f6"
+    },
+    "first_change_seen": "2026-10-15T09:51:00+00:00",
+    "key": "L2:pch-outside-5000-30000-kw",
+    "dataset": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+    "outcome": "remediated_observed",
+    "at": "2026-11-04T12:57:07+00:00"
+   },
+   {
+    "layer": "L2",
+    "first_reported": "2026-10-13T19:19:22+00:00",
+    "count": 5,
+    "evaluated_at": "2026-10-09T13:38:06+00:00",
+    "status": "remediated_observed",
+    "en": "5 signal(s) of rule 'Physical guarantee above the granted power' in 25045 check(s)",
+    "pt": "5 sinal(is) da regra 'Garantia física maior que a potência outorgada' em 25045 verificação(ões)",
+    "digests": {
+     "11ec447d-698d-4ab8-977f-b424d5deee6a": "60de2b32e25a67bc8708f649f3848b13ba602f6edc3823a5483405f07a0a5540",
+     "2f65a1b0-19b8-4360-8238-b34ab4693d55": "c665da42fd846394c3ece5195c3e9cbe7d9817546744c066718b93f137b5c8f6"
+    },
+    "first_change_seen": "2026-10-15T09:51:00+00:00",
+    "key": "L2:physical-guarantee-above-granted-power",
+    "dataset": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+    "outcome": "remediated_observed",
+    "at": "2026-11-04T12:57:07+00:00"
+   },
+   {
+    "layer": "L2",
+    "first_reported": "2026-10-13T19:19:22+00:00",
+    "count": 465,
+    "evaluated_at": "2026-10-09T13:38:06+00:00",
+    "status": "remediated_observed",
+    "en": "465 signal(s) of rule 'Plant coordinates missing or outside Brazil' in 25045 check(s)",
+    "pt": "465 sinal(is) da regra 'Coordenada da usina ausente ou fora do Brasil' em 25045 verificação(ões)",
+    "digests": {
+     "11ec447d-698d-4ab8-977f-b424d5deee6a": "60de2b32e25a67bc8708f649f3848b13ba602f6edc3823a5483405f07a0a5540",
+     "2f65a1b0-19b8-4360-8238-b34ab4693d55": "c665da42fd846394c3ece5195c3e9cbe7d9817546744c066718b93f137b5c8f6"
+    },
+    "first_change_seen": "2026-10-15T09:51:00+00:00",
+    "key": "L2:plant-coordinates-outside-brazil",
+    "dataset": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+    "outcome": "remediated_observed",
+    "at": "2026-11-04T12:57:07+00:00"
+   }
+  ]
  },
  "sources": {
   "L1": {
@@ -473,14 +465,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-21T09:29:07+00:00",
+   "generated_at": "2026-11-04T12:24:19+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
      "commit": {
-      "sha": "370754fdcdd5fa1a47a5fb71576373c46f784d59",
-      "date": "2026-10-21T09:29:25Z"
+      "sha": "923a791c7f32307d0c96626668dd666f4787231a",
+      "date": "2026-11-04T12:24:35Z"
      }
     }
    ],
@@ -513,14 +505,14 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-03T00:54:04.426030+00:00",
+   "generated_at": "2026-11-04T06:03:01.217394+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "421657f1269849ba341e9eef29487e612f8e9a4b",
-      "date": "2026-11-03T00:54:04Z"
+      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
+      "date": "2026-11-04T06:03:01Z"
      }
     },
     {
@@ -535,8 +527,8 @@
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "12d4b2a8ab1aef027bf7a696d91dee2e0fdd35b9",
-      "date": "2026-11-02T15:35:21Z"
+      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
+      "date": "2026-11-04T06:03:01Z"
      }
     }
    ],
@@ -588,19 +580,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-03T12:44:34+00:00",
+ "generated_at": "2026-11-04T12:57:07+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "e7a8b9236920768cf9de23aad3cbeda912fcb12f",
-  "run_id": "41638255928"
+  "commit": "527fb14ee7775430a1ec1153394d1c6a2dec14b2",
+  "run_id": "41833681725"
  },
  "ficha": {
-  "id": "sha256:086820111d93c4c848c32e90708db2300334e05671f8bc58904f56a83ada18dd",
+  "id": "sha256:d4f3731878f72d6ee0ac1658de178a39646a347ff6f4960db89c7fd19edd106a",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=siga-sistema-de-informacoes-de-geracao-da-aneel",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/siga-sistema-de-informacoes-de-geracao-da-aneel.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'siga-sistema-de-informacoes-de-geracao-da-aneel' (ANEEL), 2026-11-03, sha256:086820111d93c4c8…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=siga-sistema-de-informacoes-de-geracao-da-aneel",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'siga-sistema-de-informacoes-de-geracao-da-aneel' (ANEEL), 2026-11-03, sha256:086820111d93c4c8…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=siga-sistema-de-informacoes-de-geracao-da-aneel"
+   "en": "5L-TEP Layer 5 record of 'siga-sistema-de-informacoes-de-geracao-da-aneel' (ANEEL), 2026-11-04, sha256:d4f3731878f72d6e…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=siga-sistema-de-informacoes-de-geracao-da-aneel",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'siga-sistema-de-informacoes-de-geracao-da-aneel' (ANEEL), 2026-11-04, sha256:d4f3731878f72d6e…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=siga-sistema-de-informacoes-de-geracao-da-aneel"
   }
  }
 }

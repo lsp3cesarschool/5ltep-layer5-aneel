@@ -4,7 +4,7 @@
   "title": "Quantidade de empreendimentos de geração de energia em operação",
   "id": "306a6fdb-beb9-4296-bf18-77fa0e076ef1",
   "resources": 2,
-  "last_change": "2026-11-01T21:56:45+00:00",
+  "last_change": "2026-11-04T06:01:53+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/306a6fdb-beb9-4296-bf18-77fa0e076ef1#fbd655168317",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/empreendimentos-em-operacao"
@@ -33,7 +33,7 @@
    "reason": null,
    "rate": 1.0,
    "evaluated_at": "2026-11-02T17:56:52+00:00",
-   "current": true,
+   "current": false,
    "facts": {
     "level": 1,
     "tables": 1,
@@ -64,10 +64,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-02T15:34:44+00:00",
+   "evaluated_at": "2026-11-04T06:01:53+00:00",
    "current": true,
    "facts": {
-    "observations": 95,
+    "observations": 94,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/306a6fdb-beb9-4296-bf18-77fa0e076ef1#fbd655168317"
    },
@@ -107,14 +107,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-21T09:29:07+00:00",
+   "generated_at": "2026-11-04T12:24:19+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
      "commit": {
-      "sha": "370754fdcdd5fa1a47a5fb71576373c46f784d59",
-      "date": "2026-10-21T09:29:25Z"
+      "sha": "923a791c7f32307d0c96626668dd666f4787231a",
+      "date": "2026-11-04T12:24:35Z"
      }
     }
    ],
@@ -147,14 +147,14 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-03T00:54:04.426030+00:00",
+   "generated_at": "2026-11-04T06:03:01.217394+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "421657f1269849ba341e9eef29487e612f8e9a4b",
-      "date": "2026-11-03T00:54:04Z"
+      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
+      "date": "2026-11-04T06:03:01Z"
      }
     },
     {
@@ -169,8 +169,8 @@
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "12d4b2a8ab1aef027bf7a696d91dee2e0fdd35b9",
-      "date": "2026-11-02T15:35:21Z"
+      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
+      "date": "2026-11-04T06:03:01Z"
      }
     }
    ],
@@ -222,19 +222,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-03T12:44:34+00:00",
+ "generated_at": "2026-11-04T12:57:07+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "e7a8b9236920768cf9de23aad3cbeda912fcb12f",
-  "run_id": "41638255928"
+  "commit": "527fb14ee7775430a1ec1153394d1c6a2dec14b2",
+  "run_id": "41833681725"
  },
  "ficha": {
-  "id": "sha256:ecb2279b766297b1991f75867cfc633c0a2b1fe1bb4940497cdb318970b5a361",
+  "id": "sha256:436e085510807214d7db30dd5df88f1e12bea3c7bbaab614717e11528892a85f",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=empreendimentos-em-operacao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/empreendimentos-em-operacao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'empreendimentos-em-operacao' (ANEEL), 2026-11-03, sha256:ecb2279b766297b1…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=empreendimentos-em-operacao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'empreendimentos-em-operacao' (ANEEL), 2026-11-03, sha256:ecb2279b766297b1…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=empreendimentos-em-operacao"
+   "en": "5L-TEP Layer 5 record of 'empreendimentos-em-operacao' (ANEEL), 2026-11-04, sha256:436e085510807214…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=empreendimentos-em-operacao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'empreendimentos-em-operacao' (ANEEL), 2026-11-04, sha256:436e085510807214…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=empreendimentos-em-operacao"
   }
  }
 }
