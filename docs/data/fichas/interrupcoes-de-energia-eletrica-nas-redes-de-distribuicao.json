@@ -4,7 +4,7 @@
   "title": "Interrupções de Energia Elétrica nas Redes de Distribuição",
   "id": "ccb25653-f07b-4f28-84c2-62a89d1f5a56",
   "resources": 22,
-  "last_change": "2026-11-04T06:01:53+00:00",
+  "last_change": "2026-11-05T06:29:28+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/ccb25653-f07b-4f28-84c2-62a89d1f5a56#8604a83c8a41",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao"
@@ -55,11 +55,11 @@
   "L4": {
    "status": "valid",
    "reason": null,
-   "rate": 0.9893617021276596,
-   "evaluated_at": "2026-11-04T06:01:53+00:00",
+   "rate": 0.989247311827957,
+   "evaluated_at": "2026-11-05T06:29:28+00:00",
    "current": true,
    "facts": {
-    "observations": 94,
+    "observations": 93,
     "critical_in_window": 1,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/ccb25653-f07b-4f28-84c2-62a89d1f5a56#8604a83c8a41"
    },
@@ -155,30 +155,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-04T06:03:01.217394+00:00",
+   "generated_at": "2026-11-05T06:30:24.530361+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
-      "date": "2026-11-04T06:03:01Z"
+      "sha": "acddb668ea96a1e36d228037fa3af535fedb9c2f",
+      "date": "2026-11-05T06:30:25Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "e5a40489e79579f433188d76d5ec88f3fc922200",
-      "date": "2026-11-03T11:09:56Z"
+      "sha": "8bd180890658e6420c378df9df9a120b40d02e44",
+      "date": "2026-11-05T11:18:45Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
-      "date": "2026-11-04T06:03:01Z"
+      "sha": "acddb668ea96a1e36d228037fa3af535fedb9c2f",
+      "date": "2026-11-05T06:30:25Z"
      }
     }
    ],
@@ -230,19 +230,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-04T12:57:07+00:00",
+ "generated_at": "2026-11-05T13:08:19+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "527fb14ee7775430a1ec1153394d1c6a2dec14b2",
-  "run_id": "41833681725"
+  "commit": "72949e6164f468534a75e22aa995e4cb971a4745",
+  "run_id": "42033081847"
  },
  "ficha": {
-  "id": "sha256:27aa4399cb5fd997c79f5d601a6382c6a164837996ded97e261962e8c66a0ee9",
+  "id": "sha256:afe18f6a019a30b1b8080b217799fa1c8cb0cf39632a1db535bc4a861a4a0705",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao' (ANEEL), 2026-11-04, sha256:27aa4399cb5fd997…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao' (ANEEL), 2026-11-04, sha256:27aa4399cb5fd997…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao"
+   "en": "5L-TEP Layer 5 record of 'interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao' (ANEEL), 2026-11-05, sha256:afe18f6a019a30b1…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao' (ANEEL), 2026-11-05, sha256:afe18f6a019a30b1…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao"
   }
  }
 }

@@ -4,8 +4,8 @@
   "title": "Relação de empreendimentos de Mini e Micro Geração Distribuída",
   "id": "5e0fafd2-21b9-4d5b-b622-40438d40aba2",
   "resources": 12,
-  "last_change": "2026-11-04T06:01:53+00:00",
-  "last_type": "CONTENT_MOD",
+  "last_change": "2026-11-05T06:29:28+00:00",
+  "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/5e0fafd2-21b9-4d5b-b622-40438d40aba2#8935e6080b5d",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/relacao-de-empreendimentos-de-geracao-distribuida"
  },
@@ -74,33 +74,17 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-04T06:01:53+00:00",
+   "evaluated_at": "2026-11-05T06:29:28+00:00",
    "current": true,
    "facts": {
-    "observations": 94,
+    "observations": 93,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/5e0fafd2-21b9-4d5b-b622-40438d40aba2#8935e6080b5d"
    },
-   "signals": [
-    {
-     "key": "L4:cross_check:relacao-de-empreendimentos-de-geracao-distribuida",
-     "count": 1,
-     "en": "unreconciled divergence in the independent cross-check",
-     "pt": "divergência não reconciliada no cross-check independente"
-    }
-   ]
+   "signals": []
   }
  },
  "findings": [
-  {
-   "layer": "L4",
-   "kind": "signal",
-   "key": "L4:cross_check:relacao-de-empreendimentos-de-geracao-distribuida",
-   "count": 1,
-   "when": null,
-   "en": "unreconciled divergence in the independent cross-check",
-   "pt": "divergência não reconciliada no cross-check independente"
-  },
   {
    "layer": "L2",
    "kind": "evidence_lost",
@@ -167,26 +151,7 @@
   }
  ],
  "outcomes": {
-  "open": [
-   {
-    "key": "L4:cross_check:relacao-de-empreendimentos-de-geracao-distribuida",
-    "layer": "L4",
-    "first_reported": "2026-11-03T12:44:34+00:00",
-    "count": 1,
-    "evaluated_at": "2026-11-02T15:34:44+00:00",
-    "status": "changed_signal_persists",
-    "en": "unreconciled divergence in the independent cross-check",
-    "pt": "divergência não reconciliada no cross-check independente",
-    "digests": {
-     "b1bd71e7-d0ad-4214-9053-cbd58e9564a7": "bbe0f3b0f8ca62e0aefe25b64cc0f2dcd3d87b1ba0f94d559dce1a5b42962919",
-     "5f903d78-25ae-4a3f-a2bd-9a93351c59fb": "fd023cef9807ced64726d1a59c3939344adb4e6dc1a8356ba6effe19c68aa152",
-     "49fa9ca0-f609-4ae3-a6f7-b97bd0945a3a": "02626d088cb7e0394f4126a531ddb8113c3c00d27a66f11a9ac9e9439049e5bd",
-     "c189442a-18f0-44eb-9c89-3b48147a4d65": "ed69257dd4edb06cf4257c9668e00d57596eaab092e31a85a649789144b4c798",
-     "bd1d3783-b389-49d8-a828-a56e193d0671": "38719645dfad1108cdbeab37d863f501c880b9bc3add6d92f11adf4908aa2edf"
-    },
-    "first_change_seen": "2026-11-04T12:57:07+00:00"
-   }
-  ],
+  "open": [],
   "closed": [
    {
     "layer": "L4",
@@ -208,6 +173,27 @@
     "dataset": "relacao-de-empreendimentos-de-geracao-distribuida",
     "outcome": "remediated_observed",
     "at": "2026-11-02T13:27:09+00:00"
+   },
+   {
+    "layer": "L4",
+    "first_reported": "2026-11-03T12:44:34+00:00",
+    "count": 1,
+    "evaluated_at": "2026-11-02T15:34:44+00:00",
+    "status": "remediated_observed",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
+    "digests": {
+     "b1bd71e7-d0ad-4214-9053-cbd58e9564a7": "bbe0f3b0f8ca62e0aefe25b64cc0f2dcd3d87b1ba0f94d559dce1a5b42962919",
+     "5f903d78-25ae-4a3f-a2bd-9a93351c59fb": "fd023cef9807ced64726d1a59c3939344adb4e6dc1a8356ba6effe19c68aa152",
+     "49fa9ca0-f609-4ae3-a6f7-b97bd0945a3a": "02626d088cb7e0394f4126a531ddb8113c3c00d27a66f11a9ac9e9439049e5bd",
+     "c189442a-18f0-44eb-9c89-3b48147a4d65": "ed69257dd4edb06cf4257c9668e00d57596eaab092e31a85a649789144b4c798",
+     "bd1d3783-b389-49d8-a828-a56e193d0671": "38719645dfad1108cdbeab37d863f501c880b9bc3add6d92f11adf4908aa2edf"
+    },
+    "first_change_seen": "2026-11-04T12:57:07+00:00",
+    "key": "L4:cross_check:relacao-de-empreendimentos-de-geracao-distribuida",
+    "dataset": "relacao-de-empreendimentos-de-geracao-distribuida",
+    "outcome": "remediated_observed",
+    "at": "2026-11-05T13:08:19+00:00"
    }
   ]
  },
@@ -279,30 +265,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-04T06:03:01.217394+00:00",
+   "generated_at": "2026-11-05T06:30:24.530361+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
-      "date": "2026-11-04T06:03:01Z"
+      "sha": "acddb668ea96a1e36d228037fa3af535fedb9c2f",
+      "date": "2026-11-05T06:30:25Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "e5a40489e79579f433188d76d5ec88f3fc922200",
-      "date": "2026-11-03T11:09:56Z"
+      "sha": "8bd180890658e6420c378df9df9a120b40d02e44",
+      "date": "2026-11-05T11:18:45Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
-      "date": "2026-11-04T06:03:01Z"
+      "sha": "acddb668ea96a1e36d228037fa3af535fedb9c2f",
+      "date": "2026-11-05T06:30:25Z"
      }
     }
    ],
@@ -354,19 +340,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-04T12:57:07+00:00",
+ "generated_at": "2026-11-05T13:08:19+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "527fb14ee7775430a1ec1153394d1c6a2dec14b2",
-  "run_id": "41833681725"
+  "commit": "72949e6164f468534a75e22aa995e4cb971a4745",
+  "run_id": "42033081847"
  },
  "ficha": {
-  "id": "sha256:78d76d2857affef71847b620db87c190b6aecbf5ba81f8472bb462d69cb618d7",
+  "id": "sha256:19530219a0c4933f9ef300871ae031d1fbcb917d62a0674efdbd0b436eed123c",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=relacao-de-empreendimentos-de-geracao-distribuida",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/relacao-de-empreendimentos-de-geracao-distribuida.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'relacao-de-empreendimentos-de-geracao-distribuida' (ANEEL), 2026-11-04, sha256:78d76d2857affef7…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=relacao-de-empreendimentos-de-geracao-distribuida",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'relacao-de-empreendimentos-de-geracao-distribuida' (ANEEL), 2026-11-04, sha256:78d76d2857affef7…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=relacao-de-empreendimentos-de-geracao-distribuida"
+   "en": "5L-TEP Layer 5 record of 'relacao-de-empreendimentos-de-geracao-distribuida' (ANEEL), 2026-11-05, sha256:19530219a0c4933f…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=relacao-de-empreendimentos-de-geracao-distribuida",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'relacao-de-empreendimentos-de-geracao-distribuida' (ANEEL), 2026-11-05, sha256:19530219a0c4933f…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=relacao-de-empreendimentos-de-geracao-distribuida"
   }
  }
 }

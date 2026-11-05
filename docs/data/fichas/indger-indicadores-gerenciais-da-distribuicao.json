@@ -4,9 +4,9 @@
   "title": "INDGER - Indicadores Gerenciais da Distribuição",
   "id": "7cacb2c4-b165-4591-a793-9ed20d1f167d",
   "resources": 13,
-  "last_change": "2026-11-03T23:13:44+00:00",
-  "last_type": "NOT_FINGERPRINTED",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/7cacb2c4-b165-4591-a793-9ed20d1f167d#e0509ed7a204",
+  "last_change": "2026-11-05T06:29:28+00:00",
+  "last_type": "CONTENT_MOD",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/7cacb2c4-b165-4591-a793-9ed20d1f167d#e9266a4fbda5",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/indger-indicadores-gerenciais-da-distribuicao"
  },
  "qs": {
@@ -64,17 +64,41 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-04T06:01:53+00:00",
+   "evaluated_at": "2026-11-05T06:29:28+00:00",
    "current": true,
    "facts": {
-    "observations": 94,
+    "observations": 93,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/7cacb2c4-b165-4591-a793-9ed20d1f167d#e0509ed7a204"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/7cacb2c4-b165-4591-a793-9ed20d1f167d#e9266a4fbda5"
    },
-   "signals": []
+   "signals": [
+    {
+     "key": "L4:cross_check:indger-indicadores-gerenciais-da-distribuicao",
+     "count": 1,
+     "en": "unreconciled divergence in the independent cross-check",
+     "pt": "divergência não reconciliada no cross-check independente"
+    }
+   ]
   }
  },
  "findings": [
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:cross_check:indger-indicadores-gerenciais-da-distribuicao",
+   "count": 1,
+   "when": null,
+   "en": "unreconciled divergence in the independent cross-check",
+   "pt": "divergência não reconciliada no cross-check independente"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-11-05T06:29:28+00:00",
+   "count": 9,
+   "en": "CONTENT_MOD in 9 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 9 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
+  },
   {
    "layer": "L4",
    "kind": "simultaneous",
@@ -85,7 +109,25 @@
   }
  ],
  "outcomes": {
-  "open": [],
+  "open": [
+   {
+    "key": "L4:cross_check:indger-indicadores-gerenciais-da-distribuicao",
+    "layer": "L4",
+    "first_reported": "2026-11-05T13:08:19+00:00",
+    "count": 1,
+    "evaluated_at": "2026-11-05T06:29:28+00:00",
+    "status": "reported",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
+    "digests": {
+     "8dd3acbe-0d0f-40c4-bafc-da270c639ed9": "c5d4cc72e500da5e414ff71f60fab997d31f1deb86f1d1885b6c4774e9c961e3",
+     "fd10c9d4-cb76-4020-a322-e79afb13eaf7": "33d1377b69a2564d793bb4b44268c6ac6bbb0a15d0dd30f994de528e15d8743e",
+     "a19a3bee-2554-4d70-b031-a7eb4875ce42": "bc5b77cfc830efe54794bf9b09179ef3177e8d4867232a2be3f2003d70ecd516",
+     "515d8462-6c58-4727-afc3-dbad332fa231": "bf11c5caf7672583e9f11c7d4c89b04c236b987c80ae161f6e9ca09b296f2bbc",
+     "2dbe9459-3161-4d48-b949-3d40b73cf4c0": "bb0966f153ba29a120b265f5b8072d2a1f5972b7cb69cd872b06e59b4e260d15"
+    }
+   }
+  ],
   "closed": []
  },
  "sources": {
@@ -156,30 +198,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-04T06:03:01.217394+00:00",
+   "generated_at": "2026-11-05T06:30:24.530361+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
-      "date": "2026-11-04T06:03:01Z"
+      "sha": "acddb668ea96a1e36d228037fa3af535fedb9c2f",
+      "date": "2026-11-05T06:30:25Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "e5a40489e79579f433188d76d5ec88f3fc922200",
-      "date": "2026-11-03T11:09:56Z"
+      "sha": "8bd180890658e6420c378df9df9a120b40d02e44",
+      "date": "2026-11-05T11:18:45Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "e391a9f9afe582801481a43cec3b2da29622a554",
-      "date": "2026-11-04T06:03:01Z"
+      "sha": "acddb668ea96a1e36d228037fa3af535fedb9c2f",
+      "date": "2026-11-05T06:30:25Z"
      }
     }
    ],
@@ -231,19 +273,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-04T12:57:07+00:00",
+ "generated_at": "2026-11-05T13:08:19+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "527fb14ee7775430a1ec1153394d1c6a2dec14b2",
-  "run_id": "41833681725"
+  "commit": "72949e6164f468534a75e22aa995e4cb971a4745",
+  "run_id": "42033081847"
  },
  "ficha": {
-  "id": "sha256:8ae60acfacd813c571a0e329a09b846938e3de339ebb7dbbb5d1135ff3b57334",
+  "id": "sha256:e99d5993689426fd13a48ae57d28583a6e3b1e3f6e17f13ea48106e762734356",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indger-indicadores-gerenciais-da-distribuicao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/indger-indicadores-gerenciais-da-distribuicao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'indger-indicadores-gerenciais-da-distribuicao' (ANEEL), 2026-11-04, sha256:8ae60acfacd813c5…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indger-indicadores-gerenciais-da-distribuicao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'indger-indicadores-gerenciais-da-distribuicao' (ANEEL), 2026-11-04, sha256:8ae60acfacd813c5…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indger-indicadores-gerenciais-da-distribuicao"
+   "en": "5L-TEP Layer 5 record of 'indger-indicadores-gerenciais-da-distribuicao' (ANEEL), 2026-11-05, sha256:e99d5993689426fd…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indger-indicadores-gerenciais-da-distribuicao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'indger-indicadores-gerenciais-da-distribuicao' (ANEEL), 2026-11-05, sha256:e99d5993689426fd…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indger-indicadores-gerenciais-da-distribuicao"
   }
  }
 }
