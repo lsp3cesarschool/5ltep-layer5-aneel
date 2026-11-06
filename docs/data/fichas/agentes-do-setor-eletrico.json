@@ -4,7 +4,7 @@
   "title": "Agentes do Setor Elétrico",
   "id": "71d1007e-7e14-4875-8758-7e3a0d1118df",
   "resources": 2,
-  "last_change": "2026-11-04T23:33:48+00:00",
+  "last_change": "2026-11-05T19:51:26+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/71d1007e-7e14-4875-8758-7e3a0d1118df#47d478aa2bfd",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/agentes-do-setor-eletrico"
@@ -64,7 +64,7 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-05T06:29:28+00:00",
+   "evaluated_at": "2026-11-06T06:23:58+00:00",
    "current": true,
    "facts": {
     "observations": 93,
@@ -132,7 +132,7 @@
   "L3": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-05T13:48:52+00:00",
+   "generated_at": "2026-11-05T14:08:10+00:00",
    "files": [
     {
      "path": "docs/data/index.json",
@@ -146,8 +146,8 @@
      "path": "results/aneel-autos-infracao/layer3_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3-aneel/main/results/aneel-autos-infracao/layer3_summary.json",
      "commit": {
-      "sha": "79a7baae961848243782fc3e0726b88232f5597b",
-      "date": "2026-10-05T13:48:52Z"
+      "sha": "487fd54897c6ffabf0109b9367368935edd35e38",
+      "date": "2026-11-05T14:08:10Z"
      }
     }
    ],
@@ -156,30 +156,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-05T06:30:24.530361+00:00",
+   "generated_at": "2026-11-06T06:24:28.038258+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "acddb668ea96a1e36d228037fa3af535fedb9c2f",
-      "date": "2026-11-05T06:30:25Z"
+      "sha": "a07bbf5d2453009b16d768c6f54b3639b7955549",
+      "date": "2026-11-06T06:24:28Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "8bd180890658e6420c378df9df9a120b40d02e44",
-      "date": "2026-11-05T11:18:45Z"
+      "sha": "4e1821b3491ff23794b34ce841eb7df801183380",
+      "date": "2026-11-06T11:15:52Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "acddb668ea96a1e36d228037fa3af535fedb9c2f",
-      "date": "2026-11-05T06:30:25Z"
+      "sha": "a07bbf5d2453009b16d768c6f54b3639b7955549",
+      "date": "2026-11-06T06:24:28Z"
      }
     }
    ],
@@ -231,19 +231,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-05T13:08:19+00:00",
+ "generated_at": "2026-11-06T12:54:07+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "72949e6164f468534a75e22aa995e4cb971a4745",
-  "run_id": "42033081847"
+  "commit": "67a97bf546cbc7d34e110cd62ead090c1ad3f2e8",
+  "run_id": "42221187848"
  },
  "ficha": {
-  "id": "sha256:99f398b30ec8acb6fcdeb570990f32a605eff02d831bc4a4524bc7006c16ed01",
+  "id": "sha256:a8f97f7f1ff8bd7caf81e076142b22cd7abbd127b689b656f37f2317d2f0c812",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=agentes-do-setor-eletrico",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/agentes-do-setor-eletrico.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'agentes-do-setor-eletrico' (ANEEL), 2026-11-05, sha256:99f398b30ec8acb6…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=agentes-do-setor-eletrico",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'agentes-do-setor-eletrico' (ANEEL), 2026-11-05, sha256:99f398b30ec8acb6…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=agentes-do-setor-eletrico"
+   "en": "5L-TEP Layer 5 record of 'agentes-do-setor-eletrico' (ANEEL), 2026-11-06, sha256:a8f97f7f1ff8bd7c…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=agentes-do-setor-eletrico",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'agentes-do-setor-eletrico' (ANEEL), 2026-11-06, sha256:a8f97f7f1ff8bd7c…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=agentes-do-setor-eletrico"
   }
  }
 }

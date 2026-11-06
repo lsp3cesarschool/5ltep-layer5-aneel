@@ -4,7 +4,7 @@
   "title": "RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica",
   "id": "57e4b8b5-a5db-40e6-9901-27ca629d0477",
   "resources": 12,
-  "last_change": "2026-11-05T06:29:28+00:00",
+  "last_change": "2026-11-06T06:23:58+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477#d7f136ddf7b9",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica"
@@ -71,7 +71,7 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-05T06:29:28+00:00",
+   "evaluated_at": "2026-11-06T06:23:58+00:00",
    "current": true,
    "facts": {
     "observations": 93,
@@ -192,7 +192,7 @@
   "L3": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-05T13:48:52+00:00",
+   "generated_at": "2026-11-05T14:08:10+00:00",
    "files": [
     {
      "path": "docs/data/index.json",
@@ -206,8 +206,8 @@
      "path": "results/aneel-autos-infracao/layer3_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3-aneel/main/results/aneel-autos-infracao/layer3_summary.json",
      "commit": {
-      "sha": "79a7baae961848243782fc3e0726b88232f5597b",
-      "date": "2026-10-05T13:48:52Z"
+      "sha": "487fd54897c6ffabf0109b9367368935edd35e38",
+      "date": "2026-11-05T14:08:10Z"
      }
     }
    ],
@@ -216,30 +216,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-05T06:30:24.530361+00:00",
+   "generated_at": "2026-11-06T06:24:28.038258+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "acddb668ea96a1e36d228037fa3af535fedb9c2f",
-      "date": "2026-11-05T06:30:25Z"
+      "sha": "a07bbf5d2453009b16d768c6f54b3639b7955549",
+      "date": "2026-11-06T06:24:28Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "8bd180890658e6420c378df9df9a120b40d02e44",
-      "date": "2026-11-05T11:18:45Z"
+      "sha": "4e1821b3491ff23794b34ce841eb7df801183380",
+      "date": "2026-11-06T11:15:52Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "acddb668ea96a1e36d228037fa3af535fedb9c2f",
-      "date": "2026-11-05T06:30:25Z"
+      "sha": "a07bbf5d2453009b16d768c6f54b3639b7955549",
+      "date": "2026-11-06T06:24:28Z"
      }
     }
    ],
@@ -291,19 +291,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-05T13:08:19+00:00",
+ "generated_at": "2026-11-06T12:54:07+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "72949e6164f468534a75e22aa995e4cb971a4745",
-  "run_id": "42033081847"
+  "commit": "67a97bf546cbc7d34e110cd62ead090c1ad3f2e8",
+  "run_id": "42221187848"
  },
  "ficha": {
-  "id": "sha256:d11d06199d433b6260511ee7aa1c0829f55f2ff54cea1fba2ac7db80642f3a36",
+  "id": "sha256:3d53c70825bc235668e98f9151852042bf49b21605e80aeb1a6f74dd43d318d1",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica' (ANEEL), 2026-11-05, sha256:d11d06199d433b62…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica' (ANEEL), 2026-11-05, sha256:d11d06199d433b62…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica"
+   "en": "5L-TEP Layer 5 record of 'ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica' (ANEEL), 2026-11-06, sha256:3d53c70825bc2356…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica' (ANEEL), 2026-11-06, sha256:3d53c70825bc2356…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica"
   }
  }
 }
