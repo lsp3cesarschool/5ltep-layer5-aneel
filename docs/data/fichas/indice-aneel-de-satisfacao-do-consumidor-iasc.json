@@ -4,7 +4,7 @@
   "title": "Índice ANEEL de Satisfação do Consumidor (IASC)",
   "id": "f216da23-4b7e-4bbe-9833-06905331a827",
   "resources": 2,
-  "last_change": "2026-11-06T06:23:58+00:00",
+  "last_change": "2026-11-07T05:47:42+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/f216da23-4b7e-4bbe-9833-06905331a827#8d1d1ee593d5",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/indice-aneel-de-satisfacao-do-consumidor-iasc"
@@ -56,10 +56,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-06T06:23:58+00:00",
+   "evaluated_at": "2026-11-07T05:47:42+00:00",
    "current": true,
    "facts": {
-    "observations": 93,
+    "observations": 92,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/f216da23-4b7e-4bbe-9833-06905331a827#8d1d1ee593d5"
    },
@@ -139,30 +139,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-06T06:24:28.038258+00:00",
+   "generated_at": "2026-11-07T05:48:10.330520+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "a07bbf5d2453009b16d768c6f54b3639b7955549",
-      "date": "2026-11-06T06:24:28Z"
+      "sha": "60a2d45cd73bcd4bc73ef3c350854cd90e9bf266",
+      "date": "2026-11-07T05:48:10Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "4e1821b3491ff23794b34ce841eb7df801183380",
-      "date": "2026-11-06T11:15:52Z"
+      "sha": "d9d064ff0b9f0d1c8e0823648d8a49161e3d0354",
+      "date": "2026-11-07T10:31:23Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "a07bbf5d2453009b16d768c6f54b3639b7955549",
-      "date": "2026-11-06T06:24:28Z"
+      "sha": "60a2d45cd73bcd4bc73ef3c350854cd90e9bf266",
+      "date": "2026-11-07T05:48:10Z"
      }
     }
    ],
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-06T12:54:07+00:00",
+ "generated_at": "2026-11-07T11:41:30+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "67a97bf546cbc7d34e110cd62ead090c1ad3f2e8",
-  "run_id": "42221187848"
+  "commit": "7ae3069021500e0d84c90268a48c6aab7323bb1b",
+  "run_id": "42369228915"
  },
  "ficha": {
-  "id": "sha256:ece4778212b9b48842a2cda188a18c71851011855996e9c230aaedbc7bb9ac46",
+  "id": "sha256:f0b7a76bbf0ab88bcf32c96c89c9e29eee2b08b74d6d40c3e9b3baa7440ad9bd",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indice-aneel-de-satisfacao-do-consumidor-iasc",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/indice-aneel-de-satisfacao-do-consumidor-iasc.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'indice-aneel-de-satisfacao-do-consumidor-iasc' (ANEEL), 2026-11-06, sha256:ece4778212b9b488…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indice-aneel-de-satisfacao-do-consumidor-iasc",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'indice-aneel-de-satisfacao-do-consumidor-iasc' (ANEEL), 2026-11-06, sha256:ece4778212b9b488…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indice-aneel-de-satisfacao-do-consumidor-iasc"
+   "en": "5L-TEP Layer 5 record of 'indice-aneel-de-satisfacao-do-consumidor-iasc' (ANEEL), 2026-11-07, sha256:f0b7a76bbf0ab88b…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indice-aneel-de-satisfacao-do-consumidor-iasc",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'indice-aneel-de-satisfacao-do-consumidor-iasc' (ANEEL), 2026-11-07, sha256:f0b7a76bbf0ab88b…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indice-aneel-de-satisfacao-do-consumidor-iasc"
   }
  }
 }
