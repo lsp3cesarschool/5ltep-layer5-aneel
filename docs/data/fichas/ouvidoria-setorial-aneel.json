@@ -4,9 +4,9 @@
   "title": "Ouvidoria Setorial ANEEL",
   "id": "1206d323-ad8c-46c6-bc2d-9b731e42ee26",
   "resources": 19,
-  "last_change": "2026-11-07T05:47:42+00:00",
+  "last_change": "2026-11-07T21:42:45+00:00",
   "last_type": "NOT_FINGERPRINTED",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26#740479c6ab44",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26#207bb6657aa9",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/ouvidoria-setorial-aneel"
  },
  "qs": {
@@ -56,12 +56,12 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-07T05:47:42+00:00",
+   "evaluated_at": "2026-11-08T05:50:12+00:00",
    "current": true,
    "facts": {
     "observations": 92,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26#740479c6ab44"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26#207bb6657aa9"
    },
    "signals": [
     {
@@ -82,6 +82,14 @@
    "when": null,
    "en": "unreconciled divergence in the independent cross-check",
    "pt": "divergência não reconciliada no cross-check independente"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-11-07T12:51:21+00:00",
+   "count": 7,
+   "en": "CONTENT_MOD in 7 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 7 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -505,30 +513,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-07T05:48:10.330520+00:00",
+   "generated_at": "2026-11-08T05:51:30.225324+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "60a2d45cd73bcd4bc73ef3c350854cd90e9bf266",
-      "date": "2026-11-07T05:48:10Z"
+      "sha": "d02e95b3710041e503647fa9199b0f50e1f8c44a",
+      "date": "2026-11-08T05:51:30Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "d9d064ff0b9f0d1c8e0823648d8a49161e3d0354",
-      "date": "2026-11-07T10:31:23Z"
+      "sha": "f9a5af9260fe753710aafff4123e26a201f684ce",
+      "date": "2026-11-08T10:39:02Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "60a2d45cd73bcd4bc73ef3c350854cd90e9bf266",
-      "date": "2026-11-07T05:48:10Z"
+      "sha": "d02e95b3710041e503647fa9199b0f50e1f8c44a",
+      "date": "2026-11-08T05:51:30Z"
      }
     }
    ],
@@ -580,19 +588,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-07T11:41:30+00:00",
+ "generated_at": "2026-11-08T11:53:42+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "7ae3069021500e0d84c90268a48c6aab7323bb1b",
-  "run_id": "42369228915"
+  "commit": "83b76f3d30ca86527600eedebcb1c33157f44eb0",
+  "run_id": "42477720660"
  },
  "ficha": {
-  "id": "sha256:ae67abd923c5d6fc7af577b473153ca294a29d4c850d9044129fbf850ac286c2",
+  "id": "sha256:8808d1994729675413d65e9655e9bbf5d36e8f38c7f43e621f00de3449c162b5",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ouvidoria-setorial-aneel",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/ouvidoria-setorial-aneel.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'ouvidoria-setorial-aneel' (ANEEL), 2026-11-07, sha256:ae67abd923c5d6fc…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ouvidoria-setorial-aneel",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'ouvidoria-setorial-aneel' (ANEEL), 2026-11-07, sha256:ae67abd923c5d6fc…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ouvidoria-setorial-aneel"
+   "en": "5L-TEP Layer 5 record of 'ouvidoria-setorial-aneel' (ANEEL), 2026-11-08, sha256:8808d19947296754…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ouvidoria-setorial-aneel",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'ouvidoria-setorial-aneel' (ANEEL), 2026-11-08, sha256:8808d19947296754…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ouvidoria-setorial-aneel"
   }
  }
 }

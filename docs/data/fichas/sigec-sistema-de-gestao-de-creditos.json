@@ -4,9 +4,9 @@
   "title": "SIGEC - Sistema de Gestão de Créditos",
   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
   "resources": 5,
-  "last_change": "2026-11-07T05:47:42+00:00",
+  "last_change": "2026-11-08T05:50:12+00:00",
   "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a#aafdb5e2a933",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a#3aaa9722a013",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/sigec-sistema-de-gestao-de-creditos"
  },
  "qs": {
@@ -56,12 +56,12 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-07T05:47:42+00:00",
+   "evaluated_at": "2026-11-08T05:50:12+00:00",
    "current": true,
    "facts": {
     "observations": 92,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a#aafdb5e2a933"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a#3aaa9722a013"
    },
    "signals": [
     {
@@ -82,6 +82,14 @@
    "when": null,
    "en": "unreconciled divergence in the independent cross-check",
    "pt": "divergência não reconciliada no cross-check independente"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-11-07T12:51:21+00:00",
+   "count": 7,
+   "en": "CONTENT_MOD in 7 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 7 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -260,13 +268,14 @@
     "first_reported": "2026-11-07T11:41:30+00:00",
     "count": 1,
     "evaluated_at": "2026-11-07T05:47:42+00:00",
-    "status": "reported",
+    "status": "changed_signal_persists",
     "en": "unreconciled divergence in the independent cross-check",
     "pt": "divergência não reconciliada no cross-check independente",
     "digests": {
      "eca732ac-4f08-401f-b1cf-f9eff88a9b20": "28e12d5af3d35cf21e97aada6b5209190a6fce8e25d4edc95d460d3c5bc56bfd",
      "0bf361e5-dc58-4380-95f0-b61a55ec3423": "987edf6d5ce594c0a07ee5dffe3171fff1d9f42d5ff7e122ef330a497fd29e5d"
-    }
+    },
+    "first_change_seen": "2026-11-08T11:53:42+00:00"
    }
   ],
   "closed": [
@@ -448,30 +457,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-07T05:48:10.330520+00:00",
+   "generated_at": "2026-11-08T05:51:30.225324+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "60a2d45cd73bcd4bc73ef3c350854cd90e9bf266",
-      "date": "2026-11-07T05:48:10Z"
+      "sha": "d02e95b3710041e503647fa9199b0f50e1f8c44a",
+      "date": "2026-11-08T05:51:30Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "d9d064ff0b9f0d1c8e0823648d8a49161e3d0354",
-      "date": "2026-11-07T10:31:23Z"
+      "sha": "f9a5af9260fe753710aafff4123e26a201f684ce",
+      "date": "2026-11-08T10:39:02Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "60a2d45cd73bcd4bc73ef3c350854cd90e9bf266",
-      "date": "2026-11-07T05:48:10Z"
+      "sha": "d02e95b3710041e503647fa9199b0f50e1f8c44a",
+      "date": "2026-11-08T05:51:30Z"
      }
     }
    ],
@@ -523,19 +532,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-07T11:41:30+00:00",
+ "generated_at": "2026-11-08T11:53:42+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "7ae3069021500e0d84c90268a48c6aab7323bb1b",
-  "run_id": "42369228915"
+  "commit": "83b76f3d30ca86527600eedebcb1c33157f44eb0",
+  "run_id": "42477720660"
  },
  "ficha": {
-  "id": "sha256:131baafc2745bb5eb192fb369d595616f4fbc170f7e201c627d5e168682a1cdb",
+  "id": "sha256:6890048520c9d5ef323e97e685ade193f191f42581fd82bc8800e767c2b59b0f",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=sigec-sistema-de-gestao-de-creditos",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/sigec-sistema-de-gestao-de-creditos.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'sigec-sistema-de-gestao-de-creditos' (ANEEL), 2026-11-07, sha256:131baafc2745bb5e…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=sigec-sistema-de-gestao-de-creditos",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'sigec-sistema-de-gestao-de-creditos' (ANEEL), 2026-11-07, sha256:131baafc2745bb5e…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=sigec-sistema-de-gestao-de-creditos"
+   "en": "5L-TEP Layer 5 record of 'sigec-sistema-de-gestao-de-creditos' (ANEEL), 2026-11-08, sha256:6890048520c9d5ef…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=sigec-sistema-de-gestao-de-creditos",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'sigec-sistema-de-gestao-de-creditos' (ANEEL), 2026-11-08, sha256:6890048520c9d5ef…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=sigec-sistema-de-gestao-de-creditos"
   }
  }
 }

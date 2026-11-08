@@ -4,7 +4,7 @@
   "title": "SCS - Sistema de Controle de Subvenções e Programas Sociais",
   "id": "942de3e1-0b52-4e41-a6c1-eff9f3b7c7d6",
   "resources": 2,
-  "last_change": "2026-11-04T23:33:48+00:00",
+  "last_change": "2026-11-08T05:50:12+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/942de3e1-0b52-4e41-a6c1-eff9f3b7c7d6#3d08b587b497",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/scs-sistema-de-controle-de-subvencoes-e-programas-sociais"
@@ -56,7 +56,7 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-07T05:47:42+00:00",
+   "evaluated_at": "2026-11-08T05:50:12+00:00",
    "current": true,
    "facts": {
     "observations": 92,
@@ -148,30 +148,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-07T05:48:10.330520+00:00",
+   "generated_at": "2026-11-08T05:51:30.225324+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "60a2d45cd73bcd4bc73ef3c350854cd90e9bf266",
-      "date": "2026-11-07T05:48:10Z"
+      "sha": "d02e95b3710041e503647fa9199b0f50e1f8c44a",
+      "date": "2026-11-08T05:51:30Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "d9d064ff0b9f0d1c8e0823648d8a49161e3d0354",
-      "date": "2026-11-07T10:31:23Z"
+      "sha": "f9a5af9260fe753710aafff4123e26a201f684ce",
+      "date": "2026-11-08T10:39:02Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "60a2d45cd73bcd4bc73ef3c350854cd90e9bf266",
-      "date": "2026-11-07T05:48:10Z"
+      "sha": "d02e95b3710041e503647fa9199b0f50e1f8c44a",
+      "date": "2026-11-08T05:51:30Z"
      }
     }
    ],
@@ -223,19 +223,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-07T11:41:30+00:00",
+ "generated_at": "2026-11-08T11:53:42+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "7ae3069021500e0d84c90268a48c6aab7323bb1b",
-  "run_id": "42369228915"
+  "commit": "83b76f3d30ca86527600eedebcb1c33157f44eb0",
+  "run_id": "42477720660"
  },
  "ficha": {
-  "id": "sha256:277d88b2f0dfd1a8b3564f0dc6911987ef452b12da4200c03678544973e11e10",
+  "id": "sha256:882d7efa156e959f9156b33818201bd68ab5f07a6eb862f1b91b382da154c491",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=scs-sistema-de-controle-de-subvencoes-e-programas-sociais",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/scs-sistema-de-controle-de-subvencoes-e-programas-sociais.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'scs-sistema-de-controle-de-subvencoes-e-programas-sociais' (ANEEL), 2026-11-07, sha256:277d88b2f0dfd1a8…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=scs-sistema-de-controle-de-subvencoes-e-programas-sociais",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'scs-sistema-de-controle-de-subvencoes-e-programas-sociais' (ANEEL), 2026-11-07, sha256:277d88b2f0dfd1a8…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=scs-sistema-de-controle-de-subvencoes-e-programas-sociais"
+   "en": "5L-TEP Layer 5 record of 'scs-sistema-de-controle-de-subvencoes-e-programas-sociais' (ANEEL), 2026-11-08, sha256:882d7efa156e959f…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=scs-sistema-de-controle-de-subvencoes-e-programas-sociais",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'scs-sistema-de-controle-de-subvencoes-e-programas-sociais' (ANEEL), 2026-11-08, sha256:882d7efa156e959f…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=scs-sistema-de-controle-de-subvencoes-e-programas-sociais"
   }
  }
 }

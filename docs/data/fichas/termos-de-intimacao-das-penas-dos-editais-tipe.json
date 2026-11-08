@@ -4,7 +4,7 @@
   "title": "Termos de Intimação das Penas dos Editais (TIPE)",
   "id": "34ea9837-61d5-4585-9968-0a3862eff8f8",
   "resources": 10,
-  "last_change": "2026-11-05T19:51:26+00:00",
+  "last_change": "2026-11-07T21:42:45+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8#df87357cb0fc",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/termos-de-intimacao-das-penas-dos-editais-tipe"
@@ -71,7 +71,7 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-07T05:47:42+00:00",
+   "evaluated_at": "2026-11-08T05:50:12+00:00",
    "current": true,
    "facts": {
     "observations": 92,
@@ -279,30 +279,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-07T05:48:10.330520+00:00",
+   "generated_at": "2026-11-08T05:51:30.225324+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "60a2d45cd73bcd4bc73ef3c350854cd90e9bf266",
-      "date": "2026-11-07T05:48:10Z"
+      "sha": "d02e95b3710041e503647fa9199b0f50e1f8c44a",
+      "date": "2026-11-08T05:51:30Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "d9d064ff0b9f0d1c8e0823648d8a49161e3d0354",
-      "date": "2026-11-07T10:31:23Z"
+      "sha": "f9a5af9260fe753710aafff4123e26a201f684ce",
+      "date": "2026-11-08T10:39:02Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "60a2d45cd73bcd4bc73ef3c350854cd90e9bf266",
-      "date": "2026-11-07T05:48:10Z"
+      "sha": "d02e95b3710041e503647fa9199b0f50e1f8c44a",
+      "date": "2026-11-08T05:51:30Z"
      }
     }
    ],
@@ -354,19 +354,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-07T11:41:30+00:00",
+ "generated_at": "2026-11-08T11:53:42+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "7ae3069021500e0d84c90268a48c6aab7323bb1b",
-  "run_id": "42369228915"
+  "commit": "83b76f3d30ca86527600eedebcb1c33157f44eb0",
+  "run_id": "42477720660"
  },
  "ficha": {
-  "id": "sha256:14f988b033567360b4a8f76d345ae7d37c96b2dafaf43a6e120129553fd01784",
+  "id": "sha256:3fd32cd81013504dfc9a6b47989dd1f77180267fdd2914d05edb15df793aa467",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/termos-de-intimacao-das-penas-dos-editais-tipe.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'termos-de-intimacao-das-penas-dos-editais-tipe' (ANEEL), 2026-11-07, sha256:14f988b033567360…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'termos-de-intimacao-das-penas-dos-editais-tipe' (ANEEL), 2026-11-07, sha256:14f988b033567360…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe"
+   "en": "5L-TEP Layer 5 record of 'termos-de-intimacao-das-penas-dos-editais-tipe' (ANEEL), 2026-11-08, sha256:3fd32cd81013504d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'termos-de-intimacao-das-penas-dos-editais-tipe' (ANEEL), 2026-11-08, sha256:3fd32cd81013504d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=termos-de-intimacao-das-penas-dos-editais-tipe"
   }
  }
 }

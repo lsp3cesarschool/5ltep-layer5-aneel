@@ -56,7 +56,7 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-07T05:47:42+00:00",
+   "evaluated_at": "2026-11-08T05:50:12+00:00",
    "current": true,
    "facts": {
     "observations": 92,
@@ -139,30 +139,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-07T05:48:10.330520+00:00",
+   "generated_at": "2026-11-08T05:51:30.225324+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "60a2d45cd73bcd4bc73ef3c350854cd90e9bf266",
-      "date": "2026-11-07T05:48:10Z"
+      "sha": "d02e95b3710041e503647fa9199b0f50e1f8c44a",
+      "date": "2026-11-08T05:51:30Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "d9d064ff0b9f0d1c8e0823648d8a49161e3d0354",
-      "date": "2026-11-07T10:31:23Z"
+      "sha": "f9a5af9260fe753710aafff4123e26a201f684ce",
+      "date": "2026-11-08T10:39:02Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "60a2d45cd73bcd4bc73ef3c350854cd90e9bf266",
-      "date": "2026-11-07T05:48:10Z"
+      "sha": "d02e95b3710041e503647fa9199b0f50e1f8c44a",
+      "date": "2026-11-08T05:51:30Z"
      }
     }
    ],
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-07T11:41:30+00:00",
+ "generated_at": "2026-11-08T11:53:42+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "7ae3069021500e0d84c90268a48c6aab7323bb1b",
-  "run_id": "42369228915"
+  "commit": "83b76f3d30ca86527600eedebcb1c33157f44eb0",
+  "run_id": "42477720660"
  },
  "ficha": {
-  "id": "sha256:b0c07502483f3663013cdfc6630316028f6dc468e2a870adf080e503d628e7d2",
+  "id": "sha256:a884189a36ac8dcc5c85e5ca096ea8f59f2e5a3de857a91b3797e05d9bf35728",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=projetos-de-p-d-temas-estrategicos",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/projetos-de-p-d-temas-estrategicos.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'projetos-de-p-d-temas-estrategicos' (ANEEL), 2026-11-07, sha256:b0c07502483f3663…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=projetos-de-p-d-temas-estrategicos",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'projetos-de-p-d-temas-estrategicos' (ANEEL), 2026-11-07, sha256:b0c07502483f3663…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=projetos-de-p-d-temas-estrategicos"
+   "en": "5L-TEP Layer 5 record of 'projetos-de-p-d-temas-estrategicos' (ANEEL), 2026-11-08, sha256:a884189a36ac8dcc…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=projetos-de-p-d-temas-estrategicos",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'projetos-de-p-d-temas-estrategicos' (ANEEL), 2026-11-08, sha256:a884189a36ac8dcc…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=projetos-de-p-d-temas-estrategicos"
   }
  }
 }
