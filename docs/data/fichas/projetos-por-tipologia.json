@@ -4,7 +4,7 @@
   "title": "Projetos por tipologia (descontinuado)",
   "id": "8ea45cdf-0031-44c8-9524-e400aaf86a06",
   "resources": 4,
-  "last_change": "2026-11-07T05:47:42+00:00",
+  "last_change": "2026-11-08T13:13:17+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/8ea45cdf-0031-44c8-9524-e400aaf86a06#b4c18c1e662a",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/projetos-por-tipologia"
@@ -56,7 +56,7 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-08T05:50:12+00:00",
+   "evaluated_at": "2026-11-09T06:01:56+00:00",
    "current": true,
    "facts": {
     "observations": 92,
@@ -139,30 +139,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-08T05:51:30.225324+00:00",
+   "generated_at": "2026-11-09T06:02:57.031606+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "d02e95b3710041e503647fa9199b0f50e1f8c44a",
-      "date": "2026-11-08T05:51:30Z"
+      "sha": "401f39caa281e8a5187f883ec38d48301783149d",
+      "date": "2026-11-09T06:02:57Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "f9a5af9260fe753710aafff4123e26a201f684ce",
-      "date": "2026-11-08T10:39:02Z"
+      "sha": "5c1d5247654b84ab6c969c7ecefce364022413a8",
+      "date": "2026-11-09T11:55:53Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "d02e95b3710041e503647fa9199b0f50e1f8c44a",
-      "date": "2026-11-08T05:51:30Z"
+      "sha": "401f39caa281e8a5187f883ec38d48301783149d",
+      "date": "2026-11-09T06:02:57Z"
      }
     }
    ],
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-08T11:53:42+00:00",
+ "generated_at": "2026-11-09T13:50:17+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "83b76f3d30ca86527600eedebcb1c33157f44eb0",
-  "run_id": "42477720660"
+  "commit": "452c304acec03be01971a0070a14663302fcd939",
+  "run_id": "42628958296"
  },
  "ficha": {
-  "id": "sha256:0d9aa27bf4dd31cff5138085a0bac2a2f866d411565fe6b74a29e83e673361f7",
+  "id": "sha256:b60599ec431ddbbc2fe2690dfa2377511c25668a4bf8cc5462e75aaa666c7fae",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=projetos-por-tipologia",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/projetos-por-tipologia.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'projetos-por-tipologia' (ANEEL), 2026-11-08, sha256:0d9aa27bf4dd31cf…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=projetos-por-tipologia",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'projetos-por-tipologia' (ANEEL), 2026-11-08, sha256:0d9aa27bf4dd31cf…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=projetos-por-tipologia"
+   "en": "5L-TEP Layer 5 record of 'projetos-por-tipologia' (ANEEL), 2026-11-09, sha256:b60599ec431ddbbc…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=projetos-por-tipologia",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'projetos-por-tipologia' (ANEEL), 2026-11-09, sha256:b60599ec431ddbbc…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=projetos-por-tipologia"
   }
  }
 }
