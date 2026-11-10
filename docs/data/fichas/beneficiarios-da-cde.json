@@ -362,19 +362,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T12:09:33+00:00",
+ "generated_at": "2026-11-10T13:26:02+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "766361ad5b0ba1b9395e17c64c71786b30222b60",
-  "run_id": "42813350077"
+  "commit": "f1fdfd88d5c29c1eb522020c5d339cea0c3e8e78",
+  "run_id": "42824450974"
  },
  "ficha": {
-  "id": "sha256:f6dd348f54309787515306d0ec9fc328a9e2910caff1be1fc86fb10fa88064d5",
+  "id": "sha256:cbd05e5650aece4c6584aac6e2415fbdead52e9031a1a0bf9102df29ef1c2282",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=beneficiarios-da-cde",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/beneficiarios-da-cde.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'beneficiarios-da-cde' (ANEEL), 2026-11-10, sha256:f6dd348f54309787…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=beneficiarios-da-cde",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'beneficiarios-da-cde' (ANEEL), 2026-11-10, sha256:f6dd348f54309787…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=beneficiarios-da-cde"
+   "en": "5L-TEP Layer 5 record of 'beneficiarios-da-cde' (ANEEL), 2026-11-10, sha256:cbd05e5650aece4c…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=beneficiarios-da-cde",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'beneficiarios-da-cde' (ANEEL), 2026-11-10, sha256:cbd05e5650aece4c…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=beneficiarios-da-cde"
   }
  }
 }

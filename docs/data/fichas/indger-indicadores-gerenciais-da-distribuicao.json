@@ -269,19 +269,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T12:09:33+00:00",
+ "generated_at": "2026-11-10T13:26:02+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "766361ad5b0ba1b9395e17c64c71786b30222b60",
-  "run_id": "42813350077"
+  "commit": "f1fdfd88d5c29c1eb522020c5d339cea0c3e8e78",
+  "run_id": "42824450974"
  },
  "ficha": {
-  "id": "sha256:f75b7af2d048f364e338597b9450cdfbbd01cf7e14228d501e0497ebf1380f85",
+  "id": "sha256:7953e24e85368e583773e1283a4fa3d840f006f2165031fa9c5a656542febf08",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indger-indicadores-gerenciais-da-distribuicao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/indger-indicadores-gerenciais-da-distribuicao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'indger-indicadores-gerenciais-da-distribuicao' (ANEEL), 2026-11-10, sha256:f75b7af2d048f364…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indger-indicadores-gerenciais-da-distribuicao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'indger-indicadores-gerenciais-da-distribuicao' (ANEEL), 2026-11-10, sha256:f75b7af2d048f364…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indger-indicadores-gerenciais-da-distribuicao"
+   "en": "5L-TEP Layer 5 record of 'indger-indicadores-gerenciais-da-distribuicao' (ANEEL), 2026-11-10, sha256:7953e24e85368e58…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indger-indicadores-gerenciais-da-distribuicao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'indger-indicadores-gerenciais-da-distribuicao' (ANEEL), 2026-11-10, sha256:7953e24e85368e58…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indger-indicadores-gerenciais-da-distribuicao"
   }
  }
 }

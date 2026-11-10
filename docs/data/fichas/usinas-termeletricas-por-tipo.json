@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T12:09:33+00:00",
+ "generated_at": "2026-11-10T13:26:02+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "766361ad5b0ba1b9395e17c64c71786b30222b60",
-  "run_id": "42813350077"
+  "commit": "f1fdfd88d5c29c1eb522020c5d339cea0c3e8e78",
+  "run_id": "42824450974"
  },
  "ficha": {
-  "id": "sha256:6b24e01d1d96366926e1441a21ec15073367fb4a6d71b92932f1c9b69261edc9",
+  "id": "sha256:8158501f3872c4ca518ff86272432158d90fd8f8f934c58898c6e2b7cdc99763",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=usinas-termeletricas-por-tipo",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/usinas-termeletricas-por-tipo.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'usinas-termeletricas-por-tipo' (ANEEL), 2026-11-10, sha256:6b24e01d1d963669…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=usinas-termeletricas-por-tipo",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'usinas-termeletricas-por-tipo' (ANEEL), 2026-11-10, sha256:6b24e01d1d963669…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=usinas-termeletricas-por-tipo"
+   "en": "5L-TEP Layer 5 record of 'usinas-termeletricas-por-tipo' (ANEEL), 2026-11-10, sha256:8158501f3872c4ca…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=usinas-termeletricas-por-tipo",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'usinas-termeletricas-por-tipo' (ANEEL), 2026-11-10, sha256:8158501f3872c4ca…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=usinas-termeletricas-por-tipo"
   }
  }
 }

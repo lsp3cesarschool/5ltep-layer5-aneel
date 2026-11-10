@@ -231,19 +231,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T12:09:33+00:00",
+ "generated_at": "2026-11-10T13:26:02+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "766361ad5b0ba1b9395e17c64c71786b30222b60",
-  "run_id": "42813350077"
+  "commit": "f1fdfd88d5c29c1eb522020c5d339cea0c3e8e78",
+  "run_id": "42824450974"
  },
  "ficha": {
-  "id": "sha256:5c03aa23e0e4a029df5f565d158e2953ad0d45960d8da5922cf117266c9d0d4a",
+  "id": "sha256:d050cdb3225f5bef23e6fd0977193c509e79cbbec7f74c63c62ca5d91012e8e5",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=reunioes-publicas-da-diretoria",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/reunioes-publicas-da-diretoria.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'reunioes-publicas-da-diretoria' (ANEEL), 2026-11-10, sha256:5c03aa23e0e4a029…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=reunioes-publicas-da-diretoria",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'reunioes-publicas-da-diretoria' (ANEEL), 2026-11-10, sha256:5c03aa23e0e4a029…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=reunioes-publicas-da-diretoria"
+   "en": "5L-TEP Layer 5 record of 'reunioes-publicas-da-diretoria' (ANEEL), 2026-11-10, sha256:d050cdb3225f5bef…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=reunioes-publicas-da-diretoria",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'reunioes-publicas-da-diretoria' (ANEEL), 2026-11-10, sha256:d050cdb3225f5bef…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=reunioes-publicas-da-diretoria"
   }
  }
 }

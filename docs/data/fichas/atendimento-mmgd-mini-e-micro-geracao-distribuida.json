@@ -231,19 +231,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T12:09:33+00:00",
+ "generated_at": "2026-11-10T13:26:02+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "766361ad5b0ba1b9395e17c64c71786b30222b60",
-  "run_id": "42813350077"
+  "commit": "f1fdfd88d5c29c1eb522020c5d339cea0c3e8e78",
+  "run_id": "42824450974"
  },
  "ficha": {
-  "id": "sha256:a682f3d46d531185fdb9cd03966ed651bef91928d77bd608bb5170672c97a583",
+  "id": "sha256:41dbc15492836dc04f03cc1648cd405e260fff71844a4d0a11690b3885999fc9",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=atendimento-mmgd-mini-e-micro-geracao-distribuida",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/atendimento-mmgd-mini-e-micro-geracao-distribuida.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'atendimento-mmgd-mini-e-micro-geracao-distribuida' (ANEEL), 2026-11-10, sha256:a682f3d46d531185…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=atendimento-mmgd-mini-e-micro-geracao-distribuida",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'atendimento-mmgd-mini-e-micro-geracao-distribuida' (ANEEL), 2026-11-10, sha256:a682f3d46d531185…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=atendimento-mmgd-mini-e-micro-geracao-distribuida"
+   "en": "5L-TEP Layer 5 record of 'atendimento-mmgd-mini-e-micro-geracao-distribuida' (ANEEL), 2026-11-10, sha256:41dbc15492836dc0…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=atendimento-mmgd-mini-e-micro-geracao-distribuida",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'atendimento-mmgd-mini-e-micro-geracao-distribuida' (ANEEL), 2026-11-10, sha256:41dbc15492836dc0…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=atendimento-mmgd-mini-e-micro-geracao-distribuida"
   }
  }
 }

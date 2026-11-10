@@ -231,19 +231,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T12:09:33+00:00",
+ "generated_at": "2026-11-10T13:26:02+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "766361ad5b0ba1b9395e17c64c71786b30222b60",
-  "run_id": "42813350077"
+  "commit": "f1fdfd88d5c29c1eb522020c5d339cea0c3e8e78",
+  "run_id": "42824450974"
  },
  "ficha": {
-  "id": "sha256:d89087297c494c75bc2731f13fab2fdeb41b0713e667a85be0cd08ab12b7d75f",
+  "id": "sha256:24cb0b0c583c48e1a69c6828588fe29b4a18724d3f2113400d8f93dda8bbcfb6",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=agentes-do-setor-eletrico",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/agentes-do-setor-eletrico.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'agentes-do-setor-eletrico' (ANEEL), 2026-11-10, sha256:d89087297c494c75…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=agentes-do-setor-eletrico",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'agentes-do-setor-eletrico' (ANEEL), 2026-11-10, sha256:d89087297c494c75…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=agentes-do-setor-eletrico"
+   "en": "5L-TEP Layer 5 record of 'agentes-do-setor-eletrico' (ANEEL), 2026-11-10, sha256:24cb0b0c583c48e1…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=agentes-do-setor-eletrico",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'agentes-do-setor-eletrico' (ANEEL), 2026-11-10, sha256:24cb0b0c583c48e1…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=agentes-do-setor-eletrico"
   }
  }
 }
