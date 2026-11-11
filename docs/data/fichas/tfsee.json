@@ -4,8 +4,8 @@
   "title": "TFSEE - Taxa de Fiscalização de Serviços de Energia Elétrica",
   "id": "738e425b-5554-4fe4-8a8a-2d163308e9ff",
   "resources": 2,
-  "last_change": "2026-11-09T16:00:10+00:00",
-  "last_type": "CONTENT_MOD",
+  "last_change": "2026-11-10T23:09:43+00:00",
+  "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/738e425b-5554-4fe4-8a8a-2d163308e9ff#f399f1db840d",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/tfsee"
  },
@@ -56,17 +56,33 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-10T01:26:17+00:00",
+   "evaluated_at": "2026-11-11T05:56:58+00:00",
    "current": true,
    "facts": {
     "observations": 91,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/738e425b-5554-4fe4-8a8a-2d163308e9ff#f399f1db840d"
    },
-   "signals": []
+   "signals": [
+    {
+     "key": "L4:cross_check:tfsee",
+     "count": 1,
+     "en": "unreconciled divergence in the independent cross-check",
+     "pt": "divergência não reconciliada no cross-check independente"
+    }
+   ]
   }
  },
  "findings": [
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:cross_check:tfsee",
+   "count": 1,
+   "when": null,
+   "en": "unreconciled divergence in the independent cross-check",
+   "pt": "divergência não reconciliada no cross-check independente"
+  },
   {
    "layer": "L4",
    "kind": "simultaneous",
@@ -301,7 +317,21 @@
   }
  ],
  "outcomes": {
-  "open": [],
+  "open": [
+   {
+    "key": "L4:cross_check:tfsee",
+    "layer": "L4",
+    "first_reported": "2026-11-11T12:40:22+00:00",
+    "count": 1,
+    "evaluated_at": "2026-11-11T05:56:58+00:00",
+    "status": "reported",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
+    "digests": {
+     "3ff1ab0a-0d0c-4fc6-b52e-050ee6ea19bd": "1a49284c37d4e002a0aab88a659f9a3212f0dd422733e2c8874eda2f73203051"
+    }
+   }
+  ],
   "closed": [
    {
     "layer": "L4",
@@ -417,14 +447,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-10T12:03:11+00:00",
+   "generated_at": "2026-11-11T12:01:04+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
      "commit": {
-      "sha": "d49c0877d2fed5a2a8577bc4e68cc3231c2dbe33",
-      "date": "2026-11-10T12:03:28Z"
+      "sha": "4cbc1c3e88697fb10c636cdf4209a0c7b60e6734",
+      "date": "2026-11-11T12:01:18Z"
      }
     }
    ],
@@ -457,30 +487,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-10T01:27:04.052134+00:00",
+   "generated_at": "2026-11-11T05:57:29.638883+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "f39fc3f3bb4555bfe9aedb2e911a3089daa60867",
-      "date": "2026-11-10T01:27:04Z"
+      "sha": "c76420b57e94d8f58401824bb7e014772ccac771",
+      "date": "2026-11-11T05:57:30Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "535920e8a4114e94e7c954a59d5a3eed154339f4",
-      "date": "2026-11-10T11:33:10Z"
+      "sha": "6e9dbdc7f6f31b82700520ced2ad57a243cadb61",
+      "date": "2026-11-11T11:18:49Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "f39fc3f3bb4555bfe9aedb2e911a3089daa60867",
-      "date": "2026-11-10T01:27:04Z"
+      "sha": "c76420b57e94d8f58401824bb7e014772ccac771",
+      "date": "2026-11-11T05:57:30Z"
      }
     }
    ],
@@ -532,19 +562,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T13:26:02+00:00",
+ "generated_at": "2026-11-11T12:40:22+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "f1fdfd88d5c29c1eb522020c5d339cea0c3e8e78",
-  "run_id": "42824450974"
+  "commit": "0d2609cd99697f333d94beb22951c5648533722a",
+  "run_id": "43022345043"
  },
  "ficha": {
-  "id": "sha256:e38b3b616d8e6dc4f67c1ce75a13d294fbd64f3d26ed05203e86975621d7a145",
+  "id": "sha256:211c48ad43bd149e0060f2f5569d1847babb365072823f24553408852a26c96b",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tfsee",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/tfsee.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'tfsee' (ANEEL), 2026-11-10, sha256:e38b3b616d8e6dc4…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tfsee",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'tfsee' (ANEEL), 2026-11-10, sha256:e38b3b616d8e6dc4…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tfsee"
+   "en": "5L-TEP Layer 5 record of 'tfsee' (ANEEL), 2026-11-11, sha256:211c48ad43bd149e…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tfsee",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'tfsee' (ANEEL), 2026-11-11, sha256:211c48ad43bd149e…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tfsee"
   }
  }
 }

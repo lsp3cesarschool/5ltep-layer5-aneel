@@ -4,7 +4,7 @@
   "title": "Indicadores Coletivos de Continuidade (DEC e FEC)",
   "id": "d5f0712e-62f6-4736-8dff-9991f10758a7",
   "resources": 17,
-  "last_change": "2026-11-10T01:26:17+00:00",
+  "last_change": "2026-11-11T05:56:58+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/d5f0712e-62f6-4736-8dff-9991f10758a7#b19dfade85cf",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/indicadores-coletivos-de-continuidade-dec-e-fec"
@@ -64,7 +64,7 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-10T01:26:17+00:00",
+   "evaluated_at": "2026-11-11T05:56:58+00:00",
    "current": true,
    "facts": {
     "observations": 91,
@@ -157,14 +157,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-10T12:03:11+00:00",
+   "generated_at": "2026-11-11T12:01:04+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
      "commit": {
-      "sha": "d49c0877d2fed5a2a8577bc4e68cc3231c2dbe33",
-      "date": "2026-11-10T12:03:28Z"
+      "sha": "4cbc1c3e88697fb10c636cdf4209a0c7b60e6734",
+      "date": "2026-11-11T12:01:18Z"
      }
     }
    ],
@@ -197,30 +197,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-10T01:27:04.052134+00:00",
+   "generated_at": "2026-11-11T05:57:29.638883+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "f39fc3f3bb4555bfe9aedb2e911a3089daa60867",
-      "date": "2026-11-10T01:27:04Z"
+      "sha": "c76420b57e94d8f58401824bb7e014772ccac771",
+      "date": "2026-11-11T05:57:30Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "535920e8a4114e94e7c954a59d5a3eed154339f4",
-      "date": "2026-11-10T11:33:10Z"
+      "sha": "6e9dbdc7f6f31b82700520ced2ad57a243cadb61",
+      "date": "2026-11-11T11:18:49Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "f39fc3f3bb4555bfe9aedb2e911a3089daa60867",
-      "date": "2026-11-10T01:27:04Z"
+      "sha": "c76420b57e94d8f58401824bb7e014772ccac771",
+      "date": "2026-11-11T05:57:30Z"
      }
     }
    ],
@@ -272,19 +272,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T13:26:02+00:00",
+ "generated_at": "2026-11-11T12:40:22+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "f1fdfd88d5c29c1eb522020c5d339cea0c3e8e78",
-  "run_id": "42824450974"
+  "commit": "0d2609cd99697f333d94beb22951c5648533722a",
+  "run_id": "43022345043"
  },
  "ficha": {
-  "id": "sha256:643b050ba870d3d034717c39d67428e9a858121a7f489e01f2d767f4680015e4",
+  "id": "sha256:42f9606761bc5c5509ba6d056b0b1a46f5118b590cd20ffb52096ed2f8fa2764",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indicadores-coletivos-de-continuidade-dec-e-fec",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/indicadores-coletivos-de-continuidade-dec-e-fec.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'indicadores-coletivos-de-continuidade-dec-e-fec' (ANEEL), 2026-11-10, sha256:643b050ba870d3d0…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indicadores-coletivos-de-continuidade-dec-e-fec",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'indicadores-coletivos-de-continuidade-dec-e-fec' (ANEEL), 2026-11-10, sha256:643b050ba870d3d0…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indicadores-coletivos-de-continuidade-dec-e-fec"
+   "en": "5L-TEP Layer 5 record of 'indicadores-coletivos-de-continuidade-dec-e-fec' (ANEEL), 2026-11-11, sha256:42f9606761bc5c55…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indicadores-coletivos-de-continuidade-dec-e-fec",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'indicadores-coletivos-de-continuidade-dec-e-fec' (ANEEL), 2026-11-11, sha256:42f9606761bc5c55…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indicadores-coletivos-de-continuidade-dec-e-fec"
   }
  }
 }

@@ -4,9 +4,9 @@
   "title": "Bandeiras Tarifárias",
   "id": "7f43a020-6dc5-44b8-80b4-d97eaa94436c",
   "resources": 6,
-  "last_change": "2026-11-10T01:26:17+00:00",
+  "last_change": "2026-11-11T05:56:58+00:00",
   "last_type": "NOT_FINGERPRINTED",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/7f43a020-6dc5-44b8-80b4-d97eaa94436c#8f31da949031",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/7f43a020-6dc5-44b8-80b4-d97eaa94436c#e3912c3136c2",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/bandeiras-tarifarias"
  },
  "qs": {
@@ -56,32 +56,24 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-10T01:26:17+00:00",
+   "evaluated_at": "2026-11-11T05:56:58+00:00",
    "current": true,
    "facts": {
     "observations": 91,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/7f43a020-6dc5-44b8-80b4-d97eaa94436c#8f31da949031"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/7f43a020-6dc5-44b8-80b4-d97eaa94436c#e3912c3136c2"
    },
-   "signals": [
-    {
-     "key": "L4:cross_check:bandeiras-tarifarias",
-     "count": 1,
-     "en": "unreconciled divergence in the independent cross-check",
-     "pt": "divergência não reconciliada no cross-check independente"
-    }
-   ]
+   "signals": []
   }
  },
  "findings": [
   {
    "layer": "L4",
-   "kind": "signal",
-   "key": "L4:cross_check:bandeiras-tarifarias",
-   "count": 1,
-   "when": null,
-   "en": "unreconciled divergence in the independent cross-check",
-   "pt": "divergência não reconciliada no cross-check independente"
+   "kind": "simultaneous",
+   "when": "2026-11-10T14:45:18+00:00",
+   "count": 7,
+   "en": "CONTENT_MOD in 7 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 7 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -133,23 +125,7 @@
   }
  ],
  "outcomes": {
-  "open": [
-   {
-    "key": "L4:cross_check:bandeiras-tarifarias",
-    "layer": "L4",
-    "first_reported": "2026-11-10T12:09:33+00:00",
-    "count": 1,
-    "evaluated_at": "2026-11-10T01:26:17+00:00",
-    "status": "not_reassessed",
-    "en": "unreconciled divergence in the independent cross-check",
-    "pt": "divergência não reconciliada no cross-check independente",
-    "digests": {
-     "5879ca80-b3bd-45b1-a135-d9b77c1d5b36": "a470305069a3b2571cfe1b41c11ef638ad0cd1bcabeeae955a20d670bf375cfa",
-     "0591b8f6-fe54-437b-b72b-1aa2efd46e42": "3a6504604dc21123576430769ac50c9ddf740638c942fb4c7312381035379c6c",
-     "e62b61dd-0a27-41b6-b1d2-19faa6c61501": "413b0755f0404228f011d45351d8393b2c712462315131f3614000656b2f093b"
-    }
-   }
-  ],
+  "open": [],
   "closed": [
    {
     "layer": "L4",
@@ -207,6 +183,25 @@
     "dataset": "bandeiras-tarifarias",
     "outcome": "remediated_observed",
     "at": "2026-11-03T12:44:34+00:00"
+   },
+   {
+    "layer": "L4",
+    "first_reported": "2026-11-10T12:09:33+00:00",
+    "count": 1,
+    "evaluated_at": "2026-11-10T01:26:17+00:00",
+    "status": "remediated_observed",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
+    "digests": {
+     "5879ca80-b3bd-45b1-a135-d9b77c1d5b36": "a470305069a3b2571cfe1b41c11ef638ad0cd1bcabeeae955a20d670bf375cfa",
+     "0591b8f6-fe54-437b-b72b-1aa2efd46e42": "3a6504604dc21123576430769ac50c9ddf740638c942fb4c7312381035379c6c",
+     "e62b61dd-0a27-41b6-b1d2-19faa6c61501": "413b0755f0404228f011d45351d8393b2c712462315131f3614000656b2f093b"
+    },
+    "first_change_seen": "2026-11-11T12:40:22+00:00",
+    "key": "L4:cross_check:bandeiras-tarifarias",
+    "dataset": "bandeiras-tarifarias",
+    "outcome": "remediated_observed",
+    "at": "2026-11-11T12:40:22+00:00"
    }
   ]
  },
@@ -238,14 +233,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-10T12:03:11+00:00",
+   "generated_at": "2026-11-11T12:01:04+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
      "commit": {
-      "sha": "d49c0877d2fed5a2a8577bc4e68cc3231c2dbe33",
-      "date": "2026-11-10T12:03:28Z"
+      "sha": "4cbc1c3e88697fb10c636cdf4209a0c7b60e6734",
+      "date": "2026-11-11T12:01:18Z"
      }
     }
    ],
@@ -278,30 +273,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-10T01:27:04.052134+00:00",
+   "generated_at": "2026-11-11T05:57:29.638883+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "f39fc3f3bb4555bfe9aedb2e911a3089daa60867",
-      "date": "2026-11-10T01:27:04Z"
+      "sha": "c76420b57e94d8f58401824bb7e014772ccac771",
+      "date": "2026-11-11T05:57:30Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "535920e8a4114e94e7c954a59d5a3eed154339f4",
-      "date": "2026-11-10T11:33:10Z"
+      "sha": "6e9dbdc7f6f31b82700520ced2ad57a243cadb61",
+      "date": "2026-11-11T11:18:49Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "f39fc3f3bb4555bfe9aedb2e911a3089daa60867",
-      "date": "2026-11-10T01:27:04Z"
+      "sha": "c76420b57e94d8f58401824bb7e014772ccac771",
+      "date": "2026-11-11T05:57:30Z"
      }
     }
    ],
@@ -353,19 +348,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T13:26:02+00:00",
+ "generated_at": "2026-11-11T12:40:22+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "f1fdfd88d5c29c1eb522020c5d339cea0c3e8e78",
-  "run_id": "42824450974"
+  "commit": "0d2609cd99697f333d94beb22951c5648533722a",
+  "run_id": "43022345043"
  },
  "ficha": {
-  "id": "sha256:9572046a3901b04b51f908adc36beee06e7127dd9b8be9b1f4f4f8652823f695",
+  "id": "sha256:d9ad193e2811e813e289a6363cf3d16804ad2ba3dd9e1922661409e11a6afef2",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bandeiras-tarifarias",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/bandeiras-tarifarias.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'bandeiras-tarifarias' (ANEEL), 2026-11-10, sha256:9572046a3901b04b…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bandeiras-tarifarias",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'bandeiras-tarifarias' (ANEEL), 2026-11-10, sha256:9572046a3901b04b…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bandeiras-tarifarias"
+   "en": "5L-TEP Layer 5 record of 'bandeiras-tarifarias' (ANEEL), 2026-11-11, sha256:d9ad193e2811e813…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bandeiras-tarifarias",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'bandeiras-tarifarias' (ANEEL), 2026-11-11, sha256:d9ad193e2811e813…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=bandeiras-tarifarias"
   }
  }
 }

@@ -4,7 +4,7 @@
   "title": "Empreendimento hidrelétrico em estudo",
   "id": "fb81a809-e0eb-4acb-b589-3130380cd9f4",
   "resources": 3,
-  "last_change": "2026-11-08T05:50:12+00:00",
+  "last_change": "2026-11-10T23:09:43+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/fb81a809-e0eb-4acb-b589-3130380cd9f4#21bd2acb305e",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/empreendimento-hidreletrico-em-estudo"
@@ -56,7 +56,7 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-10T01:26:17+00:00",
+   "evaluated_at": "2026-11-11T05:56:58+00:00",
    "current": true,
    "facts": {
     "observations": 91,
@@ -108,14 +108,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-10T12:03:11+00:00",
+   "generated_at": "2026-11-11T12:01:04+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
      "commit": {
-      "sha": "d49c0877d2fed5a2a8577bc4e68cc3231c2dbe33",
-      "date": "2026-11-10T12:03:28Z"
+      "sha": "4cbc1c3e88697fb10c636cdf4209a0c7b60e6734",
+      "date": "2026-11-11T12:01:18Z"
      }
     }
    ],
@@ -148,30 +148,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-10T01:27:04.052134+00:00",
+   "generated_at": "2026-11-11T05:57:29.638883+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "f39fc3f3bb4555bfe9aedb2e911a3089daa60867",
-      "date": "2026-11-10T01:27:04Z"
+      "sha": "c76420b57e94d8f58401824bb7e014772ccac771",
+      "date": "2026-11-11T05:57:30Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "535920e8a4114e94e7c954a59d5a3eed154339f4",
-      "date": "2026-11-10T11:33:10Z"
+      "sha": "6e9dbdc7f6f31b82700520ced2ad57a243cadb61",
+      "date": "2026-11-11T11:18:49Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "f39fc3f3bb4555bfe9aedb2e911a3089daa60867",
-      "date": "2026-11-10T01:27:04Z"
+      "sha": "c76420b57e94d8f58401824bb7e014772ccac771",
+      "date": "2026-11-11T05:57:30Z"
      }
     }
    ],
@@ -223,19 +223,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T13:26:02+00:00",
+ "generated_at": "2026-11-11T12:40:22+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "f1fdfd88d5c29c1eb522020c5d339cea0c3e8e78",
-  "run_id": "42824450974"
+  "commit": "0d2609cd99697f333d94beb22951c5648533722a",
+  "run_id": "43022345043"
  },
  "ficha": {
-  "id": "sha256:16c065bebf4a3f6810e67bd8aa4c0f00e62e9c758af7f9a5809e81fa3a094951",
+  "id": "sha256:6444f52a5c29c466879da0fa2e947b01b900e72fd8395774e37ae08c1cd7e5a2",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=empreendimento-hidreletrico-em-estudo",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/empreendimento-hidreletrico-em-estudo.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'empreendimento-hidreletrico-em-estudo' (ANEEL), 2026-11-10, sha256:16c065bebf4a3f68…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=empreendimento-hidreletrico-em-estudo",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'empreendimento-hidreletrico-em-estudo' (ANEEL), 2026-11-10, sha256:16c065bebf4a3f68…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=empreendimento-hidreletrico-em-estudo"
+   "en": "5L-TEP Layer 5 record of 'empreendimento-hidreletrico-em-estudo' (ANEEL), 2026-11-11, sha256:6444f52a5c29c466…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=empreendimento-hidreletrico-em-estudo",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'empreendimento-hidreletrico-em-estudo' (ANEEL), 2026-11-11, sha256:6444f52a5c29c466…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=empreendimento-hidreletrico-em-estudo"
   }
  }
 }
