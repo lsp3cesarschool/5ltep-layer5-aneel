@@ -4,7 +4,7 @@
   "title": "Atendimento às Ocorrências Emergenciais",
   "id": "dcdff65d-d173-4d2e-a3b9-84eec7702f06",
   "resources": 3,
-  "last_change": "2026-11-10T23:09:43+00:00",
+  "last_change": "2026-11-12T00:30:56+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/dcdff65d-d173-4d2e-a3b9-84eec7702f06#9d7515c8b961",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/atendimento-ocorrencias-emergenciais"
@@ -12,19 +12,19 @@
  "qs": {
   "kind": "partial",
   "factor": 1.0,
-  "coverage": 0.5,
+  "coverage": 0.3,
   "valid_layers": [
-   "L1",
-   "L4"
+   "L1"
   ],
   "integrity": [],
-  "low": 0.2,
+  "low": 0.0,
   "high": 0.7,
   "band": "alert",
   "eligible": false,
   "missing_layers": [
    "L2",
-   "L3"
+   "L3",
+   "L4"
   ]
  },
  "layers": {
@@ -68,13 +68,13 @@
    "signals": []
   },
   "L4": {
-   "status": "valid",
-   "reason": null,
+   "status": "expired",
+   "reason": "summary_too_old",
    "rate": 1.0,
-   "evaluated_at": "2026-11-11T05:56:58+00:00",
-   "current": true,
+   "evaluated_at": "2026-11-12T00:30:56+00:00",
+   "current": null,
    "facts": {
-    "observations": 91,
+    "observations": 92,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/dcdff65d-d173-4d2e-a3b9-84eec7702f06#9d7515c8b961"
    },
@@ -195,30 +195,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-11T05:57:29.638883+00:00",
+   "generated_at": "2026-11-12T00:31:46.896526+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "c76420b57e94d8f58401824bb7e014772ccac771",
-      "date": "2026-11-11T05:57:30Z"
+      "sha": "9076c4fbcd1a63fa36088925eb62b297c8ce5ba5",
+      "date": "2026-11-12T00:31:47Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "6e9dbdc7f6f31b82700520ced2ad57a243cadb61",
-      "date": "2026-11-11T11:18:49Z"
+      "sha": "10d2e24d0fa5ce94297f1909c6b2903351d06f9b",
+      "date": "2026-11-12T11:37:09Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "c76420b57e94d8f58401824bb7e014772ccac771",
-      "date": "2026-11-11T05:57:30Z"
+      "sha": "9076c4fbcd1a63fa36088925eb62b297c8ce5ba5",
+      "date": "2026-11-12T00:31:47Z"
      }
     }
    ],
@@ -270,19 +270,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-11T12:40:22+00:00",
+ "generated_at": "2026-11-12T13:43:33+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "0d2609cd99697f333d94beb22951c5648533722a",
-  "run_id": "43022345043"
+  "commit": "a1a5a349edb45b5f7999a4e43d7f10b669b7455b",
+  "run_id": "43230011138"
  },
  "ficha": {
-  "id": "sha256:5fe76d3cb504056545e0685890b1d98301bdc2a06b5d29ae08f894417baf838f",
+  "id": "sha256:dea02ca1e3690b9853f5a45eb0e63ddcf0181d5c0efa5357e9c47fd6dc67c4d8",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=atendimento-ocorrencias-emergenciais",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/atendimento-ocorrencias-emergenciais.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'atendimento-ocorrencias-emergenciais' (ANEEL), 2026-11-11, sha256:5fe76d3cb5040565…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=atendimento-ocorrencias-emergenciais",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'atendimento-ocorrencias-emergenciais' (ANEEL), 2026-11-11, sha256:5fe76d3cb5040565…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=atendimento-ocorrencias-emergenciais"
+   "en": "5L-TEP Layer 5 record of 'atendimento-ocorrencias-emergenciais' (ANEEL), 2026-11-12, sha256:dea02ca1e3690b98…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=atendimento-ocorrencias-emergenciais",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'atendimento-ocorrencias-emergenciais' (ANEEL), 2026-11-12, sha256:dea02ca1e3690b98…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=atendimento-ocorrencias-emergenciais"
   }
  }
 }

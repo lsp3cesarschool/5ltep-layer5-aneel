@@ -4,7 +4,7 @@
   "title": "Auto de Infração",
   "id": "4d690c9d-8158-4b04-ae44-7d3de8616271",
   "resources": 3,
-  "last_change": "2026-11-10T23:09:43+00:00",
+  "last_change": "2026-11-12T00:30:56+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271#0d113070fb0c",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/auto-de-infracao"
@@ -12,19 +12,19 @@
  "qs": {
   "kind": "partial",
   "factor": 1.0,
-  "coverage": 0.7,
+  "coverage": 0.5,
   "valid_layers": [
    "L2",
-   "L3",
-   "L4"
+   "L3"
   ],
   "integrity": [],
-  "low": 0.6911692693565976,
+  "low": 0.49116926935659766,
   "high": 0.9911692693565977,
   "band": "undetermined",
   "eligible": false,
   "missing_layers": [
-   "L1"
+   "L1",
+   "L4"
   ]
  },
  "layers": {
@@ -47,7 +47,7 @@
    "reason": null,
    "rate": 0.9983642311886587,
    "evaluated_at": "2026-11-11T12:01:03+00:00",
-   "current": true,
+   "current": false,
    "facts": {
     "rules": [
      "board-decision-before-appeal",
@@ -79,7 +79,7 @@
    "reason": null,
    "rate": 0.9583,
    "evaluated_at": "2026-11-05T14:05:51+00:00",
-   "current": true,
+   "current": false,
    "facts": {
     "profile": "aneel-autos-infracao",
     "window": [
@@ -99,13 +99,13 @@
    ]
   },
   "L4": {
-   "status": "valid",
-   "reason": null,
+   "status": "expired",
+   "reason": "summary_too_old",
    "rate": 1.0,
-   "evaluated_at": "2026-11-11T05:56:58+00:00",
-   "current": true,
+   "evaluated_at": "2026-11-12T00:30:56+00:00",
+   "current": null,
    "facts": {
-    "observations": 91,
+    "observations": 92,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271#0d113070fb0c"
    },
@@ -195,12 +195,13 @@
     "first_reported": "2026-11-11T12:40:22+00:00",
     "count": 1,
     "evaluated_at": "2026-11-11T12:01:03+00:00",
-    "status": "reported",
+    "status": "not_reassessed",
     "en": "1 signal(s) of rule 'Fine after appeal higher than the original' in 261 check(s)",
     "pt": "1 sinal(is) da regra 'Multa após recurso maior que a original' em 261 verificação(ões)",
     "digests": {
      "f221158a-93a3-423f-b794-4312b6985a24": "f3ef9fe8b40f487877ee4181acbc57937671547ca82c445f7d86ef68892fd4d7"
-    }
+    },
+    "first_change_seen": "2026-11-12T13:43:33+00:00"
    },
    {
     "key": "L2:notice-received-before-issue",
@@ -208,12 +209,13 @@
     "first_reported": "2026-11-11T12:40:22+00:00",
     "count": 5,
     "evaluated_at": "2026-11-11T12:01:03+00:00",
-    "status": "reported",
+    "status": "not_reassessed",
     "en": "5 signal(s) of rule 'Notice received before it was issued' in 1571 check(s)",
     "pt": "5 sinal(is) da regra 'Recebimento do auto anterior à lavratura' em 1571 verificação(ões)",
     "digests": {
      "f221158a-93a3-423f-b794-4312b6985a24": "f3ef9fe8b40f487877ee4181acbc57937671547ca82c445f7d86ef68892fd4d7"
-    }
+    },
+    "first_change_seen": "2026-11-12T13:43:33+00:00"
    }
   ],
   "closed": [
@@ -372,30 +374,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-11T05:57:29.638883+00:00",
+   "generated_at": "2026-11-12T00:31:46.896526+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "c76420b57e94d8f58401824bb7e014772ccac771",
-      "date": "2026-11-11T05:57:30Z"
+      "sha": "9076c4fbcd1a63fa36088925eb62b297c8ce5ba5",
+      "date": "2026-11-12T00:31:47Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "6e9dbdc7f6f31b82700520ced2ad57a243cadb61",
-      "date": "2026-11-11T11:18:49Z"
+      "sha": "10d2e24d0fa5ce94297f1909c6b2903351d06f9b",
+      "date": "2026-11-12T11:37:09Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "c76420b57e94d8f58401824bb7e014772ccac771",
-      "date": "2026-11-11T05:57:30Z"
+      "sha": "9076c4fbcd1a63fa36088925eb62b297c8ce5ba5",
+      "date": "2026-11-12T00:31:47Z"
      }
     }
    ],
@@ -447,19 +449,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-11T12:40:22+00:00",
+ "generated_at": "2026-11-12T13:43:33+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "0d2609cd99697f333d94beb22951c5648533722a",
-  "run_id": "43022345043"
+  "commit": "a1a5a349edb45b5f7999a4e43d7f10b669b7455b",
+  "run_id": "43230011138"
  },
  "ficha": {
-  "id": "sha256:baa923a72a2bb7b6fde140b25bfd7c921aff2c212d2cb3f6c4f858890686e7c4",
+  "id": "sha256:24c4e42976b1222ba97af6ecd67187ecc892a905bd07807b202869238da6fe34",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=auto-de-infracao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/auto-de-infracao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'auto-de-infracao' (ANEEL), 2026-11-11, sha256:baa923a72a2bb7b6…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=auto-de-infracao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'auto-de-infracao' (ANEEL), 2026-11-11, sha256:baa923a72a2bb7b6…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=auto-de-infracao"
+   "en": "5L-TEP Layer 5 record of 'auto-de-infracao' (ANEEL), 2026-11-12, sha256:24c4e42976b1222b…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=auto-de-infracao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'auto-de-infracao' (ANEEL), 2026-11-12, sha256:24c4e42976b1222b…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=auto-de-infracao"
   }
  }
 }

@@ -4,7 +4,7 @@
   "title": "Composição Societária - Polímero",
   "id": "cb79864b-0cfd-475a-8b7a-f8f23d86cf31",
   "resources": 3,
-  "last_change": "2026-11-10T23:09:43+00:00",
+  "last_change": "2026-11-12T00:30:56+00:00",
   "last_type": "NOT_FINGERPRINTED",
   "entity": "https://dadosabertos.aneel.gov.br/dataset/cb79864b-0cfd-475a-8b7a-f8f23d86cf31#86a607f769d6",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/composicao-societaria-polimero"
@@ -12,19 +12,19 @@
  "qs": {
   "kind": "partial",
   "factor": 1.0,
-  "coverage": 0.5,
+  "coverage": 0.3,
   "valid_layers": [
-   "L1",
-   "L4"
+   "L1"
   ],
   "integrity": [],
-  "low": 0.5,
+  "low": 0.3,
   "high": 1.0,
   "band": "undetermined",
   "eligible": false,
   "missing_layers": [
    "L2",
-   "L3"
+   "L3",
+   "L4"
   ]
  },
  "layers": {
@@ -61,13 +61,13 @@
    "signals": []
   },
   "L4": {
-   "status": "valid",
-   "reason": null,
+   "status": "expired",
+   "reason": "summary_too_old",
    "rate": 1.0,
-   "evaluated_at": "2026-11-11T05:56:58+00:00",
-   "current": true,
+   "evaluated_at": "2026-11-12T00:30:56+00:00",
+   "current": null,
    "facts": {
-    "observations": 91,
+    "observations": 92,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/cb79864b-0cfd-475a-8b7a-f8f23d86cf31#86a607f769d6"
    },
@@ -147,30 +147,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-11T05:57:29.638883+00:00",
+   "generated_at": "2026-11-12T00:31:46.896526+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "c76420b57e94d8f58401824bb7e014772ccac771",
-      "date": "2026-11-11T05:57:30Z"
+      "sha": "9076c4fbcd1a63fa36088925eb62b297c8ce5ba5",
+      "date": "2026-11-12T00:31:47Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "6e9dbdc7f6f31b82700520ced2ad57a243cadb61",
-      "date": "2026-11-11T11:18:49Z"
+      "sha": "10d2e24d0fa5ce94297f1909c6b2903351d06f9b",
+      "date": "2026-11-12T11:37:09Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "c76420b57e94d8f58401824bb7e014772ccac771",
-      "date": "2026-11-11T05:57:30Z"
+      "sha": "9076c4fbcd1a63fa36088925eb62b297c8ce5ba5",
+      "date": "2026-11-12T00:31:47Z"
      }
     }
    ],
@@ -222,19 +222,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-11T12:40:22+00:00",
+ "generated_at": "2026-11-12T13:43:33+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "0d2609cd99697f333d94beb22951c5648533722a",
-  "run_id": "43022345043"
+  "commit": "a1a5a349edb45b5f7999a4e43d7f10b669b7455b",
+  "run_id": "43230011138"
  },
  "ficha": {
-  "id": "sha256:f0605a762481f7c7df0ee2233dbd7f650ecd219226c34a9c6a318afa48d7d95f",
+  "id": "sha256:febf25db39e7f83f7f613f6d5e814f4a5b0b1df5ab801c7d9a14ba234cd91343",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=composicao-societaria-polimero",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/composicao-societaria-polimero.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'composicao-societaria-polimero' (ANEEL), 2026-11-11, sha256:f0605a762481f7c7…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=composicao-societaria-polimero",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'composicao-societaria-polimero' (ANEEL), 2026-11-11, sha256:f0605a762481f7c7…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=composicao-societaria-polimero"
+   "en": "5L-TEP Layer 5 record of 'composicao-societaria-polimero' (ANEEL), 2026-11-12, sha256:febf25db39e7f83f…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=composicao-societaria-polimero",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'composicao-societaria-polimero' (ANEEL), 2026-11-12, sha256:febf25db39e7f83f…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=composicao-societaria-polimero"
   }
  }
 }
