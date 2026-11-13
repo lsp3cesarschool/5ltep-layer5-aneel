@@ -4,16 +4,18 @@
   "title": "Ouvidoria Setorial ANEEL",
   "id": "1206d323-ad8c-46c6-bc2d-9b731e42ee26",
   "resources": 19,
-  "last_change": "2026-11-11T14:02:21+00:00",
+  "last_change": "2026-11-12T15:02:05+00:00",
   "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26#da4d7a569f1c",
+  "entity": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26#9c5954fe4589",
   "portal_page": "https://dadosabertos.aneel.gov.br/dataset/ouvidoria-setorial-aneel"
  },
  "qs": {
   "kind": "none",
   "factor": 1.0,
-  "coverage": 0,
-  "valid_layers": [],
+  "coverage": 0.2,
+  "valid_layers": [
+   "L4"
+  ],
   "integrity": [],
   "band": null
  },
@@ -51,35 +53,27 @@
    "signals": []
   },
   "L4": {
-   "status": "expired",
-   "reason": "summary_too_old",
+   "status": "valid",
+   "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-12T00:30:56+00:00",
-   "current": null,
+   "evaluated_at": "2026-11-12T15:02:05+00:00",
+   "current": true,
    "facts": {
-    "observations": 92,
+    "observations": 90,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26#da4d7a569f1c"
+    "entity": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26#9c5954fe4589"
    },
-   "signals": [
-    {
-     "key": "L4:cross_check:ouvidoria-setorial-aneel",
-     "count": 1,
-     "en": "unreconciled divergence in the independent cross-check",
-     "pt": "divergência não reconciliada no cross-check independente"
-    }
-   ]
+   "signals": []
   }
  },
  "findings": [
   {
    "layer": "L4",
-   "kind": "signal",
-   "key": "L4:cross_check:ouvidoria-setorial-aneel",
-   "count": 1,
-   "when": null,
-   "en": "unreconciled divergence in the independent cross-check",
-   "pt": "divergência não reconciliada no cross-check independente"
+   "kind": "simultaneous",
+   "when": "2026-11-12T15:02:05+00:00",
+   "count": 6,
+   "en": "CONTENT_MOD in 6 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 6 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   },
   {
    "layer": "L4",
@@ -387,34 +381,7 @@
   }
  ],
  "outcomes": {
-  "open": [
-   {
-    "key": "L4:cross_check:ouvidoria-setorial-aneel",
-    "layer": "L4",
-    "first_reported": "2026-11-01T11:48:05+00:00",
-    "count": 1,
-    "evaluated_at": "2026-11-01T05:49:42+00:00",
-    "status": "changed_signal_persists",
-    "en": "unreconciled divergence in the independent cross-check",
-    "pt": "divergência não reconciliada no cross-check independente",
-    "digests": {
-     "65fdd6a5-2073-4e97-99df-b5f750042add": "03310281e1fab5f5dd6bf852c79243fa5e416de9ede8172b86a4c8f49c1f47c1",
-     "e5ee09c7-e7fc-43b7-ac1f-0e2d98db9fce": "0e577843281d96afed031811f1705348e7af38e9a5b995c20b6e7c7f7f7990ea",
-     "4632bf42-3ae4-44df-92c8-1b6a18423948": "44e97bff6f71a496a2311385c8928c11f0e08a5cc9133edb8a883d1da5e97220",
-     "289ed6b6-1650-4261-b8de-ef1f207bd589": "0544ff137c769ff39d37c43012e23f651fffd0d62257c9481ecc0ee21af3b4c2",
-     "561a3eca-8c3b-4c8a-b11e-a31f7d6a1032": "aa9ca3e74f31eb0bc0d0dc7ddf532dde05c4caa7d6474b53f741b703861edf19",
-     "a07c92fc-b60b-4589-b579-edefe2bf99ea": "7f87fad3eba70b845bac8992e445b0d7da25c153e130d15dc62527b8dd5133e8",
-     "42419fa2-6720-4349-a91b-3ed65126aed2": "1ff6a21985a660c957f9aebeca6ad8a6d15a245b5cbecfb973c648a1667c0139",
-     "43dbf8bf-5d91-417b-b977-d28cc4107f96": "6c1ed1ff1d07716f8cdce5ee192aa75f1c39cb236118e19f4dbfa066b2ff49c8",
-     "927c458a-760c-470f-9967-f9f5e8809095": "0c2641ceb87ecd5f43031220a209df46ab178c093732a1619d2380e14a4bd754",
-     "56d51b86-debe-4911-8d56-f2ebd9d444ff": "d8a4d2d91cf7ec155d07c42a3a9f40f4890c8564e8faa8f97a9fb4a838301f3a",
-     "0b15d4cf-4d19-49e9-9ad8-8c81670182c7": "63fed67c920fb65a3245488d03182f0cb6c871ef9b1ac5f9edb3f6ec67404e68",
-     "93d50388-a4dd-4c31-a9e6-065ade8078f3": "1f4037caa81267cd4d0b4ac23c93ee3ad089c89715cbac03794956ff76b4c79d",
-     "1ee51181-9d1f-40f1-ae6e-61719d276b28": "a5e3ac38bee9dd204d364510d0a03fe8f43e70e611f4c517ac2eed68ccc73199"
-    },
-    "first_change_seen": "2026-11-02T13:27:09+00:00"
-   }
-  ],
+  "open": [],
   "closed": [
    {
     "layer": "L4",
@@ -472,6 +439,35 @@
     "dataset": "ouvidoria-setorial-aneel",
     "outcome": "remediated_observed",
     "at": "2026-10-31T10:53:23+00:00"
+   },
+   {
+    "layer": "L4",
+    "first_reported": "2026-11-01T11:48:05+00:00",
+    "count": 1,
+    "evaluated_at": "2026-11-01T05:49:42+00:00",
+    "status": "remediated_observed",
+    "en": "unreconciled divergence in the independent cross-check",
+    "pt": "divergência não reconciliada no cross-check independente",
+    "digests": {
+     "65fdd6a5-2073-4e97-99df-b5f750042add": "03310281e1fab5f5dd6bf852c79243fa5e416de9ede8172b86a4c8f49c1f47c1",
+     "e5ee09c7-e7fc-43b7-ac1f-0e2d98db9fce": "0e577843281d96afed031811f1705348e7af38e9a5b995c20b6e7c7f7f7990ea",
+     "4632bf42-3ae4-44df-92c8-1b6a18423948": "44e97bff6f71a496a2311385c8928c11f0e08a5cc9133edb8a883d1da5e97220",
+     "289ed6b6-1650-4261-b8de-ef1f207bd589": "0544ff137c769ff39d37c43012e23f651fffd0d62257c9481ecc0ee21af3b4c2",
+     "561a3eca-8c3b-4c8a-b11e-a31f7d6a1032": "aa9ca3e74f31eb0bc0d0dc7ddf532dde05c4caa7d6474b53f741b703861edf19",
+     "a07c92fc-b60b-4589-b579-edefe2bf99ea": "7f87fad3eba70b845bac8992e445b0d7da25c153e130d15dc62527b8dd5133e8",
+     "42419fa2-6720-4349-a91b-3ed65126aed2": "1ff6a21985a660c957f9aebeca6ad8a6d15a245b5cbecfb973c648a1667c0139",
+     "43dbf8bf-5d91-417b-b977-d28cc4107f96": "6c1ed1ff1d07716f8cdce5ee192aa75f1c39cb236118e19f4dbfa066b2ff49c8",
+     "927c458a-760c-470f-9967-f9f5e8809095": "0c2641ceb87ecd5f43031220a209df46ab178c093732a1619d2380e14a4bd754",
+     "56d51b86-debe-4911-8d56-f2ebd9d444ff": "d8a4d2d91cf7ec155d07c42a3a9f40f4890c8564e8faa8f97a9fb4a838301f3a",
+     "0b15d4cf-4d19-49e9-9ad8-8c81670182c7": "63fed67c920fb65a3245488d03182f0cb6c871ef9b1ac5f9edb3f6ec67404e68",
+     "93d50388-a4dd-4c31-a9e6-065ade8078f3": "1f4037caa81267cd4d0b4ac23c93ee3ad089c89715cbac03794956ff76b4c79d",
+     "1ee51181-9d1f-40f1-ae6e-61719d276b28": "a5e3ac38bee9dd204d364510d0a03fe8f43e70e611f4c517ac2eed68ccc73199"
+    },
+    "first_change_seen": "2026-11-02T13:27:09+00:00",
+    "key": "L4:cross_check:ouvidoria-setorial-aneel",
+    "dataset": "ouvidoria-setorial-aneel",
+    "outcome": "remediated_observed",
+    "at": "2026-11-13T13:02:23+00:00"
    }
   ]
  },
@@ -543,30 +539,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-12T00:31:46.896526+00:00",
+   "generated_at": "2026-11-13T06:26:06.157761+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "9076c4fbcd1a63fa36088925eb62b297c8ce5ba5",
-      "date": "2026-11-12T00:31:47Z"
+      "sha": "6b1ce70c92c1722dab4ac32158b0a2ce906beebc",
+      "date": "2026-11-13T06:26:06Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "10d2e24d0fa5ce94297f1909c6b2903351d06f9b",
-      "date": "2026-11-12T11:37:09Z"
+      "sha": "840c858d993affcd5ef52c3a41c44e9fbc3290f7",
+      "date": "2026-11-13T11:20:48Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/data/hash_store.json",
      "commit": {
-      "sha": "9076c4fbcd1a63fa36088925eb62b297c8ce5ba5",
-      "date": "2026-11-12T00:31:47Z"
+      "sha": "8665fb6786091f834aed268dd2dd9b46bcfcc684",
+      "date": "2026-11-12T15:03:30Z"
      }
     }
    ],
@@ -618,19 +614,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-12T13:43:33+00:00",
+ "generated_at": "2026-11-13T13:02:23+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "a1a5a349edb45b5f7999a4e43d7f10b669b7455b",
-  "run_id": "43230011138"
+  "commit": "16e52a0d273206454db57ddac15bc2a3ee333378",
+  "run_id": "43430190222"
  },
  "ficha": {
-  "id": "sha256:c94c4b09cb1068aa4b9c9be69815428709d9c7fabe2d3392b4afe08da8ee020c",
+  "id": "sha256:9648b6a92bbc0cb874423671db720a2c72cbd45f12723130b027f523b2d5ef96",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ouvidoria-setorial-aneel",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/ouvidoria-setorial-aneel.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'ouvidoria-setorial-aneel' (ANEEL), 2026-11-12, sha256:c94c4b09cb1068aa…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ouvidoria-setorial-aneel",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'ouvidoria-setorial-aneel' (ANEEL), 2026-11-12, sha256:c94c4b09cb1068aa…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ouvidoria-setorial-aneel"
+   "en": "5L-TEP Layer 5 record of 'ouvidoria-setorial-aneel' (ANEEL), 2026-11-13, sha256:9648b6a92bbc0cb8…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ouvidoria-setorial-aneel",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'ouvidoria-setorial-aneel' (ANEEL), 2026-11-13, sha256:9648b6a92bbc0cb8…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=ouvidoria-setorial-aneel"
   }
  }
 }
