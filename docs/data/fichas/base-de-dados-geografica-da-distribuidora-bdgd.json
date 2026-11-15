@@ -59,7 +59,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 86,
+    "observations": 82,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/4459e483-451f-4444-8022-bd8b5eac05c5#a5e27c6cf3e6"
    },
@@ -139,22 +139,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-14T06:06:26.790739+00:00",
+   "generated_at": "2026-11-15T06:12:59.940484+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "bf01a9828f022f2e020c84ac27ea32675e659fa2",
-      "date": "2026-11-14T06:06:27Z"
+      "sha": "93ab5b4c11e3790be8101c12879f8bd1584834d8",
+      "date": "2026-11-15T06:13:00Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "efcb440aaef130ebe08e830554b9725b7029b651",
-      "date": "2026-11-14T10:44:45Z"
+      "sha": "8d3b3b8e5497b95b0a6ebf5cd16ffd843016dffa",
+      "date": "2026-11-15T11:19:46Z"
      }
     },
     {
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-14T12:07:39+00:00",
+ "generated_at": "2026-11-15T12:41:32+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "fa3bc5b74d088d7c437e9018b835a4a734dc96c1",
-  "run_id": "43593259684"
+  "commit": "b50b457cc4be9f1ebf27ea98494e9eed6d322932",
+  "run_id": "43715114752"
  },
  "ficha": {
-  "id": "sha256:6b3c58e94fc702e41431c93975cef41bf14b01a90f9c53e75f29311b503eddce",
+  "id": "sha256:8bf0ee7d32f1749220e866a9db2d085616cbcd46c8e829bac3100a5724dc3cb8",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=base-de-dados-geografica-da-distribuidora-bdgd",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/base-de-dados-geografica-da-distribuidora-bdgd.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'base-de-dados-geografica-da-distribuidora-bdgd' (ANEEL), 2026-11-14, sha256:6b3c58e94fc702e4…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=base-de-dados-geografica-da-distribuidora-bdgd",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'base-de-dados-geografica-da-distribuidora-bdgd' (ANEEL), 2026-11-14, sha256:6b3c58e94fc702e4…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=base-de-dados-geografica-da-distribuidora-bdgd"
+   "en": "5L-TEP Layer 5 record of 'base-de-dados-geografica-da-distribuidora-bdgd' (ANEEL), 2026-11-15, sha256:8bf0ee7d32f17492…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=base-de-dados-geografica-da-distribuidora-bdgd",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'base-de-dados-geografica-da-distribuidora-bdgd' (ANEEL), 2026-11-15, sha256:8bf0ee7d32f17492…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=base-de-dados-geografica-da-distribuidora-bdgd"
   }
  }
 }
