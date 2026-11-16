@@ -67,7 +67,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 82,
+    "observations": 78,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/45192a41-e5c0-4e1e-af71-4f2c74166768#55a422c2651c"
    },
@@ -156,22 +156,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-15T06:12:59.940484+00:00",
+   "generated_at": "2026-11-16T06:10:51.996560+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "93ab5b4c11e3790be8101c12879f8bd1584834d8",
-      "date": "2026-11-15T06:13:00Z"
+      "sha": "e4abc785a775102f1c2a48129ef376991f7504b8",
+      "date": "2026-11-16T06:10:52Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "8d3b3b8e5497b95b0a6ebf5cd16ffd843016dffa",
-      "date": "2026-11-15T11:19:46Z"
+      "sha": "c31340caf347e185480fd94b225bece398d0a945",
+      "date": "2026-11-16T11:51:30Z"
      }
     },
     {
@@ -231,19 +231,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-15T12:41:32+00:00",
+ "generated_at": "2026-11-16T13:34:42+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "b50b457cc4be9f1ebf27ea98494e9eed6d322932",
-  "run_id": "43715114752"
+  "commit": "6e414ed089bc60c70cbfc525a84f1aa67b55007f",
+  "run_id": "43877083545"
  },
  "ficha": {
-  "id": "sha256:22c02d7da1bb86d6e785f64839361b3e918437e122e551a5c1b8931393d14ae6",
+  "id": "sha256:580d7ce78c543f2e62208196158060d0b1c5fcd79c340529becad968c9684fb4",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=slc-sistema-de-licitacoes-e-contratos",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/slc-sistema-de-licitacoes-e-contratos.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'slc-sistema-de-licitacoes-e-contratos' (ANEEL), 2026-11-15, sha256:22c02d7da1bb86d6…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=slc-sistema-de-licitacoes-e-contratos",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'slc-sistema-de-licitacoes-e-contratos' (ANEEL), 2026-11-15, sha256:22c02d7da1bb86d6…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=slc-sistema-de-licitacoes-e-contratos"
+   "en": "5L-TEP Layer 5 record of 'slc-sistema-de-licitacoes-e-contratos' (ANEEL), 2026-11-16, sha256:580d7ce78c543f2e…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=slc-sistema-de-licitacoes-e-contratos",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'slc-sistema-de-licitacoes-e-contratos' (ANEEL), 2026-11-16, sha256:580d7ce78c543f2e…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=slc-sistema-de-licitacoes-e-contratos"
   }
  }
 }
