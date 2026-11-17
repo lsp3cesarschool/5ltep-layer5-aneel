@@ -59,7 +59,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 78,
+    "observations": 74,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/942de3e1-0b52-4e41-a6c1-eff9f3b7c7d6#3d08b587b497"
    },
@@ -148,22 +148,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-16T06:10:51.996560+00:00",
+   "generated_at": "2026-11-17T07:44:55.155277+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "e4abc785a775102f1c2a48129ef376991f7504b8",
-      "date": "2026-11-16T06:10:52Z"
+      "sha": "a280e80645f0352ebb2232d6dd6e2cae6bc2f797",
+      "date": "2026-11-17T07:44:55Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "c31340caf347e185480fd94b225bece398d0a945",
-      "date": "2026-11-16T11:51:30Z"
+      "sha": "528ffea53c1e8c5a8b6a0c9499afd75efebc6c3b",
+      "date": "2026-11-17T12:13:21Z"
      }
     },
     {
@@ -223,19 +223,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-16T13:34:42+00:00",
+ "generated_at": "2026-11-17T14:19:22+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "6e414ed089bc60c70cbfc525a84f1aa67b55007f",
-  "run_id": "43877083545"
+  "commit": "28e4758425be5dc12c183b959ca5542900ac0a03",
+  "run_id": "44101790534"
  },
  "ficha": {
-  "id": "sha256:de01991810bff6f9ab156cd3ee534b53178ba4b8959580a143b954a3830c98df",
+  "id": "sha256:26a26ed6e4279a4036b283405ffc1728a643d81748420d593593ea053057383f",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=scs-sistema-de-controle-de-subvencoes-e-programas-sociais",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/scs-sistema-de-controle-de-subvencoes-e-programas-sociais.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'scs-sistema-de-controle-de-subvencoes-e-programas-sociais' (ANEEL), 2026-11-16, sha256:de01991810bff6f9…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=scs-sistema-de-controle-de-subvencoes-e-programas-sociais",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'scs-sistema-de-controle-de-subvencoes-e-programas-sociais' (ANEEL), 2026-11-16, sha256:de01991810bff6f9…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=scs-sistema-de-controle-de-subvencoes-e-programas-sociais"
+   "en": "5L-TEP Layer 5 record of 'scs-sistema-de-controle-de-subvencoes-e-programas-sociais' (ANEEL), 2026-11-17, sha256:26a26ed6e4279a40…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=scs-sistema-de-controle-de-subvencoes-e-programas-sociais",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'scs-sistema-de-controle-de-subvencoes-e-programas-sociais' (ANEEL), 2026-11-17, sha256:26a26ed6e4279a40…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=scs-sistema-de-controle-de-subvencoes-e-programas-sociais"
   }
  }
 }

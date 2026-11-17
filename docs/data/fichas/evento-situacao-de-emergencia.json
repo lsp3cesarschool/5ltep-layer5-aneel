@@ -55,11 +55,11 @@
   "L4": {
    "status": "valid",
    "reason": null,
-   "rate": 0.9871794871794872,
+   "rate": 0.9864864864864865,
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 78,
+    "observations": 74,
     "critical_in_window": 1,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/4788a5ec-3ce2-476d-b72a-337562e0d02d#b125665f3cf9"
    },
@@ -216,22 +216,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-16T06:10:51.996560+00:00",
+   "generated_at": "2026-11-17T07:44:55.155277+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "e4abc785a775102f1c2a48129ef376991f7504b8",
-      "date": "2026-11-16T06:10:52Z"
+      "sha": "a280e80645f0352ebb2232d6dd6e2cae6bc2f797",
+      "date": "2026-11-17T07:44:55Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "c31340caf347e185480fd94b225bece398d0a945",
-      "date": "2026-11-16T11:51:30Z"
+      "sha": "528ffea53c1e8c5a8b6a0c9499afd75efebc6c3b",
+      "date": "2026-11-17T12:13:21Z"
      }
     },
     {
@@ -291,19 +291,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-16T13:34:42+00:00",
+ "generated_at": "2026-11-17T14:19:22+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "6e414ed089bc60c70cbfc525a84f1aa67b55007f",
-  "run_id": "43877083545"
+  "commit": "28e4758425be5dc12c183b959ca5542900ac0a03",
+  "run_id": "44101790534"
  },
  "ficha": {
-  "id": "sha256:85ad4548f1df18f52f9ab59900d6691aed6cb991487c5abc6d05ac21566b7726",
+  "id": "sha256:d38214b6f73dea096a59ea4a54e1f69233ba4e42816733498e66ba9ffc36cb31",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=evento-situacao-de-emergencia",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/evento-situacao-de-emergencia.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'evento-situacao-de-emergencia' (ANEEL), 2026-11-16, sha256:85ad4548f1df18f5…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=evento-situacao-de-emergencia",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'evento-situacao-de-emergencia' (ANEEL), 2026-11-16, sha256:85ad4548f1df18f5…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=evento-situacao-de-emergencia"
+   "en": "5L-TEP Layer 5 record of 'evento-situacao-de-emergencia' (ANEEL), 2026-11-17, sha256:d38214b6f73dea09…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=evento-situacao-de-emergencia",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'evento-situacao-de-emergencia' (ANEEL), 2026-11-17, sha256:d38214b6f73dea09…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=evento-situacao-de-emergencia"
   }
  }
 }
