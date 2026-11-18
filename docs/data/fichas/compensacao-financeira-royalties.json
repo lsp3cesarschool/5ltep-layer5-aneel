@@ -59,7 +59,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 74,
+    "observations": 70,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/39fc299f-26ad-456a-a756-2845ca69568e#fb413a4aa805"
    },
@@ -99,14 +99,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-11T12:01:04+00:00",
+   "generated_at": "2026-11-18T13:33:16+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
      "commit": {
-      "sha": "4cbc1c3e88697fb10c636cdf4209a0c7b60e6734",
-      "date": "2026-11-11T12:01:18Z"
+      "sha": "e50fd86d014725850963a5b5a7fd6ab01a3f144c",
+      "date": "2026-11-18T13:33:29Z"
      }
     }
    ],
@@ -139,22 +139,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-17T07:44:55.155277+00:00",
+   "generated_at": "2026-11-18T07:10:44.249304+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "a280e80645f0352ebb2232d6dd6e2cae6bc2f797",
-      "date": "2026-11-17T07:44:55Z"
+      "sha": "da270bee563d0a69cdba5dcfd13a892578f4414b",
+      "date": "2026-11-18T07:10:44Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "528ffea53c1e8c5a8b6a0c9499afd75efebc6c3b",
-      "date": "2026-11-17T12:13:21Z"
+      "sha": "1675cdf8c2d8c7fa724ac1ddeedaa7f2b67b4fca",
+      "date": "2026-11-18T12:00:39Z"
      }
     },
     {
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-17T14:19:22+00:00",
+ "generated_at": "2026-11-18T13:53:45+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "28e4758425be5dc12c183b959ca5542900ac0a03",
-  "run_id": "44101790534"
+  "commit": "852f3e58cc69d6401870300b751bc75f3f142da6",
+  "run_id": "44318376978"
  },
  "ficha": {
-  "id": "sha256:0b56eeaae9aa1142e3ed3742cd25883b64d1b6db953e42f7ec9b6187476bbf49",
+  "id": "sha256:db729bc5eb942e1700f3c24da256339f833e80a9cc96b92ae8f14a76c342397e",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=compensacao-financeira-royalties",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/compensacao-financeira-royalties.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'compensacao-financeira-royalties' (ANEEL), 2026-11-17, sha256:0b56eeaae9aa1142…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=compensacao-financeira-royalties",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'compensacao-financeira-royalties' (ANEEL), 2026-11-17, sha256:0b56eeaae9aa1142…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=compensacao-financeira-royalties"
+   "en": "5L-TEP Layer 5 record of 'compensacao-financeira-royalties' (ANEEL), 2026-11-18, sha256:db729bc5eb942e17…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=compensacao-financeira-royalties",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'compensacao-financeira-royalties' (ANEEL), 2026-11-18, sha256:db729bc5eb942e17…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=compensacao-financeira-royalties"
   }
  }
 }
