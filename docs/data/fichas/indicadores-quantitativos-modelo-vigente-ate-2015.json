@@ -59,7 +59,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 70,
+    "observations": 68,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/5a01baab-2890-4675-ad29-809ab364b0b6#5172a5deefb2"
    },
@@ -139,22 +139,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-18T07:10:44.249304+00:00",
+   "generated_at": "2026-11-19T07:11:17.378517+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "da270bee563d0a69cdba5dcfd13a892578f4414b",
-      "date": "2026-11-18T07:10:44Z"
+      "sha": "e0695da7fca1de42b44b725ea1cc6864ef3b76a8",
+      "date": "2026-11-19T07:11:17Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "1675cdf8c2d8c7fa724ac1ddeedaa7f2b67b4fca",
-      "date": "2026-11-18T12:00:39Z"
+      "sha": "e8b3b63e2e002b94503cac02506d8b94c44dd317",
+      "date": "2026-11-19T11:57:48Z"
      }
     },
     {
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-18T13:53:45+00:00",
+ "generated_at": "2026-11-19T14:22:19+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "852f3e58cc69d6401870300b751bc75f3f142da6",
-  "run_id": "44318376978"
+  "commit": "9679844f3a3df8fb3b7efc8c14f2f29d420ddfc9",
+  "run_id": "44542978405"
  },
  "ficha": {
-  "id": "sha256:afdaeb786b73cf6d22324d8d662bd4e3a6cb63b7a9afb74c9f7aec0729f03960",
+  "id": "sha256:3c45d245b6495eaeb9e3714d76f9922372d5a494406b5c7bb9e9dedce566fef7",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indicadores-quantitativos-modelo-vigente-ate-2015",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/indicadores-quantitativos-modelo-vigente-ate-2015.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'indicadores-quantitativos-modelo-vigente-ate-2015' (ANEEL), 2026-11-18, sha256:afdaeb786b73cf6d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indicadores-quantitativos-modelo-vigente-ate-2015",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'indicadores-quantitativos-modelo-vigente-ate-2015' (ANEEL), 2026-11-18, sha256:afdaeb786b73cf6d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indicadores-quantitativos-modelo-vigente-ate-2015"
+   "en": "5L-TEP Layer 5 record of 'indicadores-quantitativos-modelo-vigente-ate-2015' (ANEEL), 2026-11-19, sha256:3c45d245b6495eae…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indicadores-quantitativos-modelo-vigente-ate-2015",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'indicadores-quantitativos-modelo-vigente-ate-2015' (ANEEL), 2026-11-19, sha256:3c45d245b6495eae…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indicadores-quantitativos-modelo-vigente-ate-2015"
   }
  }
 }

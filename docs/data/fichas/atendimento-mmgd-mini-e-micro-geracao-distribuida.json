@@ -59,7 +59,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 70,
+    "observations": 68,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/f0773920-9847-46cb-9bc0-dde68761c573#a66c563595cb"
    },
@@ -156,22 +156,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-18T07:10:44.249304+00:00",
+   "generated_at": "2026-11-19T07:11:17.378517+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "da270bee563d0a69cdba5dcfd13a892578f4414b",
-      "date": "2026-11-18T07:10:44Z"
+      "sha": "e0695da7fca1de42b44b725ea1cc6864ef3b76a8",
+      "date": "2026-11-19T07:11:17Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "1675cdf8c2d8c7fa724ac1ddeedaa7f2b67b4fca",
-      "date": "2026-11-18T12:00:39Z"
+      "sha": "e8b3b63e2e002b94503cac02506d8b94c44dd317",
+      "date": "2026-11-19T11:57:48Z"
      }
     },
     {
@@ -231,19 +231,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-18T13:53:45+00:00",
+ "generated_at": "2026-11-19T14:22:19+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "852f3e58cc69d6401870300b751bc75f3f142da6",
-  "run_id": "44318376978"
+  "commit": "9679844f3a3df8fb3b7efc8c14f2f29d420ddfc9",
+  "run_id": "44542978405"
  },
  "ficha": {
-  "id": "sha256:b410a40009dff9146527f17467d00671cb6f7cf44c1b1b8e68d84fd25f7b5f70",
+  "id": "sha256:54f271d59b52262d15ee592862143a07e4eb564a2b188cf666b98d18afa288e4",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=atendimento-mmgd-mini-e-micro-geracao-distribuida",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/atendimento-mmgd-mini-e-micro-geracao-distribuida.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'atendimento-mmgd-mini-e-micro-geracao-distribuida' (ANEEL), 2026-11-18, sha256:b410a40009dff914…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=atendimento-mmgd-mini-e-micro-geracao-distribuida",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'atendimento-mmgd-mini-e-micro-geracao-distribuida' (ANEEL), 2026-11-18, sha256:b410a40009dff914…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=atendimento-mmgd-mini-e-micro-geracao-distribuida"
+   "en": "5L-TEP Layer 5 record of 'atendimento-mmgd-mini-e-micro-geracao-distribuida' (ANEEL), 2026-11-19, sha256:54f271d59b52262d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=atendimento-mmgd-mini-e-micro-geracao-distribuida",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'atendimento-mmgd-mini-e-micro-geracao-distribuida' (ANEEL), 2026-11-19, sha256:54f271d59b52262d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=atendimento-mmgd-mini-e-micro-geracao-distribuida"
   }
  }
 }
