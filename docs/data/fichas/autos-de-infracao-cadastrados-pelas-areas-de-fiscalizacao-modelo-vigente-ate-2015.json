@@ -59,7 +59,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 68,
+    "observations": 64,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/eb0360f1-0d5d-4961-8311-97edde216fe9#d97106b12572"
    },
@@ -139,22 +139,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-19T07:11:17.378517+00:00",
+   "generated_at": "2026-11-20T06:59:34.778571+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "e0695da7fca1de42b44b725ea1cc6864ef3b76a8",
-      "date": "2026-11-19T07:11:17Z"
+      "sha": "af0e3a9801838398dbdc895bf756c2af70fba3d8",
+      "date": "2026-11-20T06:59:35Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "e8b3b63e2e002b94503cac02506d8b94c44dd317",
-      "date": "2026-11-19T11:57:48Z"
+      "sha": "1d959db34ae7dc77cc89efe811b7fbd77f08cce4",
+      "date": "2026-11-20T11:58:51Z"
      }
     },
     {
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-19T14:22:19+00:00",
+ "generated_at": "2026-11-20T13:57:48+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "9679844f3a3df8fb3b7efc8c14f2f29d420ddfc9",
-  "run_id": "44542978405"
+  "commit": "fd0ef9753da3b56052a91d862b31b635161846f3",
+  "run_id": "44748924765"
  },
  "ficha": {
-  "id": "sha256:e7dd173185a0ec68f63eaca7d1feaf6e88b04df76ac2bf92e1253aec92f49c89",
+  "id": "sha256:545d4ce8ed4acd44321213b125c1886fd834d96e552e39c0b97107a2dbdbf113",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015' (ANEEL), 2026-11-19, sha256:e7dd173185a0ec68…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015' (ANEEL), 2026-11-19, sha256:e7dd173185a0ec68…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015"
+   "en": "5L-TEP Layer 5 record of 'autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015' (ANEEL), 2026-11-20, sha256:545d4ce8ed4acd44…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015' (ANEEL), 2026-11-20, sha256:545d4ce8ed4acd44…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015"
   }
  }
 }

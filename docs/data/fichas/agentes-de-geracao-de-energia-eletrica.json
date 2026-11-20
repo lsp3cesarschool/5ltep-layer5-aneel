@@ -59,7 +59,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 68,
+    "observations": 64,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/283a0172-3966-49e7-ae45-d2885ad17b03#6e4b80dea5d3"
    },
@@ -148,22 +148,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-19T07:11:17.378517+00:00",
+   "generated_at": "2026-11-20T06:59:34.778571+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "e0695da7fca1de42b44b725ea1cc6864ef3b76a8",
-      "date": "2026-11-19T07:11:17Z"
+      "sha": "af0e3a9801838398dbdc895bf756c2af70fba3d8",
+      "date": "2026-11-20T06:59:35Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "e8b3b63e2e002b94503cac02506d8b94c44dd317",
-      "date": "2026-11-19T11:57:48Z"
+      "sha": "1d959db34ae7dc77cc89efe811b7fbd77f08cce4",
+      "date": "2026-11-20T11:58:51Z"
      }
     },
     {
@@ -223,19 +223,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-19T14:22:19+00:00",
+ "generated_at": "2026-11-20T13:57:48+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "9679844f3a3df8fb3b7efc8c14f2f29d420ddfc9",
-  "run_id": "44542978405"
+  "commit": "fd0ef9753da3b56052a91d862b31b635161846f3",
+  "run_id": "44748924765"
  },
  "ficha": {
-  "id": "sha256:97a2355b87e9301d821afc8428baa77d8f0227f893a3b16a0901b8122d26014b",
+  "id": "sha256:867ac5679555291f49c261aa3fdf260beb0186f0990880342d657e651929691c",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=agentes-de-geracao-de-energia-eletrica",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/agentes-de-geracao-de-energia-eletrica.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'agentes-de-geracao-de-energia-eletrica' (ANEEL), 2026-11-19, sha256:97a2355b87e9301d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=agentes-de-geracao-de-energia-eletrica",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'agentes-de-geracao-de-energia-eletrica' (ANEEL), 2026-11-19, sha256:97a2355b87e9301d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=agentes-de-geracao-de-energia-eletrica"
+   "en": "5L-TEP Layer 5 record of 'agentes-de-geracao-de-energia-eletrica' (ANEEL), 2026-11-20, sha256:867ac5679555291f…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=agentes-de-geracao-de-energia-eletrica",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'agentes-de-geracao-de-energia-eletrica' (ANEEL), 2026-11-20, sha256:867ac5679555291f…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=agentes-de-geracao-de-energia-eletrica"
   }
  }
 }
