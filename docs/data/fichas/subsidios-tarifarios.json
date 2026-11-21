@@ -18,8 +18,8 @@
    "L4"
   ],
   "integrity": [],
-  "low": 0.19687500000000002,
-  "high": 0.696875,
+  "low": 0.19666666666666666,
+  "high": 0.6966666666666667,
   "band": "critical",
   "eligible": false,
   "missing_layers": [
@@ -70,11 +70,11 @@
   "L4": {
    "status": "valid",
    "reason": null,
-   "rate": 0.984375,
+   "rate": 0.9833333333333333,
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 64,
+    "observations": 60,
     "critical_in_window": 1,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/28a6b7de-6f3a-4a5b-aa69-229f3bc4fbc9#c7a5c74cf37e"
    },
@@ -186,22 +186,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-20T06:59:34.778571+00:00",
+   "generated_at": "2026-11-21T06:55:47.409068+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "af0e3a9801838398dbdc895bf756c2af70fba3d8",
-      "date": "2026-11-20T06:59:35Z"
+      "sha": "783d6ee1168d691e0b8bcb3f666c307e47172faa",
+      "date": "2026-11-21T06:55:47Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "1d959db34ae7dc77cc89efe811b7fbd77f08cce4",
-      "date": "2026-11-20T11:58:51Z"
+      "sha": "97706b36e33b517191ba9200c93c33373b406e14",
+      "date": "2026-11-21T11:31:14Z"
      }
     },
     {
@@ -261,19 +261,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-20T13:57:48+00:00",
+ "generated_at": "2026-11-21T13:25:31+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "fd0ef9753da3b56052a91d862b31b635161846f3",
-  "run_id": "44748924765"
+  "commit": "d5df22a64f188ab592e17b6b14f505cf5ce0039e",
+  "run_id": "44908781351"
  },
  "ficha": {
-  "id": "sha256:b82cf8764a5fbe9b18e19bf6956f873e7581bcaaf3de640a33be2407615104f4",
+  "id": "sha256:803698a29c13fdf117f36bd331d86e438ce5eef0d8565caed1295772059bd2db",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=subsidios-tarifarios",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/subsidios-tarifarios.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'subsidios-tarifarios' (ANEEL), 2026-11-20, sha256:b82cf8764a5fbe9b…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=subsidios-tarifarios",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'subsidios-tarifarios' (ANEEL), 2026-11-20, sha256:b82cf8764a5fbe9b…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=subsidios-tarifarios"
+   "en": "5L-TEP Layer 5 record of 'subsidios-tarifarios' (ANEEL), 2026-11-21, sha256:803698a29c13fdf1…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=subsidios-tarifarios",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'subsidios-tarifarios' (ANEEL), 2026-11-21, sha256:803698a29c13fdf1…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=subsidios-tarifarios"
   }
  }
 }

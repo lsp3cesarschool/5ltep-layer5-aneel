@@ -59,7 +59,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 64,
+    "observations": 60,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/0ffe45bc-b0bc-4c18-99ab-e97e94841418#c7405da36e67"
    },
@@ -139,22 +139,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-20T06:59:34.778571+00:00",
+   "generated_at": "2026-11-21T06:55:47.409068+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "af0e3a9801838398dbdc895bf756c2af70fba3d8",
-      "date": "2026-11-20T06:59:35Z"
+      "sha": "783d6ee1168d691e0b8bcb3f666c307e47172faa",
+      "date": "2026-11-21T06:55:47Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "1d959db34ae7dc77cc89efe811b7fbd77f08cce4",
-      "date": "2026-11-20T11:58:51Z"
+      "sha": "97706b36e33b517191ba9200c93c33373b406e14",
+      "date": "2026-11-21T11:31:14Z"
      }
     },
     {
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-20T13:57:48+00:00",
+ "generated_at": "2026-11-21T13:25:31+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "fd0ef9753da3b56052a91d862b31b635161846f3",
-  "run_id": "44748924765"
+  "commit": "d5df22a64f188ab592e17b6b14f505cf5ce0039e",
+  "run_id": "44908781351"
  },
  "ficha": {
-  "id": "sha256:1f10f8250a76326d5550cebc16e4a3e072bba8498bee27f13a2ad599099acd7a",
+  "id": "sha256:c3cddd1b209b58d0f5d7146e8c08d9150d4e44da0f248d65892d6fbd3249b176",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tarifa-social-de-energia-eletrica-beneficiarios",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/tarifa-social-de-energia-eletrica-beneficiarios.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'tarifa-social-de-energia-eletrica-beneficiarios' (ANEEL), 2026-11-20, sha256:1f10f8250a76326d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tarifa-social-de-energia-eletrica-beneficiarios",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'tarifa-social-de-energia-eletrica-beneficiarios' (ANEEL), 2026-11-20, sha256:1f10f8250a76326d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tarifa-social-de-energia-eletrica-beneficiarios"
+   "en": "5L-TEP Layer 5 record of 'tarifa-social-de-energia-eletrica-beneficiarios' (ANEEL), 2026-11-21, sha256:c3cddd1b209b58d0…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tarifa-social-de-energia-eletrica-beneficiarios",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'tarifa-social-de-energia-eletrica-beneficiarios' (ANEEL), 2026-11-21, sha256:c3cddd1b209b58d0…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=tarifa-social-de-energia-eletrica-beneficiarios"
   }
  }
 }
