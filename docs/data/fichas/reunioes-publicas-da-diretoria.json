@@ -67,7 +67,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 60,
+    "observations": 56,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/43dd358f-0ee2-4eb5-80f6-73461bd7d2d1#925c3fe93be1"
    },
@@ -156,22 +156,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-21T06:55:47.409068+00:00",
+   "generated_at": "2026-11-22T06:31:58.964328+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "783d6ee1168d691e0b8bcb3f666c307e47172faa",
-      "date": "2026-11-21T06:55:47Z"
+      "sha": "036f5edf1679488bb787f39c5f2296378442e554",
+      "date": "2026-11-22T06:31:59Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "97706b36e33b517191ba9200c93c33373b406e14",
-      "date": "2026-11-21T11:31:14Z"
+      "sha": "748a73d2f3d2233117f0a645c30516262fd456b4",
+      "date": "2026-11-22T11:45:50Z"
      }
     },
     {
@@ -231,19 +231,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-21T13:25:31+00:00",
+ "generated_at": "2026-11-22T13:16:41+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "d5df22a64f188ab592e17b6b14f505cf5ce0039e",
-  "run_id": "44908781351"
+  "commit": "46b6148db1d793949034dd34763702bf590a2111",
+  "run_id": "45026614204"
  },
  "ficha": {
-  "id": "sha256:90cbc80c925bd4317790961aa21c5a57fe01253ab0f849b21491f0b45d483aa5",
+  "id": "sha256:e92c2effbba895f82183dd351918805755cac7a35e59cc5bd0984ab1131aaaab",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=reunioes-publicas-da-diretoria",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/reunioes-publicas-da-diretoria.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'reunioes-publicas-da-diretoria' (ANEEL), 2026-11-21, sha256:90cbc80c925bd431…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=reunioes-publicas-da-diretoria",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'reunioes-publicas-da-diretoria' (ANEEL), 2026-11-21, sha256:90cbc80c925bd431…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=reunioes-publicas-da-diretoria"
+   "en": "5L-TEP Layer 5 record of 'reunioes-publicas-da-diretoria' (ANEEL), 2026-11-22, sha256:e92c2effbba895f8…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=reunioes-publicas-da-diretoria",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'reunioes-publicas-da-diretoria' (ANEEL), 2026-11-22, sha256:e92c2effbba895f8…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=reunioes-publicas-da-diretoria"
   }
  }
 }
