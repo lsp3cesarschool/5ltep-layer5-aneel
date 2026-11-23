@@ -1,11 +1,11 @@
 {
  "layer": 5,
  "run": {
-  "generated_at": "2026-11-22T13:16:41+00:00",
+  "generated_at": "2026-11-23T15:54:15+00:00",
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
   "version": "0.1.0",
-  "commit": "46b6148db1d793949034dd34763702bf590a2111",
-  "run_id": "45026614204"
+  "commit": "8f1ca5ce2a5d3a0548673ef45123dd891db92a04",
+  "run_id": "45210395231"
  },
  "portal": {
   "portal_url": "https://dadosabertos.aneel.gov.br",
@@ -59,9 +59,9 @@
    "reason": null,
    "detail": null,
    "generated_at": "2026-11-09T14:01:30+00:00",
-   "age_days": 12.97,
+   "age_days": 14.08,
    "validity_days": 14.0,
-   "expired": false,
+   "expired": true,
    "repository": "lsp3cesarschool/5ltep-layer1-aneel",
    "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer1-aneel/",
    "workflow": "https://github.com/lsp3cesarschool/5ltep-layer1-aneel/actions/workflows/layer1.yml",
@@ -102,7 +102,7 @@
    "reason": null,
    "detail": null,
    "generated_at": "2026-11-18T13:33:16+00:00",
-   "age_days": 3.99,
+   "age_days": 5.1,
    "validity_days": 14.0,
    "expired": false,
    "repository": "lsp3cesarschool/5ltep-layer2-aneel",
@@ -134,7 +134,7 @@
    "reason": null,
    "detail": null,
    "generated_at": "2026-11-05T14:08:10+00:00",
-   "age_days": 16.96,
+   "age_days": 18.07,
    "validity_days": 62.0,
    "expired": false,
    "repository": "lsp3cesarschool/5ltep-layer3-aneel",
@@ -165,8 +165,8 @@
    "status": "ok",
    "reason": null,
    "detail": null,
-   "generated_at": "2026-11-22T06:31:58.964328+00:00",
-   "age_days": 0.28,
+   "generated_at": "2026-11-23T07:22:20.945796+00:00",
+   "age_days": 0.36,
    "validity_days": 0.5,
    "expired": false,
    "repository": "lsp3cesarschool/5ltep-layer4-aneel",
@@ -177,16 +177,16 @@
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "036f5edf1679488bb787f39c5f2296378442e554",
-      "date": "2026-11-22T06:31:59Z"
+      "sha": "1222d0eae76d7b4f8c34c133ca31020f5ac3dec8",
+      "date": "2026-11-23T07:22:21Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "748a73d2f3d2233117f0a645c30516262fd456b4",
-      "date": "2026-11-22T11:45:50Z"
+      "sha": "98f7e05b2a136f3d5d9e2fdde98a677608216e39",
+      "date": "2026-11-23T13:24:09Z"
      }
     },
     {
@@ -208,20 +208,18 @@
  "totals": {
   "datasets": 72,
   "complete": 0,
-  "partial": 30,
-  "no_content": 42,
+  "partial": 1,
+  "no_content": 71,
   "eligible": 0,
   "bands": {
-   "partial:undetermined": 21,
-   "none:None": 42,
-   "partial:alert": 8,
-   "partial:critical": 1
+   "none:None": 71,
+   "partial:undetermined": 1
   }
  },
  "coverage": {
   "L1": {
    "reached": 29,
-   "valid": 29
+   "valid": 0
   },
   "L2": {
    "reached": 0,
@@ -241,14 +239,7 @@
    "layers": [
     "L4"
    ],
-   "datasets": 42
-  },
-  {
-   "layers": [
-    "L1",
-    "L4"
-   ],
-   "datasets": 29
+   "datasets": 71
   },
   {
    "layers": [
@@ -922,7 +913,7 @@
    "reported": 0
   },
   "median_days_to_first_change": 1.0,
-  "rounds_observed": 42
+  "rounds_observed": 43
  },
  "datasets": [
   {
@@ -932,11 +923,11 @@
    "last_change": "2026-11-10T23:09:43+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T13:51:31+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -961,26 +952,18 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:ec0954b4d74146ae2013b79a755741c32fef6271f354a29704affcbd116604a6"
+   "ficha_id": "sha256:39ee8dc86b3f3035258e083d545d2580aa5f2c549b9366249f80c2a64be41570"
   },
   {
    "name": "agentes-de-geracao-de-energia-eletrica",
@@ -1031,7 +1014,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:feb5775daed44e9b482f8d639da62b3d4057259b1a6933b92d5dea58fee31033"
+   "ficha_id": "sha256:50d0860fbed2391089b27d634a8218012c8040c4c2497714fdd956e8d4dab423"
   },
   {
    "name": "agentes-do-setor-eletrico",
@@ -1040,11 +1023,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T11:48:14+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -1069,28 +1052,20 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 1,
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:8bbb671cd9b713d9ba40499cf9c4725a2cfbdebc32552133565694955ffc6ab9"
+   "ficha_id": "sha256:c74af87efdf2fc7817bd5897216f4262ee6d11502a826eb258ce7378058a3fb3"
   },
   {
    "name": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
@@ -1141,7 +1116,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:3dab365a2bc14d0d534f60802d6639f9942076f43487d6c963e5e3f3d3d25584"
+   "ficha_id": "sha256:a054447c9b8c72a879c89f64f4988aa08ff4abecc9037c946762dc820c5e258a"
   },
   {
    "name": "atendimento-ocorrencias-emergenciais",
@@ -1150,11 +1125,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 0.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-09T12:19:10+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -1179,21 +1154,13 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.2,
-    "high": 0.7,
-    "band": "alert",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 3,
@@ -1201,7 +1168,7 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:9d6d9260e205a8cc184d2546f9009c59589906be04910effd6665aa52cc81412"
+   "ficha_id": "sha256:bfe935c9d4b32a32c86e3489e1e3679853f61c5710672569ae1b06d4db16e55a"
   },
   {
    "name": "atos-de-outorgas-de-geracao",
@@ -1252,7 +1219,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:decf1a60cebd0e10a5e7b1629660c5f345665e00e0d172130f3af926575694e7"
+   "ficha_id": "sha256:7ab11b754bb7f5c6b882b6bab30d5b552c31380481e3da96b6b366968577c6f6"
   },
   {
    "name": "audiencias-e-consultas-publicas",
@@ -1261,11 +1228,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T11:53:17+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -1290,28 +1257,20 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 1,
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:7a426ee894911147d4a10867299f9374907b0a6188273acc250eedeaceb836bc"
+   "ficha_id": "sha256:6f506c4971046cc63a3f3af777a3ddf43e6734b80e3764203784dbc9f4aea2f0"
   },
   {
    "name": "auto-de-infracao",
@@ -1372,7 +1331,7 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:ee20ef4e5f7420dde68b77922445a9ddbdd9da8589815d923770476be4e4231c"
+   "ficha_id": "sha256:32b7365d8e932e7e1b3f25a546c18d575f75dbd11e5c92eb27e5e0aee34f1746"
   },
   {
    "name": "autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015",
@@ -1421,7 +1380,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:d8ab2affaad495c7ae8e83caccd3443c95b853da62d7f06ba3d445d584735475"
+   "ficha_id": "sha256:c0806466b95800bd432242b86a9b1e1b58c3ff12af791b09702897a35dfc25d8"
   },
   {
    "name": "bandeiras-tarifarias",
@@ -1472,7 +1431,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:4467f7861a9333d0c9555d665a1b705432f21164a5917b2ceaad5461451870f5"
+   "ficha_id": "sha256:106cfeb46bdb9cb062fa685b0b5c3e679fb315e9fa10d4bc8a19f715aca465db"
   },
   {
    "name": "base-de-dados-geografica-da-distribuidora-bdgd",
@@ -1521,7 +1480,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:113488d6b52112380743c927574b31e3ce212bcd38d124ca12f6fdbde768c190"
+   "ficha_id": "sha256:d1c3167a55e3b5aabcae5524c67d20f9bb8b26a07327dd5d4182ace9be7dff29"
   },
   {
    "name": "beneficiarios-da-cde",
@@ -1530,11 +1489,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 0.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-09T13:25:53+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -1559,28 +1518,20 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.2,
-    "high": 0.7,
-    "band": "alert",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 1,
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:f6e3413ca48bf699f3e47964d1540d86ee9e55f41d497f1a7150e58a2550a7dd"
+   "ficha_id": "sha256:896be09a9a1faf49122d66bcf2d4b6cdb484e23e4d0f2d615ebb9629638ee249"
   },
   {
    "name": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
@@ -1631,7 +1582,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:99160fb13e928ef72447f1e43d7c5a02b83c940e3a3f380d2fee98213361e8f0"
+   "ficha_id": "sha256:198585043e71c7c19b5ea4a0d029f6df7dde29751b013428e5c1c8a862c09ce3"
   },
   {
    "name": "bpr-banco-de-precos-de-referencia-subestacao",
@@ -1682,7 +1633,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:73ba7f2ac7b41b0e3e1aa5ae7ab611378996d8c862c308f5dfac5384944912ed"
+   "ficha_id": "sha256:76c15b1d1184276093ff53fb58253592a8b9b0a9f011f4fae526e545d5b38cf8"
   },
   {
    "name": "capacidade-instalada-por-unidade-da-federacao",
@@ -1691,11 +1642,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T17:55:57+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -1720,26 +1671,18 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:02a34790558a52748400ffd845a9c26e467b438fc749cfdd37571ff700585045"
+   "ficha_id": "sha256:b6fb99c99a839d87cf30aea4e59a4e99358abc7c00042d697728205b3503ce50"
   },
   {
    "name": "cfurh",
@@ -1748,11 +1691,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 0.625,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-09T12:30:39+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -1777,21 +1720,13 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.3875,
-    "high": 0.8875,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 4,
@@ -1799,7 +1734,7 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:87d1ef789cb0dbacd5fb594a43ba7dadc10e947e104a022832458f8bd00ea63a"
+   "ficha_id": "sha256:3bb1ef8031a7618e9d063e01ab4fef747409a8f6d901a27672130015ade270b0"
   },
   {
    "name": "compensacao-financeira-royalties",
@@ -1848,7 +1783,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:02f6ea3a0faa5a0728c3483c9940ab31f58c734408e73b6940c6d5c458f34442"
+   "ficha_id": "sha256:0c3174684846a4df7b24829171b3463b931939f189a0ff76e8ada95a4696f160"
   },
   {
    "name": "componentes-tarifarias",
@@ -1899,7 +1834,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:c499838ad876766b5a95c1777d041a8d3e4e37c56060801004cf136aae34adee"
+   "ficha_id": "sha256:f57fbb8fdb573dfadff1e9fd688463d6a5f2048062b648730be1377efc986b3c"
   },
   {
    "name": "composicao-societaria-polimero",
@@ -1908,11 +1843,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T12:25:54+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -1937,26 +1872,18 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:b2ebabe4b1ab43ae5c8cb672e692330223e005588e7f36bd4ef42632b3d1ac97"
+   "ficha_id": "sha256:66a8bf08f9a9e66812bde1ae82d12f92295798feaa4fdec311ec4b0002c15f2d"
   },
   {
    "name": "conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios",
@@ -1965,11 +1892,11 @@
    "last_change": "2026-11-12T00:30:56+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T12:25:55+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -1994,28 +1921,20 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 1,
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:45602b5e5b72b11659d33132e90c321dd505369bfde884d450ccd0c246fbb18b"
+   "ficha_id": "sha256:ed38b28c0d754b2a1e1f58ad6ece6c6349330cc903b80fcaf941e7d8ef509bd1"
   },
   {
    "name": "ctr-curva-de-carga",
@@ -2024,11 +1943,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T12:26:59+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -2053,28 +1972,20 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 1,
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:458b2648eb6dea99ba667c5810ba850f93428a726046fd767fef1928c1518bc8"
+   "ficha_id": "sha256:0fb8677d99e1995c89b12751eedc9d6941318b0bdecfcc873f88769cec201322"
   },
   {
    "name": "desempenho-das-concessionarias-de-transmissao",
@@ -2123,7 +2034,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:b6523ba13509e35ba68691ae9729819121f746113d28fed4c4a8e38d946be341"
+   "ficha_id": "sha256:e76230e395fae244a051f2eb145f95339ee2bf5ad23c41a291ef0d4caef1636e"
   },
   {
    "name": "empreendimento-hidreletrico-em-estudo",
@@ -2174,7 +2085,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:806d1489f0ff266d726fcfb48f1f2407d7d014cbc216043f0f479eae3eb8c00d"
+   "ficha_id": "sha256:b60e1f050eee8328de475b229af0ffad9bd8853b62400a4f9cb6c4ba930ece6f"
   },
   {
    "name": "empreendimentos-em-operacao",
@@ -2183,11 +2094,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T17:56:52+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -2212,26 +2123,18 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:3badd0eb356acd0de3ddf1417951cf2a1ba724654317cf188cb2d71c33e2685d"
+   "ficha_id": "sha256:985f8faebaf39e5ab59f98384644c5965bb8080e1f034213be8e2817bf764580"
   },
   {
    "name": "evento-situacao-de-emergencia",
@@ -2283,7 +2186,7 @@
     "scope",
     "simultaneous"
    ],
-   "ficha_id": "sha256:42281760083e42ab1d0ae4db4e76b99dc1baae3e243e262c1486f02a158a0cd3"
+   "ficha_id": "sha256:14e7e0dfe64eb039bc69059496699223f811418e69630818267d2976eb2d3c51"
   },
   {
    "name": "fiscalizacao-economica-e-financeira",
@@ -2332,7 +2235,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:7178c568a7e124154db74e5d7cffe4e7553d377fd66645e3d71b672a9177bdff"
+   "ficha_id": "sha256:3fbecf68b5d152e840068db47e7c69c4265f4044f4ed1a427e90fd6fbe8bd499"
   },
   {
    "name": "fsb-fiscalizacao-de-seguranca-de-barragens",
@@ -2383,7 +2286,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:f6ddc1074b67561729b97e3c8f86c2e274f3f551ac8e96134fe312776e66155e"
+   "ficha_id": "sha256:4c8bbd3ff7dadf476a09201dcde738fada0da5a3ec998b2383f6eebe14263200"
   },
   {
    "name": "gcem-gestao-de-informacoes-de-campos-eletromagneticos",
@@ -2434,7 +2337,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:dae38623ba8ee74939d969795e9ad71b204bd4a333f17d230c4109c17f58c4e4"
+   "ficha_id": "sha256:511cc5e953d3c58eba1d53932db7d23d092155c4d600d9bda71ae31e7ad0a10e"
   },
   {
    "name": "geracao",
@@ -2483,7 +2386,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:7b1da2bd2418e9ffd444b4079e7ceaaa7816e57b891fd2d1656d147313ff5cfc"
+   "ficha_id": "sha256:ae89e7ea99938249031e5fa33669da503e9735377b54c8b1194a315a50ee89f8"
   },
   {
    "name": "indger-indicadores-gerenciais-da-distribuicao",
@@ -2492,11 +2395,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-09T12:24:19+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -2521,28 +2424,20 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 3,
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:9c75ef10d1911d6237a4865a46248f07ef2051fe10fd13af0a730b9cef04fcfa"
+   "ficha_id": "sha256:fa6aec455eea99762efe69676886f956afecf030fee6d79eea872d7103923186"
   },
   {
    "name": "indicadores-coletivos-de-continuidade-dec-e-fec",
@@ -2551,11 +2446,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-09T13:58:21+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -2580,28 +2475,20 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 3,
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:b60e5a06d818de2e2f0d464363355ab591435241a09bfff413dcca0b3dc14cf5"
+   "ficha_id": "sha256:5b8062934a456ca6cadba0e727db444e978e48cc75dd0ebd77e9145f77b4e6b5"
   },
   {
    "name": "indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente",
@@ -2610,11 +2497,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 0.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-09T12:48:37+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -2639,21 +2526,13 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.2,
-    "high": 0.7,
-    "band": "alert",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 2,
@@ -2661,7 +2540,7 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:4833a5d8c39933604633d66b6193e18cc334314cdaa0f6eea82829dc31cdab54"
+   "ficha_id": "sha256:09bf4e121547f69a862cedd85bcc698cc37609402a34abba7e4dad32c0e69349"
   },
   {
    "name": "indicadores-de-qualidade-do-atendimento-telefonico",
@@ -2712,7 +2591,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:f34433833ff2d6d3be5996d48e1255b10ec04075c9e160bef26a5eb5bd202948"
+   "ficha_id": "sha256:0c82bdff12b568ff58ae1c933423ed09d233347ec58f6459bec4b93c8e75b11d"
   },
   {
    "name": "indicadores-quantitativos-modelo-vigente-ate-2015",
@@ -2761,7 +2640,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:b6641133b19bcb69d6f85582f7ad29de4a6898dc1f4d16bf96073485e3a2dc4a"
+   "ficha_id": "sha256:a479d5fa5a66645cc2bb1208d590472d85edd8b6c32ee381ce1c11c7cf0f4ffb"
   },
   {
    "name": "indice-aneel-de-satisfacao-do-consumidor-iasc",
@@ -2810,7 +2689,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:f46f44dd05f617ffbc721f7a9ccf2f2c8a0f55bfda6397caf4c6cd99fe482c77"
+   "ficha_id": "sha256:008c2bb4b874a908a189be7c566a1a89a07151e1342f6ba940d2ad02ac24bad1"
   },
   {
    "name": "indqual-inadimplencia",
@@ -2819,11 +2698,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 0.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-09T12:25:03+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -2848,21 +2727,13 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.2,
-    "high": 0.7,
-    "band": "alert",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 2,
@@ -2870,7 +2741,7 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:287ccc759f9959b760b51770149dc18de41fed5b3960490387b6b8955e76a174"
+   "ficha_id": "sha256:288af8d5c2a09879c6af0d00edbe9b23757d9a4c904512a81e889cbe0f8a4d5c"
   },
   {
    "name": "indqual-municipio",
@@ -2921,7 +2792,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:b1b96c528549321aa8a84db40e459fad47b1b8a550be16b607511b2a9c94ad12"
+   "ficha_id": "sha256:240e1b3032ce83ba909cbb6e9a798a5c1fc7a89552cad9db1ed1fa651a606ea1"
   },
   {
    "name": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
@@ -2973,7 +2844,7 @@
     "scope",
     "simultaneous"
    ],
-   "ficha_id": "sha256:819513afaf0ba1a33432b529b950f9eeed6fbdd3b197017fd578ca88fcf47136"
+   "ficha_id": "sha256:24e98656a5f70349ae9d81ec873dbc50f9b6dfef247e2d86e78b649eb80a5165"
   },
   {
    "name": "liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
@@ -3025,7 +2896,7 @@
     "scope",
     "simultaneous"
    ],
-   "ficha_id": "sha256:5e6475cdae9eb369f67dda11a4d5ab1536dee5d7624022a36d3cec70614ec331"
+   "ficha_id": "sha256:793b378e18ea3167d9d6aa55beeb8bb262485c4c5f0e63cdf8dd6b90072fda33"
   },
   {
    "name": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
@@ -3034,11 +2905,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 0.8,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-09T12:42:38+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -3063,21 +2934,13 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.44,
-    "high": 0.94,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 5,
@@ -3085,7 +2948,7 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:52755a18221d30c1a4ed3708fc5255e6997d8f0e40dcd769b27951265afee671"
+   "ficha_id": "sha256:9410b3e4730ee0bf4cec821dcdb3a30a2fb862a2b6f8846546a2fe360d89195c"
   },
   {
    "name": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
@@ -3137,7 +3000,7 @@
     "scope",
     "simultaneous"
    ],
-   "ficha_id": "sha256:b909fab1d44bfd7cdd89f5ab00e34ba62e5dfc2e53de04dc28c2334d73dba376"
+   "ficha_id": "sha256:a843d2c07db34efa3af0f13496980339a8c5873a7810bf37260629f4317ef247"
   },
   {
    "name": "ouvidoria-setorial-aneel",
@@ -3188,7 +3051,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:138b612aa24a4e216a8267ee1ce907ae3db77f8e77c77fd48d13992d6bec8b0c"
+   "ficha_id": "sha256:d96564dece09b4f632d605412f93e637c6065a564e4655d8826b71d39405bd05"
   },
   {
    "name": "pautas-e-atas-das-reunioes-publicas-da-diretoria",
@@ -3237,7 +3100,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:2a932f569e1b5878a0dea6494a19995d8ea2e281d6e7adbc38eb938957527e89"
+   "ficha_id": "sha256:c7f8ebd3183f2e32fe9c98fb140aac467ae1e8c0fbbc27b04ea596844a37167a"
   },
   {
    "name": "pdd",
@@ -3286,7 +3149,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:17e823c5db2aa146f613e7036e9ace12191658548601dd9d0dcc3f4be31b3865"
+   "ficha_id": "sha256:e14172152a8ad5120bb65357fb4f175385660af7bee801b6234ddd0617287a37"
   },
   {
    "name": "projetos-de-eficiencia-energetica",
@@ -3337,7 +3200,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:ddb8b9ca20790a603f8ea0d0c28832569e74404c66309530a3b91572b549e42d"
+   "ficha_id": "sha256:c7cdc192d139d0d11e524b4bd03de07d6565fa21518f9c1028ba71698c6c43af"
   },
   {
    "name": "projetos-de-p-d-em-energia-eletrica",
@@ -3388,7 +3251,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:5829c82ed967f15f7fadcd6558c073a9a0242a47e5d3bf5ee61f3a658e31c734"
+   "ficha_id": "sha256:7c34e1ed01ddf1bac7ce3a4e1a16f347c2aefdd4f505414f36d2b1235783db07"
   },
   {
    "name": "projetos-de-p-d-temas-estrategicos",
@@ -3437,7 +3300,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:552625ddc80fc9ea5bfa2e45623a928d64f4132fc89fd754ffc79a2d029cceb9"
+   "ficha_id": "sha256:76aaf1f77c9bf3d03f8937fb1e9ea16210a8ace029c0a2b5c6d8dc00e334f9bb"
   },
   {
    "name": "projetos-por-tipologia",
@@ -3486,7 +3349,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:0b2e7c0b2a0d240649e4dc30b71ae1b1a56954a96b7ee7be39a1095b7291bd9b"
+   "ficha_id": "sha256:6204f24fa163074c531aa58235b3aeaff954191e0aa1723e98b5f02f8181b56c"
   },
   {
    "name": "projetos-res-n-316-2008-219-2006-e-anteriores",
@@ -3535,7 +3398,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:b048cec21b211fd9e281125f68677c2c11238ed52a781fd09ee400a25e91ee0d"
+   "ficha_id": "sha256:b4a3aa5e77621516c8d025dbef98124e0abf9f682f725ae56a04001095277346"
   },
   {
    "name": "projetos-retornos-e-investimentos",
@@ -3584,7 +3447,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:d823a0918e88629740d92b397c93f2b626bd4aaa02f15e3a2266e0de723b86c2"
+   "ficha_id": "sha256:cb2fc4ed4d3dd48473c43e5ce93749e407e174a58f7da03eb855994257f81e01"
   },
   {
    "name": "qualidade-do-atendimento-comercial",
@@ -3593,11 +3456,11 @@
    "last_change": "2026-11-12T00:30:56+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 0.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-09T12:48:37+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -3622,21 +3485,13 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.2,
-    "high": 0.7,
-    "band": "alert",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 3,
@@ -3644,7 +3499,7 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:d40e1be64e88ade29a40ae3a3fa5b25c662ec32450a3551a5b660e7fb78a9063"
+   "ficha_id": "sha256:c34d9d9ec9f7cc7195eee2eb7f53e53012c8620d6c3de1e7d454594ff9d2f470"
   },
   {
    "name": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
@@ -3653,11 +3508,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 0.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-09T12:25:50+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -3682,21 +3537,13 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.2,
-    "high": 0.7,
-    "band": "alert",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 5,
@@ -3704,7 +3551,7 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:b684b9aeed3b7773231c2c26d36513d32fd5ed9c84d3fcdee9116efbfcc52c19"
+   "ficha_id": "sha256:2bc32a6a5c4c63c5516bd7e966718fe748fa6e69fb5417fde350888e6ffbdfe1"
   },
   {
    "name": "relacao-de-empreendimentos-de-geracao-distribuida",
@@ -3756,7 +3603,7 @@
     "evidence_lost",
     "simultaneous"
    ],
-   "ficha_id": "sha256:1c5f1ce8c4f11bd9857b632d987cbaec4ec791f38d543341fd21eba8f0c3a87e"
+   "ficha_id": "sha256:7c604a4d9df4731e21d95d84c3c7422f93b4d64753ee5c50472a1c1eb2239f77"
   },
   {
    "name": "resultado-de-leiloes",
@@ -3765,11 +3612,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T12:27:21+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -3794,21 +3641,13 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 2,
@@ -3816,7 +3655,7 @@
     "evidence_lost",
     "simultaneous"
    ],
-   "ficha_id": "sha256:8d059dab3db15848f40851e6d53abc7caa755ea84a240af4bc9e51974400969a"
+   "ficha_id": "sha256:cdbce83f663ba5178305622b8536a0ef9057c1c490d98b17475f98160b6c253d"
   },
   {
    "name": "reunioes-publicas-da-diretoria",
@@ -3825,11 +3664,11 @@
    "last_change": "2026-11-10T23:09:43+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T12:27:21+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -3854,28 +3693,20 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 1,
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:e92c2effbba895f82183dd351918805755cac7a35e59cc5bd0984ab1131aaaab"
+   "ficha_id": "sha256:9e8de156778eeb36f51bbec4d477f3586bd0155b0d1ec87207c18c2d30a7aeb2"
   },
   {
    "name": "samp",
@@ -3884,11 +3715,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T18:27:26+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -3913,28 +3744,20 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 1,
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:3cf939f302cd7417e13f7d9fea4e32ba66d2c45803f89e4dcd60634e2c613e64"
+   "ficha_id": "sha256:2c2bfcfc170a828e7d45f9ac8c5061c3ab491a25625fd9fa3334cee097be38f9"
   },
   {
    "name": "samp-balanco",
@@ -3985,7 +3808,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:bd7df43f64a9c6e8807c7cd6f00d4f3e15e3f1dadc3018f6ddd8d28794b55fed"
+   "ficha_id": "sha256:e87b1a532836a2ee719e6b20798795650a65b3466f075dd84bb5b6959c78a209"
   },
   {
    "name": "scs-sistema-de-controle-de-subvencoes-e-programas-sociais",
@@ -4036,7 +3859,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:85250b340c0844cc0ef0defe1bb9595116317b25ecfb59924916a0c0cdde388c"
+   "ficha_id": "sha256:a97375aefcf270236ca3e67de0f1c2720b96c06386ef2ba5dde6e869fee71ccb"
   },
   {
    "name": "seguranca-do-trabalho-e-das-instalacoes",
@@ -4045,11 +3868,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 0.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-09T12:16:00+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -4074,21 +3897,13 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.2,
-    "high": 0.7,
-    "band": "alert",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 2,
@@ -4096,7 +3911,7 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:e56c46e193f35995f975da9c6cb5d2d012997d85a7c1701fb296648cb2912f6f"
+   "ficha_id": "sha256:48bd5a311facbc518ea709f12d53f453e553897880b1a5ffa6197974206dc4a7"
   },
   {
    "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
@@ -4105,11 +3920,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-09T12:28:06+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -4134,21 +3949,13 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 40,
@@ -4156,7 +3963,7 @@
     "evidence_lost",
     "simultaneous"
    ],
-   "ficha_id": "sha256:37a46a0c1c19c7c72da5ea352b5ba61ce4448d0e52d0ae32d315f1fc86c287b8"
+   "ficha_id": "sha256:0b8f11b259568c6f8b5f28a095d787d38c4cac7a3dd781a12530d807cf8e070e"
   },
   {
    "name": "sigec-sistema-de-gestao-de-creditos",
@@ -4207,7 +4014,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:a5a6706bceaa8a85a74b99e099dd65fb36583a5dd29400937b7541e3fa66d6a0"
+   "ficha_id": "sha256:e4d8fa1241eddf7d1bf06da10e6476476189d3d857feb85ffefdae055eb5e17a"
   },
   {
    "name": "sistema-de-gestao-da-transmissao-siget",
@@ -4216,11 +4023,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-09T12:47:06+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -4245,21 +4052,13 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 41,
@@ -4267,7 +4066,7 @@
     "scope",
     "simultaneous"
    ],
-   "ficha_id": "sha256:9b18d642b81743e54690c9eb4f8a4b50ec8e7a6a32e1a6b15ae03fe45ac40d89"
+   "ficha_id": "sha256:e8390bfd78ec4f7d08c2da1eeccf604ed89b8ce586754f9b522fb65e5f8d1272"
   },
   {
    "name": "slc-sistema-de-licitacoes-e-contratos",
@@ -4276,11 +4075,11 @@
    "last_change": "2026-11-10T01:26:17+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T12:27:24+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -4305,28 +4104,20 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 1,
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:94afa37d729874b631f4d5c2f422cced52e910da46a922c9c31b0b691dc96a3b"
+   "ficha_id": "sha256:89b274d73ea933893869a39e6c9a25f8e5ec48b1d1a799d3ccbedef86379b241"
   },
   {
    "name": "subsidios-tarifarios",
@@ -4335,11 +4126,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 0.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T12:27:45+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -4357,28 +4148,20 @@
     },
     "L4": {
      "status": "valid",
-     "rate": 0.9821428571428571,
+     "rate": 0.9807692307692307,
      "reason": null,
      "evaluated_at": "2026-11-12T15:02:05+00:00",
      "current": true
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.19642857142857142,
-    "high": 0.6964285714285714,
-    "band": "critical",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 2,
@@ -4386,7 +4169,7 @@
     "scope",
     "signal"
    ],
-   "ficha_id": "sha256:c4a1527abf74e499863e5b6cf7fe27cf7ea5737144680db1eb352b09580e61a2"
+   "ficha_id": "sha256:2460260a93ed4feb98a920c088640ffd86d878b4cf7ac5d711ee537fff5abaa3"
   },
   {
    "name": "tarifa-social-de-energia-eletrica-beneficiarios",
@@ -4435,7 +4218,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:5c2669800b60cbcfa18a5d1239dd6f95ea79b942719fa5bcfa9a8534c038ecc9"
+   "ficha_id": "sha256:91ef5dab7e923c76f11346a28a63012dbe99f008d88a94d2078962b5370c0fbf"
   },
   {
    "name": "tarifas-distribuidoras-energia-eletrica",
@@ -4487,7 +4270,7 @@
     "scope",
     "simultaneous"
    ],
-   "ficha_id": "sha256:4581e631fabd1df1ac9049b7d1a9aa03a1cc920a911c73af65b56692393dd6a0"
+   "ficha_id": "sha256:8d4842e141c844c899252686d5f9fa129e7716e25259bff450ae560c0e15fa33"
   },
   {
    "name": "termo-de-intimacao-ti",
@@ -4496,11 +4279,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T12:29:47+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -4525,28 +4308,20 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 4,
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:81c870c2e8af576faa529bff8a1548923f9a90d0b973c5ac6ba8cfbf4430cdc2"
+   "ficha_id": "sha256:e731b8b3984fb5c8a145d6c798c180b530c1b457a12ea5f5c3cff38e5ff15795"
   },
   {
    "name": "termo-de-notificacao",
@@ -4555,11 +4330,11 @@
    "last_change": "2026-11-12T15:02:05+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 1.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T12:29:48+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -4584,28 +4359,20 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.5,
-    "high": 1.0,
-    "band": "undetermined",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 4,
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:094743130d78e469b6a062ba193b3adf0f5a7d82c918e70fe92fd013613a2ae2"
+   "ficha_id": "sha256:26763aabe7b18ac207840e9f38b0d46c0edbb8bb25d5a855f11d4fbda1993d83"
   },
   {
    "name": "termos-de-intimacao-das-penas-dos-editais-tipe",
@@ -4614,11 +4381,11 @@
    "last_change": "2026-11-08T13:13:17+00:00",
    "layers": {
     "L1": {
-     "status": "valid",
+     "status": "expired",
      "rate": 0.0,
-     "reason": null,
+     "reason": "summary_too_old",
      "evaluated_at": "2026-11-02T12:29:57+00:00",
-     "current": false
+     "current": null
     },
     "L2": {
      "status": "missing",
@@ -4643,21 +4410,13 @@
     }
    },
    "qs": {
-    "kind": "partial",
+    "kind": "none",
     "factor": 1.0,
-    "coverage": 0.5,
+    "coverage": 0.2,
     "valid_layers": [
-     "L1",
      "L4"
     ],
-    "low": 0.2,
-    "high": 0.7,
-    "band": "alert",
-    "eligible": false,
-    "missing_layers": [
-     "L2",
-     "L3"
-    ],
+    "band": null,
     "integrity_open": false
    },
    "findings": 5,
@@ -4665,7 +4424,7 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:b83d41bfe97f1beabdd4d602953b18d3887732e40af49f20e65093dfafc43507"
+   "ficha_id": "sha256:967fec985b51214940bb03402a6b9cf7ed865a89d4935ef776d0f0d3cc93dd7b"
   },
   {
    "name": "tfsee",
@@ -4716,7 +4475,7 @@
    "finding_kinds": [
     "simultaneous"
    ],
-   "ficha_id": "sha256:e51ae6e9c2eee881bc5857c5d22a7b0d0c91d1452f97202e5b03cd7c4a795147"
+   "ficha_id": "sha256:5bbaf3f7223410c624ec981dc79782976a44a3cfae83acea90e9e311f81e8d6c"
   },
   {
    "name": "transmissao-e-distribuicao",
@@ -4765,7 +4524,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:18c4f01055a51314b82c0925324aed62f6dff6e72093be481b830d702643f0bc"
+   "ficha_id": "sha256:19f90bed15b6c8cc2f7e834aad477283c73b818e29cb9dfb634198b7fc1be2e3"
   },
   {
    "name": "usinas-termeletricas-por-tipo",
@@ -4814,7 +4573,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:d8d568b8c8b2e01845675ee5e526a60d9d978af56c60141365014777ed9912f0"
+   "ficha_id": "sha256:5a29f8d3ca491f782327814b8bb6ff7b8e1c3103e607984cc0c1bf5ba816c2f7"
   }
  ]
 }
