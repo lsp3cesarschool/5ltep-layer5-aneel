@@ -59,7 +59,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 52,
+    "observations": 49,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/ccb25653-f07b-4f28-84c2-62a89d1f5a56#8604a83c8a41"
    },
@@ -155,22 +155,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-23T07:22:20.945796+00:00",
+   "generated_at": "2026-11-24T09:42:53.021179+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "1222d0eae76d7b4f8c34c133ca31020f5ac3dec8",
-      "date": "2026-11-23T07:22:21Z"
+      "sha": "684d15f39b1bcff5f1bd2e766aefebab7a6e5d26",
+      "date": "2026-11-24T09:42:53Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "98f7e05b2a136f3d5d9e2fdde98a677608216e39",
-      "date": "2026-11-23T13:24:09Z"
+      "sha": "7debb1044864041a5b98d27d28cde921b86aff63",
+      "date": "2026-11-24T14:04:09Z"
      }
     },
     {
@@ -230,19 +230,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-23T15:54:15+00:00",
+ "generated_at": "2026-11-24T15:47:55+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "8f1ca5ce2a5d3a0548673ef45123dd891db92a04",
-  "run_id": "45210395231"
+  "commit": "3596327fb66d2c3b310fb3043f8a879b18d909a7",
+  "run_id": "45429635512"
  },
  "ficha": {
-  "id": "sha256:24e98656a5f70349ae9d81ec873dbc50f9b6dfef247e2d86e78b649eb80a5165",
+  "id": "sha256:7b8f1c97e4fff223e62870c974ce55c9e6f7488e11e1c2fc8997b12c1b6a0f0e",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao' (ANEEL), 2026-11-23, sha256:24e98656a5f70349…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao' (ANEEL), 2026-11-23, sha256:24e98656a5f70349…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao"
+   "en": "5L-TEP Layer 5 record of 'interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao' (ANEEL), 2026-11-24, sha256:7b8f1c97e4fff223…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao' (ANEEL), 2026-11-24, sha256:7b8f1c97e4fff223…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao"
   }
  }
 }

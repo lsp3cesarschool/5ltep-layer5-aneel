@@ -59,7 +59,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 52,
+    "observations": 49,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/db3838bc-96b4-4335-9061-ca330f5bb39a#f246fe1914e2"
    },
@@ -148,22 +148,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-23T07:22:20.945796+00:00",
+   "generated_at": "2026-11-24T09:42:53.021179+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "1222d0eae76d7b4f8c34c133ca31020f5ac3dec8",
-      "date": "2026-11-23T07:22:21Z"
+      "sha": "684d15f39b1bcff5f1bd2e766aefebab7a6e5d26",
+      "date": "2026-11-24T09:42:53Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "98f7e05b2a136f3d5d9e2fdde98a677608216e39",
-      "date": "2026-11-23T13:24:09Z"
+      "sha": "7debb1044864041a5b98d27d28cde921b86aff63",
+      "date": "2026-11-24T14:04:09Z"
      }
     },
     {
@@ -223,19 +223,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-23T15:54:15+00:00",
+ "generated_at": "2026-11-24T15:47:55+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "8f1ca5ce2a5d3a0548673ef45123dd891db92a04",
-  "run_id": "45210395231"
+  "commit": "3596327fb66d2c3b310fb3043f8a879b18d909a7",
+  "run_id": "45429635512"
  },
  "ficha": {
-  "id": "sha256:6f506c4971046cc63a3f3af777a3ddf43e6734b80e3764203784dbc9f4aea2f0",
+  "id": "sha256:ed422c97116a4291b0cef696ebfbef0131e524eaf4cd93e42bc6ee768466ceb8",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=audiencias-e-consultas-publicas",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/audiencias-e-consultas-publicas.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'audiencias-e-consultas-publicas' (ANEEL), 2026-11-23, sha256:6f506c4971046cc6…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=audiencias-e-consultas-publicas",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'audiencias-e-consultas-publicas' (ANEEL), 2026-11-23, sha256:6f506c4971046cc6…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=audiencias-e-consultas-publicas"
+   "en": "5L-TEP Layer 5 record of 'audiencias-e-consultas-publicas' (ANEEL), 2026-11-24, sha256:ed422c97116a4291…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=audiencias-e-consultas-publicas",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'audiencias-e-consultas-publicas' (ANEEL), 2026-11-24, sha256:ed422c97116a4291…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=audiencias-e-consultas-publicas"
   }
  }
 }
