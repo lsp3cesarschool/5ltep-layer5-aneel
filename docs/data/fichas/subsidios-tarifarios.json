@@ -62,11 +62,11 @@
   "L4": {
    "status": "valid",
    "reason": null,
-   "rate": 0.9795918367346939,
+   "rate": 0.9777777777777777,
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 49,
+    "observations": 45,
     "critical_in_window": 1,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/28a6b7de-6f3a-4a5b-aa69-229f3bc4fbc9#c7a5c74cf37e"
    },
@@ -138,14 +138,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-18T13:33:16+00:00",
+   "generated_at": "2026-11-25T15:00:42+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2-aneel/main/docs/data/layer2.json",
      "commit": {
-      "sha": "e50fd86d014725850963a5b5a7fd6ab01a3f144c",
-      "date": "2026-11-18T13:33:29Z"
+      "sha": "a81590db54caa4ed7c7bb1558719d13f6f3c31f6",
+      "date": "2026-11-25T15:01:00Z"
      }
     }
    ],
@@ -178,22 +178,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-24T09:42:53.021179+00:00",
+   "generated_at": "2026-11-25T08:16:52.823485+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "684d15f39b1bcff5f1bd2e766aefebab7a6e5d26",
-      "date": "2026-11-24T09:42:53Z"
+      "sha": "bdcb1e2d8cfc1f03f566baef82a8f3a8940a1bd9",
+      "date": "2026-11-25T08:16:53Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "7debb1044864041a5b98d27d28cde921b86aff63",
-      "date": "2026-11-24T14:04:09Z"
+      "sha": "994cb2fc066bab5ff5329b755bb17d88196918aa",
+      "date": "2026-11-25T13:17:28Z"
      }
     },
     {
@@ -253,19 +253,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-24T15:47:55+00:00",
+ "generated_at": "2026-11-25T15:31:01+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "3596327fb66d2c3b310fb3043f8a879b18d909a7",
-  "run_id": "45429635512"
+  "commit": "9187d71e4203720218f71336c9d740a95a94f87f",
+  "run_id": "45646011096"
  },
  "ficha": {
-  "id": "sha256:3e568caa802f56c9faf3c2b1bb369142410f852b06efcf07a31f8317cf707813",
+  "id": "sha256:cb817174c1aea2ff5bfca014f556d75354a66bb8eb93806b860a830ebcd1547e",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=subsidios-tarifarios",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/subsidios-tarifarios.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'subsidios-tarifarios' (ANEEL), 2026-11-24, sha256:3e568caa802f56c9…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=subsidios-tarifarios",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'subsidios-tarifarios' (ANEEL), 2026-11-24, sha256:3e568caa802f56c9…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=subsidios-tarifarios"
+   "en": "5L-TEP Layer 5 record of 'subsidios-tarifarios' (ANEEL), 2026-11-25, sha256:cb817174c1aea2ff…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=subsidios-tarifarios",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'subsidios-tarifarios' (ANEEL), 2026-11-25, sha256:cb817174c1aea2ff…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=subsidios-tarifarios"
   }
  }
 }
