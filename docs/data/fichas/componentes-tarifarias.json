@@ -59,7 +59,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 45,
+    "observations": 42,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5#5e59ab69a28b"
    },
@@ -500,22 +500,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-25T08:16:52.823485+00:00",
+   "generated_at": "2026-11-26T08:02:39.714681+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "bdcb1e2d8cfc1f03f566baef82a8f3a8940a1bd9",
-      "date": "2026-11-25T08:16:53Z"
+      "sha": "06b01403f2707f978fa86e80468eee3d21fe5556",
+      "date": "2026-11-26T08:02:40Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "994cb2fc066bab5ff5329b755bb17d88196918aa",
-      "date": "2026-11-25T13:17:28Z"
+      "sha": "1d2a167c8d88a0eef74b509a125970120207fcbb",
+      "date": "2026-11-26T12:57:59Z"
      }
     },
     {
@@ -575,19 +575,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-25T15:31:01+00:00",
+ "generated_at": "2026-11-26T15:06:10+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "9187d71e4203720218f71336c9d740a95a94f87f",
-  "run_id": "45646011096"
+  "commit": "9628acced36944c0ed8d19aa7b941d084e5cc4fb",
+  "run_id": "45845648123"
  },
  "ficha": {
-  "id": "sha256:7cdea1465414dbec8d2cf2e4f619f8d7a8f9ce9864c7489a918f65daa21f73ad",
+  "id": "sha256:6daf9040a2d4fcedb07ed9532c804d57c9e67fd9ab47aaae3b1e3ca968cab505",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/componentes-tarifarias.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'componentes-tarifarias' (ANEEL), 2026-11-25, sha256:7cdea1465414dbec…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'componentes-tarifarias' (ANEEL), 2026-11-25, sha256:7cdea1465414dbec…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias"
+   "en": "5L-TEP Layer 5 record of 'componentes-tarifarias' (ANEEL), 2026-11-26, sha256:6daf9040a2d4fced…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'componentes-tarifarias' (ANEEL), 2026-11-26, sha256:6daf9040a2d4fced…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=componentes-tarifarias"
   }
  }
 }

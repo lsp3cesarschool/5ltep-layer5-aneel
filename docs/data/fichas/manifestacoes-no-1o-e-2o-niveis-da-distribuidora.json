@@ -66,7 +66,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 45,
+    "observations": 42,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba#97fae2a73c27"
    },
@@ -239,22 +239,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-25T08:16:52.823485+00:00",
+   "generated_at": "2026-11-26T08:02:39.714681+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "bdcb1e2d8cfc1f03f566baef82a8f3a8940a1bd9",
-      "date": "2026-11-25T08:16:53Z"
+      "sha": "06b01403f2707f978fa86e80468eee3d21fe5556",
+      "date": "2026-11-26T08:02:40Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "994cb2fc066bab5ff5329b755bb17d88196918aa",
-      "date": "2026-11-25T13:17:28Z"
+      "sha": "1d2a167c8d88a0eef74b509a125970120207fcbb",
+      "date": "2026-11-26T12:57:59Z"
      }
     },
     {
@@ -314,19 +314,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-25T15:31:01+00:00",
+ "generated_at": "2026-11-26T15:06:10+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "9187d71e4203720218f71336c9d740a95a94f87f",
-  "run_id": "45646011096"
+  "commit": "9628acced36944c0ed8d19aa7b941d084e5cc4fb",
+  "run_id": "45845648123"
  },
  "ficha": {
-  "id": "sha256:a9a8f9f91768c1fcca0ce790ba6e5ce119eb3dcacde77a86752d0903d7b08fc1",
+  "id": "sha256:3482bb01f2dbdccc72b63a85937fe832fc229824cb3b89fcc4f7ed9111bbac3b",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/manifestacoes-no-1o-e-2o-niveis-da-distribuidora.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'manifestacoes-no-1o-e-2o-niveis-da-distribuidora' (ANEEL), 2026-11-25, sha256:a9a8f9f91768c1fc…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'manifestacoes-no-1o-e-2o-niveis-da-distribuidora' (ANEEL), 2026-11-25, sha256:a9a8f9f91768c1fc…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=manifestacoes-no-1o-e-2o-niveis-da-distribuidora"
+   "en": "5L-TEP Layer 5 record of 'manifestacoes-no-1o-e-2o-niveis-da-distribuidora' (ANEEL), 2026-11-26, sha256:3482bb01f2dbdccc…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'manifestacoes-no-1o-e-2o-niveis-da-distribuidora' (ANEEL), 2026-11-26, sha256:3482bb01f2dbdccc…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=manifestacoes-no-1o-e-2o-niveis-da-distribuidora"
   }
  }
 }

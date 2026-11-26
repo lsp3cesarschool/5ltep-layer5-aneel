@@ -59,7 +59,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 45,
+    "observations": 42,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/7cacb2c4-b165-4591-a793-9ed20d1f167d#59b1e6a5c78f"
    },
@@ -186,22 +186,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-25T08:16:52.823485+00:00",
+   "generated_at": "2026-11-26T08:02:39.714681+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "bdcb1e2d8cfc1f03f566baef82a8f3a8940a1bd9",
-      "date": "2026-11-25T08:16:53Z"
+      "sha": "06b01403f2707f978fa86e80468eee3d21fe5556",
+      "date": "2026-11-26T08:02:40Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "994cb2fc066bab5ff5329b755bb17d88196918aa",
-      "date": "2026-11-25T13:17:28Z"
+      "sha": "1d2a167c8d88a0eef74b509a125970120207fcbb",
+      "date": "2026-11-26T12:57:59Z"
      }
     },
     {
@@ -261,19 +261,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-25T15:31:01+00:00",
+ "generated_at": "2026-11-26T15:06:10+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "9187d71e4203720218f71336c9d740a95a94f87f",
-  "run_id": "45646011096"
+  "commit": "9628acced36944c0ed8d19aa7b941d084e5cc4fb",
+  "run_id": "45845648123"
  },
  "ficha": {
-  "id": "sha256:3f886b448153a67a696edb31872cee6be0a590d30217df97351358d981491ed7",
+  "id": "sha256:65f9b1a15c7902404915ad5bc38a4e1cfb3483baa8179c3be187254a2e9e7d01",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indger-indicadores-gerenciais-da-distribuicao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/indger-indicadores-gerenciais-da-distribuicao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'indger-indicadores-gerenciais-da-distribuicao' (ANEEL), 2026-11-25, sha256:3f886b448153a67a…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indger-indicadores-gerenciais-da-distribuicao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'indger-indicadores-gerenciais-da-distribuicao' (ANEEL), 2026-11-25, sha256:3f886b448153a67a…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indger-indicadores-gerenciais-da-distribuicao"
+   "en": "5L-TEP Layer 5 record of 'indger-indicadores-gerenciais-da-distribuicao' (ANEEL), 2026-11-26, sha256:65f9b1a15c790240…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indger-indicadores-gerenciais-da-distribuicao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'indger-indicadores-gerenciais-da-distribuicao' (ANEEL), 2026-11-26, sha256:65f9b1a15c790240…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indger-indicadores-gerenciais-da-distribuicao"
   }
  }
 }
