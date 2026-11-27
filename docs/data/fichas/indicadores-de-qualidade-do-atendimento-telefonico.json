@@ -59,7 +59,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 42,
+    "observations": 38,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/df624eb6-f1ed-46ed-bf84-bf641f97b4cb#3c9e4704e771"
    },
@@ -174,22 +174,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-26T08:02:39.714681+00:00",
+   "generated_at": "2026-11-27T08:08:14.678872+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "06b01403f2707f978fa86e80468eee3d21fe5556",
-      "date": "2026-11-26T08:02:40Z"
+      "sha": "b1709a301afdf33655a36044f90d2eee97605456",
+      "date": "2026-11-27T08:08:15Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "1d2a167c8d88a0eef74b509a125970120207fcbb",
-      "date": "2026-11-26T12:57:59Z"
+      "sha": "55861e9c0dfa92291cbd3a6a5318a853467ffc50",
+      "date": "2026-11-27T12:54:00Z"
      }
     },
     {
@@ -249,19 +249,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-26T15:06:10+00:00",
+ "generated_at": "2026-11-27T14:58:24+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "9628acced36944c0ed8d19aa7b941d084e5cc4fb",
-  "run_id": "45845648123"
+  "commit": "b2367ba3857f28d31cbb7cad4ec5b4e19502c3ab",
+  "run_id": "46020667852"
  },
  "ficha": {
-  "id": "sha256:389069a369021c1d69ebea51fde87f8f6300c4081c26ec5fd0576377f2cc9ee4",
+  "id": "sha256:ea585cbce93a2d958089003317000aa87968514fb1e0512da147e229258a9d46",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indicadores-de-qualidade-do-atendimento-telefonico",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/indicadores-de-qualidade-do-atendimento-telefonico.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'indicadores-de-qualidade-do-atendimento-telefonico' (ANEEL), 2026-11-26, sha256:389069a369021c1d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indicadores-de-qualidade-do-atendimento-telefonico",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'indicadores-de-qualidade-do-atendimento-telefonico' (ANEEL), 2026-11-26, sha256:389069a369021c1d…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indicadores-de-qualidade-do-atendimento-telefonico"
+   "en": "5L-TEP Layer 5 record of 'indicadores-de-qualidade-do-atendimento-telefonico' (ANEEL), 2026-11-27, sha256:ea585cbce93a2d95…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indicadores-de-qualidade-do-atendimento-telefonico",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'indicadores-de-qualidade-do-atendimento-telefonico' (ANEEL), 2026-11-27, sha256:ea585cbce93a2d95…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=indicadores-de-qualidade-do-atendimento-telefonico"
   }
  }
 }
