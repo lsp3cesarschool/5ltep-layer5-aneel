@@ -59,7 +59,7 @@
    "evaluated_at": "2026-11-12T15:02:05+00:00",
    "current": true,
    "facts": {
-    "observations": 38,
+    "observations": 35,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.aneel.gov.br/dataset/fa46f760-d963-495e-89c7-6339a4f1ed5c#6ca7d28611f1"
    },
@@ -148,22 +148,22 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-27T08:08:14.678872+00:00",
+   "generated_at": "2026-11-28T07:33:56.120398+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/layer4.json",
      "commit": {
-      "sha": "b1709a301afdf33655a36044f90d2eee97605456",
-      "date": "2026-11-27T08:08:15Z"
+      "sha": "155c19d11c1e23c76faadea19778bf63e5af200c",
+      "date": "2026-11-28T07:33:56Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4-aneel/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "55861e9c0dfa92291cbd3a6a5318a853467ffc50",
-      "date": "2026-11-27T12:54:00Z"
+      "sha": "6ef3fb2f269583745c45fd730b4e4e2dce20031e",
+      "date": "2026-11-28T12:05:45Z"
      }
     },
     {
@@ -223,19 +223,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-27T14:58:24+00:00",
+ "generated_at": "2026-11-28T14:07:39+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5-aneel",
-  "commit": "b2367ba3857f28d31cbb7cad4ec5b4e19502c3ab",
-  "run_id": "46020667852"
+  "commit": "64c1883e74827b547fa2c3249ebfdbf446d5c63e",
+  "run_id": "46153035566"
  },
  "ficha": {
-  "id": "sha256:3d90b06137c2cc309c3c133ce6cd52f253781eada5305afd00c19289f8532431",
+  "id": "sha256:b79fd1736da1a8fdea2f8004a6c6c5550aa44ebfa4e591d34da9cecdec544c9e",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=fsb-fiscalizacao-de-seguranca-de-barragens",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5-aneel/main/docs/data/fichas/fsb-fiscalizacao-de-seguranca-de-barragens.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fsb-fiscalizacao-de-seguranca-de-barragens' (ANEEL), 2026-11-27, sha256:3d90b06137c2cc30…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=fsb-fiscalizacao-de-seguranca-de-barragens",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fsb-fiscalizacao-de-seguranca-de-barragens' (ANEEL), 2026-11-27, sha256:3d90b06137c2cc30…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=fsb-fiscalizacao-de-seguranca-de-barragens"
+   "en": "5L-TEP Layer 5 record of 'fsb-fiscalizacao-de-seguranca-de-barragens' (ANEEL), 2026-11-28, sha256:b79fd1736da1a8fd…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=fsb-fiscalizacao-de-seguranca-de-barragens",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fsb-fiscalizacao-de-seguranca-de-barragens' (ANEEL), 2026-11-28, sha256:b79fd1736da1a8fd…, https://lsp3cesarschool.github.io/5ltep-layer5-aneel/ficha.html?d=fsb-fiscalizacao-de-seguranca-de-barragens"
   }
  }
 }
